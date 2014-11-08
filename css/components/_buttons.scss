@@ -22,16 +22,23 @@ $btn2: 46px;
 // Root component
 // -------------------------
 
+/**
+ * 1. Corrects inability to style clickable `input` types in iOS.
+ * 5. Normalize `line-height`. For `input`, it can't be changed from `normal` in Firefox 4+.
+ * 6. Prevent button text from being selectable.
+ * 7. Make sure `input` will wrap text across multiple lines.
+ */
+ 
 %btn {
   display: inline-block;
-  line-height: 1;
-  font-weight: bold;
+  line-height: normal; /* 5 */
   text-decoration: none;
-  white-space: nowrap;
   outline: none;
   vertical-align: top;
   cursor: pointer;
-  @extend %unselectable;
+  -webkit-appearance: none; /* 1 */
+  user-select: none; /* 6 */
+  white-space: normal; /* 7 */
   @extend %tap-highlight;
 }
 
