@@ -6,5 +6,5 @@
 // but maintain layout.
 
 .u-invisible {
-  visibility: hidden;
+  @extend .o-visibility--hidden;
 }

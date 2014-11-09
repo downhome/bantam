@@ -27,4 +27,4 @@ Contributions are more than welcome. I'd love to hear any feedback, suggestions,
 License
 ============
 
-This framework is released under the <a href="https://github.com/colmtuite/framework/blob/master/LICENSE" target="_blank">MIT license</a>, which basically means you can use it as you see fit.
+This framework is released under the <a href="https://github.com/colmtuite/framework/blob/master/LICENSE">MIT license</a>, which basically means you can use it as you see fit.
