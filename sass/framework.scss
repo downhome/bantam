@@ -25,8 +25,10 @@
 @import "objects/outline-style";
 @import "objects/outline-width";
 @import "objects/text-decoration";
+@import "objects/text-transform";
 @import "objects/user-select";
 @import "objects/font-weight";
+@import "objects/direction";
 
 // Utilities
 // -------------------------
@@ -49,7 +51,7 @@
 // Components
 // -------------------------
 
-//@import "components/buttons";
-//@import "components/forms";
-//@import "components/links";
-//@import "components/type";
+@import "components/buttons";
+@import "components/forms";
+@import "components/links";
+@import "components/type";
