@@ -1,0 +1,12 @@
+//
+// Position
+// -------------------------
+
+// 1. Make sure fixed elements are promoted into a new layer, for performance
+//    reasons.
+
+.o-position--fixed    { position: fixed; backface-visibility: hidden; /* 1 */ }
+.o-position--absolute { position: absolute; }
+.o-position--relative { position: relative; }
+.o-position--static   { position: static; }
+.o-position--inherit  { position: inherit; }

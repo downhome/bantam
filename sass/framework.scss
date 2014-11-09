@@ -1,8 +1,15 @@
+//
+// Compiler
+// -------------------------
+
 @import "sass/base/variables";
 @import "sass/base/mixins";
 @import "sass/base/theme";
 
 @import "sass/base/normalize";
+
+// Objects
+// -------------------------
 
 @import "sass/objects/clear";
 @import "sass/objects/float";
@@ -11,6 +18,12 @@
 @import "sass/objects/cursor";
 @import "sass/objects/vertical-align";
 @import "sass/objects/white-space";
+@import "sass/objects/overflow";
+@import "sass/objects/position";
+@import "sass/objects/backface-visibility";
+
+// Utilities
+// -------------------------
 
 @import "sass/utilities/box-sizing";
 @import "sass/utilities/typekit-fout";
@@ -21,13 +34,14 @@
 @import "sass/utilities/inline";
 @import "sass/utilities/media";
 @import "sass/utilities/vertically-center";
-@import "sass/utilities/border-radius";
 @import "sass/utilities/hidden";
 @import "sass/utilities/invisible";
 @import "sass/utilities/visually-hidden";
 @import "sass/utilities/unselectable";
 @import "sass/utilities/tap-highlight";
-@import "sass/utilities/backface-visibility";
+
+// Components
+// -------------------------
 
 @import "sass/components/buttons";
 @import "sass/components/forms";
