@@ -4,17 +4,22 @@
 
 @import "sass/base/normalize";
 
+@import "sass/objects/clear";
+@import "sass/objects/float";
+@import "sass/objects/display";
+@import "sass/objects/text-align";
+@import "sass/objects/cursor";
+@import "sass/objects/vertical-align";
+@import "sass/objects/white-space";
+
 @import "sass/utilities/box-sizing";
 @import "sass/utilities/typekit-fout";
 @import "sass/utilities/clearfix";
 @import "sass/utilities/page-wrap";
-@import "sass/utilities/display";
 @import "sass/utilities/grid";
-@import "sass/utilities/floats";
 @import "sass/utilities/spacing";
 @import "sass/utilities/inline";
 @import "sass/utilities/media";
-@import "sass/utilities/text-align";
 @import "sass/utilities/vertically-center";
 @import "sass/utilities/border-radius";
 @import "sass/utilities/hidden";

@@ -2,59 +2,26 @@
 // Overflow
 // -------------------------
 
-// Basic overflows
-// -------------------------
-
-.u-ofVisible {
-  overflow: visible;
-}
-
-.u-ofHidden {
-  overflow: hidden;
-}
-
-.u-ofScroll {
-  overflow: scroll;
-}
-
-.u-ofAuto {
-  overflow: auto;
-}
+.o-of--visible  { overflow: visible; }
+.o-of--hidden   { overflow: hidden; }
+.o-of--scroll   { overflow: scroll; }
+.o-of--auto     { overflow: auto; }
+.o-of--inherit  { overflow: inherit; }
 
 // X-axis
 // -------------------------
 
-.u-ofxVisible {
-  overflow-x: visible;
-}
-
-.u-ofxHidden {
-  overflow-x: hidden;
-}
-
-.u-ofxScroll {
-  overflow-x: scroll;
-}
-
-.u-ofxAuto {
-  overflow-x: auto;
-}
+.o-ofx--visible { overflow-x: visible; }
+.o-ofx--hidden  { overflow-x: hidden; }
+.o-ofx--scroll  { overflow-x: scroll; }
+.o-ofx--auto    { overflow-x: auto; }
+.o-ofx--inherit { overflow-x: inherit; }
 
 // Y-axis
 // -------------------------
 
-.u-ofyVisible {
-  overflow-y: visible;
-}
-
-.u-ofyHidden {
-  overflow-y: hidden;
-}
-
-.u-ofyScroll {
-  overflow-y: scroll;
-}
-
-.u-ofyAuto {
-  overflow-y: auto;
-}
+.o-ofy--visible { overflow-y: visible; }
+.o-ofy--hidden  { overflow-y: hidden; }
+.o-ofy--scroll  { overflow-y: scroll; }
+.o-ofy--auto    { overflow-y: auto; }
+.o-ofy--inherit { overflow-y: inherit; }
