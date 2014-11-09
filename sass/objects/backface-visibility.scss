@@ -2,9 +2,6 @@
 // Backface Visibility
 // -------------------------
 
-// 
-
-%u-bfHidden {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
+.o-bfv--hidden  { backface-visibility: hidden; }
+.o-bfv--visible { backface-visibility: visible; }
+.o-bfv--inherit { backface-visibility: inherit; }
