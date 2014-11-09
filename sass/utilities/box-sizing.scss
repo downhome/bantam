@@ -9,5 +9,5 @@
 *:after {
   margin:0;
   padding:0;
-  @include box-sizing;
+  box-sizing: border-box;
 }
