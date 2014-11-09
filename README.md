@@ -19,6 +19,15 @@ Naming
 - Component states should be like .is-stateName e.g. .is-disabled
 - JS hooks should be prefixed with "js-". e.g. .js-javascriptHook
 
+Objects
+=========
+
+The 'objects' folder contains a bunch of single-purpose CSS classes. It includes the more commonly used CSS properties and each of their valid values. You can use these single-purpose CSS classes directly in your markup to style elements. Alternatively, you can use them to build 'utilities' and 'components' via the Sass extend function.
+
+Objects can be identified by their prefix "o-". Objects should follow the same naming convention described above. When a CSS property contains two words (e.g. "text-align"), you should abbreviate that to its initials i.e. "ta". If two CSS properties share the same initials, the more commonly used property should be abbreviated and the other should remain unabbreviated. CSS property values should be prefixed with two dashes e.g. "--left".
+
+Here is an example of the 'objects' naming convention: "o-ta--left".
+
 Contributing
 ============
 
