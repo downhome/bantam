@@ -2,14 +2,7 @@
 // Text Align
 // -------------------------
 
-.u-textAlign--left {
-  text-align: left;
-}
-
-.u-textAlign--right {
-  text-align: right;
-}
-
-.u-textAlign--center {
-  text-align: center;
-}
+.o-ta--left     { text-align: left; }
+.o-ta--center   { text-align: center; }
+.o-ta--right    { text-align: right; }
+.o-ta--inherit  { text-align: inherit; }

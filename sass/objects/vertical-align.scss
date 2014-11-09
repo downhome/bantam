@@ -4,38 +4,12 @@
 
 // Depends on an appropriate `display` value.
 
-.o-va--baseline {
-  vertical-align: baseline;
-}
-
-.o-va--sub {
-  vertical-align: sub;
-}
-
-.o-va--super {
-  vertical-align: super;
-}
-
-.o-va--top {
-  vertical-align: top;
-}
-
-.o-va--textTop {
-  vertical-align: text-top;
-}
-
-.o-va--middle {
-  vertical-align: middle;
-}
-
-.o-va--bottom {
-  vertical-align: bottom;
-}
-
-.o-va--textBottom {
-  vertical-align: text-bottom;
-}
-
-.o-va--inherit {
-  vertical-align: inherit;
-}
+.o-va--baseline   { vertical-align: baseline; }
+.o-va--sub        { vertical-align: sub; }
+.o-va--super      { vertical-align: super; }
+.o-va--top        { vertical-align: top; }
+.o-va--textTop    { vertical-align: text-top; }
+.o-va--middle     { vertical-align: middle; }
+.o-va--bottom     { vertical-align: bottom; }
+.o-va--textBottom { vertical-align: text-bottom; }
+.o-va--inherit    { vertical-align: inherit; }
