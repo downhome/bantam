@@ -16,6 +16,18 @@ var gulp = require('gulp'),
     fileinclude = require('gulp-file-include'),
     browserSync = require('browser-sync'),
     stylestats = require('gulp-stylestats');
+
+gulp.task('autoprefixer', function () {
+    var postcss      = require('gulp-postcss');
+    var sourcemaps   = require('gulp-sourcemaps');
+    var autoprefixer = require('autoprefixer-core');
+
+    return gulp.src('./src/*.css')
+        .pipe(sourcemaps.init())
+        .pipe(postcss([ autoprefixer({ browsers: ['last 2 version'] }) ]))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('./dest'));
+});
     
 // Minify all css files in the css directory
 // Run this in the root directory of the project with `gulp minify-css `

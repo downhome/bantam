@@ -16,8 +16,13 @@
 // Variables
 // -------------------------
 
-$btn1: 32px;
-$btn2: 46px;
+$btnHeight--l: 54px;
+$btnHeight--m: 46px;
+$btnHeight--s: 32px;
+
+$btnPadding--l: 54px;
+$btnPadding--m: 54px;
+$btnPadding--s: 54px;
 
 // Root component
 // -------------------------
@@ -46,21 +51,30 @@ $btn2: 46px;
 // Button sizes
 // -------------------------
 
-.btn--1 {
+.btn--l {
   @extend %btn;
-  height: $btn1;
-  line-height: $btn1;
-  padding: 0 14px;
-  font-size: 13px;
+  height: $btnHeight--l;
+  line-height: $btnHeight--l;
+  padding: 0 $btnPadding--l;
+  font-size: 16px;
   @extend .round-1;
 }
 
-.btn--2 {
+.btn--m {
   @extend %btn;
-  height: $btn2;
-  line-height: $btn2;
-  padding: 0 28px;
-  font-size: 16px;
+  height: $btnHeight--m;
+  line-height: $btnHeight--m;
+  padding: 0 $btnPadding--m;
+  font-size: 14px;
+  @extend .round-1;
+}
+
+.btn--s {
+  @extend %btn;
+  height: $btnHeight--s;
+  line-height: $btnHeight--s;
+  padding: 0 $btnPadding--s;
+  font-size: 12px;
   @extend .round-1;
 }
 
