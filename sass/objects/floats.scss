@@ -2,5 +2,7 @@
 // Floats
 // -------------------------
 
-.u-floatL { float: left; }
-.u-floatR { float: right; }
+.o-float--none    { float: none; }
+.o-float--left    { float: left; }
+.o-float--right   { float: right; }
+.o-float--inherit { float: inherit; }
