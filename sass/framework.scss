@@ -2,53 +2,54 @@
 // Compiler
 // -------------------------
 
-@import "sass/base/variables";
-@import "sass/base/mixins";
-@import "sass/base/theme";
+@import "base/variables";
+@import "base/mixins";
+@import "base/theme";
 
-@import "sass/base/normalize";
+@import "base/normalize";
 
 // Objects
 // -------------------------
 
-@import "sass/objects/clear";
-@import "sass/objects/float";
-@import "sass/objects/display";
-@import "sass/objects/text-align";
-@import "sass/objects/cursor";
-@import "sass/objects/vertical-align";
-@import "sass/objects/white-space";
-@import "sass/objects/overflow";
-@import "sass/objects/position";
-@import "sass/objects/backface-visibility";
-@import "sass/objects/appearance";
-@import "sass/objects/outline-style";
-@import "sass/objects/text-decoration";
-@import "sass/objects/user-select";
-@import "sass/objects/font-weight";
+@import "objects/clear";
+@import "objects/float";
+@import "objects/display";
+@import "objects/text-align";
+@import "objects/cursor";
+@import "objects/vertical-align";
+@import "objects/white-space";
+@import "objects/overflow";
+@import "objects/position";
+@import "objects/backface-visibility";
+@import "objects/appearance";
+@import "objects/outline-style";
+@import "objects/outline-width";
+@import "objects/text-decoration";
+@import "objects/user-select";
+@import "objects/font-weight";
 
 // Utilities
 // -------------------------
 
-@import "sass/utilities/box-sizing";
-@import "sass/utilities/typekit-fout";
-@import "sass/utilities/clearfix";
-@import "sass/utilities/page-wrap";
-@import "sass/utilities/grid";
-@import "sass/utilities/spacing";
-@import "sass/utilities/inline";
-@import "sass/utilities/media";
-@import "sass/utilities/vertically-center";
-@import "sass/utilities/hidden";
-@import "sass/utilities/invisible";
-@import "sass/utilities/visually-hidden";
-@import "sass/utilities/unselectable";
-@import "sass/utilities/tap-highlight";
+@import "utilities/box-sizing";
+@import "utilities/typekit-fout";
+@import "utilities/clearfix";
+@import "utilities/page-wrap";
+@import "utilities/grid";
+@import "utilities/spacing";
+@import "utilities/inline";
+@import "utilities/media";
+@import "utilities/vertically-center";
+@import "utilities/hidden";
+@import "utilities/invisible";
+@import "utilities/visually-hidden";
+@import "utilities/unselectable";
+@import "utilities/tap-highlight";
 
 // Components
 // -------------------------
 
-@import "sass/components/buttons";
-@import "sass/components/forms";
-@import "sass/components/links";
-@import "sass/components/type";
+//@import "components/buttons";
+//@import "components/forms";
+//@import "components/links";
+//@import "components/type";
