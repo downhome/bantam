@@ -25,7 +25,7 @@ $baseLineHeight: 1.6;
 h1,h2,h3,h4,h5,h6 {
   font-size: 100%;
   margin: 0;
-  font-weight: 500;
+  @extend .o-fw--5;
   line-height: 1;
 }
 
@@ -76,9 +76,9 @@ body,html,input,button,textarea,select {
 .font--5 {
   @extend .u-displayInlineBlock;
   font-size: 12px;
-  font-weight: 700;
+  @extend .o-fw--7;
   line-height: 25px;
-  text-transform: uppercase;
+  @extend .o-tt--uppercase;
   letter-spacing: 2px;
   border-bottom: 2px solid $gray3;
 }

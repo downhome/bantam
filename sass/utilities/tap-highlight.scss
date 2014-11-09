@@ -5,6 +5,6 @@
 // Prevent iOS adding a black background flash
 // when an element gets tapped.
 
-%u-tapHighlight {
+.u-preventTapHighlight {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }

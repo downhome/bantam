@@ -1,5 +1,5 @@
 a,
 a:visited {
   color: $accent;
-  text-decoration: none;
+  @extend .o-td--none;
 }

@@ -27,19 +27,20 @@ $btn2: 46px;
  * 5. Normalize `line-height`. For `input`, it can't be changed from `normal` in Firefox 4+.
  * 6. Prevent button text from being selectable.
  * 7. Make sure `input` will wrap text across multiple lines.
+ * 8. Prevent black highlight on tap on iOS.
  */
  
 %btn {
-  display: inline-block;
+  @extend .o-display--inlineBlock;
   line-height: normal; /* 5 */
-  text-decoration: none;
-  outline: none;
-  vertical-align: top;
-  cursor: pointer;
-  -webkit-appearance: none; /* 1 */
-  user-select: none; /* 6 */
-  white-space: normal; /* 7 */
-  @extend %tap-highlight;
+  @extend .o-td--none;
+  @extend .o-os--none;
+  @extend .o-va--top;
+  @extend .o-cursor--pointer;
+  @extend .o-appearance--none; /* 1 */
+  @extend .o-us--none; /* 6 */
+  @extend .o-ws--normal; /* 7 */
+  @extend .u-u-preventTapHighlight; /* 7 */
 }
 
 // Button sizes
