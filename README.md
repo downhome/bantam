@@ -11,6 +11,15 @@ Things to note
 - Function is completely separated from form.
 - Most of this framework is supposed to be edited directly for customization.
 
+Naming
+=========
+
+- Component names should be in camelCase.
+- Component modifiers should have two dashes. e.g. .componentName--modifier
+- Component ancestors should have one dash. e.g. .componentName--ancestor
+- Component states should be like .is-stateName e.g. .is-disabled
+- JS hooks should be prefixed with "js-". e.g. .js-javascriptHook
+
 Contributing
 ============
 
