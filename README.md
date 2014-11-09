@@ -23,3 +23,8 @@ Contributing
 ============
 
 Contributions are more than welcome. I'd love to hear any feedback, suggestions, pull requests, bugs, complaints, abuse or otherwise.
+
+License
+============
+
+This framework is released under the MIT license, which basically means you can use it as you see fit.
