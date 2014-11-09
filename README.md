@@ -7,9 +7,17 @@ Things to note
 =========
 
 - Zero visual style. Zilch. Nada. That's your job.
-- We use 1 - 6 for sizing all elements. Not just headings. That way, all sizes are semantic and reusable.
 - Function is completely separated from form.
-- Most of this framework is supposed to be edited directly for customization.
+- Less than 10kb before gzip.
+
+Naming
+=========
+
+- Component names should be in camelCase.
+- Component modifiers should have two dashes. e.g. .componentName--modifier
+- Component ancestors should have one dash. e.g. .componentName--ancestor
+- Component states should be like .is-stateName e.g. .is-disabled
+- JS hooks should be prefixed with "js-". e.g. .js-javascriptHook
 
 Contributing
 ============
