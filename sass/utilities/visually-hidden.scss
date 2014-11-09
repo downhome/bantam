@@ -5,12 +5,12 @@
 // Hide visually but remain available to screenreaders.
 
 .u-visuallyHidden {
+  @extend .o-position--absolute;
+  height: 1px;
+  width: 1px;
   border: 0;
   clip: rect(0 0 0 0);
-  height: 1px;
   margin: -1px;
-  overflow: hidden;
+  @extend .o-of--hidden;
   padding: 0;
-  position: absolute;
-  width: 1px;
 }
