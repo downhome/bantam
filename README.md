@@ -1,7 +1,7 @@
 Framework
 =========
 
-A customizable framework for scalable, robust, front-end development. This framework includes zero visual styling. It's all about reusable CSS, semantic markup, maintainable SASS, naming conventions and CSS components. Created by <a href="http://www.twitter.com/colmtuite" target="_blank">Colm Tuite</a>.
+A customizable CSS framework for scalable, robust, front-end development. This framework includes zero visual styling. It's all about reusability, accessibility, solid naming conventions and super fast performance. Created by <a href="http://www.twitter.com/colmtuite" target="_blank">Colm Tuite</a>.
 
 Things to note
 =========
@@ -27,4 +27,4 @@ Contributions are more than welcome. I'd love to hear any feedback, suggestions,
 License
 ============
 
-This framework is released under the MIT license, which basically means you can use it as you see fit.
+This framework is released under the <a href="https://github.com/colmtuite/framework/blob/master/LICENSE" target="_blank">MIT license</a>, which basically means you can use it as you see fit.
