@@ -341,13 +341,13 @@ table {
 .c--accent {
   color: #4387fd; }
 
-.c--white, .bg--accent, .btn--flat {
+.c--white, .bg--accent {
   color: #fff; }
 
-.bg--accent, .btn--flat {
+.bg--accent {
   background: #4387fd; }
 
-.bg--white, .textInput--default {
+.bg--white {
   background: #fff; }
 
 .o-bs--contentBox {
@@ -394,7 +394,7 @@ table {
 .o-width--90 {
   width: 90%; }
 
-.o-width--100, .textInput--m, .textInput--s {
+.o-width--100 {
   width: 100%; }
 
 .o-height--10 {
@@ -442,7 +442,7 @@ table {
 .o-clear--right {
   clear: right; }
 
-.o-clear--both, .u-cf:after, .u-inline:after, .media:after, .media-body:after, .textInput-wrap:after, .textInput-group:after, .textInput-label {
+.o-clear--both, .u-cf:after, .u-grid:after, .u-inline:after, .media:after, .media-body:after {
   clear: both; }
 
 .o-clear--inherit {
@@ -451,7 +451,7 @@ table {
 .o-float--none {
   float: none; }
 
-.o-float--left, .u-inline > div, .media-img {
+.o-float--left, .u-grid > div, .u-inline > div, .media-img {
   float: left; }
 
 .o-float--right, .media-imgExt {
@@ -469,19 +469,18 @@ table {
 .o-display--inline {
   display: inline; }
 
-.o-display--inlineBlock, .btn--l, .btn--m, .btn--s, .textInput--m, .textInput--s, .textInput-label, .textInput-hint, .checkbox-hint {
+.o-display--inlineBlock {
   display: inline-block; }
 
 .o-display--inlineTable {
   display: inline-table; }
 
-.o-display--table, .u-cf:before, .u-inline:before, .media:before, .media-body:before, .textInput-wrap:before, .textInput-group:before,
+.o-display--table, .u-cf:before, .u-grid:before, .u-inline:before, .media:before, .media-body:before,
 .u-cf:after,
+.u-grid:after,
 .u-inline:after,
 .media:after,
-.media-body:after,
-.textInput-wrap:after,
-.textInput-group:after {
+.media-body:after {
   display: table; }
 
 .o-display--tableCell {
@@ -511,7 +510,7 @@ table {
 .o-cursor--text {
   cursor: text; }
 
-.o-cursor--pointer, .btn--l, .btn--m, .btn--s {
+.o-cursor--pointer {
   cursor: pointer; }
 
 .o-cursor--move {
@@ -529,16 +528,16 @@ table {
 .o-va--super {
   vertical-align: super; }
 
-.o-va--top, .btn--l, .btn--m, .btn--s, .textInput-hint, .checkbox-hint {
+.o-va--top {
   vertical-align: top; }
 
 .o-va--textTop {
   vertical-align: text-top; }
 
-.o-va--middle, .textInput--m, .textInput--s {
+.o-va--middle {
   vertical-align: middle; }
 
-.o-va--bottom, .textInput-label {
+.o-va--bottom {
   vertical-align: bottom; }
 
 .o-va--textBottom {
@@ -547,7 +546,7 @@ table {
 .o-va--inherit {
   vertical-align: inherit; }
 
-.o-ws--normal, .btn--l, .btn--m, .btn--s {
+.o-ws--normal {
   white-space: normal; }
 
 .o-ws--nowrap {
@@ -615,10 +614,10 @@ table {
   backface-visibility: hidden;
   /* 1 */ }
 
-.o-position--absolute, .u-visuallyHidden, .textInput-icon {
+.o-position--absolute, .u-visuallyHidden {
   position: absolute; }
 
-.o-position--relative, .u-verticallyCenter, .textInput-wrap {
+.o-position--relative, .u-verticallyCenter {
   position: relative; }
 
 .o-position--static {
@@ -636,7 +635,7 @@ table {
 .o-bfv--inherit {
   backface-visibility: inherit; }
 
-.o-appearance--none, .btn--l, .btn--m, .btn--s, .textInput--m, .textInput--s {
+.o-appearance--none {
   appearance: none; }
 
 .o-appearance--normal {
@@ -654,7 +653,7 @@ table {
 .o-appearance--field {
   appearance: field; }
 
-.o-os--none, .btn--l, .btn--m, .btn--s, .textInput--m, .textInput--s {
+.o-os--none {
   outline-style: none; }
 
 .o-os--dotted {
@@ -690,7 +689,7 @@ table {
 .o-outlineWidth--2 {
   outline-width: 2px; }
 
-.o-td--none, .btn--l, .btn--m, .btn--s {
+.o-td--none {
   text-decoration: none; }
 
 .o-td--underline {
@@ -732,7 +731,7 @@ table {
 .o-to--inherit {
   text-overflow: inherit; }
 
-.o-us--none, .btn--l, .btn--m, .btn--s {
+.o-us--none {
   user-select: none; }
 
 .o-fs--Xxl {
@@ -741,19 +740,19 @@ table {
 .o-fs--Xl {
   font-size: 32px; }
 
-.o-fs--l, .btn--l {
+.o-fs--l {
   font-size: 24px; }
 
-.o-fs--m, .btn--m {
+.o-fs--m {
   font-size: 16px; }
 
-.o-fs--s, .btn--s {
+.o-fs--s {
   font-size: 14px; }
 
-.o-fs--Xs, .textInput--m, .textInput--s, .textInput-label {
+.o-fs--Xs {
   font-size: 12px; }
 
-.o-fs--Xxs, .textInput-hint, .checkbox-hint {
+.o-fs--Xxs {
   font-size: 10px; }
 
 .o-fw--1 {
@@ -765,10 +764,10 @@ table {
 .o-fw--3 {
   font-weight: 300; }
 
-.o-fw--4, .textInput--m, .textInput--s, h1, h2, h3, h4, h5, h6 {
+.o-fw--4 {
   font-weight: 400; }
 
-.o-fw--5, .textInput-label {
+.o-fw--5 {
   font-weight: 500; }
 
 .o-fw--6 {
@@ -871,13 +870,12 @@ table {
   margin: 0;
   padding: 0; }
 
-.u-cf:before, .u-inline:before, .media:before, .media-body:before, .textInput-wrap:before, .textInput-group:before,
+.u-cf:before, .u-grid:before, .u-inline:before, .media:before, .media-body:before,
 .u-cf:after,
+.u-grid:after,
 .u-inline:after,
 .media:after,
-.media-body:after,
-.textInput-wrap:after,
-.textInput-group:after {
+.media-body:after {
   content: ""; }
 
 .u-centered, .u-pageWrap {
@@ -888,6 +886,27 @@ table {
   width: 90%;
   min-width: 1000px;
   max-width: 1000px; }
+
+.u-grid {
+  margin-top: -60px;
+  margin-left: -60px; }
+  .u-grid > div {
+    margin-top: 60px;
+    margin-left: 60px; }
+  .u-grid.u-grid--1 > div {
+    width: calc(100% - 60px); }
+  .u-grid.u-grid--2 > div {
+    width: calc(50% - 60px); }
+  .u-grid.u-grid--3 > div {
+    width: calc(33.3333% - 60px); }
+  .u-grid.u-grid--4 > div {
+    width: calc(25% - 60px); }
+  .u-grid.u-grid--5 > div {
+    width: calc(20% - 60px); }
+  .u-grid.u-grid--6 > div {
+    width: calc(16.6666% - 60px); }
+  .u-grid.u-grid--7 > div {
+    width: calc(14.2857% - 60px); }
 
 .media-img {
   margin-right: 10px; }
@@ -911,107 +930,7 @@ table {
   margin: -1px;
   padding: 0; }
 
-.u-preventTapHighlight, .btn--l, .btn--m, .btn--s {
+.u-preventTapHighlight {
   -webkit-tap-highlight-color: transparent; }
-
-/**
- * 1. Corrects inability to style clickable `input` types in iOS.
- * 5. Normalize `line-height`. For `input`, it can't be changed from `normal` in Firefox 4+.
- * 6. Prevent button text from being selectable.
- * 7. Make sure `input` will wrap text across multiple lines.
- * 8. Prevent black highlight on tap on iOS.
- */
-.btn--l, .btn--m, .btn--s {
-  line-height: 1;
-  /* 5 */
-  /* 1 */
-  /* 6 */
-  /* 7 */
-  /* 7 */ }
-
-.btn--l {
-  height: 54px;
-  line-height: 54px;
-  padding: 0 54px; }
-
-.btn--m {
-  height: 46px;
-  line-height: 46px;
-  padding: 0 54px; }
-
-.btn--s {
-  height: 32px;
-  line-height: 32px;
-  padding: 0 54px; }
-
-.btn--flat {
-  border: 0; }
-  .btn--flat:hover {
-    background: #1167fc; }
-
-.textInput--m {
-  padding: 10px;
-  border-radius: 2px; }
-
-.textInput--s {
-  padding: 6px;
-  border-radius: 2px; }
-
-.textInput--default {
-  border: 1px solid;
-  border-color: #aaaab4 #b5b5bd #c0c0c7; }
-  .textInput--default:focus {
-    border-color: #a0a0aa #aaaab4 #b5b5bd;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.06); }
-
-.textInput--iconLeft {
-  padding-left: 32px; }
-
-.textInput--iconRight {
-  padding-right: 28px; }
-
-.textInput-group {
-  margin-bottom: 16px; }
-
-.textInput-label {
-  line-height: 1;
-  margin-bottom: 5px; }
-
-.textInput-hint {
-  line-height: 1;
-  margin-top: 5px;
-  color: #999; }
-
-.checkbox-hint {
-  line-height: 1.4;
-  color: #999;
-  padding-left: 27px; }
-
-.textInput-icon {
-  top: 0;
-  padding: 8px;
-  color: #999; }
-
-::-webkit-input-placeholder {
-  color: #999; }
-
-::-moz-placeholder {
-  color: #999; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  margin: 0;
-  line-height: 1; }
-
-html {
-  font-size: 16px;
-  line-height: 1.6; }
-
-body, html, input, button, textarea, select {
-  font-family: "proxima nova", "Helvetica Neue", arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  color: #4387fd; }
 
 /*# sourceMappingURL=framework.css.map */

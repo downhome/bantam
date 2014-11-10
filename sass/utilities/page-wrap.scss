@@ -8,16 +8,16 @@
 // Variables
 // -------------------------
 
-$pageWrapWidth: 90%;
-$pageWrapMinWidth: 1000px;
-$pageWrapMaxWidth: 1000px;
+$pageWrap-width: 90%;
+$pageWrap-minWidth: 1000px;
+$pageWrap-maxWidth: 1000px;
 
 // Utility
 // -------------------------
 
 .u-pageWrap {
-  width: $pageWrapWidth;
-  min-width: $pageWrapMinWidth;
-  max-width: $pageWrapMaxWidth;
+  width: $pageWrap-width;
+  min-width: $pageWrap-minWidth;
+  max-width: $pageWrap-maxWidth;
   @extend .u-centered;
 }
