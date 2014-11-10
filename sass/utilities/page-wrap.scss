@@ -19,5 +19,5 @@ $pageWrapMaxWidth: 1000px;
   width: $pageWrapWidth;
   min-width: $pageWrapMinWidth;
   max-width: $pageWrapMaxWidth;
-  margin: 0 auto;
+  @extend .u-centered;
 }
