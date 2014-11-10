@@ -9,6 +9,13 @@
 @import "base/mixins";
 @import "base/normalize";
 
+// Skin
+// -------------------------
+
+@import "skin/color-scheme";
+@import "skin/colors";
+@import "skin/background-colors";
+
 // Objects
 // -------------------------
 
@@ -54,8 +61,6 @@
 //@import "utilities/hovers";
 //@import "utilities/positioning";
 @import "utilities/inline";
-@import "utilities/background-colors";
-@import "utilities/colors";
 @import "utilities/media";
 @import "utilities/vertically-center";
 @import "utilities/hidden";

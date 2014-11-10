@@ -1,0 +1,64 @@
+//
+// Color Scheme
+// -------------------------
+
+//  d = Dark
+//  l = Light
+//  x = Extra
+
+// Grayscale Colors
+// -------------------------
+
+$white: #fff;
+$black: #000;
+
+// Brand Colors
+// -------------------------
+
+$brand-1: #4387fd;
+$brand-2: #ff4166;
+$brand-3: #47525e;
+$brand-4: #e8ecf0;
+
+// Gray Colors
+// -------------------------
+
+$gray1: #ececef;
+$gray2: #47525e;
+$gray3: lighten(#8C969E, 7%);
+$gray4: #47525e;
+
+// UI Colors
+// -------------------------
+
+$ui-positive: #5CB390;
+$ui-warning: #F5D76E;
+$ui-negative: #E26E6A;
+$ui-info: #0097e9;
+
+$ui-positive--Xd: darken($ui-positive, 30%);
+$ui-positive--d: darken($ui-positive, 10%);
+$ui-positive--l: lighten($ui-positive, 10%);
+
+$ui-warning--Xd: darken($ui-warning, 30%);
+$ui-warning--d: darken($ui-warning, 10%);
+$ui-warning--l: lighten($ui-warning, 10%);
+
+$ui-negative--Xd: darken($ui-negative, 30%);
+$ui-negative--d: darken($ui-negative, 10%);
+$ui-negative--l: lighten($ui-negative, 10%);
+
+$ui-info--Xd: darken($ui-info, 30%);
+$ui-info--d: darken($ui-info, 10%);
+$ui-info--l: lighten($ui-info, 10%);
+
+// Transparency
+// -------------------------
+
+$transparent-white--d: rgba(255,255,255,.85);
+$transparent-white: rgba(255,255,255,.5);
+$transparent-white--l: rgba(255,255,255,.2);
+
+$transparent-black--d: rgba(0,0,0,.85);
+$transparent-black: rgba(0,0,0,.5);
+$transparent-black--l: rgba(0,0,0,.2);

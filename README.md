@@ -32,6 +32,10 @@ The 'utilities' folder contains a bunch of reusable code snippets for performing
 
 Utilities can be identified by their prefix "u-". Utilities should follow the same naming convention described above.
 
+## Browser support
+
+The grid utility is the only part of this framework with limited browser support. The grid works down to IE9 inclusive.
+
 ## Contributing
 
 Contributions are more than welcome. I'd love to hear any feedback, suggestions, pull requests, issues, bugs, complaints, abuse or otherwise.

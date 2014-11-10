@@ -338,6 +338,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.c--accent {
+  color: #4387fd; }
+
+.c--white, .bg--accent, .btn--flat {
+  color: #fff; }
+
+.bg--accent, .btn--flat {
+  background: #4387fd; }
+
+.bg--white, .textInput--default {
+  background: #fff; }
+
 .o-bs--contentBox {
   box-sizing: content-box; }
 
@@ -877,18 +889,6 @@ table {
   min-width: 1000px;
   max-width: 1000px; }
 
-.u-bg--accent, .btn--flat {
-  background: #4387fd; }
-
-.u-bg--white, .textInput--default {
-  background: #fff; }
-
-.u-color--accent {
-  color: #4387fd; }
-
-.u-color--white, .u-bg--accent, .btn--flat {
-  color: #fff; }
-
 .media-img {
   margin-right: 10px; }
 
@@ -1012,6 +1012,6 @@ body, html, input, button, textarea, select {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  color: #47525e; }
+  color: #4387fd; }
 
 /*# sourceMappingURL=framework.css.map */

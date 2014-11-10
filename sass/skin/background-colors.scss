@@ -1,0 +1,12 @@
+//
+// Background Colors
+// -------------------------
+
+.bg--accent {
+  background: $brand-1;
+  @extend .c--white;
+}
+
+.bg--white {
+  background: $white;
+}

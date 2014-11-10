@@ -53,7 +53,7 @@ $inputPadding--S: 6px;
 // -------------------------
 
 .textInput--default {
-  @extend .u-bg--white;
+  @extend .bg--white;
   border: 1px solid;
   border-color: darken(#dbdbdf, 18%) darken(#dbdbdf, 14%) darken(#dbdbdf, 10%);
   &:focus {

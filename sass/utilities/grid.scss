@@ -10,7 +10,7 @@
   @extend .u-cf;
   
   > * {
-    @extend .u-floatL;
+    @extend .o-float--left;
     margin-top: $gutter;
     margin-left: $gutter;
   }
@@ -52,7 +52,7 @@
   @extend .u-cf;
   
   > * {
-    @extend .u-floatL;
+    @extend .o-float--left;
     margin-top: $gutter;
     margin-left: $gutter;
   }
