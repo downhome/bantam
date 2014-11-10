@@ -29,6 +29,7 @@
 @import "objects/text-transform";
 @import "objects/text-overflow";
 @import "objects/user-select";
+@import "objects/font-size";
 @import "objects/font-weight";
 @import "objects/font-style";
 @import "objects/visibility";
@@ -41,23 +42,23 @@
 // -------------------------
 
 @import "utilities/box-model";
-//@import "utilities/typekit-fout";
+@import "utilities/typekit-fout";
 @import "utilities/clearfix";
 @import "utilities/page-wrap";
 //@import "utilities/grid";
 //@import "utilities/spacing";
-//@import "utilities/inline";
+@import "utilities/inline";
+@import "utilities/background-colors";
 @import "utilities/media";
 @import "utilities/vertically-center";
 @import "utilities/hidden";
-@import "utilities/invisible";
 @import "utilities/visually-hidden";
 @import "utilities/prevent-highlight";
 
 // Components
 // -------------------------
 
-//@import "components/buttons";
+@import "components/buttons";
 //@import "components/forms";
 //@import "components/links";
-//@import "components/type";
+@import "components/type";

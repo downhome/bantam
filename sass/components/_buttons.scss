@@ -37,7 +37,7 @@ $btnPadding--s: 54px;
  
 %btn {
   @extend .o-display--inlineBlock;
-  line-height: normal; /* 5 */
+  line-height: 1; /* 5 */
   @extend .o-td--none;
   @extend .o-os--none;
   @extend .o-va--top;
@@ -45,7 +45,7 @@ $btnPadding--s: 54px;
   @extend .o-appearance--none; /* 1 */
   @extend .o-us--none; /* 6 */
   @extend .o-ws--normal; /* 7 */
-  @extend .u-u-preventTapHighlight; /* 7 */
+  @extend .u-preventTapHighlight; /* 7 */
 }
 
 // Button sizes
@@ -56,8 +56,7 @@ $btnPadding--s: 54px;
   height: $btnHeight--l;
   line-height: $btnHeight--l;
   padding: 0 $btnPadding--l;
-  font-size: 16px;
-  @extend .round-1;
+  @extend .o-fs--l;
 }
 
 .btn--m {
@@ -65,8 +64,7 @@ $btnPadding--s: 54px;
   height: $btnHeight--m;
   line-height: $btnHeight--m;
   padding: 0 $btnPadding--m;
-  font-size: 14px;
-  @extend .round-1;
+  @extend .o-fs--m;
 }
 
 .btn--s {
@@ -74,29 +72,16 @@ $btnPadding--s: 54px;
   height: $btnHeight--s;
   line-height: $btnHeight--s;
   padding: 0 $btnPadding--s;
-  font-size: 12px;
-  @extend .round-1;
+  @extend .o-fs--s;
 }
 
 // Button styles
 // -------------------------
 
 .btn--flat {
-  background: $accent;
-  color: #fff;
+  @extend .u-bg--accent;
   border: 0;
   &:hover {
     background: darken($accent, 10%);
-  }
-}
-
-.btn--hollow {
-  background: none;
-  color: $accent;
-  border: 2px solid;
-  border-color: $accent;
-  &:hover {
-    border-color: darken($accent, 10%);
-    color: darken($accent, 10%);
   }
 }

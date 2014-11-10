@@ -5,8 +5,19 @@
 // Prevent the flash of unstyled text
 // when Typekit is loading.
 
-.wf-loading {
-  h1,h2,h3,h4,h5,h6,p,span,a,time,strong,em,b,i {
-    @extend .invisible;
-  }
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5,
+.wf-loading h6,
+.wf-loading p,
+.wf-loading span,
+.wf-loading a,
+.wf-loading time,
+.wf-loading strong,
+.wf-loading em,
+.wf-loading b,
+.wf-loading i {
+  @extend .o-visibility--hidden;
 }
