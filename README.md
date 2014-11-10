@@ -6,7 +6,7 @@ A customizable CSS framework for scalable, robust, front-end development. Zero v
 
 - Zero visual style. Zilch. Nada. That's your job.
 - Function is completely separated from form.
-- Less than 10kb before gzip.
+- Less than 20kb before gzip.
 
 ## Naming
 
