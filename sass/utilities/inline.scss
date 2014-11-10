@@ -7,7 +7,8 @@
 
 .u-inline {
   @extend .u-cf;
-  > div {
-    float: left;
-  }
+}
+
+.u-inline > div {
+  @extend .o-float--left;
 }

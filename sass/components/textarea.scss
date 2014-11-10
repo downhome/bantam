@@ -1,0 +1,29 @@
+//
+// Textarea
+// -------------------------
+
+// Functional CSS
+// -------------------------
+
+%textarea {
+  @extend .o-display--inlineBlock;
+  @extend .o-va--middle;
+  @extend .o-os--none;
+  @extend .o-appearance--none;
+  @extend .o-fw--4;
+  @extend .o-width--100;
+}
+
+
+// Component sizes
+// -------------------------
+
+.textarea--m {
+  min-height: 160px;
+  max-height: 400px;
+}
+
+.textarea--s {
+  min-height: 100px;
+  max-height: 200px;
+}
