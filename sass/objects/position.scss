@@ -2,8 +2,7 @@
 // Position
 // -------------------------
 
-// 1. Make sure fixed elements are promoted into a new layer, for performance
-//    reasons.
+// 1. Promote fixed elements into a new layer for performance.
 
 .o-position--fixed    { position: fixed; backface-visibility: hidden; /* 1 */ }
 .o-position--absolute { position: absolute; }

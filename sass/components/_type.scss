@@ -2,19 +2,11 @@
 // Typography
 // -------------------------
 
-// Typography works just like buttons. You apply a
-// size class. Any size class can be used with any
-// h tag. Then apply a visual class which makes
-// each heading look a certain way. Define your own
-// visual CSS for these class. The class names I used
-// are just for demo purposes. Again, any colors should
-// be defined in a separate theme.scss file.
-
 // Variables
 // -------------------------
 
-$baseFontFamily: "proxima nova", "Helvetica Neue", arial, sans-serif;
-$codeFontFamily: "source code pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+$fontFamily--base: "proxima nova", "Helvetica Neue", arial, sans-serif;
+$fontFamily--code: "source code pro", Menlo, Monaco, Consolas, "Courier New", monospace;
 
 $baseFontSize: 16px;
 $baseLineHeight: 1.6;
@@ -25,7 +17,7 @@ $baseLineHeight: 1.6;
 h1,h2,h3,h4,h5,h6 {
   font-size: 100%;
   margin: 0;
-  @extend .o-fw--5;
+  @extend .o-fw--4;
   line-height: 1;
 }
 
@@ -41,44 +33,9 @@ html {
 // -------------------------
 
 body,html,input,button,textarea,select {
-  font-family: $baseFontFamily;
+  font-family: $fontFamily--base;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   color: $base;
-}
-
-// Heading sizes
-// -------------------------
-
-.font--1 {
-  font-size: 14px;
-  line-height: 22px;
-}
-
-.font--2 {
-  font-size: $h2; // Specify rem fallback
-  font-size: $h2; // Specify font-size in rems
-  line-height: $h2;
-}
-
-.font--3 {
-  font-size: 19px;
-  line-height: 28px;
-}
-
-.font--4 {
-  font-size: 26px;
-  font-weight: 500;
-  line-height: 36px;
-}
-
-.font--5 {
-  @extend .u-displayInlineBlock;
-  font-size: 12px;
-  @extend .o-fw--7;
-  line-height: 25px;
-  @extend .o-tt--uppercase;
-  letter-spacing: 2px;
-  border-bottom: 2px solid $gray3;
 }
