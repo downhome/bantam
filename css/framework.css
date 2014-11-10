@@ -722,7 +722,7 @@ table {
 .wf-loading strong,
 .wf-loading em,
 .wf-loading b,
-.wf-loading i {
+.wf-loading i, .u-hidden {
   visibility: hidden; }
 
 .o-visibility--visible {
@@ -794,6 +794,7 @@ table {
 
 .u-pageWrap {
   width: 90%;
+  min-width: 1000px;
   max-width: 1000px;
   margin: 0 auto; }
 
@@ -801,7 +802,12 @@ table {
   float: left; }
 
 .u-bg--accent, .btn--flat {
-  background: #4387fd;
+  background: #4387fd; }
+
+.u-color--accent {
+  color: #4387fd; }
+
+.u-color--white, .u-bg--accent, .btn--flat {
   color: #fff; }
 
 .media-img {
@@ -816,8 +822,7 @@ table {
   transform: translateY(-50%); }
 
 .u-hidden {
-  display: none !important;
-  visibility: hidden; }
+  display: none !important; }
 
 .u-visuallyHidden {
   height: 1px;

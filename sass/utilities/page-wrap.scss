@@ -9,6 +9,7 @@
 // -------------------------
 
 $pageWrapWidth: 90%;
+$pageWrapMinWidth: 1000px;
 $pageWrapMaxWidth: 1000px;
 
 // Utility
@@ -16,6 +17,7 @@ $pageWrapMaxWidth: 1000px;
 
 .u-pageWrap {
   width: $pageWrapWidth;
+  min-width: $pageWrapMinWidth;
   max-width: $pageWrapMaxWidth;
   margin: 0 auto;
 }

@@ -6,5 +6,5 @@
 
 .u-hidden {
   display: none !important;
-  visibility: hidden;
+  @extend .o-visibility--hidden;
 }
