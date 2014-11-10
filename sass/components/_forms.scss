@@ -6,7 +6,7 @@
 // -------------------------
 
 %input {
-  width: 100%;
+  @extend .o-width--100;
   @extend .o-os--none;
   @extend .u-u-preventTapHighlight; /* 7 */
   @extend .o-appearance--none;
