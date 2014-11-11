@@ -5,19 +5,12 @@
 // Wrap a piece of content in a horizontally
 // centered container.
 
-// Variables
-// -------------------------
-
-$pageWrap-width: 90%;
-$pageWrap-minWidth: 1000px;
-$pageWrap-maxWidth: 1000px;
-
 // Utility
 // -------------------------
 
 .u-pageWrap {
-  width: $pageWrap-width;
-  min-width: $pageWrap-minWidth;
-  max-width: $pageWrap-maxWidth;
+  @extend .o-width--90;
+  min-width: 0;
+  max-width: 1000px;
   @extend .u-centered;
 }
