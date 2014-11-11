@@ -5,9 +5,9 @@
 // Equal corners
 // -------------------------
 
-.br--l      { border-radius: $br1; }
-.br--m      { border-radius: $br2; }
-.br--s      { border-radius: $br3; }
+.br--l      { border-radius: 10px; }
+.br--m      { border-radius: 5px; }
+.br--s      { border-radius: 2px; }
 .br--circle { border-radius: 50%; }
 
 // Unequal corners
