@@ -1,0 +1,14 @@
+//
+// Border radius
+// -------------------------
+
+// Equal corners
+// -------------------------
+
+.br--l      { border-radius: $br1; }
+.br--m      { border-radius: $br2; }
+.br--s      { border-radius: $br3; }
+.br--circle { border-radius: 50%; }
+
+// Unequal corners
+// -------------------------

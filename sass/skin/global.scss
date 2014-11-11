@@ -1,3 +1,17 @@
+//
+// Variables
+// -------------------------
+
+// Media query breakpoints
+// -------------------------
+
+$bp1: 320px;
+$bp2: 680px;
+$bp3: 1180px;
+$bp4: 1500px;
+$bp5: 2000px;
+$bp6: 3000px;
+
 // Responsive breakpoints
 @mixin breakpoint($point) {
   @if $point == bp1 {
@@ -19,3 +33,8 @@
     @media (min-width: $bp6)  { @content; }
   }
 }
+
+// Spacing
+// -------------------------
+
+$offCanvas: -99999px;

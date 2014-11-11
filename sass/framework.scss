@@ -5,17 +5,17 @@
 // Base
 // -------------------------
 
-@import "base/variables";
-@import "base/mixins";
-@import "base/normalize";
+@import "vendor/normalize";
 
 // Skin
 // -------------------------
 
+@import "skin/global";
 @import "skin/color-scheme";
 @import "skin/colors";
 @import "skin/background-colors";
 @import "skin/font-sizes";
+@import "skin/border-radius";
 
 // Objects
 // -------------------------
@@ -58,7 +58,7 @@
 @import "utilities/page-wrap";
 @import "utilities/grid";
 //@import "utilities/spacing";
-//@import "utilities/hovers";
+@import "utilities/hover-hook";
 //@import "utilities/positioning";
 @import "utilities/inline";
 @import "utilities/media";

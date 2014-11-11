@@ -1,0 +1,14 @@
+//
+// Hover Hook
+// -------------------------
+
+// Hover an element and some child elements change state.
+
+.hoverHook .hover1 { visibility: hidden; }
+.hoverHook:hover .hover1 { visibility: visible; }
+
+.hoverHook .hover2 { opacity: .5; }
+.hoverHook:hover .hover2 { opacity: 1; }
+
+.hoverHook .hover3 { color: purple; }
+.hoverHook:hover .hover3 { color: pink; }
