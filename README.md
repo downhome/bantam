@@ -1,5 +1,7 @@
 # Framework
 
+This is very much a WIP. Not yet ready for production.
+
 A customizable CSS framework for scalable, robust, front-end development. Zero visual styling. It's all about reusability, accessibility, solid naming conventions and super fast performance. Created by <a href="http://www.twitter.com/colmtuite" target="_blank">Colm Tuite</a>.
 
 ## Things to note
@@ -35,6 +37,10 @@ Utilities can be identified by their prefix "u-". Utilities should follow the sa
 ## Browser support
 
 The grid utility is the only part of this framework with limited browser support. The grid works down to IE9 inclusive.
+
+### Methodologies and guidelines
+
+- This framework adheres to the majority of Mark Otto's <a href="http://codeguide.co">code guide</a>.
 
 ## Contributing
 
