@@ -41,6 +41,8 @@
 @import "objects/text-decoration";
 @import "objects/text-transform";
 @import "objects/text-overflow";
+@import "objects/list-style";
+@import "objects/opacity";
 @import "objects/user-select";
 @import "objects/font-weight";
 @import "objects/font-style";
@@ -48,6 +50,9 @@
 @import "objects/direction";
 @import "objects/resize";
 @import "objects/word-break";
+@import "objects/text-rendering";
+@import "objects/transform-style";
+@import "objects/transition-property";
 @import "objects/word-wrap";
 
 // Utilities

@@ -41,6 +41,7 @@ The grid utility is the only part of this framework with limited browser support
 ### Methodologies and guidelines
 
 - This framework adheres to the majority of Mark Otto's <a href="http://codeguide.co">code guide</a>.
+- This framework adheres to the single responsibility principle.
 
 ## Contributing
 

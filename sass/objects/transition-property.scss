@@ -1,0 +1,18 @@
+//
+// Transition Property
+// -------------------------
+
+.o-tp--none       { transition-property: none; }
+.o-tp--all        { transition-property: all; }
+.o-tp--inherit    { transition-property: inherit; }
+.o-tp--color      { transition-property: color; }
+.o-tp--background { transition-property: background; }
+.o-tp--width      { transition-property: width; }
+.o-tp--height     { transition-property: height; }
+.o-tp--top        { transition-property: top; }
+.o-tp--right      { transition-property: right; }
+.o-tp--bottom     { transition-property: bottom; }
+.o-tp--left       { transition-property: left; }
+.o-tp--scale      { transition-property: scale; }
+.o-tp--transform  { transition-property: transform; }
+.o-tp--opacity    { transition-property: opacity; }
