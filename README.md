@@ -10,11 +10,11 @@ A customizable CSS framework for scalable, robust, front-end development. Zero v
 - Function is completely separated from form.
 - Less than 20kb before gzip.
 
-## Naming
+## Naming convention
 
 - Component names should be in camelCase.
-- Component modifiers should have two dashes. e.g. .componentName--modifier
-- Component ancestors should have one dash. e.g. .componentName--ancestor
+- Component modifiers should have two dashes. e.g. .componentName--modifierName
+- Component descendants should have one dash. e.g. .componentName-descendantName
 - Component states should be like .is-stateName e.g. .is-disabled
 - JS hooks should be prefixed with "js-". e.g. .js-javascriptHook
 
@@ -38,7 +38,7 @@ Utilities can be identified by their prefix "u-". Utilities should follow the sa
 
 The grid utility is the only part of this framework with limited browser support. The grid works down to IE9 inclusive.
 
-### Methodologies and guidelines
+## Methodologies and guidelines
 
 - This framework adheres to the majority of Mark Otto's <a href="http://codeguide.co">code guide</a>.
 - This framework adheres to the single responsibility principle.
