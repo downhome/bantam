@@ -13,12 +13,12 @@ $inputPadding--S: 6px;
 // -------------------------
 
 %textInput {
-  @extend .o-display--inlineBlock;
-  @extend .o-va--middle;
-  @extend .o-os--none;
-  @extend .o-appearance--none;
-  @extend .o-fw--4;
-  @extend .o-width--100;
+  @extend display--inlineBlock;
+  @extend va--middle;
+  @extend os--none;
+  @extend appearance--none;
+  @extend fw--4;
+  @extend width--100;
 }
 
 
@@ -26,7 +26,7 @@ $inputPadding--S: 6px;
 // -------------------------
 
 .textInput-wrap {
-  @extend .o-position--relative;
+  @extend position--relative;
   @extend .u-cf;
 }
 
@@ -37,14 +37,14 @@ $inputPadding--S: 6px;
 .textInput--m {
   @extend %textInput;
   padding: $inputPadding--M;
-  @extend .o-fs--Xs;
+  @extend fs--Xs;
   border-radius: 2px;
 }
 
 .textInput--s {
   @extend %textInput;
   padding: $inputPadding--S;
-  @extend .o-fs--Xs;
+  @extend fs--Xs;
   border-radius: 2px;
 }
 
@@ -80,29 +80,29 @@ $inputPadding--S: 6px;
 }
 
 .textInput-label {
-  @extend .o-clear--both;
-  @extend .o-display--inlineBlock;
-  @extend .o-fw--5;
-  @extend .o-fs--Xs;
+  @extend clear--both;
+  @extend display--inlineBlock;
+  @extend fw--5;
+  @extend fs--Xs;
   line-height: 1;
   margin-bottom: $inputMargin;
-  @extend .o-va--bottom;
+  @extend va--bottom;
 }
 
 .textInput-hint {
-  @extend .o-display--inlineBlock;
-  @extend .o-fs--Xxs;
+  @extend display--inlineBlock;
+  @extend fs--Xxs;
   line-height: 1;
-  @extend .o-va--top;
+  @extend va--top;
   margin-top: $inputMargin;
   color: #999;
 }
 
 .checkbox-hint {
-  @extend .o-display--inlineBlock;
-  @extend .o-fs--Xxs;
+  @extend display--inlineBlock;
+  @extend fs--Xxs;
   line-height: 1.4;
-  @extend .o-va--top;
+  @extend va--top;
   color: #999;
   padding-left: 27px;
 }
@@ -112,7 +112,7 @@ $inputPadding--S: 6px;
 //    its own height.
 
 .textInput-icon {
-  @extend .o-position--absolute;
+  @extend position--absolute;
   top: 0;
   padding: 8px;
   color: #999;

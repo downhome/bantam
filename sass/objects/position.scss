@@ -4,8 +4,8 @@
 
 // 1. Promote fixed elements into a new layer for performance.
 
-.o-position--fixed    { position: fixed; backface-visibility: hidden; /* 1 */ }
-.o-position--absolute { position: absolute; }
-.o-position--relative { position: relative; }
-.o-position--static   { position: static; }
-.o-position--inherit  { position: inherit; }
+.position--fixed    { position: fixed; backface-visibility: hidden; /* 1 */ }
+.position--absolute { position: absolute; }
+.position--relative { position: relative; }
+.position--static   { position: static; }
+.position--inherit  { position: inherit; }

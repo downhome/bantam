@@ -2,7 +2,7 @@
 // Compiler
 // -------------------------
 
-// Base
+// Vendor
 // -------------------------
 
 @import "vendor/normalize";
@@ -10,27 +10,27 @@
 // Skin
 // -------------------------
 
-@import "skin/global";
 @import "skin/color-scheme";
-@import "skin/colors";
-@import "skin/background-colors";
-@import "skin/font-sizes";
+@import "skin/color";
+@import "skin/background-color";
+@import "skin/font-size";
 @import "skin/border-radius";
-@import "skin/margins";
+@import "skin/margin";
 @import "skin/padding";
 
 // Objects
 // -------------------------
 
 @import "objects/box-sizing";
-@import "objects/widths";
-@import "objects/heights";
+@import "objects/width";
+@import "objects/height";
 @import "objects/clear";
 @import "objects/float";
 @import "objects/display";
 @import "objects/text-align";
 @import "objects/cursor";
 @import "objects/vertical-align";
+@import "objects/bprder-style";
 @import "objects/white-space";
 @import "objects/overflow";
 @import "objects/position";
@@ -63,13 +63,12 @@
 @import "utilities/clearfix";
 @import "utilities/centered";
 @import "utilities/page-wrap";
-@import "utilities/grid";
-//@import "utilities/spacing";
 @import "utilities/hover-hook";
-//@import "utilities/positioning";
+@import "utilities/positioning";
 @import "utilities/inline";
 @import "utilities/media";
 @import "utilities/vertically-center";
+@import "utilities/truncate-text";
 @import "utilities/hidden";
 @import "utilities/visually-hidden";
 @import "utilities/prevent-highlight";
@@ -77,6 +76,7 @@
 // Components
 // -------------------------
 
+@import "components/grid";
 //@import "components/buttons";
 //@import "components/forms";
 //@import "components/text-input";

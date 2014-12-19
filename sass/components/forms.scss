@@ -6,10 +6,10 @@
 // -------------------------
 
 %input {
-  @extend .o-width--100;
-  @extend .o-os--none;
+  @extend width--100;
+  @extend os--none;
   @extend .u-u-preventTapHighlight; /* 7 */
-  @extend .o-appearance--none;
+  @extend appearance--none;
   padding: 0 10px;
 }
 

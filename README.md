@@ -26,7 +26,7 @@ The 'objects' folder contains single-purpose CSS classes for the more commonly u
 
 Objects can be identified by their prefix "o-". Objects should follow the same naming convention described above. When a CSS property contains two words (e.g. "text-align"), you should abbreviate that to its initials i.e. "ta". If two CSS properties share the same initials, the more commonly used property should be abbreviated and the other should remain unabbreviated. CSS property values should be prefixed with two dashes e.g. "--left".
 
-Here is an example of the 'objects' naming convention: ".o-ta--left".
+Here is an example of the 'objects' naming convention: "ta--left".
 
 ### Utilities
 

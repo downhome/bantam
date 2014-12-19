@@ -6,12 +6,12 @@
 // -------------------------
 
 %textarea {
-  @extend .o-display--inlineBlock;
-  @extend .o-va--middle;
-  @extend .o-os--none;
-  @extend .o-appearance--none;
-  @extend .o-fw--4;
-  @extend .o-width--100;
+  @extend display--inlineBlock;
+  @extend va--middle;
+  @extend os--none;
+  @extend appearance--none;
+  @extend fw--4;
+  @extend width--100;
 }
 
 

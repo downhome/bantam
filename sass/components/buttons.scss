@@ -36,15 +36,15 @@ $btnPadding--s: 54px;
  */
  
 %btn {
-  @extend .o-display--inlineBlock;
+  @extend display--inlineBlock;
   line-height: 1; /* 5 */
-  @extend .o-td--none;
-  @extend .o-os--none;
-  @extend .o-va--top;
-  @extend .o-cursor--pointer;
-  @extend .o-appearance--none; /* 1 */
-  @extend .o-us--none; /* 6 */
-  @extend .o-ws--normal; /* 7 */
+  @extend td--none;
+  @extend os--none;
+  @extend va--top;
+  @extend cursor--pointer;
+  @extend appearance--none; /* 1 */
+  @extend us--none; /* 6 */
+  @extend ws--normal; /* 7 */
   @extend .u-preventTapHighlight; /* 7 */
 }
 
@@ -56,7 +56,7 @@ $btnPadding--s: 54px;
   height: $btnHeight--l;
   line-height: $btnHeight--l;
   padding: 0 $btnPadding--l;
-  @extend .o-fs--l;
+  @extend fs--l;
 }
 
 .btn--m {
@@ -64,7 +64,7 @@ $btnPadding--s: 54px;
   height: $btnHeight--m;
   line-height: $btnHeight--m;
   padding: 0 $btnPadding--m;
-  @extend .o-fs--m;
+  @extend fs--m;
 }
 
 .btn--s {
@@ -72,7 +72,7 @@ $btnPadding--s: 54px;
   height: $btnHeight--s;
   line-height: $btnHeight--s;
   padding: 0 $btnPadding--s;
-  @extend .o-fs--s;
+  @extend fs--s;
 }
 
 // Button styles
