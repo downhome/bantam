@@ -1,0 +1,58 @@
+//
+// Typography
+// -------------------------
+
+// Base styles
+// -------------------------
+
+body,
+input,
+button,
+textarea,
+select {
+  @extend .ff--base;
+  @extend .fs--s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: $brand-1;
+  line-height: 1;
+}
+
+// Reset all font sizes
+// -------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+pre {
+  font-size: 100%;
+  margin: 0;
+}
+
+// Reset all font weights
+// -------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  @extend .fw--4;
+}
+
+// Reset all font styles
+// -------------------------
+
+del,
+mark {
+  @extend .bg-white;
+  @extend .c-gray-1;
+  @extend .td--none;
+}

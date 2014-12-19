@@ -1,0 +1,29 @@
+//
+// Links
+// -------------------------
+
+// Apply global link styles
+// -------------------------
+
+a,
+a:active,
+a:visited {
+  @extend .c-link;
+  @extend .td--none;
+}
+a:hover {
+  @extend .td--underline;
+}
+
+// Link styles
+// -------------------------
+
+.link--dark,
+.link--dark:visited {
+  @extend .c-gray-1;
+}
+
+.link--light,
+.link--light:visited {
+  @extend .c-gray-2;
+}

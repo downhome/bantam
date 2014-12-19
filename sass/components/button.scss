@@ -16,10 +16,12 @@
 // Variables
 // -------------------------
 
-$btnHeight--l: 54px;
-$btnHeight--m: 46px;
-$btnHeight--s: 32px;
+$btnHeight--Xl: 52px;
+$btnHeight--l: 40px;
+$btnHeight--m: 34px;
+$btnHeight--s: 26px;
 
+$btnPadding--Xl: 60px;
 $btnPadding--l: 54px;
 $btnPadding--m: 54px;
 $btnPadding--s: 54px;
@@ -27,52 +29,55 @@ $btnPadding--s: 54px;
 // Functionality
 // -------------------------
 
-/**
- * 1. Corrects inability to style clickable `input` types in iOS.
- * 5. Normalize `line-height`. For `input`, it can't be changed from `normal` in Firefox 4+.
- * 6. Prevent button text from being selectable.
- * 7. Make sure `input` will wrap text across multiple lines.
- * 8. Prevent black highlight on tap on iOS.
- */
- 
 %btn {
-  @extend display--inlineBlock;
-  line-height: 1; /* 5 */
-  @extend td--none;
-  @extend os--none;
-  @extend va--top;
-  @extend cursor--pointer;
-  @extend appearance--none; /* 1 */
-  @extend us--none; /* 6 */
-  @extend ws--normal; /* 7 */
-  @extend .u-preventTapHighlight; /* 7 */
+  @extend .display--inlineBlock;
+  @extend .td--none;
+  @extend .os--none;
+  @extend .fw--5;
+  @extend .va--middle;
+  @extend .us--none;
+  @extend .ws--nowrap;
+  @extend .appearance--none;
+  @extend .cursor--pointer;
 }
 
 // Button sizes
 // -------------------------
 
+.btn--Xl {
+  @extend %btn;
+  height: $btnHeight--Xl;
+  padding: 0 24px;
+  @extend .fs--m;
+  line-height: $btnHeight--Xl;
+  @extend .br--m;
+}
+
 .btn--l {
   @extend %btn;
   height: $btnHeight--l;
+  padding: 0 16px;
+  @extend .fs--s;
   line-height: $btnHeight--l;
-  padding: 0 $btnPadding--l;
-  @extend fs--l;
+  @extend .br--m;
 }
 
 .btn--m {
   @extend %btn;
   height: $btnHeight--m;
-  line-height: $btnHeight--m;
-  padding: 0 $btnPadding--m;
-  @extend fs--m;
+  padding: 0 10px;
+  @extend .fs--Xs;
+  line-height: $btnHeight--m - 2;
+  @extend .br--m;
 }
 
 .btn--s {
   @extend %btn;
   height: $btnHeight--s;
+  padding: 0 8px;
+  @extend .fs--Xxs;
   line-height: $btnHeight--s;
-  padding: 0 $btnPadding--s;
-  @extend fs--s;
+  @extend .br--s;
 }
 
 // Button styles
