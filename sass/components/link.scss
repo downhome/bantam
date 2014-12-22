@@ -20,10 +20,10 @@ a:hover {
 
 .link--dark,
 .link--dark:visited {
-  @extend .c-gray-1;
+  @extend .c-gray--1;
 }
 
 .link--light,
 .link--light:visited {
-  @extend .c-gray-2;
+  @extend .c-gray--2;
 }

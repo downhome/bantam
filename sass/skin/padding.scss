@@ -8,7 +8,7 @@
 $padding-s: 10px;
 $padding-m: 20px;
 $padding-l: 30px;
-$padding-Xl: 40px;
+$padding-xl: 40px;
 
 // Preset paddings
 // -------------------------
@@ -58,10 +58,10 @@ $padding-Xl: 40px;
 .pl--l  { padding-left: $padding-l; }
 .ptb--l { padding-top: $padding-l; padding-bottom: $padding-l; }
 
-.pa--Xl  { padding: $padding-Xl; }
-.pt--Xl  { padding-top: $padding-Xl; }
-.pr--Xl  { padding-right: $padding-Xl; }
-.pb--Xl  { padding-bottom: $padding-Xl; }
-.pl--Xl  { padding-left: $padding-Xl; }
-.ptb--Xl { padding-top: $padding-Xl; padding-bottom: $padding-Xl; }
+.pa--xl  { padding: $padding-xl; }
+.pt--xl  { padding-top: $padding-xl; }
+.pr--xl  { padding-right: $padding-xl; }
+.pb--xl  { padding-bottom: $padding-xl; }
+.pl--xl  { padding-left: $padding-xl; }
+.ptb--xl { padding-top: $padding-xl; padding-bottom: $padding-xl; }
 

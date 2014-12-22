@@ -16,15 +16,15 @@
 // Variables
 // -------------------------
 
-$btnHeight--Xl: 52px;
+$btnHeight--xl: 52px;
 $btnHeight--l: 40px;
 $btnHeight--m: 34px;
 $btnHeight--s: 26px;
 
-$btnPadding--Xl: 60px;
-$btnPadding--l: 54px;
-$btnPadding--m: 54px;
-$btnPadding--s: 54px;
+$btnPadding--xl: 24px;
+$btnPadding--l: 16px;
+$btnPadding--m: 10px;
+$btnPadding--s: 8px;
 
 // Functionality
 // -------------------------
@@ -44,19 +44,19 @@ $btnPadding--s: 54px;
 // Button sizes
 // -------------------------
 
-.btn--Xl {
+.btn--xl {
   @extend %btn;
-  height: $btnHeight--Xl;
-  padding: 0 24px;
+  height: $btnHeight--xl;
+  padding: 0 $btnPadding--xl;
   @extend .fs--m;
-  line-height: $btnHeight--Xl;
+  line-height: $btnHeight--xl;
   @extend .br--m;
 }
 
 .btn--l {
   @extend %btn;
   height: $btnHeight--l;
-  padding: 0 16px;
+  padding: 0 $btnPadding--l;
   @extend .fs--s;
   line-height: $btnHeight--l;
   @extend .br--m;
@@ -65,7 +65,7 @@ $btnPadding--s: 54px;
 .btn--m {
   @extend %btn;
   height: $btnHeight--m;
-  padding: 0 10px;
+  padding: 0 $btnPadding--m;
   @extend .fs--Xs;
   line-height: $btnHeight--m - 2;
   @extend .br--m;
@@ -74,7 +74,7 @@ $btnPadding--s: 54px;
 .btn--s {
   @extend %btn;
   height: $btnHeight--s;
-  padding: 0 8px;
+  padding: 0 $btnPadding--s;
   @extend .fs--Xxs;
   line-height: $btnHeight--s;
   @extend .br--s;
@@ -84,9 +84,10 @@ $btnPadding--s: 54px;
 // -------------------------
 
 .btn--flat {
-  @extend .bg--accent;
+  @extend .bg-brand--1;
+  @extend .c-white;
   border: 0;
   &:hover {
-    background: darken($brand-1, 10%);
+    background: darken($brand-1, 1%);
   }
 }

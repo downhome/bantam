@@ -7,15 +7,15 @@
 }
 
 .media-img {
-  @extend float--left;
+  @extend .float--left;
   margin-right: 10px;
   > img {
-    @extend display--block;
+    @extend .display--block;
   }
 }
 
 .media-imgExt {
-  @extend float--right;
+  @extend .float--right;
   margin-left: 10px;
   margin-right: 0;
 }

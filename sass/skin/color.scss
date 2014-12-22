@@ -2,8 +2,36 @@
 // Colors
 // -------------------------
 
-// This file depends on background-colors.scss and
+// This file depends on color-scheme.scss and
 // therefore must follow it in the compiler.
 
-.c--accent  { color: $brand-1; }
-.c--white   { color: $white; }
+// Single-responsibility classes for every color in
+// color-scheme.scss
+
+// Brand colors
+// -------------------------
+
+.c-brand--1   { color: $brand-1; }
+
+// Grayscale colors
+// -------------------------
+
+.c-black     { color: $black; }
+.c-white     { color: $white; }
+
+// Gray colors
+// -------------------------
+
+.c-gray--1    { color: $gray-1; }
+.c-gray--2    { color: $gray-2; }
+.c-gray--3    { color: $gray-3; }
+.c-gray--4    { color: $gray-4; }
+.c-gray--5    { color: $gray-5; }
+
+// UI colors
+// -------------------------
+
+.c-positive  { color: $ui-positive; }
+.c-warning   { color: $ui-warning; }
+.c-negative  { color: $ui-negative; }
+.c-link      { color: $ui-link; }

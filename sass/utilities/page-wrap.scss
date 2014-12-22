@@ -6,7 +6,7 @@
 // centered container.
 
 .u-pageWrap {
-  @extend width--90;
+  @extend .width--90;
   min-width: 0;
   max-width: 1000px;
   @extend .u-centered;
