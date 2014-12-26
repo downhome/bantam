@@ -1,0 +1,16 @@
+.scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+ 
+.scrollbar::-webkit-scrollbar-track {
+   @extend .bg-none;
+}
+ 
+.scrollbar::-webkit-scrollbar-thumb {
+//  @extend .visibility--hidden;
+  @extend .bg-gray--4;
+}
+
+.scrollbar:hover::-webkit-scrollbar-thumb {
+//  @extend .visibility--visible;
+}

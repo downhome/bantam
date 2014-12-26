@@ -2,24 +2,24 @@
 // Media block
 // -------------------------
 
-.media {
+.u-media {
   @extend .u-cf;
 }
 
-.media-img {
+.u-media-img {
   @extend .float--left;
-  margin-right: 10px;
+  @extend .mr--s;
   > img {
     @extend .display--block;
   }
 }
 
-.media-imgExt {
+.u-media-img--ext {
   @extend .float--right;
-  margin-left: 10px;
+  @extend .ml--s;
   margin-right: 0;
 }
 
-.media-body {
+.u-media-body {
   @extend .u-cf;
 }

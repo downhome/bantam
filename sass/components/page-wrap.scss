@@ -5,9 +5,9 @@
 // Wrap a piece of content in a horizontally
 // centered container.
 
-.u-pageWrap {
+.pageWrap {
   @extend .width--90;
   min-width: 0;
-  max-width: 1000px;
+  max-width: 860px;
   @extend .u-centered;
 }

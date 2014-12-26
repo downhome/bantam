@@ -27,3 +27,16 @@ a:hover {
 .link--light:visited {
   @extend .c-gray--2;
 }
+
+.link--grow,
+.link--grow:visited {
+  @extend .c-gray--2;
+  transition: all .05s linear;
+  transform-origin: center left;
+}
+.link--grow:hover,
+.link--grow:visited:hover {
+  transform: scale(1.03);
+  @extend .td--none;
+  @extend .c-gray--1;
+}

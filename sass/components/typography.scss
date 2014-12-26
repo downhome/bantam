@@ -14,8 +14,8 @@ select {
   @extend .fs--s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  color: $brand-1;
+  @extend .tr--legibility;
+  @extend .c-gray--1;
   line-height: 1;
 }
 

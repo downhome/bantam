@@ -33,7 +33,7 @@ $btnPadding--s: 8px;
   @extend .display--inlineBlock;
   @extend .td--none;
   @extend .os--none;
-  @extend .fw--5;
+  @extend .fw--6;
   @extend .va--middle;
   @extend .us--none;
   @extend .ws--nowrap;
@@ -66,7 +66,7 @@ $btnPadding--s: 8px;
   @extend %btn;
   height: $btnHeight--m;
   padding: 0 $btnPadding--m;
-  @extend .fs--Xs;
+  @extend .fs--xs;
   line-height: $btnHeight--m - 2;
   @extend .br--m;
 }
@@ -75,7 +75,7 @@ $btnPadding--s: 8px;
   @extend %btn;
   height: $btnHeight--s;
   padding: 0 $btnPadding--s;
-  @extend .fs--Xxs;
+  @extend .fs--xxs;
   line-height: $btnHeight--s;
   @extend .br--s;
 }
@@ -87,7 +87,25 @@ $btnPadding--s: 8px;
   @extend .bg-brand--1;
   @extend .c-white;
   border: 0;
+}
+
+.btn--link {
+  @extend .bg-none;
+  @extend .c-link;
+  border: 0;
   &:hover {
-    background: darken($brand-1, 1%);
+    @extend .td--underline;
   }
+}
+
+.btn--positive {
+  @extend .bg-positive;
+  @extend .c-white;
+  border: 0;
+}
+
+.btn--negative {
+  @extend .bg-negative;
+  @extend .c-white;
+  border: 0;
 }

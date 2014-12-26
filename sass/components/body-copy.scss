@@ -1,0 +1,67 @@
+//
+// Body copy trick
+// -------------------------
+
+// With a single class, you can add a bottom margin to
+// paragraphs and remove the unwanted line-height above
+// and below the first and last lines respectively.
+
+// Root styles
+// -------------------------
+
+.bodyCopy--m,
+.bodyCopy--s,
+.bodyCopy--xs {
+  @extend .u-cf;
+}
+
+// Medium body copy
+// -------------------------
+
+.bodyCopy--m > p {
+  @extend .fs--m;
+  @extend .lh--s;
+  @extend .mb--m;
+}
+
+.bodyCopy--m > p:first-child {
+  margin-top: -6px;
+}
+
+.bodyCopy--m > p:last-child {
+  margin-bottom: -6px;
+}
+
+// Small body copy
+// -------------------------
+
+.bodyCopy--s > p {
+  @extend .fs--s;
+  @extend .lh--s;
+  @extend .mb--s;
+}
+
+.bodyCopy--s > p:first-child {
+  margin-top: -5px;
+}
+
+.bodyCopy--s > p:last-child {
+  margin-bottom: -5px;
+}
+
+// Extra small body copy
+// -------------------------
+
+.bodyCopy--xs > p {
+  @extend .fs--xs;
+  @extend .lh--s;
+  @extend .mb--s;
+}
+
+.bodyCopy--Xs > p:first-child {
+  margin-top: -3px;
+}
+
+.bodyCopy--Xs > p:last-child {
+  margin-bottom: -3px;
+}
