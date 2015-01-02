@@ -18,6 +18,10 @@
 .wf-loading strong,
 .wf-loading em,
 .wf-loading b,
-.wf-loading i {
+.wf-loading i,
+.wf-loading button,
+.wf-loading td,
+.wf-loading input,
+.wf-loading textarea {
   @extend .visibility--hidden;
 }
