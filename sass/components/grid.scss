@@ -29,7 +29,7 @@ $gridGutter: 40px;
 // -------------------------
 
 .grid-cell {
-  @extend .float--left;
+  @extend .float-left;
   padding-top: $gridGutter;
   padding-left: $gridGutter;
 }

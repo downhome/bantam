@@ -30,5 +30,5 @@ input[type="tel"],
 input[type="email"],
 input[type="password"],
 textarea {
-  @extend .boxSizing--borderBox;
+  @extend .boxSizing-borderBox;
 }
