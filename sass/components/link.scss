@@ -39,7 +39,7 @@ a:hover {
 .link--grow:active,
 .link--grow:visited {
   @extend .c-gray--2;
-  transition: all .05s linear;
+  transition: all .02s linear;
   transform-origin: left center;
   -webkit-transform: translate3d(0,0,0);
 }
