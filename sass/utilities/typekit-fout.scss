@@ -22,6 +22,7 @@
 .wf-loading button,
 .wf-loading td,
 .wf-loading input,
-.wf-loading textarea {
+.wf-loading textarea,
+.wf-loading label {
   @extend .visibility-hidden;
 }
