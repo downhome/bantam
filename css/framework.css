@@ -1401,7 +1401,7 @@ textarea {
 
 .td-none, a,
 a:active,
-a:visited, .btn--xl, .btn--m,
+a:visited, .link--grow:hover, .btn--xl, .btn--m,
 .btn--xl:visited,
 .btn--m:visited, .btn--xl:hover, .btn--m:hover {
   text-decoration: none; }
@@ -1882,6 +1882,12 @@ pre {
 
 .bodyCopy--xs > p:last-child {
   margin-bottom: -3px; }
+
+.link--grow,
+.link--grow:active,
+.link--grow:visited {
+  transition: all .1s linear;
+  transform-origin: left center; }
 
 .link--grow:hover {
   -webkit-transform: scale(1.04); }
