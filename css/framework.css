@@ -510,7 +510,8 @@ input,
 select,
 textarea,
 button, .link--dark,
-.link--dark:visited, .link--grow:hover, .btn--light,
+.link--dark:visited, .link--grow:hover,
+.link--grow:visited:hover, .btn--light,
 .btn--light:visited, .is-disabled.btn--xl, .is-disabled.btn--m {
   color: #2a3d51; }
 
@@ -1420,7 +1421,8 @@ textarea {
 
 .td-none, a,
 a:active,
-a:visited, .link--grow:hover, .btn--xl, .btn--m,
+a:visited, .link--grow:hover,
+.link--grow:visited:hover, .btn--xl, .btn--m,
 .btn--xl:visited,
 .btn--m:visited, .btn--xl:hover, .btn--m:hover {
   text-decoration: none; }
@@ -1909,7 +1911,8 @@ pre {
   transform-origin: left center;
   -webkit-transform: translate3d(0, 0, 0); }
 
-.link--grow:hover {
+.link--grow:hover,
+.link--grow:visited:hover {
   -webkit-transform: scale(1.04); }
 
 .btn--xl {

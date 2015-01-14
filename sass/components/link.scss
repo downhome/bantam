@@ -43,7 +43,8 @@ a:hover {
   transform-origin: left center;
   -webkit-transform: translate3d(0,0,0);
 }
-.link--grow:hover {
+.link--grow:hover,
+.link--grow:visited:hover {
   @extend .c-gray--1;
   -webkit-transform: scale(1.04);
   @extend .td-none;
