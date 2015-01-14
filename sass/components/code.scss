@@ -1,0 +1,26 @@
+//
+// Code
+// -------------------------
+
+// Reset
+// -------------------------
+
+pre {
+  @extend .display-block;
+  @extend .wb-normal;
+  @extend .ws-nowrap;
+  @extend .lh-s;
+}
+
+code {
+  @extend .display-block;
+  @extend .ff-code;
+  @extend .ws-preWrap;
+  font-size: 13px;
+  @extend .c-solarized-base1;
+  @extend .fw-5;
+}
+
+.nt { @extend .c-solarized-blue; }
+.na { @extend .c-solarized-magenta; }
+.s  { @extend .c-solarized-cyan; @extend .fw-6; }

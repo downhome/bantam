@@ -562,7 +562,7 @@ a:visited, .btn--simple,
 .c-solarized-base0 {
   color: #839496; }
 
-.c-solarized-base1 {
+.c-solarized-base1, code {
   color: #93a1a1; }
 
 .c-solarized-base2 {
@@ -580,16 +580,16 @@ a:visited, .btn--simple,
 .c-solarized-red {
   color: #dc322f; }
 
-.c-solarized-magenta {
+.c-solarized-magenta, .na {
   color: #d33682; }
 
 .c-solarized-violet {
   color: #6c71c4; }
 
-.c-solarized-blue {
+.c-solarized-blue, .nt {
   color: #268bd2; }
 
-.c-solarized-cyan {
+.c-solarized-cyan, .s {
   color: #2aa198; }
 
 .c-solarized-green {
@@ -602,7 +602,7 @@ textarea,
 button {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, arial, sans-serif; }
 
-.ff-code {
+.ff-code, code {
   font-family: "Source Code Pro", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
 
 .fs-xxl {
@@ -648,7 +648,7 @@ button, .input--l {
 .lh-m, .bodyCopy--m > p {
   line-height: 28px; }
 
-.lh-s, .bodyCopy--s > p, .bodyCopy--xs > p {
+.lh-s, .bodyCopy--s > p, .bodyCopy--xs > p, pre {
   line-height: 22px; }
 
 .lh-xs {
@@ -1084,7 +1084,7 @@ textarea {
 .display-none {
   display: none; }
 
-.display-block, .u-truncateText, .inputGroup-label, .inputGroup-hint {
+.display-block, .u-truncateText, .inputGroup-label, .inputGroup-hint, pre, code {
   display: block; }
 
 .display-inline {
@@ -1274,7 +1274,7 @@ textarea {
 
 .ws-nowrap, .u-truncateText, .btn--xl, .btn--m,
 .btn--xl:visited,
-.btn--m:visited {
+.btn--m:visited, pre {
   white-space: nowrap; }
 
 .ws-pre {
@@ -1283,7 +1283,7 @@ textarea {
 .ws-preLine {
   white-space: pre-line; }
 
-.ws-preWrap {
+.ws-preWrap, code {
   white-space: pre-wrap; }
 
 .ws-inherit {
@@ -1535,12 +1535,12 @@ h6,
 strong {
   font-weight: 400; }
 
-.fw-5 {
+.fw-5, code {
   font-weight: 500; }
 
 .fw-6, .btn--xl, .btn--m,
 .btn--xl:visited,
-.btn--m:visited, .inputGroup-label {
+.btn--m:visited, .inputGroup-label, .s {
   font-weight: 600; }
 
 .fw-7 {
@@ -1618,7 +1618,7 @@ strong {
 .resize-inherit {
   resize: inherit; }
 
-.wb-normal {
+.wb-normal, pre {
   word-break: normal; }
 
 .wb-breakAll {
@@ -1958,5 +1958,8 @@ pre {
 
 ::-moz-input-placeholder {
   line-height: normal; }
+
+code {
+  font-size: 13px; }
 
 /*# sourceMappingURL=framework.css.map */
