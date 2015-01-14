@@ -605,7 +605,7 @@ input,
 select,
 textarea,
 button {
-  font-family: "proxima-nova-alt", "Helvetica Neue", Helvetica, arial, Liberation Sans, FreeSans, sans-serif; }
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, arial, sans-serif; }
 
 .ff-code {
   font-family: "Source Code Pro", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
