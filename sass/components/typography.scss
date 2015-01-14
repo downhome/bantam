@@ -1,0 +1,48 @@
+//
+// Typography
+// -------------------------
+
+// Apply global font styles
+// -------------------------
+
+body,
+input,
+select,
+textarea,
+button {
+  @extend .ff-base;
+  @extend .fs-s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @extend .tr-legibility;
+  @extend .c-gray--1;
+  line-height: 1;
+}
+
+// Reset all font sizes
+// -------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+pre {
+  margin: 0;
+  font-size: 100%;
+}
+
+// Reset all font weights
+// -------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  @extend .fw-4;
+}

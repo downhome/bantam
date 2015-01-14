@@ -1,0 +1,107 @@
+//
+// Buttons
+// -------------------------
+
+// The buttons are the same height as the inputs. Any change to
+// the button sizes must be reflected on the input sizes.
+
+// Variables
+// -------------------------
+
+$btnHeight--xl: 52px;
+$btnHeight--m: 34px;
+
+// Functional css
+// -------------------------
+
+%btn,
+%btn:visited {
+  @extend .display-inlineBlock;
+  @extend .td-none;
+  @extend .fw-6;
+  @extend .appearance-none;
+  @extend .cursor-pointer;
+  @extend .va-middle;
+  @extend .ws-nowrap;
+  @extend .os-none;
+  @extend .us-none;
+}
+%btn:hover {
+  @extend .td-none;
+  @extend .boxShadow-rise;
+}
+%btn:active {
+  @extend .boxShadow-deboss;
+}
+
+// Button sizes
+// -------------------------
+
+.btn--xl {
+  @extend %btn;
+  height: $btnHeight--xl;
+  padding: 0 24px;
+  @extend .fs-m;
+  line-height: $btnHeight--xl;
+  @extend .br-m;
+}
+
+.btn--m {
+  @extend %btn;
+  height: $btnHeight--m;
+  padding: 0 10px;
+  @extend .fs-xs;
+  line-height: $btnHeight--m;
+  @extend .br-m;
+}
+
+// Button styles
+// -------------------------
+
+.btn--light,
+.btn--light:visited {
+  @extend .bg-gray--5;
+  @extend .bw-1;
+  @extend .bs-solid;
+  border-color: lighten($gray-3, 8%) $gray-3 darken($gray-3, 14%);
+  @extend .c-gray--1;
+  text-shadow: 0 1px 0 $white;
+}
+.btn--light:hover {
+  border-color: darken($gray-3, 14%);
+}
+.btn--light:active {
+  @extend .bg-gray--5;
+}
+
+.btn--simple,
+.btn--simple:visited {
+  @extend .bg-none;
+  @extend .bs-none;
+  @extend .c-link;
+}
+.btn--simple:hover {
+  box-shadow: none;
+  @extend .td-underline;
+}
+
+// Disabled state
+// -------------------------
+
+%btn.is-disabled {
+  @extend .bg-gray--5;
+  opacity: .5;
+  @extend .cursor-default;
+  @extend .bw-1;
+  @extend .bs-solid;
+  border-color: lighten($gray-3, 8%) $gray-3 darken($gray-3, 14%);
+  @extend .c-gray--1;
+  text-shadow: 0 1px 0 $white;
+}
+%btn.is-disabled:hover {
+  border-color: lighten($gray-3, 8%) $gray-3 darken($gray-3, 14%);
+  @extend .boxShadow-none;
+}
+%btn.is-disabled:active {
+  @extend .boxShadow-none;
+}
