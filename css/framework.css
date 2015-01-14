@@ -1886,7 +1886,7 @@ pre {
 .link--grow,
 .link--grow:active,
 .link--grow:visited {
-  transition: all .02s linear;
+  transition: all .04s linear;
   transform-origin: left center;
   -webkit-transform: translate3d(0, 0, 0); }
 
