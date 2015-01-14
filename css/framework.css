@@ -381,7 +381,7 @@ th {
 .bg-gray--4 {
   background: #dcdfe4; }
 
-.bg-gray--5, .link--darkLightBg:hover, .btn--light,
+.bg-gray--5, .btn--light,
 .btn--light:visited, .btn--light:active, .is-disabled.btn--xl, .is-disabled.btn--m {
   background: #f6f7f8; }
 
@@ -394,14 +394,13 @@ th {
 .bg-negative {
   background: #ff1a29; }
 
-.bg-link, .link--darkLinkBg:hover {
+.bg-link {
   background: #0aa3f3; }
 
-.bg-soft, .link--darkSoftBg:hover, .link--darkSoftBgHover,
-.link--darkSoftBgHover:visited {
+.bg-soft {
   background: #e7fafd; }
 
-.bg-soft--d, .link--darkSoftBgHover:hover {
+.bg-soft--d {
   background: #def8fc; }
 
 .bg-solarized-base3 {
@@ -503,7 +502,7 @@ th {
 .c-black {
   color: #000; }
 
-.c-white, .link--lightToWhite:hover {
+.c-white {
   color: #fff; }
 
 .c-gray--1, body,
@@ -511,27 +510,23 @@ input,
 select,
 textarea,
 button, .link--dark,
-.link--dark:visited, .link--darkLinkBg,
-.link--darkLinkBg:visited, .link--darkLightBg,
-.link--darkLightBg:visited, .link--darkSoftBg,
-.link--darkSoftBg:visited, .link--darkSoftBgHover,
-.link--darkSoftBgHover:visited, .btn--light,
+.link--dark:visited, .btn--light,
 .btn--light:visited, .is-disabled.btn--xl, .is-disabled.btn--m {
   color: #2a3d51; }
 
 .c-gray--2, .link--light,
 .link--light:active,
-.link--light:visited, .inputGroup-hint {
+.link--light:visited, .link--grow,
+.link--grow:active,
+.link--grow:visited, .inputGroup-hint {
   color: #748496; }
 
 .c-gray--3, .link--lighter,
 .link--lighter:active,
-.link--lighter:visited, .link--lighterToNegative,
-.link--lighterToNegative:visited, ::-webkit-input-placeholder, ::-moz-input-placeholder {
+.link--lighter:visited, ::-webkit-input-placeholder, ::-moz-input-placeholder {
   color: #9aa5b2; }
 
-.c-gray--4, .link--lightToWhite,
-.link--lightToWhite:visited {
+.c-gray--4 {
   color: #dcdfe4; }
 
 .c-gray--5 {
@@ -543,7 +538,7 @@ button, .link--dark,
 .c-warning {
   color: #e6a100; }
 
-.c-negative, .link--lighterToNegative:hover {
+.c-negative {
   color: #ff1a29; }
 
 .c-link, a,
@@ -1406,7 +1401,7 @@ textarea {
 
 .td-none, a,
 a:active,
-a:visited, .link--lightToWhite:hover, .link--darkLinkBg:hover, .link--darkLightBg:hover, .link--darkSoftBg:hover, .link--darkSoftBgHover:hover, .btn--xl, .btn--m,
+a:visited, .btn--xl, .btn--m,
 .btn--xl:visited,
 .btn--m:visited, .btn--xl:hover, .btn--m:hover {
   text-decoration: none; }
@@ -1887,6 +1882,9 @@ pre {
 
 .bodyCopy--xs > p:last-child {
   margin-bottom: -3px; }
+
+.link--grow:hover {
+  -webkit-transform: scale(1.04); }
 
 .btn--xl {
   height: 52px;

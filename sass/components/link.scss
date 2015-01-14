@@ -35,56 +35,11 @@ a:hover {
   @extend .c-gray--3;
 }
 
-.link--lighterToNegative,
-.link--lighterToNegative:visited {
-  @extend .c-gray--3;
+.link--grow,
+.link--grow:active,
+.link--grow:visited {
+  @extend .c-gray--2;
 }
-.link--lighterToNegative:hover {
-  @extend .c-negative;
-}
-
-.link--lightToWhite,
-.link--lightToWhite:visited {
-  @extend .c-gray--4;
-}
-.link--lightToWhite:hover {
-  @extend .c-white;
-  @extend .td-none;
-}
-
-.link--darkLinkBg,
-.link--darkLinkBg:visited {
-  @extend .c-gray--1;
-}
-.link--darkLinkBg:hover {
-  @extend .bg-link;
-  @extend .td-none;
-}
-
-.link--darkLightBg,
-.link--darkLightBg:visited {
-  @extend .c-gray--1;
-}
-.link--darkLightBg:hover {
-  @extend .bg-gray--5;
-  @extend .td-none;
-}
-
-.link--darkSoftBg,
-.link--darkSoftBg:visited {
-  @extend .c-gray--1;
-}
-.link--darkSoftBg:hover {
-  @extend .bg-soft;
-  @extend .td-none;
-}
-
-.link--darkSoftBgHover,
-.link--darkSoftBgHover:visited {
-  @extend .bg-soft;
-  @extend .c-gray--1;
-}
-.link--darkSoftBgHover:hover {
-  @extend .bg-soft--d;
-  @extend .td-none;
+.link--grow:hover {
+  -webkit-transform: scale(1.04);
 }
