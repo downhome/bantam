@@ -510,7 +510,7 @@ input,
 select,
 textarea,
 button, .link--dark,
-.link--dark:visited, .btn--light,
+.link--dark:visited, .link--grow:hover, .btn--light,
 .btn--light:visited, .is-disabled.btn--xl, .is-disabled.btn--m {
   color: #2a3d51; }
 
