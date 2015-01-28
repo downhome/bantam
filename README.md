@@ -45,6 +45,12 @@ Utilities can be identified by their prefix "u-". Utilities should follow the sa
 
 ## File structure
 
+    /spc - Single-purpose classes for properties with pre-defined values.
+    /theme - Single-purpose classes for properties with custom values.
+    /utilities - A set of reusable, style-agnostic utility classes.
+    /components - A set of reusable, core UI components.
+    /miscellaneous - Resets, third-party files and other miscellaneous stuff.
+
 ### Single-purpose classes
 
 The 'spc' folder contains single-purpose classes for properties with pre-defined values. You can use these single-purpose CSS classes directly in your markup to style elements. Alternatively, you can combine them to build 'utilities' and 'components'.
@@ -61,6 +67,12 @@ Tested down to IE9 inclusive.
 
 - This framework adheres to the majority of Mark Otto's <a href="http://codeguide.co">code guide</a>.
 - This framework adheres to the single responsibility principle.
+
+## Getting started
+
+The simplest and fastest way to get started is to include the minified CSS file in your project. Just add this snippet to the head of your html file:
+
+    https://github.com/colmtuite/framework/blob/master/css/framework.min.css
 
 ## Contributing
 
