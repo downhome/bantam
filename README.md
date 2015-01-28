@@ -14,13 +14,22 @@ A customizable CSS framework for scalable, robust, front-end development. Zero v
 
 ### File naming
 
-All filenames should be singular. e.g. background-color.scss
+All filenames should be singular. e.g. button.scss
 
-### Object naming
+### Single-purpose class naming
 
-When a CSS property contains two words (e.g. "text-align"), you should abbreviate that to its initials i.e. "ta". If two CSS properties share the same initials, the more commonly used property should be abbreviated and the other should remain unabbreviated. CSS property values should be prefixed with two dashes e.g. "--left".
+The general syntax looks like:
 
-Here is an example of the 'objects' naming convention: "ta--left".
+    .float-left { float: left }
+
+When the CSS property consists of two words, abbreviate the words to their initials:
+
+    .fs-xl { font-size: 40px }
+    
+When two properties share the same initials, abbreviate the more commonly used property and leave the less commonly used property unabbreviated.
+
+    .bs-solid { border-style: solid }
+    .boxSizing-borderBox { box-sizing: border-box }
 
 ### Utility naming
 
@@ -28,25 +37,25 @@ Utilities can be identified by their prefix "u-". Utilities should follow the sa
 
 ### Component naming
 
-- Component names should be in camelCase.
-- Component modifiers should have two dashes. e.g. .componentName--modifierName
-- Component descendants should have one dash. e.g. .componentName-descendantName
-- Component states should be like .is-stateName e.g. .is-disabled
+- Component names are camelCase.
+- Component descendants have one dash. e.g. .componentName-descendantName
+- Component modifiers have two dashes. e.g. .componentName--modifierName
+- Component states should be prefixed with ".is-" or ".has-". e.g. .is-disabled
 - JS hooks should be prefixed with "js-". e.g. .js-javascriptHook
 
 ## File structure
 
-### Objects
+### Single-purpose classes
 
-The 'objects' folder contains single-purpose CSS classes for the more commonly used CSS properties and each of their available values. You can use these single-purpose CSS classes directly in your markup to style elements. Alternatively, you can use them to build 'utilities' and 'components' via the Sass extend function.
+The 'spc' folder contains single-purpose classes for properties with pre-defined values. You can use these single-purpose CSS classes directly in your markup to style elements. Alternatively, you can combine them to build 'utilities' and 'components'.
 
 ### Utilities
 
-The 'utilities' folder contains a bunch of reusable code snippets for performing common tasks, like clearing floats, inlining elements, hiding/displaying elements, vertically centering elements etc. Utilities often require custom CSS but should make use of 'objects' whenever possible to reduce code repetition.
+The 'utilities' folder contains a set of reusable, style-agnostic utility classes for performing common tasks - like clearing floats, inlining elements, hiding/displaying elements, truncating text, vertically centering elements etc.
 
 ## Browser support
 
-The grid utility is the only part of this framework with limited browser support. The grid works down to IE9 inclusive.
+Tested down to IE9 inclusive.
 
 ## Methodologies and guidelines
 
