@@ -72,7 +72,7 @@ Tested down to IE9 inclusive.
 
 The simplest and fastest way to get started is to include the minified CSS file in your project. Just add this snippet to the head of your html file:
 
-    https://github.com/colmtuite/framework/blob/master/css/framework.min.css
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/colmtuite/framework/master/css/framework.min.css">
 
 ## Contributing
 
