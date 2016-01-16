@@ -7,16 +7,7 @@
 
 @import "utilities/media-queries";
 
-// Vendor
-// -------------------------
-
-@import "vendor/normalize";
-
-// Theme
-// -------------------------
-
-
-// Objects
+// SPC
 // -------------------------
 
 @import "spc/box-sizing";
@@ -60,6 +51,7 @@
 
 @import "utilities/box-model";
 @import "utilities/typekit-fout";
+@import "utilities/grid";
 @import "utilities/clearfix";
 @import "utilities/centered";
 @import "utilities/positioning";
@@ -68,8 +60,3 @@
 @import "utilities/truncate-text";
 @import "utilities/hidden";
 @import "utilities/visually-hidden";
-
-// Components
-// -------------------------
-
-@import "components/grid";
