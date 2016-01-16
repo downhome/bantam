@@ -4,7 +4,7 @@
 
 // Center an element vertically. This works with variable heights.
 
-.u-verticallyCenter {
+.verticallyCenter {
   @extend .position-relative;
   top: 50%;
   transform : translateY(-50%);

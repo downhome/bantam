@@ -4,7 +4,7 @@
 
 // Pin an element to the top left edge of its parent.
 // -------------------------
-.u-posPinTL {
+.posPinTL {
   @extend .position-absolute;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@
 
 // Fix an element to the top left edge.
 // -------------------------
-.u-posFixTL {
+.posFixTL {
   @extend .position-fixed;
   top: 0;
   left: 0;
@@ -23,7 +23,7 @@
 // relatively-positioned ancestor.
 // -------------------------
 
-.u-posPinAll {
+.posPinAll {
   @extend .position-absolute;
   top: 0;
   right: 0;
@@ -35,7 +35,7 @@
 // Fix an element to all corners.
 // -------------------------
 
-.u-posFixAll {
+.posFixAll {
   @extend .position-fixed;
   top: 0;
   right: 0;

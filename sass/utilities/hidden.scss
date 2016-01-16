@@ -4,7 +4,7 @@
 
 // Hide from both screenreaders and browsers
 
-.u-hidden {
+.hidden {
   display: none !important;
   @extend .visibility-hidden;
 }

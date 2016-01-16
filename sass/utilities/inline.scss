@@ -13,10 +13,10 @@
 //    <div><a href=#>Contact</a></div>
 //  </div>
 
-.u-inline {
+.inline {
   @extend .u-cf;
 }
 
-.u-inline > div {
+.inline > div {
   @extend .float-left;
 }

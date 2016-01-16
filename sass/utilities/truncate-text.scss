@@ -5,7 +5,7 @@
 // Clip overflowing text and append 3 dots to the end of
 // the text span.
 
-.u-truncateText {
+.truncateText {
   @extend .display-block;
   @extend .of-hidden;
   @extend .to-ellipsis;

@@ -4,12 +4,12 @@
 
 //  Micro clearfix to clear floats.
 
-.u-cf:before,
-.u-cf:after {
+.cf:before,
+.cf:after {
   content: "";
   @extend .display-table;
 }
 
-.u-cf:after {
+.cf:after {
   @extend .clear-both;
 }

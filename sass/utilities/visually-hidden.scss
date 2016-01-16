@@ -2,9 +2,9 @@
 //  Visually Hidden
 //  -------------------------
 
-//  Hide elements visually but remain available to screenreaders.
+//  Hide elements visually but retain visibility for screenreaders.
 
-.u-visuallyHidden {
+.visuallyHidden {
   @extend .position-absolute;
   height: 1px;
   width: 1px;
