@@ -2,24 +2,24 @@
 // Float
 // -------------
 
-.float-none    { float: none; }
-.float-left    { float: left; }
-.float-right   { float: right; }
+.float-none   { float: none; }
+.float-left   { float: left; }
+.float-right  { float: right; }
 
 @include bp(s) {
-  .bps-float-none    { float: none; }
-  .bps-float-left    { float: left; }
-  .bps-float-right   { float: right; }
+  .bps-float-none   { float: none; }
+  .bps-float-left   { float: left; }
+  .bps-float-right  { float: right; }
 }
 
 @include bp(m) {
-  .bpm-float-none    { float: none; }
-  .bpm-float-left    { float: left; }
-  .bpm-float-right   { float: right; }
+  .bpm-float-none   { float: none; }
+  .bpm-float-left   { float: left; }
+  .bpm-float-right  { float: right; }
 }
 
 @include bp(l) {
-  .bpl-float-none    { float: none; }
-  .bpl-float-left    { float: left; }
-  .bpl-float-right   { float: right; }
+  .bpl-float-none   { float: none; }
+  .bpl-float-left   { float: left; }
+  .bpl-float-right  { float: right; }
 }

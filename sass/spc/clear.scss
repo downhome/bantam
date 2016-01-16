@@ -2,32 +2,28 @@
 // Clear
 // -------------
 
-.clear-none    { clear: none; }
-.clear-left    { clear: left; }
-.clear-right   { clear: right; }
-.clear-both    { clear: both; }
-.clear-inherit { clear: inherit; }
+.clear-none   { clear: none; }
+.clear-left   { clear: left; }
+.clear-right  { clear: right; }
+.clear-both   { clear: both; }
 
 @include bp(s) {
-  .bps-clear-none    { clear: none; }
-  .bps-clear-left    { clear: left; }
-  .bps-clear-right   { clear: right; }
-  .bps-clear-both    { clear: both; }
-  .bps-clear-inherit { clear: inherit; }
+  .bps-clear-none   { clear: none; }
+  .bps-clear-left   { clear: left; }
+  .bps-clear-right  { clear: right; }
+  .bps-clear-both   { clear: both; }
 }
 
 @include bp(m) {
-  .bpm-clear-none    { clear: none; }
-  .bpm-clear-left    { clear: left; }
-  .bpm-clear-right   { clear: right; }
-  .bpm-clear-both    { clear: both; }
-  .bpm-clear-inherit { clear: inherit; }
+  .bpm-clear-none   { clear: none; }
+  .bpm-clear-left   { clear: left; }
+  .bpm-clear-right  { clear: right; }
+  .bpm-clear-both   { clear: both; }
 }
 
 @include bp(l) {
-  .bpl-clear-none    { clear: none; }
-  .bpl-clear-left    { clear: left; }
-  .bpl-clear-right   { clear: right; }
-  .bpl-clear-both    { clear: both; }
-  .bpl-clear-inherit { clear: inherit; }
+  .bpl-clear-none   { clear: none; }
+  .bpl-clear-left   { clear: left; }
+  .bpl-clear-right  { clear: right; }
+  .bpl-clear-both   { clear: both; }
 }

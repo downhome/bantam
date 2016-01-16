@@ -2,28 +2,28 @@
 // Border Style
 // -------------
 
-.bs-none   { border-style: none; }
-.bs-dashed { border-style: dashed; }
-.bs-dotted { border-style: dotted; }
-.bs-solid  { border-style: solid; }
+.bs-none    { border-style: none; }
+.bs-dashed  { border-style: dashed; }
+.bs-dotted  { border-style: dotted; }
+.bs-solid   { border-style: solid; }
 
 @include bp(s) {
-  .bps-bs-none   { border-style: none; }
-  .bps-bs-dashed { border-style: dashed; }
-  .bps-bs-dotted { border-style: dotted; }
-  .bps-bs-solid  { border-style: solid; }
+  .bps-bs-none    { border-style: none; }
+  .bps-bs-dashed  { border-style: dashed; }
+  .bps-bs-dotted  { border-style: dotted; }
+  .bps-bs-solid   { border-style: solid; }
 }
 
 @include bp(m) {
-  .bpm-bs-none   { border-style: none; }
-  .bpm-bs-dashed { border-style: dashed; }
-  .bpm-bs-dotted { border-style: dotted; }
-  .bpm-bs-solid  { border-style: solid; }
+  .bpm-bs-none    { border-style: none; }
+  .bpm-bs-dashed  { border-style: dashed; }
+  .bpm-bs-dotted  { border-style: dotted; }
+  .bpm-bs-solid   { border-style: solid; }
 }
 
 @include bp(l) {
-  .bpl-bs-none   { border-style: none; }
-  .bpl-bs-dashed { border-style: dashed; }
-  .bpl-bs-dotted { border-style: dotted; }
-  .bpl-bs-solid  { border-style: solid; }
+  .bpl-bs-none    { border-style: none; }
+  .bpl-bs-dashed  { border-style: dashed; }
+  .bpl-bs-dotted  { border-style: dotted; }
+  .bpl-bs-solid   { border-style: solid; }
 }
