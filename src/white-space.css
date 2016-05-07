@@ -5,3 +5,27 @@
 .ws-pre     { white-space: pre; }
 .ws-preLine { white-space: pre-line; }
 .ws-preWrap { white-space: pre-wrap; }
+
+@include bp(s) {
+    .bps-ws-normal  { white-space: normal; }
+    .bps-ws-nowrap  { white-space: nowrap; }
+    .bps-ws-pre     { white-space: pre; }
+    .bps-ws-preLine { white-space: pre-line; }
+    .bps-ws-preWrap { white-space: pre-wrap; }
+}
+
+@include bp(m) {
+    .bpm-ws-normal  { white-space: normal; }
+    .bpm-ws-nowrap  { white-space: nowrap; }
+    .bpm-ws-pre     { white-space: pre; }
+    .bpm-ws-preLine { white-space: pre-line; }
+    .bpm-ws-preWrap { white-space: pre-wrap; }
+}
+
+@include bp(l) {
+    .bpl-ws-normal  { white-space: normal; }
+    .bpl-ws-nowrap  { white-space: nowrap; }
+    .bpl-ws-pre     { white-space: pre; }
+    .bpl-ws-preLine { white-space: pre-line; }
+    .bpl-ws-preWrap { white-space: pre-wrap; }
+}

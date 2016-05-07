@@ -2,3 +2,18 @@
 
 .bv-hidden   { backface-visibility: hidden; }
 .bv-visible  { backface-visibility: visible; }
+
+@include bp(s) {
+  .bps-bv-hidden   { backface-visibility: hidden; }
+  .bps-bv-visible  { backface-visibility: visible; }
+}
+
+@include bp(m) {
+  .bpm-bv-hidden   { backface-visibility: hidden; }
+  .bpm-bv-visible  { backface-visibility: visible; }
+}
+
+@include bp(l) {
+  .bpl-bv-hidden   { backface-visibility: hidden; }
+  .bpl-bv-visible  { backface-visibility: visible; }
+}

@@ -2,3 +2,18 @@
 
 .ww-normal      { word-wrap: normal; }
 .ww-breakWord   { word-wrap: break-word; }
+
+@include bp(s) {
+    .bps-ww-normal      { word-wrap: normal; }
+    .bps-ww-breakWord   { word-wrap: break-word; }
+}
+
+@include bp(m) {
+    .bpm-ww-normal      { word-wrap: normal; }
+    .bpm-ww-breakWord   { word-wrap: break-word; }
+}
+
+@include bp(l) {
+    .bpl-ww-normal      { word-wrap: normal; }
+    .bpl-ww-breakWord   { word-wrap: break-word; }
+}

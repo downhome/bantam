@@ -5,3 +5,27 @@
 .us-none  { user-select: text; }
 .us-none  { user-select: contain; }
 .us-none  { user-select: all; }
+
+@include bp(s) {
+    .bps-us-none  { user-select: none; }
+    .bps-us-none  { user-select: auto; }
+    .bps-us-none  { user-select: text; }
+    .bps-us-none  { user-select: contain; }
+    .bps-us-none  { user-select: all; }
+}
+
+@include bp(m) {
+    .bpm-us-none  { user-select: none; }
+    .bpm-us-none  { user-select: auto; }
+    .bpm-us-none  { user-select: text; }
+    .bpm-us-none  { user-select: contain; }
+    .bpm-us-none  { user-select: all; }
+}
+
+@include bp(l) {
+    .bpl-us-none  { user-select: none; }
+    .bpl-us-none  { user-select: auto; }
+    .bpl-us-none  { user-select: text; }
+    .bpl-us-none  { user-select: contain; }
+    .bpl-us-none  { user-select: all; }
+}

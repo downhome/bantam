@@ -3,3 +3,21 @@
 .to-clip      { text-overflow: clip; }
 .to-ellipsis  { text-overflow: ellipsis; }
 .to-string    { text-overflow: string; }
+
+@include bp(s) {
+  .bps-to-clip      { text-overflow: clip; }
+  .bps-to-ellipsis  { text-overflow: ellipsis; }
+  .bps-to-string    { text-overflow: string; }
+}
+
+@include bp(m) {
+  .bpm-to-clip      { text-overflow: clip; }
+  .bpm-to-ellipsis  { text-overflow: ellipsis; }
+  .bpm-to-string    { text-overflow: string; }
+}
+
+@include bp(l) {
+  .bpl-to-clip      { text-overflow: clip; }
+  .bpl-to-ellipsis  { text-overflow: ellipsis; }
+  .bpl-to-string    { text-overflow: string; }
+}

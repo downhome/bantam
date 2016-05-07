@@ -4,3 +4,24 @@
 .to-right  { transform-origin: center right; }
 .to-bottom { transform-origin: center bottom; }
 .to-left   { transform-origin: center left; }
+
+@include bp(s) {
+  .bps-to-top    { transform-origin: center top; }
+  .bps-to-right  { transform-origin: center right; }
+  .bps-to-bottom { transform-origin: center bottom; }
+  .bps-to-left   { transform-origin: center left; }
+}
+
+@include bp(m) {
+  .bpm-to-top    { transform-origin: center top; }
+  .bpm-to-right  { transform-origin: center right; }
+  .bpm-to-bottom { transform-origin: center bottom; }
+  .bpm-to-left   { transform-origin: center left; }
+}
+
+@include bp(l) {
+  .bpl-to-top    { transform-origin: center top; }
+  .bpl-to-right  { transform-origin: center right; }
+  .bpl-to-bottom { transform-origin: center bottom; }
+  .bpl-to-left   { transform-origin: center left; }
+}
