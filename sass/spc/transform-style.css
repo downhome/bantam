@@ -1,0 +1,4 @@
+/* Transform Style */
+
+.ts-flat        { transform-style: flat; }
+.ts-preserve3d  { transform-style: preserve-3d; }
