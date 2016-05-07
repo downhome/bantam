@@ -1,3 +1,7 @@
 /* User Select */
 
 .us-none  { user-select: none; }
+.us-none  { user-select: auto; }
+.us-none  { user-select: text; }
+.us-none  { user-select: contain; }
+.us-none  { user-select: all; }
