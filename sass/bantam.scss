@@ -1,14 +1,6 @@
-//
-// Compiler
-// -------------------------
-
-// Global
-// -------------------------
+/* Compiler */
 
 @import "utilities/media-queries";
-
-// SPC
-// -------------------------
 
 @import "spc/box-sizing";
 @import "spc/width";
@@ -46,8 +38,7 @@
 @import "spc/word-wrap";
 @import "spc/tap-highlight";
 
-// Utilities
-// -------------------------
+/* Utilities */
 
 @import "utilities/box-model";
 @import "utilities/grid";
