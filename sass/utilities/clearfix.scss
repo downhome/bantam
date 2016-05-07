@@ -7,9 +7,9 @@
 .cf:before,
 .cf:after {
   content: "";
-  @extend .display-table;
+  display: table;
 }
 
 .cf:after {
-  @extend .clear-both;
+  clear: both;
 }

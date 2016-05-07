@@ -1,10 +1,6 @@
-//
-// Hidden
-// -------------------------
-
-// Hide from both screenreaders and browsers
+/* Hidden */
 
 .hidden {
-  display: none !important;
-  @extend .visibility-hidden;
+  display: none;
+  visibility: hidden;
 }

@@ -1,14 +1,4 @@
-//
-// Grid
-// -------------------------
-
-// Variables
-// -------------------------
-
-$gridGutter: 40px;
-
-// Grid
-// -------------------------
+/* Grid */
 
 .grid--1,
 .grid--2,
@@ -20,22 +10,15 @@ $gridGutter: 40px;
 .grid--8,
 .grid--9,
 .grid--10 {
-  @extend .u-cf;
-  margin-top: -$gridGutter;
-  margin-left: -$gridGutter;
+  margin-top: -40px;
+  margin-left: -40px;
 }
-
-// Equal width cells
-// -------------------------
 
 .grid-cell {
-  @extend .float-left;
-  padding-top: $gridGutter;
-  padding-left: $gridGutter;
+  float: left;
+  padding-top: 40px;
+  padding-left: 40px;
 }
-
-// Equal width cells
-// -------------------------
 
 .grid--1 > .grid-cell   { width: 100%; }
 .grid--2 > .grid-cell   { width: 50%; }

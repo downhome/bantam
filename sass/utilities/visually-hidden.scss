@@ -1,16 +1,12 @@
-//
-//  Visually Hidden
-//  -------------------------
-
-//  Hide elements visually but retain visibility for screenreaders.
+/* Visually Hidden */
 
 .visuallyHidden {
-  @extend .position-absolute;
+  position: absolute;
   height: 1px;
   width: 1px;
   border: 0;
   clip: rect(0 0 0 0);
   margin: -1px;
-  @extend .of-hidden;
+  overflow: hidden;
   padding: 0;
 }

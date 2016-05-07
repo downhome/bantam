@@ -1,8 +1,4 @@
-//
-// Box Sizing
-// -------------------------
-
-// Set global `box-sizing` to `border-box`.
+/* Box Sizing */
 
 nav,
 main,
@@ -64,5 +60,5 @@ pre:after,
 code:after,
 a:after,
 button:after {
-  @extend .boxSizing-borderBox;
+  box-sizing: border-box;
 }

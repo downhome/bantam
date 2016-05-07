@@ -1,13 +1,5 @@
-//
-//  Inline
-//  -------------------------
-
-//  Place elements inline. Useful for navs, horizontal lists, controls etc.
-
-.inline {
-  @extend .cf;
-}
+/* Inline */
 
 .inline > div {
-  @extend .float-left;
+  float: left;
 }
