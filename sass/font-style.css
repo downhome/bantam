@@ -1,5 +1,5 @@
 /* Font Style */
 
-.fontStyle-normal   { font-style: normal; }
-.fontStyle-italic   { font-style: italic; }
-.fontStyle-oblique  { font-style: oblique; }
+.fs-normal   { font-style: normal; }
+.fs-italic   { font-style: italic; }
+.fs-oblique  { font-style: oblique; }

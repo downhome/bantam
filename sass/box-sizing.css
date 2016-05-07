@@ -1,4 +1,4 @@
 /* Box Sizing */
 
-.boxSizing-contentBox { box-sizing: content-box; }
-.boxSizing-borderBox  { box-sizing: border-box; }
+.bs-contentBox { box-sizing: content-box; }
+.bs-borderBox  { box-sizing: border-box; }

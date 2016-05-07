@@ -1,6 +1,6 @@
 /* Text Rendering */
 
-.tr-auto        { text-rendering: auto; }
-.tr-speed       { text-rendering: optimizeSpeed; }
-.tr-legibility  { text-rendering: optimizeLegibility; }
-.tr-precision   { text-rendering: geometricPrecision; }
+.tr-auto                { text-rendering: auto; }
+.tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+.tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+.tr-geometricPrecision  { text-rendering: geometricPrecision; }

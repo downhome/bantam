@@ -1,23 +1,23 @@
 /* Background Size */
 
-.backgroundSize-cover   { background-size: cover; }
-.backgroundSize-contain { background-size: contain; }
-.backgroundSize-auto    { background-size: auto; }
+.bs-cover   { background-size: cover; }
+.bs-contain { background-size: contain; }
+.bs-auto    { background-size: auto; }
 
 @include bp(s) {
-  .bps-backgroundSize-cover   { background-size: cover; }
-  .bps-backgroundSize-contain { background-size: contain; }
-  .bps-backgroundSize-auto    { background-size: auto; }
+  .bps-bs-cover   { background-size: cover; }
+  .bps-bs-contain { background-size: contain; }
+  .bps-bs-auto    { background-size: auto; }
 }
 
 @include bp(m) {
-  .bpm-backgroundSize-cover   { background-size: cover; }
-  .bpm-backgroundSize-contain { background-size: contain; }
-  .bpm-backgroundSize-auto    { background-size: auto; }
+  .bpm-bs-cover   { background-size: cover; }
+  .bpm-bs-contain { background-size: contain; }
+  .bpm-bs-auto    { background-size: auto; }
 }
 
 @include bp(l) {
-  .bpl-backgroundSize-cover   { background-size: cover; }
-  .bpl-backgroundSize-contain { background-size: contain; }
-  .bpl-backgroundSize-auto    { background-size: auto; }
+  .bpl-bs-cover   { background-size: cover; }
+  .bpl-bs-contain { background-size: contain; }
+  .bpl-bs-auto    { background-size: auto; }
 }

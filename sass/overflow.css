@@ -1,22 +1,16 @@
 /* Overflow */
 
-.of-visible { overflow: visible; }
-.of-hidden  { overflow: hidden; }
-.of-scroll  { overflow: scroll; }
-.of-auto    { overflow: auto; }
+.overflow-visible   { overflow: visible; }
+.overflow-hidden    { overflow: hidden; }
+.overflow-scroll    { overflow: scroll; }
+.overflow-auto      { overflow: auto; }
 
-// X-axis
-// -------------
+.ox-visible         { overflow-x: visible; }
+.ox-hidden          { overflow-x: hidden; }
+.ox-scroll          { overflow-x: scroll; }
+.ox-auto            { overflow-x: auto; }
 
-.ofx-visible  { overflow-x: visible; }
-.ofx-hidden   { overflow-x: hidden; }
-.ofx-scroll   { overflow-x: scroll; }
-.ofx-auto     { overflow-x: auto; }
-
-// Y-axis
-// -------------
-
-.ofy-visible  { overflow-y: visible; }
-.ofy-hidden   { overflow-y: hidden; }
-.ofy-scroll   { overflow-y: scroll; }
-.ofy-auto     { overflow-y: auto; }
+.oy-visible         { overflow-y: visible; }
+.oy-hidden          { overflow-y: hidden; }
+.oy-scroll          { overflow-y: scroll; }
+.oy-auto            { overflow-y: auto; }
