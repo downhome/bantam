@@ -37,5 +37,5 @@
     "build:css": "bantam src/bantam.css > css/bantam.css",
     "build:minify": "bantam src/bantam.css -m > css/bantam.min.css",
     "build:watch": "watch 'npm start' ./src/"
-  }
+    }
 }
