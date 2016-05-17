@@ -1,0 +1,19 @@
+/* Transform Style */
+
+.ts-flat        { transform-style: flat; }
+.ts-preserve3d  { transform-style: preserve-3d; }
+
+@include bp(s) {
+  .bps-ts-flat        { transform-style: flat; }
+  .bps-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@include bp(m) {
+  .bpm-ts-flat        { transform-style: flat; }
+  .bpm-ts-preserve3d  { transform-style: preserve-3d; }
+}
+
+@include bp(l) {
+  .bpl-ts-flat        { transform-style: flat; }
+  .bpl-ts-preserve3d  { transform-style: preserve-3d; }
+}

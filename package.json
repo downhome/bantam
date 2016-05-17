@@ -1,0 +1,41 @@
+{
+  "name": "bantamcss",
+  "version": "0.0.7",
+  "description": "Scalable, performant, responsive, CSS framework with zero styles.",
+  "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
+  "style": "css/bantam.css",
+  "main": "css/bantam.css",
+  "files": [
+    "css",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colmtuite/bantamcss.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "oocss",
+    "performance",
+    "framework",
+    "front-end"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "normalize.css": "^4.1.1",
+    "postcss": "^4.1.16"
+  },
+  "contributors": [
+    {
+      "name": "Colm Tuite",
+      "email": "colmtuite@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "npm run build:css && npm run build:minify",
+    "build:css": "bantam src/bantam.css > css/bantam.css",
+    "build:minify": "bantam src/bantam.css -m > css/bantam.min.css",
+    "build:watch": "watch 'npm start' ./src/"
+  }
+}

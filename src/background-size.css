@@ -1,0 +1,23 @@
+/* Background Size */
+
+.bs-cover   { background-size: cover; }
+.bs-contain { background-size: contain; }
+.bs-auto    { background-size: auto; }
+
+@include bp(s) {
+  .bps-bs-cover   { background-size: cover; }
+  .bps-bs-contain { background-size: contain; }
+  .bps-bs-auto    { background-size: auto; }
+}
+
+@include bp(m) {
+  .bpm-bs-cover   { background-size: cover; }
+  .bpm-bs-contain { background-size: contain; }
+  .bpm-bs-auto    { background-size: auto; }
+}
+
+@include bp(l) {
+  .bpl-bs-cover   { background-size: cover; }
+  .bpl-bs-contain { background-size: contain; }
+  .bpl-bs-auto    { background-size: auto; }
+}
