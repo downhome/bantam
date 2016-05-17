@@ -15,7 +15,7 @@
 .oy-scroll          { overflow-y: scroll; }
 .oy-auto            { overflow-y: auto; }
 
-@include bp(s) {
+/*@include bp(s) {
     .bps-overflow-visible   { overflow: visible; }
     .bps-overflow-hidden    { overflow: hidden; }
     .bps-overflow-scroll    { overflow: scroll; }
@@ -63,4 +63,4 @@
     .bpl-oy-hidden          { overflow-y: hidden; }
     .bpl-oy-scroll          { overflow-y: scroll; }
     .bpl-oy-auto            { overflow-y: auto; }
-}
+}*/
