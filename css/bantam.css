@@ -32,7 +32,7 @@
     appearance: field
 }
 
-@include bp(s) {
+@media (min-width: 480px) {
 
     .bps-appearance-none {
 
@@ -65,7 +65,7 @@
     }
 }
 
-@include bp(m) {
+@media (min-width: 1000px) {
 
     .bpm-appearance-none {
 
@@ -98,7 +98,7 @@
     }
 }
 
-@include bp(l) {
+@media (min-width: 1400px) {
 
     .bpl-appearance-none {
 
@@ -139,7 +139,7 @@
 
     backface-visibility: visible
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-bv-hidden {
 
@@ -151,7 +151,7 @@
         backface-visibility: visible
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-bv-hidden {
 
@@ -163,7 +163,7 @@
         backface-visibility: visible
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-bv-hidden {
 
@@ -196,7 +196,7 @@
 
     background-size: 100%
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-bs-cover {
 
@@ -223,7 +223,7 @@
         background-size: 100%
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-bs-cover {
 
@@ -250,7 +250,7 @@
         background-size: 100%
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-bs-cover {
 
@@ -294,7 +294,7 @@
 
     border-style: solid
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-bs-none {
 
@@ -316,7 +316,7 @@
         border-style: solid
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-bs-none {
 
@@ -338,7 +338,7 @@
         border-style: solid
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-bs-none {
 
@@ -438,7 +438,7 @@
 
     clear: both
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-clear-none {
 
@@ -460,7 +460,7 @@
         clear: both
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-clear-none {
 
@@ -482,7 +482,7 @@
         clear: both
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-clear-none {
 
@@ -649,7 +649,7 @@
 
     cursor: zoom-out
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-cursor-alias {
 
@@ -831,7 +831,7 @@
         cursor: zoom-out
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-cursor-alias {
 
@@ -1013,7 +1013,7 @@
         cursor: zoom-out
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-cursor-alias {
 
@@ -1204,7 +1204,7 @@
 
     direction: rtl
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-direction-ltr {
 
@@ -1216,7 +1216,7 @@
         direction: rtl
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-direction-ltr {
 
@@ -1228,7 +1228,7 @@
         direction: rtl
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-direction-ltr {
 
@@ -1277,7 +1277,7 @@
 
     display: table-row
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-display-none {
 
@@ -1324,7 +1324,7 @@
         display: table-row
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-display-none {
 
@@ -1371,7 +1371,7 @@
         display: table-row
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-display-none {
 
@@ -1431,7 +1431,7 @@
 
     float: right
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-float-none {
 
@@ -1448,7 +1448,7 @@
         float: right
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-float-none {
 
@@ -1465,7 +1465,7 @@
         float: right
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-float-none {
 
@@ -1495,7 +1495,7 @@
 
     font-style: oblique
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-fs-normal {
 
@@ -1512,7 +1512,7 @@
         font-style: oblique
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-fs-normal {
 
@@ -1529,7 +1529,7 @@
         font-style: oblique
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-fs-normal {
 
@@ -1583,7 +1583,7 @@
 
     font-weight: 900
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-fw-1 {
 
@@ -1630,7 +1630,7 @@
         font-weight: 900
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-fw-1 {
 
@@ -1677,7 +1677,7 @@
         font-weight: 900
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-fw-1 {
 
@@ -1773,7 +1773,7 @@
 
     height: 100%
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-height-10 {
 
@@ -1835,7 +1835,7 @@
         height: 100%
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-height-10 {
 
@@ -1897,7 +1897,7 @@
         height: 100%
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-height-10 {
 
@@ -2052,7 +2052,7 @@
 
     list-style-type: lower-roman
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-lst-disc {
 
@@ -2169,7 +2169,7 @@
         list-style-type: lower-roman
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-lst-disc {
 
@@ -2286,7 +2286,7 @@
         list-style-type: lower-roman
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-lst-disc {
 
@@ -2448,7 +2448,7 @@
 
     opacity: 1
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-opacity-0 {
 
@@ -2505,7 +2505,7 @@
         opacity: 1
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-opacity-0 {
 
@@ -2562,7 +2562,7 @@
         opacity: 1
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-opacity-0 {
 
@@ -2656,7 +2656,7 @@
 
     outline-style: outset
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-os-none {
 
@@ -2703,7 +2703,7 @@
         outline-style: outset
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-os-none {
 
@@ -2750,7 +2750,7 @@
         outline-style: outset
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-os-none {
 
@@ -2806,7 +2806,7 @@
 
     outline-width: 2px
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-ow-1 {
 
@@ -2818,7 +2818,7 @@
         outline-width: 2px
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-ow-1 {
 
@@ -2830,7 +2830,7 @@
         outline-width: 2px
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-ow-1 {
 
@@ -2891,7 +2891,7 @@
 
     overflow-y: auto
 }
-/*@include bp(s) {
+/*@media (--breakpoint-s) {
     .bps-overflow-visible   { overflow: visible; }
     .bps-overflow-hidden    { overflow: hidden; }
     .bps-overflow-scroll    { overflow: scroll; }
@@ -2908,7 +2908,7 @@
     .bps-oy-auto            { overflow-y: auto; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
     .bpm-overflow-visible   { overflow: visible; }
     .bpm-overflow-hidden    { overflow: hidden; }
     .bpm-overflow-scroll    { overflow: scroll; }
@@ -2924,7 +2924,7 @@
     .bpm-oy-scroll          { overflow-y: scroll; }
     .bpm-oy-auto            { overflow-y: auto; }
 
-@include bp(l) {
+@media (--breakpoint-l) {
     .bpl-overflow-visible   { overflow: visible; }
     .bpl-overflow-hidden    { overflow: hidden; }
     .bpl-overflow-scroll    { overflow: scroll; }
@@ -2981,7 +2981,7 @@
 
     pointer-events: all
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-pe-auto {
 
@@ -3033,7 +3033,7 @@
         pointer-events: all
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-pe-auto {
 
@@ -3085,7 +3085,7 @@
         pointer-events: all
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-pe-auto {
 
@@ -3157,7 +3157,7 @@
 
     position: static
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-position-fixed {
 
@@ -3181,7 +3181,7 @@
         position: static
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-position-fixed {
 
@@ -3205,7 +3205,7 @@
         position: static
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-position-fixed {
 
@@ -3246,7 +3246,7 @@
 
     resize: vertical
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-resize-none {
 
@@ -3268,7 +3268,7 @@
         resize: vertical
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-resize-none {
 
@@ -3290,7 +3290,7 @@
         resize: vertical
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-resize-none {
 
@@ -3334,7 +3334,7 @@
 
     text-align: right
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-ta-left {
 
@@ -3351,7 +3351,7 @@
         text-align: right
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-ta-left {
 
@@ -3368,7 +3368,7 @@
         text-align: right
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-ta-left {
 
@@ -3402,7 +3402,7 @@
 
     text-decoration: line-through
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-td-none {
 
@@ -3424,7 +3424,7 @@
         text-decoration: line-through
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-td-none {
 
@@ -3446,7 +3446,7 @@
         text-decoration: line-through
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-td-none {
 
@@ -3481,7 +3481,7 @@
 
     text-overflow: string
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-to-clip {
 
@@ -3498,7 +3498,7 @@
         text-overflow: string
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-to-clip {
 
@@ -3515,7 +3515,7 @@
         text-overflow: string
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-to-clip {
 
@@ -3549,7 +3549,7 @@
 
     text-rendering: geometricPrecision
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-tr-auto {
 
@@ -3571,7 +3571,7 @@
         text-rendering: geometricPrecision
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-tr-auto {
 
@@ -3593,7 +3593,7 @@
         text-rendering: geometricPrecision
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-tr-auto {
 
@@ -3632,7 +3632,7 @@
 
     text-transform: lowercase
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-tt-none {
 
@@ -3654,7 +3654,7 @@
         text-transform: lowercase
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-tt-none {
 
@@ -3676,7 +3676,7 @@
         text-transform: lowercase
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-tt-none {
 
@@ -3751,7 +3751,7 @@
 
     transition-property: opacity
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-tp-none {
 
@@ -3818,7 +3818,7 @@
         transition-property: opacity
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-tp-none {
 
@@ -3885,7 +3885,7 @@
         transition-property: opacity
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-tp-none {
 
@@ -3961,7 +3961,7 @@
 
     transform-style: preserve-3d
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-ts-flat {
 
@@ -3973,7 +3973,7 @@
         transform-style: preserve-3d
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-ts-flat {
 
@@ -3985,7 +3985,7 @@
         transform-style: preserve-3d
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-ts-flat {
 
@@ -4018,7 +4018,7 @@
 
     user-select: all
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-us-none {
 
@@ -4045,7 +4045,7 @@
         user-select: all
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-us-none {
 
@@ -4072,7 +4072,7 @@
         user-select: all
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-us-none {
 
@@ -4132,7 +4132,7 @@
 
     vertical-align: text-bottom
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-va-baseline {
 
@@ -4174,7 +4174,7 @@
         vertical-align: text-bottom
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-va-baseline {
 
@@ -4216,7 +4216,7 @@
         vertical-align: text-bottom
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-va-baseline {
 
@@ -4271,7 +4271,7 @@
 
     visibility: collapse
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-visibility-hidden {
 
@@ -4288,7 +4288,7 @@
         visibility: collapse
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-visibility-hidden {
 
@@ -4305,7 +4305,7 @@
         visibility: collapse
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-visibility-hidden {
 
@@ -4343,7 +4343,7 @@
 
     white-space: pre-wrap
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-ws-normal {
 
@@ -4370,7 +4370,7 @@
         white-space: pre-wrap
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-ws-normal {
 
@@ -4397,7 +4397,7 @@
         white-space: pre-wrap
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-ws-normal {
 
@@ -4473,7 +4473,7 @@
 
     width: 100%
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-width-10 {
 
@@ -4535,7 +4535,7 @@
         width: 100%
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-width-10 {
 
@@ -4597,7 +4597,7 @@
         width: 100%
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-width-10 {
 
@@ -4709,7 +4709,7 @@
 
     word-break: keep-all
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-wb-normal {
 
@@ -4726,7 +4726,7 @@
         word-break: keep-all
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-wb-normal {
 
@@ -4743,7 +4743,7 @@
         word-break: keep-all
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-wb-normal {
 
@@ -4769,7 +4769,7 @@
 
     word-wrap: break-word
 }
-@include bp(s) {
+@media (--breakpoint-s) {
 
     .bps-ww-normal {
 
@@ -4781,7 +4781,7 @@
         word-wrap: break-word
     }
 }
-@include bp(m) {
+@media (--breakpoint-m) {
 
     .bpm-ww-normal {
 
@@ -4793,7 +4793,7 @@
         word-wrap: break-word
     }
 }
-@include bp(l) {
+@media (--breakpoint-l) {
 
     .bpl-ww-normal {
 

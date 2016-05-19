@@ -3,7 +3,8 @@ const path = require('path');
 const postcss = require('postcss');
 const plugins = [
     require('autoprefixer'),
-    require('precss')
+    require('precss'),
+    require("postcss-custom-media")
 ];
 const argv = require('yargs')
     .demand(2)

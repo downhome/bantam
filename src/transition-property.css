@@ -1,5 +1,10 @@
 /* Transition Property */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .tp-none        { transition-property: none; }
 .tp-all         { transition-property: all; }
 .tp-color       { transition-property: color; }
@@ -14,7 +19,7 @@
 .tp-transform   { transition-property: transform; }
 .tp-opacity     { transition-property: opacity; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-tp-none        { transition-property: none; }
   .bps-tp-all         { transition-property: all; }
   .bps-tp-color       { transition-property: color; }
@@ -30,7 +35,7 @@
   .bps-tp-opacity     { transition-property: opacity; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-tp-none        { transition-property: none; }
   .bpm-tp-all         { transition-property: all; }
   .bpm-tp-color       { transition-property: color; }
@@ -46,7 +51,7 @@
   .bpm-tp-opacity     { transition-property: opacity; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-tp-none        { transition-property: none; }
   .bpl-tp-all         { transition-property: all; }
   .bpl-tp-color       { transition-property: color; }

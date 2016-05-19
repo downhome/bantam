@@ -1,22 +1,27 @@
 /* Visibility */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .visibility-hidden    { visibility: hidden; }
 .visibility-visible   { visibility: visible; }
 .visibility-collapse  { visibility: collapse; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-visibility-hidden    { visibility: hidden; }
   .bps-visibility-visible   { visibility: visible; }
   .bps-visibility-collapse  { visibility: collapse; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-visibility-hidden    { visibility: hidden; }
   .bpm-visibility-visible   { visibility: visible; }
   .bpm-visibility-collapse  { visibility: collapse; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-visibility-hidden    { visibility: hidden; }
   .bpl-visibility-visible   { visibility: visible; }
   .bpl-visibility-collapse  { visibility: collapse; }

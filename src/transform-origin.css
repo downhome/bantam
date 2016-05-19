@@ -1,5 +1,10 @@
 /* Transform origin */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .to-top         { transform-origin: center top; }
 .to-right       { transform-origin: center right; }
 .to-bottom      { transform-origin: center bottom; }
@@ -9,7 +14,7 @@
 .to-BottomRight { transform-origin: bottom right; }
 .to-BottomLeft  { transform-origin: bottom left; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-to-top           { transform-origin: center top; }
   .bps-to-right         { transform-origin: center right; }
   .bps-to-bottom        { transform-origin: center bottom; }
@@ -20,7 +25,7 @@
   .bps-to-BottomLeft    { transform-origin: bottom left; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-to-top           { transform-origin: center top; }
   .bpm-to-right         { transform-origin: center right; }
   .bpm-to-bottom        { transform-origin: center bottom; }
@@ -31,7 +36,7 @@
   .bpm-to-BottomLeft    { transform-origin: bottom left; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-to-top           { transform-origin: center top; }
   .bpl-to-right         { transform-origin: center right; }
   .bpl-to-bottom        { transform-origin: center bottom; }

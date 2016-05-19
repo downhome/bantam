@@ -1,12 +1,17 @@
 /* User Select */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .us-none  { user-select: none; }
 .us-none  { user-select: auto; }
 .us-none  { user-select: text; }
 .us-none  { user-select: contain; }
 .us-none  { user-select: all; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
     .bps-us-none  { user-select: none; }
     .bps-us-none  { user-select: auto; }
     .bps-us-none  { user-select: text; }
@@ -14,7 +19,7 @@
     .bps-us-none  { user-select: all; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
     .bpm-us-none  { user-select: none; }
     .bpm-us-none  { user-select: auto; }
     .bpm-us-none  { user-select: text; }
@@ -22,7 +27,7 @@
     .bpm-us-none  { user-select: all; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
     .bpl-us-none  { user-select: none; }
     .bpl-us-none  { user-select: auto; }
     .bpl-us-none  { user-select: text; }

@@ -1,5 +1,10 @@
 /* Vertical Align */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .va-baseline    { vertical-align: baseline; }
 .va-sub         { vertical-align: sub; }
 .va-super       { vertical-align: super; }
@@ -9,7 +14,7 @@
 .va-bottom      { vertical-align: bottom; }
 .va-textBottom  { vertical-align: text-bottom; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
     .bps-va-baseline    { vertical-align: baseline; }
     .bps-va-sub         { vertical-align: sub; }
     .bps-va-super       { vertical-align: super; }
@@ -20,7 +25,7 @@
     .bps-va-textBottom  { vertical-align: text-bottom; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
     .bpm-va-baseline    { vertical-align: baseline; }
     .bpm-va-sub         { vertical-align: sub; }
     .bpm-va-super       { vertical-align: super; }
@@ -31,7 +36,7 @@
     .bpm-va-textBottom  { vertical-align: text-bottom; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
     .bpl-va-baseline    { vertical-align: baseline; }
     .bpl-va-sub         { vertical-align: sub; }
     .bpl-va-super       { vertical-align: super; }

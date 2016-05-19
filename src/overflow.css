@@ -1,5 +1,10 @@
 /* Overflow */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .overflow-visible   { overflow: visible; }
 .overflow-hidden    { overflow: hidden; }
 .overflow-scroll    { overflow: scroll; }
@@ -15,7 +20,7 @@
 .oy-scroll          { overflow-y: scroll; }
 .oy-auto            { overflow-y: auto; }
 
-/*@include bp(s) {
+/*@media (--breakpoint-s) {
     .bps-overflow-visible   { overflow: visible; }
     .bps-overflow-hidden    { overflow: hidden; }
     .bps-overflow-scroll    { overflow: scroll; }
@@ -32,7 +37,7 @@
     .bps-oy-auto            { overflow-y: auto; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
     .bpm-overflow-visible   { overflow: visible; }
     .bpm-overflow-hidden    { overflow: hidden; }
     .bpm-overflow-scroll    { overflow: scroll; }
@@ -48,7 +53,7 @@
     .bpm-oy-scroll          { overflow-y: scroll; }
     .bpm-oy-auto            { overflow-y: auto; }
 
-@include bp(l) {
+@media (--breakpoint-l) {
     .bpl-overflow-visible   { overflow: visible; }
     .bpl-overflow-hidden    { overflow: hidden; }
     .bpl-overflow-scroll    { overflow: scroll; }

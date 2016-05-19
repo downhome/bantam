@@ -1,5 +1,10 @@
 /* Opacity */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .opacity-0    { opacity: 0; }
 .opacity-10   { opacity: .1; }
 .opacity-20   { opacity: .2; }
@@ -12,7 +17,7 @@
 .opacity-90   { opacity: .9; }
 .opacity-100  { opacity: 1; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-opacity-0    { opacity: 0; }
   .bps-opacity-10   { opacity: .1; }
   .bps-opacity-20   { opacity: .2; }
@@ -26,7 +31,7 @@
   .bps-opacity-100  { opacity: 1; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-opacity-0    { opacity: 0; }
   .bpm-opacity-10   { opacity: .1; }
   .bpm-opacity-20   { opacity: .2; }
@@ -40,7 +45,7 @@
   .bpm-opacity-100  { opacity: 1; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-opacity-0    { opacity: 0; }
   .bpl-opacity-10   { opacity: .1; }
   .bpl-opacity-20   { opacity: .2; }

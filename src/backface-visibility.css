@@ -1,19 +1,24 @@
 /* Backface Visibility */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .bv-hidden   { backface-visibility: hidden; }
 .bv-visible  { backface-visibility: visible; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-bv-hidden   { backface-visibility: hidden; }
   .bps-bv-visible  { backface-visibility: visible; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-bv-hidden   { backface-visibility: hidden; }
   .bpm-bv-visible  { backface-visibility: visible; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-bv-hidden   { backface-visibility: hidden; }
   .bpl-bv-visible  { backface-visibility: visible; }
 }

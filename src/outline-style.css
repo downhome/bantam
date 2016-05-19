@@ -1,5 +1,10 @@
 /* Outline Style */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .os-none    { outline-style: none; }
 .os-dotted  { outline-style: dotted; }
 .os-dashed  { outline-style: dashed; }
@@ -10,7 +15,7 @@
 .os-inset   { outline-style: inset; }
 .os-outset  { outline-style: outset; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-os-none    { outline-style: none; }
   .bps-os-dotted  { outline-style: dotted; }
   .bps-os-dashed  { outline-style: dashed; }
@@ -22,7 +27,7 @@
   .bps-os-outset  { outline-style: outset; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-os-none    { outline-style: none; }
   .bpm-os-dotted  { outline-style: dotted; }
   .bpm-os-dashed  { outline-style: dashed; }
@@ -34,7 +39,7 @@
   .bpm-os-outset  { outline-style: outset; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-os-none    { outline-style: none; }
   .bpl-os-dotted  { outline-style: dotted; }
   .bpl-os-dashed  { outline-style: dashed; }

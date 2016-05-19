@@ -1,5 +1,10 @@
 /* Cursor */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .cursor-alias           { cursor: alias; }
 .cursor-allScroll       { cursor: all-scroll; }
 .cursor-auto            { cursor: auto; }
@@ -37,7 +42,7 @@
 .cursor-zoomIn          { cursor: zoom-in; }
 .cursor-zoomOut         { cursor: zoom-out; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-cursor-alias           { cursor: alias; }
   .bps-cursor-allScroll       { cursor: all-scroll; }
   .bps-cursor-auto            { cursor: auto; }
@@ -76,7 +81,7 @@
   .bps-cursor-zoomOut         { cursor: zoom-out; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-cursor-alias           { cursor: alias; }
   .bpm-cursor-allScroll       { cursor: all-scroll; }
   .bpm-cursor-auto            { cursor: auto; }
@@ -115,7 +120,7 @@
   .bpm-cursor-zoomOut         { cursor: zoom-out; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-cursor-alias           { cursor: alias; }
   .bpl-cursor-allScroll       { cursor: all-scroll; }
   .bpl-cursor-auto            { cursor: auto; }

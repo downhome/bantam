@@ -1,5 +1,10 @@
 /* Display */
 
+@custom-media --breakpoint-s (min-width: 24em);
+@custom-media --breakpoint-m (min-width: 34em);
+@custom-media --breakpoint-l (min-width: 48em);
+@custom-media --breakpoint-xl (min-width: 64em);
+
 .display-none         { display: none; }
 .display-block        { display: block; }
 .display-inline       { display: inline; }
@@ -10,7 +15,7 @@
 .display-tableColumn  { display: table-column; }
 .display-tableRow     { display: table-row; }
 
-@include bp(s) {
+@media (--breakpoint-s) {
   .bps-display-none         { display: none; }
   .bps-display-block        { display: block; }
   .bps-display-inline       { display: inline; }
@@ -22,7 +27,7 @@
   .bps-display-tableRow     { display: table-row; }
 }
 
-@include bp(m) {
+@media (--breakpoint-m) {
   .bpm-display-none         { display: none; }
   .bpm-display-block        { display: block; }
   .bpm-display-inline       { display: inline; }
@@ -34,7 +39,7 @@
   .bpm-display-tableRow     { display: table-row; }
 }
 
-@include bp(l) {
+@media (--breakpoint-l) {
   .bpl-display-none         { display: none; }
   .bpl-display-block        { display: block; }
   .bpl-display-inline       { display: inline; }
