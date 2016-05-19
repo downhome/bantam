@@ -1,14 +1,14 @@
-# Framework
+# Bantam CSS
 
-This is very much a WIP. Not yet ready for production.
+A set of single-purpose CSS classes for every functional CSS property. Absolutely zero visual styling.
 
-A customizable CSS framework for scalable, robust, front-end development. Zero visual styling. It's all about reusability, accessibility, solid naming conventions and super fast performance. Created by <a href="http://www.twitter.com/colmtuite" target="_blank">Colm Tuite</a>.
+Reuse this framework on every website ever to build layouts and perform common functional tasks.
 
 ## Things to note
 
 - Zero visual style. Zilch. Nada. That's your job.
-- Function is completely separated from form.
-- Less than 20kb before gzip.
+- Reusable across all projects.
+- About 30kb before gzip.
 
 ## Naming convention
 
@@ -25,7 +25,7 @@ The general syntax looks like:
 When the CSS property consists of two words, abbreviate the words to their initials:
 
     .fs-xl { font-size: 40px }
-    
+
 When two properties share the same initials, abbreviate the more commonly used property and leave the less commonly used property unabbreviated.
 
     .bs-solid { border-style: solid }
