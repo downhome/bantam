@@ -52,6 +52,7 @@
     .bpm-oy-hidden          { overflow-y: hidden; }
     .bpm-oy-scroll          { overflow-y: scroll; }
     .bpm-oy-auto            { overflow-y: auto; }
+}
 
 @media (--breakpoint-l) {
     .bpl-overflow-visible   { overflow: visible; }
