@@ -1,0 +1,11 @@
+/* Will change */
+
+.wc-scrollPosition  { will-change: scroll-position; }
+.wc-contents        { will-change: contents; }
+.wc-transform       { will-change: transform; }
+.wc-opacity         { will-change: opacity; }
+.wc-top             { will-change: top; }
+.wc-left            { will-change: left; }
+.wc-bottom          { will-change: bottom; }
+.wc-right           { will-change: right; }
+.wc-unset           { will-change: unset; }
