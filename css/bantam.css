@@ -4,64 +4,112 @@
 
 .appearance-none {
 
-    appearance: none
+    -webkit-appearance: none;
+
+       -moz-appearance: none;
+
+            appearance: none
 }
 
 .appearance-normal {
 
-    appearance: normal
+    -webkit-appearance: normal;
+
+       -moz-appearance: normal;
+
+            appearance: normal
 }
 
 .appearance-window {
 
-    appearance: window
+    -webkit-appearance: window;
+
+       -moz-appearance: window;
+
+            appearance: window
 }
 
 .appearance-button {
 
-    appearance: button
+    -webkit-appearance: button;
+
+       -moz-appearance: button;
+
+            appearance: button
 }
 
 .appearance-menu {
 
-    appearance: menu
+    -webkit-appearance: menu;
+
+       -moz-appearance: menu;
+
+            appearance: menu
 }
 
 .appearance-field {
 
-    appearance: field
+    -webkit-appearance: field;
+
+       -moz-appearance: field;
+
+            appearance: field
 }
 
 @media (min-width: 24em) {
 
     .bps-appearance-none {
 
-        appearance: none
+        -webkit-appearance: none;
+
+           -moz-appearance: none;
+
+                appearance: none
     }
 
     .bps-appearance-normal {
 
-        appearance: normal
+        -webkit-appearance: normal;
+
+           -moz-appearance: normal;
+
+                appearance: normal
     }
 
     .bps-appearance-window {
 
-        appearance: window
+        -webkit-appearance: window;
+
+           -moz-appearance: window;
+
+                appearance: window
     }
 
     .bps-appearance-button {
 
-        appearance: button
+        -webkit-appearance: button;
+
+           -moz-appearance: button;
+
+                appearance: button
     }
 
     .bps-appearance-menu {
 
-        appearance: menu
+        -webkit-appearance: menu;
+
+           -moz-appearance: menu;
+
+                appearance: menu
     }
 
     .bps-appearance-field {
 
-        appearance: field
+        -webkit-appearance: field;
+
+           -moz-appearance: field;
+
+                appearance: field
     }
 }
 
@@ -69,32 +117,56 @@
 
     .bpm-appearance-none {
 
-        appearance: none
+        -webkit-appearance: none;
+
+           -moz-appearance: none;
+
+                appearance: none
     }
 
     .bpm-appearance-normal {
 
-        appearance: normal
+        -webkit-appearance: normal;
+
+           -moz-appearance: normal;
+
+                appearance: normal
     }
 
     .bpm-appearance-window {
 
-        appearance: window
+        -webkit-appearance: window;
+
+           -moz-appearance: window;
+
+                appearance: window
     }
 
     .bpm-appearance-button {
 
-        appearance: button
+        -webkit-appearance: button;
+
+           -moz-appearance: button;
+
+                appearance: button
     }
 
     .bpm-appearance-menu {
 
-        appearance: menu
+        -webkit-appearance: menu;
+
+           -moz-appearance: menu;
+
+                appearance: menu
     }
 
     .bpm-appearance-field {
 
-        appearance: field
+        -webkit-appearance: field;
+
+           -moz-appearance: field;
+
+                appearance: field
     }
 }
 
@@ -102,32 +174,56 @@
 
     .bpl-appearance-none {
 
-        appearance: none
+        -webkit-appearance: none;
+
+           -moz-appearance: none;
+
+                appearance: none
     }
 
     .bpl-appearance-normal {
 
-        appearance: normal
+        -webkit-appearance: normal;
+
+           -moz-appearance: normal;
+
+                appearance: normal
     }
 
     .bpl-appearance-window {
 
-        appearance: window
+        -webkit-appearance: window;
+
+           -moz-appearance: window;
+
+                appearance: window
     }
 
     .bpl-appearance-button {
 
-        appearance: button
+        -webkit-appearance: button;
+
+           -moz-appearance: button;
+
+                appearance: button
     }
 
     .bpl-appearance-menu {
 
-        appearance: menu
+        -webkit-appearance: menu;
+
+           -moz-appearance: menu;
+
+                appearance: menu
     }
 
     .bpl-appearance-field {
 
-        appearance: field
+        -webkit-appearance: field;
+
+           -moz-appearance: field;
+
+                appearance: field
     }
 }
 
@@ -135,77 +231,117 @@
 
     .bpxl-appearance-none {
 
-        appearance: none
+        -webkit-appearance: none;
+
+           -moz-appearance: none;
+
+                appearance: none
     }
 
     .bpxl-appearance-normal {
 
-        appearance: normal
+        -webkit-appearance: normal;
+
+           -moz-appearance: normal;
+
+                appearance: normal
     }
 
     .bpxl-appearance-window {
 
-        appearance: window
+        -webkit-appearance: window;
+
+           -moz-appearance: window;
+
+                appearance: window
     }
 
     .bpxl-appearance-button {
 
-        appearance: button
+        -webkit-appearance: button;
+
+           -moz-appearance: button;
+
+                appearance: button
     }
 
     .bpxl-appearance-menu {
 
-        appearance: menu
+        -webkit-appearance: menu;
+
+           -moz-appearance: menu;
+
+                appearance: menu
     }
 
     .bpxl-appearance-field {
 
-        appearance: field
+        -webkit-appearance: field;
+
+           -moz-appearance: field;
+
+                appearance: field
     }
 }
 /* Backface Visibility */
 .bv-hidden {
 
-    backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+
+            backface-visibility: hidden
 }
 .bv-visible {
 
-    backface-visibility: visible
+    -webkit-backface-visibility: visible;
+
+            backface-visibility: visible
 }
 @media (min-width: 24em) {
 
     .bps-bv-hidden {
 
-        backface-visibility: hidden
+        -webkit-backface-visibility: hidden;
+
+                backface-visibility: hidden
     }
 
     .bps-bv-visible {
 
-        backface-visibility: visible
+        -webkit-backface-visibility: visible;
+
+                backface-visibility: visible
     }
 }
 @media (min-width: 34em) {
 
     .bpm-bv-hidden {
 
-        backface-visibility: hidden
+        -webkit-backface-visibility: hidden;
+
+                backface-visibility: hidden
     }
 
     .bpm-bv-visible {
 
-        backface-visibility: visible
+        -webkit-backface-visibility: visible;
+
+                backface-visibility: visible
     }
 }
 @media (min-width: 48em) {
 
     .bpl-bv-hidden {
 
-        backface-visibility: hidden
+        -webkit-backface-visibility: hidden;
+
+                backface-visibility: hidden
     }
 
     .bpl-bv-visible {
 
-        backface-visibility: visible
+        -webkit-backface-visibility: visible;
+
+                backface-visibility: visible
     }
 }
 /* Background Size */
@@ -629,9 +765,13 @@
 }
 .cursor-grab {
 
+    cursor: -webkit-grab;
+
     cursor: grab
 }
 .cursor-grabbing {
+
+    cursor: -webkit-grabbing;
 
     cursor: grabbing
 }
@@ -786,10 +926,14 @@
 
     .bps-cursor-grab {
 
+        cursor: -webkit-grab;
+
         cursor: grab
     }
 
     .bps-cursor-grabbing {
+
+        cursor: -webkit-grabbing;
 
         cursor: grabbing
     }
@@ -968,10 +1112,14 @@
 
     .bpm-cursor-grab {
 
+        cursor: -webkit-grab;
+
         cursor: grab
     }
 
     .bpm-cursor-grabbing {
+
+        cursor: -webkit-grabbing;
 
         cursor: grabbing
     }
@@ -1150,10 +1298,14 @@
 
     .bpl-cursor-grab {
 
+        cursor: -webkit-grab;
+
         cursor: grab
     }
 
     .bpl-cursor-grabbing {
+
+        cursor: -webkit-grabbing;
 
         cursor: grabbing
     }
@@ -3420,7 +3572,9 @@
 
     position: fixed;
 
-    backface-visibility: hidden/* 1 */
+    -webkit-backface-visibility: hidden;
+
+            backface-visibility: hidden/* 1 */
 }
 .position-absolute {
 
@@ -3440,7 +3594,9 @@
 
         position: fixed;
 
-        backface-visibility: hidden/* 1 */
+        -webkit-backface-visibility: hidden;
+
+                backface-visibility: hidden/* 1 */
     }
 
     .bps-position-absolute {
@@ -3464,7 +3620,9 @@
 
         position: fixed;
 
-        backface-visibility: hidden/* 1 */
+        -webkit-backface-visibility: hidden;
+
+                backface-visibility: hidden/* 1 */
     }
 
     .bpm-position-absolute {
@@ -3488,7 +3646,9 @@
 
         position: fixed;
 
-        backface-visibility: hidden/* 1 */
+        -webkit-backface-visibility: hidden;
+
+                backface-visibility: hidden/* 1 */
     }
 
     .bpl-position-absolute {
@@ -3978,53 +4138,83 @@
 /* Transition Property */
 .tp-none {
 
+    -webkit-transition-property: none;
+
     transition-property: none
 }
 .tp-all {
+
+    -webkit-transition-property: all;
 
     transition-property: all
 }
 .tp-color {
 
+    -webkit-transition-property: color;
+
     transition-property: color
 }
 .tp-background {
+
+    -webkit-transition-property: background;
 
     transition-property: background
 }
 .tp-width {
 
+    -webkit-transition-property: width;
+
     transition-property: width
 }
 .tp-height {
+
+    -webkit-transition-property: height;
 
     transition-property: height
 }
 .tp-top {
 
+    -webkit-transition-property: top;
+
     transition-property: top
 }
 .tp-right {
+
+    -webkit-transition-property: right;
 
     transition-property: right
 }
 .tp-bottom {
 
+    -webkit-transition-property: bottom;
+
     transition-property: bottom
 }
 .tp-left {
+
+    -webkit-transition-property: left;
 
     transition-property: left
 }
 .tp-scale {
 
+    -webkit-transition-property: scale;
+
     transition-property: scale
 }
 .tp-transform {
 
-    transition-property: transform
+    -webkit-transition-property: -webkit-transform;
+
+    transition-property: -webkit-transform;
+
+    transition-property: transform;
+
+    transition-property: transform, -webkit-transform
 }
 .tp-opacity {
+
+    -webkit-transition-property: opacity;
 
     transition-property: opacity
 }
@@ -4032,65 +4222,95 @@
 
     .bps-tp-none {
 
+        -webkit-transition-property: none;
+
         transition-property: none
     }
 
     .bps-tp-all {
+
+        -webkit-transition-property: all;
 
         transition-property: all
     }
 
     .bps-tp-color {
 
+        -webkit-transition-property: color;
+
         transition-property: color
     }
 
     .bps-tp-background {
+
+        -webkit-transition-property: background;
 
         transition-property: background
     }
 
     .bps-tp-width {
 
+        -webkit-transition-property: width;
+
         transition-property: width
     }
 
     .bps-tp-height {
+
+        -webkit-transition-property: height;
 
         transition-property: height
     }
 
     .bps-tp-top {
 
+        -webkit-transition-property: top;
+
         transition-property: top
     }
 
     .bps-tp-right {
+
+        -webkit-transition-property: right;
 
         transition-property: right
     }
 
     .bps-tp-bottom {
 
+        -webkit-transition-property: bottom;
+
         transition-property: bottom
     }
 
     .bps-tp-left {
+
+        -webkit-transition-property: left;
 
         transition-property: left
     }
 
     .bps-tp-scale {
 
+        -webkit-transition-property: scale;
+
         transition-property: scale
     }
 
     .bps-tp-transform {
 
-        transition-property: transform
+        -webkit-transition-property: -webkit-transform;
+
+        transition-property: -webkit-transform;
+
+        transition-property: transform;
+
+        transition-property: transform, -webkit-transform
     }
 
     .bps-tp-opacity {
+
+        -webkit-transition-property: opacity;
 
         transition-property: opacity
     }
@@ -4099,65 +4319,95 @@
 
     .bpm-tp-none {
 
+        -webkit-transition-property: none;
+
         transition-property: none
     }
 
     .bpm-tp-all {
+
+        -webkit-transition-property: all;
 
         transition-property: all
     }
 
     .bpm-tp-color {
 
+        -webkit-transition-property: color;
+
         transition-property: color
     }
 
     .bpm-tp-background {
+
+        -webkit-transition-property: background;
 
         transition-property: background
     }
 
     .bpm-tp-width {
 
+        -webkit-transition-property: width;
+
         transition-property: width
     }
 
     .bpm-tp-height {
+
+        -webkit-transition-property: height;
 
         transition-property: height
     }
 
     .bpm-tp-top {
 
+        -webkit-transition-property: top;
+
         transition-property: top
     }
 
     .bpm-tp-right {
+
+        -webkit-transition-property: right;
 
         transition-property: right
     }
 
     .bpm-tp-bottom {
 
+        -webkit-transition-property: bottom;
+
         transition-property: bottom
     }
 
     .bpm-tp-left {
+
+        -webkit-transition-property: left;
 
         transition-property: left
     }
 
     .bpm-tp-scale {
 
+        -webkit-transition-property: scale;
+
         transition-property: scale
     }
 
     .bpm-tp-transform {
 
-        transition-property: transform
+        -webkit-transition-property: -webkit-transform;
+
+        transition-property: -webkit-transform;
+
+        transition-property: transform;
+
+        transition-property: transform, -webkit-transform
     }
 
     .bpm-tp-opacity {
+
+        -webkit-transition-property: opacity;
 
         transition-property: opacity
     }
@@ -4166,65 +4416,95 @@
 
     .bpl-tp-none {
 
+        -webkit-transition-property: none;
+
         transition-property: none
     }
 
     .bpl-tp-all {
+
+        -webkit-transition-property: all;
 
         transition-property: all
     }
 
     .bpl-tp-color {
 
+        -webkit-transition-property: color;
+
         transition-property: color
     }
 
     .bpl-tp-background {
+
+        -webkit-transition-property: background;
 
         transition-property: background
     }
 
     .bpl-tp-width {
 
+        -webkit-transition-property: width;
+
         transition-property: width
     }
 
     .bpl-tp-height {
+
+        -webkit-transition-property: height;
 
         transition-property: height
     }
 
     .bpl-tp-top {
 
+        -webkit-transition-property: top;
+
         transition-property: top
     }
 
     .bpl-tp-right {
+
+        -webkit-transition-property: right;
 
         transition-property: right
     }
 
     .bpl-tp-bottom {
 
+        -webkit-transition-property: bottom;
+
         transition-property: bottom
     }
 
     .bpl-tp-left {
+
+        -webkit-transition-property: left;
 
         transition-property: left
     }
 
     .bpl-tp-scale {
 
+        -webkit-transition-property: scale;
+
         transition-property: scale
     }
 
     .bpl-tp-transform {
 
-        transition-property: transform
+        -webkit-transition-property: -webkit-transform;
+
+        transition-property: -webkit-transform;
+
+        transition-property: transform;
+
+        transition-property: transform, -webkit-transform
     }
 
     .bpl-tp-opacity {
+
+        -webkit-transition-property: opacity;
 
         transition-property: opacity
     }
@@ -4232,148 +4512,284 @@
 /* Transform Style */
 .ts-flat {
 
-    transform-style: flat
+    -webkit-transform-style: flat;
+
+            transform-style: flat
 }
 .ts-preserve3d {
 
-    transform-style: preserve-3d
+    -webkit-transform-style: preserve-3d;
+
+            transform-style: preserve-3d
 }
 @media (min-width: 24em) {
 
     .bps-ts-flat {
 
-        transform-style: flat
+        -webkit-transform-style: flat;
+
+                transform-style: flat
     }
 
     .bps-ts-preserve3d {
 
-        transform-style: preserve-3d
+        -webkit-transform-style: preserve-3d;
+
+                transform-style: preserve-3d
     }
 }
 @media (min-width: 34em) {
 
     .bpm-ts-flat {
 
-        transform-style: flat
+        -webkit-transform-style: flat;
+
+                transform-style: flat
     }
 
     .bpm-ts-preserve3d {
 
-        transform-style: preserve-3d
+        -webkit-transform-style: preserve-3d;
+
+                transform-style: preserve-3d
     }
 }
 @media (min-width: 48em) {
 
     .bpl-ts-flat {
 
-        transform-style: flat
+        -webkit-transform-style: flat;
+
+                transform-style: flat
     }
 
     .bpl-ts-preserve3d {
 
-        transform-style: preserve-3d
+        -webkit-transform-style: preserve-3d;
+
+                transform-style: preserve-3d
     }
 }
 /* User Select */
 .us-none {
 
-    user-select: none
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none
 }
 .us-none {
 
-    user-select: auto
+    -webkit-user-select: auto;
+
+       -moz-user-select: auto;
+
+        -ms-user-select: auto;
+
+            user-select: auto
 }
 .us-none {
 
-    user-select: text
+    -webkit-user-select: text;
+
+       -moz-user-select: text;
+
+        -ms-user-select: text;
+
+            user-select: text
 }
 .us-none {
 
-    user-select: contain
+    -webkit-user-select: contain;
+
+       -moz-user-select: contain;
+
+        -ms-user-select: contain;
+
+            user-select: contain
 }
 .us-none {
 
-    user-select: all
+    -webkit-user-select: all;
+
+       -moz-user-select: all;
+
+        -ms-user-select: all;
+
+            user-select: all
 }
 @media (min-width: 24em) {
 
     .bps-us-none {
 
-        user-select: none
+        -webkit-user-select: none;
+
+           -moz-user-select: none;
+
+            -ms-user-select: none;
+
+                user-select: none
     }
 
     .bps-us-none {
 
-        user-select: auto
+        -webkit-user-select: auto;
+
+           -moz-user-select: auto;
+
+            -ms-user-select: auto;
+
+                user-select: auto
     }
 
     .bps-us-none {
 
-        user-select: text
+        -webkit-user-select: text;
+
+           -moz-user-select: text;
+
+            -ms-user-select: text;
+
+                user-select: text
     }
 
     .bps-us-none {
 
-        user-select: contain
+        -webkit-user-select: contain;
+
+           -moz-user-select: contain;
+
+            -ms-user-select: contain;
+
+                user-select: contain
     }
 
     .bps-us-none {
 
-        user-select: all
+        -webkit-user-select: all;
+
+           -moz-user-select: all;
+
+            -ms-user-select: all;
+
+                user-select: all
     }
 }
 @media (min-width: 34em) {
 
     .bpm-us-none {
 
-        user-select: none
+        -webkit-user-select: none;
+
+           -moz-user-select: none;
+
+            -ms-user-select: none;
+
+                user-select: none
     }
 
     .bpm-us-none {
 
-        user-select: auto
+        -webkit-user-select: auto;
+
+           -moz-user-select: auto;
+
+            -ms-user-select: auto;
+
+                user-select: auto
     }
 
     .bpm-us-none {
 
-        user-select: text
+        -webkit-user-select: text;
+
+           -moz-user-select: text;
+
+            -ms-user-select: text;
+
+                user-select: text
     }
 
     .bpm-us-none {
 
-        user-select: contain
+        -webkit-user-select: contain;
+
+           -moz-user-select: contain;
+
+            -ms-user-select: contain;
+
+                user-select: contain
     }
 
     .bpm-us-none {
 
-        user-select: all
+        -webkit-user-select: all;
+
+           -moz-user-select: all;
+
+            -ms-user-select: all;
+
+                user-select: all
     }
 }
 @media (min-width: 48em) {
 
     .bpl-us-none {
 
-        user-select: none
+        -webkit-user-select: none;
+
+           -moz-user-select: none;
+
+            -ms-user-select: none;
+
+                user-select: none
     }
 
     .bpl-us-none {
 
-        user-select: auto
+        -webkit-user-select: auto;
+
+           -moz-user-select: auto;
+
+            -ms-user-select: auto;
+
+                user-select: auto
     }
 
     .bpl-us-none {
 
-        user-select: text
+        -webkit-user-select: text;
+
+           -moz-user-select: text;
+
+            -ms-user-select: text;
+
+                user-select: text
     }
 
     .bpl-us-none {
 
-        user-select: contain
+        -webkit-user-select: contain;
+
+           -moz-user-select: contain;
+
+            -ms-user-select: contain;
+
+                user-select: contain
     }
 
     .bpl-us-none {
 
-        user-select: all
+        -webkit-user-select: all;
+
+           -moz-user-select: all;
+
+            -ms-user-select: all;
+
+                user-select: all
     }
 }
 /* Vertical Align */

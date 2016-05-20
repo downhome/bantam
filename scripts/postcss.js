@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const postcss = require('postcss');
 const plugins = [
-    require('autoprefixer'),
     require('precss'),
-    require("postcss-custom-media")
+    require("postcss-custom-media"),
+    require('autoprefixer')({ browsers: ['> 1%', 'last 2 versions'] }),
 ];
 const argv = require('yargs')
     .demand(2)
