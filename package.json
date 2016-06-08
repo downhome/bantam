@@ -1,6 +1,6 @@
 {
   "name": "bantamcss",
-  "version": "0.0.81",
+  "version": "0.0.9",
   "description": "Scalable, performant, responsive, CSS framework with zero styles.",
   "author": "Colm Tuite <colmtuite@gmail.com> (http://www.colmtuite.com)",
   "style": "css/bantam.css",

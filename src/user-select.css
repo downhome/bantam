@@ -5,32 +5,40 @@
 @custom-media --breakpoint-l (min-width: 48em);
 @custom-media --breakpoint-xl (min-width: 64em);
 
-.us-none  { user-select: none; }
-.us-none  { user-select: auto; }
-.us-none  { user-select: text; }
-.us-none  { user-select: contain; }
-.us-none  { user-select: all; }
+.us-none        { user-select: none; }
+.us-auto        { user-select: auto; }
+.us-text        { user-select: text; }
+.us-contain     { user-select: contain; }
+.us-all         { user-select: all; }
 
 @media (--breakpoint-s) {
-    .bps-us-none  { user-select: none; }
-    .bps-us-none  { user-select: auto; }
-    .bps-us-none  { user-select: text; }
-    .bps-us-none  { user-select: contain; }
-    .bps-us-none  { user-select: all; }
+    .bps-us-none        { user-select: none; }
+    .bps-us-auto        { user-select: auto; }
+    .bps-us-text        { user-select: text; }
+    .bps-us-contain     { user-select: contain; }
+    .bps-us-all         { user-select: all; }
 }
 
 @media (--breakpoint-m) {
-    .bpm-us-none  { user-select: none; }
-    .bpm-us-none  { user-select: auto; }
-    .bpm-us-none  { user-select: text; }
-    .bpm-us-none  { user-select: contain; }
-    .bpm-us-none  { user-select: all; }
+    .bpm-us-none        { user-select: none; }
+    .bpm-us-auto        { user-select: auto; }
+    .bpm-us-text        { user-select: text; }
+    .bpm-us-contain     { user-select: contain; }
+    .bpm-us-all         { user-select: all; }
 }
 
 @media (--breakpoint-l) {
-    .bpl-us-none  { user-select: none; }
-    .bpl-us-none  { user-select: auto; }
-    .bpl-us-none  { user-select: text; }
-    .bpl-us-none  { user-select: contain; }
-    .bpl-us-none  { user-select: all; }
+    .bpl-us-none        { user-select: none; }
+    .bpl-us-auto        { user-select: auto; }
+    .bpl-us-text        { user-select: text; }
+    .bpl-us-contain     { user-select: contain; }
+    .bpl-us-all         { user-select: all; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-us-none        { user-select: none; }
+    .bpxl-us-auto        { user-select: auto; }
+    .bpxl-us-text        { user-select: text; }
+    .bpxl-us-contain     { user-select: contain; }
+    .bpxl-us-all         { user-select: all; }
 }

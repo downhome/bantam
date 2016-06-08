@@ -4619,7 +4619,7 @@
 
             user-select: none
 }
-.us-none {
+.us-auto {
 
     -webkit-user-select: auto;
 
@@ -4629,7 +4629,7 @@
 
             user-select: auto
 }
-.us-none {
+.us-text {
 
     -webkit-user-select: text;
 
@@ -4639,7 +4639,7 @@
 
             user-select: text
 }
-.us-none {
+.us-contain {
 
     -webkit-user-select: contain;
 
@@ -4649,7 +4649,7 @@
 
             user-select: contain
 }
-.us-none {
+.us-all {
 
     -webkit-user-select: all;
 
@@ -4672,7 +4672,7 @@
                 user-select: none
     }
 
-    .bps-us-none {
+    .bps-us-auto {
 
         -webkit-user-select: auto;
 
@@ -4683,7 +4683,7 @@
                 user-select: auto
     }
 
-    .bps-us-none {
+    .bps-us-text {
 
         -webkit-user-select: text;
 
@@ -4694,7 +4694,7 @@
                 user-select: text
     }
 
-    .bps-us-none {
+    .bps-us-contain {
 
         -webkit-user-select: contain;
 
@@ -4705,7 +4705,7 @@
                 user-select: contain
     }
 
-    .bps-us-none {
+    .bps-us-all {
 
         -webkit-user-select: all;
 
@@ -4729,7 +4729,7 @@
                 user-select: none
     }
 
-    .bpm-us-none {
+    .bpm-us-auto {
 
         -webkit-user-select: auto;
 
@@ -4740,7 +4740,7 @@
                 user-select: auto
     }
 
-    .bpm-us-none {
+    .bpm-us-text {
 
         -webkit-user-select: text;
 
@@ -4751,7 +4751,7 @@
                 user-select: text
     }
 
-    .bpm-us-none {
+    .bpm-us-contain {
 
         -webkit-user-select: contain;
 
@@ -4762,7 +4762,7 @@
                 user-select: contain
     }
 
-    .bpm-us-none {
+    .bpm-us-all {
 
         -webkit-user-select: all;
 
@@ -4786,7 +4786,7 @@
                 user-select: none
     }
 
-    .bpl-us-none {
+    .bpl-us-auto {
 
         -webkit-user-select: auto;
 
@@ -4797,7 +4797,7 @@
                 user-select: auto
     }
 
-    .bpl-us-none {
+    .bpl-us-text {
 
         -webkit-user-select: text;
 
@@ -4808,7 +4808,7 @@
                 user-select: text
     }
 
-    .bpl-us-none {
+    .bpl-us-contain {
 
         -webkit-user-select: contain;
 
@@ -4819,7 +4819,64 @@
                 user-select: contain
     }
 
-    .bpl-us-none {
+    .bpl-us-all {
+
+        -webkit-user-select: all;
+
+           -moz-user-select: all;
+
+            -ms-user-select: all;
+
+                user-select: all
+    }
+}
+@media (min-width: 64em) {
+
+    .bpxl-us-none {
+
+        -webkit-user-select: none;
+
+           -moz-user-select: none;
+
+            -ms-user-select: none;
+
+                user-select: none
+    }
+
+    .bpxl-us-auto {
+
+        -webkit-user-select: auto;
+
+           -moz-user-select: auto;
+
+            -ms-user-select: auto;
+
+                user-select: auto
+    }
+
+    .bpxl-us-text {
+
+        -webkit-user-select: text;
+
+           -moz-user-select: text;
+
+            -ms-user-select: text;
+
+                user-select: text
+    }
+
+    .bpxl-us-contain {
+
+        -webkit-user-select: contain;
+
+           -moz-user-select: contain;
+
+            -ms-user-select: contain;
+
+                user-select: contain
+    }
+
+    .bpxl-us-all {
 
         -webkit-user-select: all;
 
