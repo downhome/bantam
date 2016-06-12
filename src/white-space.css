@@ -34,3 +34,11 @@
     .bpl-ws-preLine { white-space: pre-line; }
     .bpl-ws-preWrap { white-space: pre-wrap; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-ws-normal  { white-space: normal; }
+    .bpxl-ws-nowrap  { white-space: nowrap; }
+    .bpxl-ws-pre     { white-space: pre; }
+    .bpxl-ws-preLine { white-space: pre-line; }
+    .bpxl-ws-preWrap { white-space: pre-wrap; }
+}
