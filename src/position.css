@@ -13,22 +13,29 @@
 .position-static    { position: static; }
 
 @media (--breakpoint-s) {
-  .bps-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
-  .bps-position-absolute  { position: absolute; }
-  .bps-position-relative  { position: relative; }
-  .bps-position-static    { position: static; }
+    .bps-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bps-position-absolute  { position: absolute; }
+    .bps-position-relative  { position: relative; }
+    .bps-position-static    { position: static; }
 }
 
 @media (--breakpoint-m) {
-  .bpm-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
-  .bpm-position-absolute  { position: absolute; }
-  .bpm-position-relative  { position: relative; }
-  .bpm-position-static    { position: static; }
+    .bpm-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bpm-position-absolute  { position: absolute; }
+    .bpm-position-relative  { position: relative; }
+    .bpm-position-static    { position: static; }
 }
 
 @media (--breakpoint-l) {
-  .bpl-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
-  .bpl-position-absolute  { position: absolute; }
-  .bpl-position-relative  { position: relative; }
-  .bpl-position-static    { position: static; }
+    .bpl-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bpl-position-absolute  { position: absolute; }
+    .bpl-position-relative  { position: relative; }
+    .bpl-position-static    { position: static; }
+}
+
+@media (--breakpoint-xl) {
+    .bpxl-position-fixed     { position: fixed; backface-visibility: hidden; /* 1 */ }
+    .bpxl-position-absolute  { position: absolute; }
+    .bpxl-position-relative  { position: relative; }
+    .bpxl-position-static    { position: static; }
 }

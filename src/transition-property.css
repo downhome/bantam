@@ -66,3 +66,19 @@
   .bpl-tp-transform   { transition-property: transform; }
   .bpl-tp-opacity     { transition-property: opacity; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-tp-none        { transition-property: none; }
+  .bpxl-tp-all         { transition-property: all; }
+  .bpxl-tp-color       { transition-property: color; }
+  .bpxl-tp-background  { transition-property: background; }
+  .bpxl-tp-width       { transition-property: width; }
+  .bpxl-tp-height      { transition-property: height; }
+  .bpxl-tp-top         { transition-property: top; }
+  .bpxl-tp-right       { transition-property: right; }
+  .bpxl-tp-bottom      { transition-property: bottom; }
+  .bpxl-tp-left        { transition-property: left; }
+  .bpxl-tp-scale       { transition-property: scale; }
+  .bpxl-tp-transform   { transition-property: transform; }
+  .bpxl-tp-opacity     { transition-property: opacity; }
+}

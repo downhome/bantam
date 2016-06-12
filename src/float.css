@@ -26,3 +26,9 @@
   .bpl-float-left   { float: left; }
   .bpl-float-right  { float: right; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-float-none   { float: none; }
+  .bpxl-float-left   { float: left; }
+  .bpxl-float-right  { float: right; }
+}

@@ -22,3 +22,8 @@
     .bpl-ww-normal      { word-wrap: normal; }
     .bpl-ww-breakWord   { word-wrap: break-word; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-ww-normal      { word-wrap: normal; }
+    .bpxl-ww-breakWord   { word-wrap: break-word; }
+}

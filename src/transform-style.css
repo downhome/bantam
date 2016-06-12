@@ -22,3 +22,8 @@
   .bpl-ts-flat        { transform-style: flat; }
   .bpl-ts-preserve3d  { transform-style: preserve-3d; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-ts-flat        { transform-style: flat; }
+  .bpxl-ts-preserve3d  { transform-style: preserve-3d; }
+}

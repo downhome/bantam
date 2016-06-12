@@ -22,3 +22,8 @@
   .bpl-ow-1 { outline-width: 1px; }
   .bpl-ow-2 { outline-width: 2px; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-ow-1 { outline-width: 1px; }
+  .bpxl-ow-2 { outline-width: 2px; }
+}

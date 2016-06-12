@@ -50,3 +50,15 @@
     .bpl-fw-8 { font-weight: 800; }
     .bpl-fw-9 { font-weight: 900; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-fw-1 { font-weight: 100; }
+    .bpxl-fw-2 { font-weight: 200; }
+    .bpxl-fw-3 { font-weight: 300; }
+    .bpxl-fw-4 { font-weight: 400; }
+    .bpxl-fw-5 { font-weight: 500; }
+    .bpxl-fw-6 { font-weight: 600; }
+    .bpxl-fw-7 { font-weight: 700; }
+    .bpxl-fw-8 { font-weight: 800; }
+    .bpxl-fw-9 { font-weight: 900; }
+}

@@ -26,3 +26,9 @@
     .bpl-wb-breakAll    { word-break: break-all; }
     .bpl-wb-keepAll     { word-break: keep-all; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-wb-normal      { word-break: normal; }
+    .bpxl-wb-breakAll    { word-break: break-all; }
+    .bpxl-wb-keepAll     { word-break: keep-all; }
+}

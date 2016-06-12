@@ -26,3 +26,9 @@
   .bpl-to-ellipsis  { text-overflow: ellipsis; }
   .bpl-to-string    { text-overflow: string; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-to-clip      { text-overflow: clip; }
+  .bpxl-to-ellipsis  { text-overflow: ellipsis; }
+  .bpxl-to-string    { text-overflow: string; }
+}

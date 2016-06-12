@@ -22,3 +22,8 @@
   .bpl-direction-ltr      { direction: ltr; }
   .bpl-direction-rtl      { direction: rtl; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-direction-ltr      { direction: ltr; }
+  .bpxl-direction-rtl      { direction: rtl; }
+}

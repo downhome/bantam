@@ -30,3 +30,10 @@
   .bpl-td-overline    { text-decoration: overline; }
   .bpl-td-lineThrough { text-decoration: line-through; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-td-none        { text-decoration: none; }
+  .bpxl-td-underline   { text-decoration: underline; }
+  .bpxl-td-overline    { text-decoration: overline; }
+  .bpxl-td-lineThrough { text-decoration: line-through; }
+}

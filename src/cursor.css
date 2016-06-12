@@ -158,3 +158,42 @@
   .bpl-cursor-zoomIn          { cursor: zoom-in; }
   .bpl-cursor-zoomOut         { cursor: zoom-out; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-cursor-alias           { cursor: alias; }
+  .bpxl-cursor-allScroll       { cursor: all-scroll; }
+  .bpxl-cursor-auto            { cursor: auto; }
+  .bpxl-cursor-cell            { cursor: cell; }
+  .bpxl-cursor-contextMenu     { cursor: context-menu; }
+  .bpxl-cursor-colResize       { cursor: col-resize; }
+  .bpxl-cursor-copy            { cursor: copy; }
+  .bpxl-cursor-crosshair       { cursor: crosshair; }
+  .bpxl-cursor-default         { cursor: default; }
+  .bpxl-cursor-eResize         { cursor: e-resize; }
+  .bpxl-cursor-ewResize        { cursor: ew-resize; }
+  .bpxl-cursor-grab            { cursor: grab; }
+  .bpxl-cursor-grabbing        { cursor: grabbing; }
+  .bpxl-cursor-help            { cursor: help; }
+  .bpxl-cursor-move            { cursor: move; }
+  .bpxl-cursor-nResize         { cursor: n-resize; }
+  .bpxl-cursor-neResize        { cursor: ne-resize; }
+  .bpxl-cursor-neswResize      { cursor: nesw-resize; }
+  .bpxl-cursor-nsResize        { cursor: ns-resize; }
+  .bpxl-cursor-nwResize        { cursor: nw-resize; }
+  .bpxl-cursor-nwseResize      { cursor: nwse-resize; }
+  .bpxl-cursor-noDrop          { cursor: no-drop; }
+  .bpxl-cursor-none            { cursor: none; }
+  .bpxl-cursor-notAllowed      { cursor: not-allowed; }
+  .bpxl-cursor-pointer         { cursor: pointer; }
+  .bpxl-cursor-progress        { cursor: progress; }
+  .bpxl-cursor-rowResize       { cursor: row-resize; }
+  .bpxl-cursor-sResize         { cursor: s-resize; }
+  .bpxl-cursor-seResize        { cursor: se-resize; }
+  .bpxl-cursor-swResize        { cursor: sw-resize; }
+  .bpxl-cursor-text            { cursor: text; }
+  .bpxl-cursor-verticalText    { cursor: vertical-text; }
+  .bpxl-cursor-wResize         { cursor: w-resize; }
+  .bpxl-cursor-wait            { cursor: wait; }
+  .bpxl-cursor-zoomIn          { cursor: zoom-in; }
+  .bpxl-cursor-zoomOut         { cursor: zoom-out; }
+}

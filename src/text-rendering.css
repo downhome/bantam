@@ -30,3 +30,10 @@
   .bpl-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
   .bpl-tr-geometricPrecision  { text-rendering: geometricPrecision; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-tr-auto                { text-rendering: auto; }
+  .bpxl-tr-optimizeSpeed       { text-rendering: optimizeSpeed; }
+  .bpxl-tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
+  .bpxl-tr-geometricPrecision  { text-rendering: geometricPrecision; }
+}

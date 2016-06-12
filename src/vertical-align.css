@@ -46,3 +46,14 @@
     .bpl-va-bottom      { vertical-align: bottom; }
     .bpl-va-textBottom  { vertical-align: text-bottom; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-va-baseline    { vertical-align: baseline; }
+    .bpxl-va-sub         { vertical-align: sub; }
+    .bpxl-va-super       { vertical-align: super; }
+    .bpxl-va-top         { vertical-align: top; }
+    .bpxl-va-textTop     { vertical-align: text-top; }
+    .bpxl-va-middle      { vertical-align: middle; }
+    .bpxl-va-bottom      { vertical-align: bottom; }
+    .bpxl-va-textBottom  { vertical-align: text-bottom; }
+}

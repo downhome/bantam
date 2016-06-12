@@ -26,3 +26,9 @@
   .bpl-visibility-visible   { visibility: visible; }
   .bpl-visibility-collapse  { visibility: collapse; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-visibility-hidden    { visibility: hidden; }
+  .bpxl-visibility-visible   { visibility: visible; }
+  .bpxl-visibility-collapse  { visibility: collapse; }
+}

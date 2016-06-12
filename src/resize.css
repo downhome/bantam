@@ -30,3 +30,10 @@
     .bpl-resize-horizontal  { resize: horizontal; }
     .bpl-resize-vertical    { resize: vertical; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-resize-none        { resize: none; }
+    .bpxl-resize-both        { resize: both; }
+    .bpxl-resize-horizontal  { resize: horizontal; }
+    .bpxl-resize-vertical    { resize: vertical; }
+}

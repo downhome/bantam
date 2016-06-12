@@ -54,3 +54,16 @@
     .bpl-pe-stroke          { pointer-events: stroke; }
     .bpl-pe-all             { pointer-events: all; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-pe-auto            { pointer-events: auto; }
+    .bpxl-pe-none            { pointer-events: none; }
+    .bpxl-pe-visiblePainted  { pointer-events: visiblePainted; }
+    .bpxl-pe-visibleFill     { pointer-events: visibleFill; }
+    .bpxl-pe-visibleStroke   { pointer-events: visibleStroke; }
+    .bpxl-pe-visible         { pointer-events: visible; }
+    .bpxl-pe-painted         { pointer-events: painted; }
+    .bpxl-pe-fill            { pointer-events: fill; }
+    .bpxl-pe-stroke          { pointer-events: stroke; }
+    .bpxl-pe-all             { pointer-events: all; }
+}

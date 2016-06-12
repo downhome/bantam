@@ -50,3 +50,15 @@
   .bpl-display-tableColumn  { display: table-column; }
   .bpl-display-tableRow     { display: table-row; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-display-none         { display: none; }
+  .bpxl-display-block        { display: block; }
+  .bpxl-display-inline       { display: inline; }
+  .bpxl-display-inlineBlock  { display: inline-block; }
+  .bpxl-display-inlineTable  { display: inline-table; }
+  .bpxl-display-table        { display: table; }
+  .bpxl-display-tableCell    { display: table-cell; }
+  .bpxl-display-tableColumn  { display: table-column; }
+  .bpxl-display-tableRow     { display: table-row; }
+}

@@ -50,3 +50,15 @@
   .bpl-os-inset   { outline-style: inset; }
   .bpl-os-outset  { outline-style: outset; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-os-none    { outline-style: none; }
+  .bpxl-os-dotted  { outline-style: dotted; }
+  .bpxl-os-dashed  { outline-style: dashed; }
+  .bpxl-os-solid   { outline-style: solid; }
+  .bpxl-os-double  { outline-style: double; }
+  .bpxl-os-groove  { outline-style: groove; }
+  .bpxl-os-ridge   { outline-style: ridge; }
+  .bpxl-os-inset   { outline-style: inset; }
+  .bpxl-os-outset  { outline-style: outset; }
+}

@@ -26,3 +26,9 @@
     .bpl-fs-italic   { font-style: italic; }
     .bpl-fs-oblique  { font-style: oblique; }
 }
+
+@media (--breakpoint-xl) {
+    .bpxl-fs-normal   { font-style: normal; }
+    .bpxl-fs-italic   { font-style: italic; }
+    .bpxl-fs-oblique  { font-style: oblique; }
+}

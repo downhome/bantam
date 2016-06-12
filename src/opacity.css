@@ -58,3 +58,17 @@
   .bpl-opacity-90   { opacity: .9; }
   .bpl-opacity-100  { opacity: 1; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-opacity-0    { opacity: 0; }
+  .bpxl-opacity-10   { opacity: .1; }
+  .bpxl-opacity-20   { opacity: .2; }
+  .bpxl-opacity-30   { opacity: .3; }
+  .bpxl-opacity-40   { opacity: .4; }
+  .bpxl-opacity-50   { opacity: .5; }
+  .bpxl-opacity-60   { opacity: .6; }
+  .bpxl-opacity-70   { opacity: .7; }
+  .bpxl-opacity-80   { opacity: .8; }
+  .bpxl-opacity-90   { opacity: .9; }
+  .bpxl-opacity-100  { opacity: 1; }
+}

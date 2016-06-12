@@ -26,3 +26,9 @@
   .bpl-ta-center  { text-align: center; }
   .bpl-ta-right   { text-align: right; }
 }
+
+@media (--breakpoint-xl) {
+  .bpxl-ta-left    { text-align: left; }
+  .bpxl-ta-center  { text-align: center; }
+  .bpxl-ta-right   { text-align: right; }
+}
