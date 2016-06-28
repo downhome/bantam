@@ -1,5 +1,3 @@
-# Ignore system file
-.DS_Store
-
-# Ignore the cache directory left around by sass
-.sass-cache
+node_modules
+npm-debug.log
+.DS_STORE
