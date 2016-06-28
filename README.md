@@ -4,10 +4,10 @@ A set of single-purpose CSS classes for every functional CSS property. Absolutel
 
 Intended to be used with these complementary tools:
 
-[Bantam Reset](https://github.com/colmtuite/bantam-grid)
-[Bantam Grid](https://github.com/colmtuite/bantam-grid)
-[Bantam Utilities](https://github.com/colmtuite/bantam-utilities)
-[Bantam Theme](https://github.com/colmtuite/bantam-grid)
+[Bantam Reset](https://github.com/colmtuite/bantam-grid)  
+[Bantam Grid](https://github.com/colmtuite/bantam-grid)  
+[Bantam Utilities](https://github.com/colmtuite/bantam-utilities)  
+[Bantam Theme](https://github.com/colmtuite/bantam-grid)  
 
 ## Things to note
 
