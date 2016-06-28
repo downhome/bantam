@@ -1,8 +1,13 @@
 # Bantam
 
-A set of single-purpose CSS classes for every functional CSS property. Absolutely zero visual styling.
+A set of single-purpose CSS classes for every functional CSS property. Absolutely zero visual styling. Reuse this framework on every website ever to build any layout and perform common functional tasks.
 
-Reuse this framework on every website ever to build layouts and perform common functional tasks.
+Intended to be used with these complementary tools:
+
+[Bantam Reset](https://github.com/colmtuite/bantam-grid)
+[Bantam Grid](https://github.com/colmtuite/bantam-grid)
+[Bantam Utilities](https://github.com/colmtuite/bantam-utilities)
+[Bantam Theme](https://github.com/colmtuite/bantam-grid)
 
 ## Things to note
 
