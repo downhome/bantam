@@ -1,7 +1,12 @@
 /* Compiler */
 
+/* Variables */
+@import "variables.css";
+
+/* Reset */
 @import "reset.css";
 
+/* Functional properties */
 @import "appearance.css";
 @import "backface-visibility.css";
 @import "background-position.css";
@@ -43,8 +48,10 @@
 @import "word-wrap.css";
 @import "z-index.css";
 
+/* Grid */
 @import "grid.css";
 
+/* Utilities */
 @import "aspect-ratio.css";
 @import "clearfix.css";
 @import "hidden.css";
@@ -56,7 +63,7 @@
 @import "visually-hidden.css";
 @import "vertically-center.css";
 
-@import "variables.css";
+/* Theme */
 @import "background-color.css";
 @import "border-radius.css";
 @import "box-shadow.css";
