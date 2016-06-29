@@ -4,6 +4,16 @@
 .color-black                { color: var(--black); }
 .color-transparent          { color: var(--transparent); }
 
+.color-white--translucent   { color: rgba(255,255,255, var(--translucent)); }
+.color-white--transparent   { color: rgba(255,255,255, var(--transparent)); }
+.color-white--pellucid      { color: rgba(255,255,255, var(--pellucid)); }
+.color-white--limpid        { color: rgba(255,255,255, var(--limpid)); }
+
+.color-black--translucent   { color: rgba(0,0,0, var(--translucent)); }
+.color-black--transparent   { color: rgba(0,0,0, var(--transparent)); }
+.color-black--pellucid      { color: rgba(0,0,0, var(--pellucid)); }
+.color-black--limpid        { color: rgba(0,0,0, var(--limpid)); }
+
 .color-red                  { color: var(--red); }
 .color-pink                 { color: var(--pink); }
 .color-purple               { color: var(--purple); }

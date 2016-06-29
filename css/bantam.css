@@ -2,7 +2,7 @@
 
 /* Variables */
 /* Variables */
-:root {/* Media queries *//* Color scheme *//* Spacing  */
+:root {/* Media queries *//* Color scheme *//* Spacing  *//* Font size  *//* Line height  */
 }
 
 /* Reset */
@@ -5157,7 +5157,31 @@ input, button, select, textarea {
     background-color: #000
 }
 .bc-transparent {
-    background-color: transparent
+    background-color: .8
+}
+.bc-white--translucent {
+    background-color: rgba(255,255,255, .98)
+}
+.bc-white--transparent {
+    background-color: rgba(255,255,255, .8)
+}
+.bc-white--pellucid {
+    background-color: rgba(255,255,255, .2)
+}
+.bc-white--limpid {
+    background-color: rgba(255,255,255, .05)
+}
+.bc-black--translucent {
+    background-color: rgba(0,0,0, .98)
+}
+.bc-black--transparent {
+    background-color: rgba(0,0,0, .8)
+}
+.bc-black--pellucid {
+    background-color: rgba(0,0,0, .2)
+}
+.bc-black--limpid {
+    background-color: rgba(0,0,0, .05)
 }
 .bc-red {
     background-color: #F44336
@@ -5225,7 +5249,7 @@ input, button, select, textarea {
         background-color: #000
     }
     .bc-transparent--hover:hover {
-        background-color: transparent
+        background-color: .8
     }
     .bc-red--hover:hover {
         background-color: #F44336
@@ -5637,7 +5661,31 @@ input, button, select, textarea {
     color: #000
 }
 .color-transparent {
-    color: transparent
+    color: .8
+}
+.color-white--translucent {
+    color: rgba(255,255,255, .98)
+}
+.color-white--transparent {
+    color: rgba(255,255,255, .8)
+}
+.color-white--pellucid {
+    color: rgba(255,255,255, .2)
+}
+.color-white--limpid {
+    color: rgba(255,255,255, .05)
+}
+.color-black--translucent {
+    color: rgba(0,0,0, .98)
+}
+.color-black--transparent {
+    color: rgba(0,0,0, .8)
+}
+.color-black--pellucid {
+    color: rgba(0,0,0, .2)
+}
+.color-black--limpid {
+    color: rgba(0,0,0, .05)
 }
 .color-red {
     color: #F44336
@@ -5705,7 +5753,7 @@ input, button, select, textarea {
         color: #000
     }
     .color-transparent--hover:hover {
-        color: transparent
+        color: .8
     }
     .color-red--hover:hover {
         color: #F44336

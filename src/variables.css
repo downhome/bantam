@@ -15,6 +15,11 @@
     --white: #fff;
     --transparent: transparent;
 
+    --translucent: .98;
+    --transparent: .8;
+    --pellucid: .2;
+    --limpid: .05;
+
     --red: #F44336;
     --pink: #E91E63;
     --purple: #673AB7;
@@ -38,4 +43,8 @@
     --charcoal: #192124;
 
     /* Spacing  */
+
+    /* Font size  */
+
+    /* Line height  */
 }
