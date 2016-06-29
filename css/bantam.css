@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5, h6, p, small, strong {
 input, button, select, textarea {
     font-family: inherit
 }
+html, body {
+    height: 100%
+}
+body {
+    line-height: 1
+}
 
 /* Functional properties */
 /* Appearance */
@@ -5157,13 +5163,13 @@ input, button, select, textarea {
     background-color: #000
 }
 .bc-transparent {
-    background-color: .8
+    background-color: .5
 }
 .bc-white--translucent {
     background-color: rgba(255,255,255, .98)
 }
 .bc-white--transparent {
-    background-color: rgba(255,255,255, .8)
+    background-color: rgba(255,255,255, .5)
 }
 .bc-white--pellucid {
     background-color: rgba(255,255,255, .2)
@@ -5175,7 +5181,7 @@ input, button, select, textarea {
     background-color: rgba(0,0,0, .98)
 }
 .bc-black--transparent {
-    background-color: rgba(0,0,0, .8)
+    background-color: rgba(0,0,0, .5)
 }
 .bc-black--pellucid {
     background-color: rgba(0,0,0, .2)
@@ -5238,7 +5244,7 @@ input, button, select, textarea {
     background-color: #37474F
 }
 .bc-charcoal {
-    background-color: #192124
+    background-color: #111618
 }
 /* Hover states */
 @media (min-width: 38em) {
@@ -5249,7 +5255,7 @@ input, button, select, textarea {
         background-color: #000
     }
     .bc-transparent--hover:hover {
-        background-color: .8
+        background-color: .5
     }
     .bc-red--hover:hover {
         background-color: #F44336
@@ -5306,7 +5312,7 @@ input, button, select, textarea {
         background-color: #37474F
     }
     .bc-charcoal--hover:hover {
-        background-color: #192124
+        background-color: #111618
     }
 }
 /* Border radius */
@@ -5661,13 +5667,13 @@ input, button, select, textarea {
     color: #000
 }
 .color-transparent {
-    color: .8
+    color: .5
 }
 .color-white--translucent {
     color: rgba(255,255,255, .98)
 }
 .color-white--transparent {
-    color: rgba(255,255,255, .8)
+    color: rgba(255,255,255, .5)
 }
 .color-white--pellucid {
     color: rgba(255,255,255, .2)
@@ -5679,7 +5685,7 @@ input, button, select, textarea {
     color: rgba(0,0,0, .98)
 }
 .color-black--transparent {
-    color: rgba(0,0,0, .8)
+    color: rgba(0,0,0, .5)
 }
 .color-black--pellucid {
     color: rgba(0,0,0, .2)
@@ -5742,7 +5748,7 @@ input, button, select, textarea {
     color: #37474F
 }
 .color-charcoal {
-    color: #192124
+    color: #111618
 }
 /* Hover states */
 @media (min-width: 38em) {
@@ -5753,7 +5759,7 @@ input, button, select, textarea {
         color: #000
     }
     .color-transparent--hover:hover {
-        color: .8
+        color: .5
     }
     .color-red--hover:hover {
         color: #F44336
@@ -5810,12 +5816,12 @@ input, button, select, textarea {
         color: #37474F
     }
     .color-charcoal--hover:hover {
-        color: #192124
+        color: #111618
     }
 }
 /* Font family */
 .ff-system {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif
+    font-family: -apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif
 }
 .ff-monospace {
     font-family: "Source Code Pro","Input Mono",Consolas,"Liberation Mono",Menlo,Courier,monospace
@@ -5846,7 +5852,7 @@ input, button, select, textarea {
     font-size: 1.4rem
 }
 .fs-xs {
-    font-size: 1rem
+    font-size: 1.2rem
 }
 @media (min-width: 38em) {
     .bps-fs-xxxxxl {
@@ -5874,7 +5880,7 @@ input, button, select, textarea {
         font-size: 1.4rem
     }
     .bps-fs-xs {
-        font-size: 1rem
+        font-size: 1.2rem
     }
 }
 @media (min-width: 74em) {
@@ -5903,7 +5909,7 @@ input, button, select, textarea {
         font-size: 1.4rem
     }
     .bpm-fs-xs {
-        font-size: 1rem
+        font-size: 1.2rem
     }
 }
 @media (min-width: 96em) {
@@ -5932,7 +5938,7 @@ input, button, select, textarea {
         font-size: 1.4rem
     }
     .bpl-fs-xs {
-        font-size: 1rem
+        font-size: 1.2rem
     }
 }
 @media (min-width: 120em) {
@@ -5961,7 +5967,7 @@ input, button, select, textarea {
         font-size: 1.4rem
     }
     .bpxl-fs-xs {
-        font-size: 1rem
+        font-size: 1.2rem
     }
 }
 /* Letter spacing */
@@ -5985,6 +5991,98 @@ input, button, select, textarea {
 }
 .ls-xxs {
     letter-spacing: -2px
+}
+@media (min-width: 38em) {
+    .bps-ls-xxl {
+        letter-spacing: 2px
+    }
+    .bps-ls-xl {
+        letter-spacing: 1px
+    }
+    .bps-ls-l {
+        letter-spacing: .5px
+    }
+    .bps-ls-normal {
+        letter-spacing: normal
+    }
+    .bps-ls-s {
+        letter-spacing: -.5px
+    }
+    .bps-ls-xs {
+        letter-spacing: -1px
+    }
+    .bps-ls-xxs {
+        letter-spacing: -2px
+    }
+}
+@media (min-width: 74em) {
+    .bpm-ls-xxl {
+        letter-spacing: 2px
+    }
+    .bpm-ls-xl {
+        letter-spacing: 1px
+    }
+    .bpm-ls-l {
+        letter-spacing: .5px
+    }
+    .bpm-ls-normal {
+        letter-spacing: normal
+    }
+    .bpm-ls-s {
+        letter-spacing: -.5px
+    }
+    .bpm-ls-xs {
+        letter-spacing: -1px
+    }
+    .bpm-ls-xxs {
+        letter-spacing: -2px
+    }
+}
+@media (min-width: 96em) {
+    .bpl-ls-xxl {
+        letter-spacing: 2px
+    }
+    .bpl-ls-xl {
+        letter-spacing: 1px
+    }
+    .bpl-ls-l {
+        letter-spacing: .5px
+    }
+    .bpl-ls-normal {
+        letter-spacing: normal
+    }
+    .bpl-ls-s {
+        letter-spacing: -.5px
+    }
+    .bpl-ls-xs {
+        letter-spacing: -1px
+    }
+    .bpl-ls-xxs {
+        letter-spacing: -2px
+    }
+}
+@media (min-width: 120em) {
+    .bpxl-ls-xxl {
+        letter-spacing: 2px
+    }
+    .bpxl-ls-xl {
+        letter-spacing: 1px
+    }
+    .bpxl-ls-l {
+        letter-spacing: .5px
+    }
+    .bpxl-ls-normal {
+        letter-spacing: normal
+    }
+    .bpxl-ls-s {
+        letter-spacing: -.5px
+    }
+    .bpxl-ls-xs {
+        letter-spacing: -1px
+    }
+    .bpxl-ls-xxs {
+        letter-spacing: -2px
+    }
 }
 /* Line height */
 .lh-xxxxl {

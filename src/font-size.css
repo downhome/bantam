@@ -8,7 +8,7 @@
 .fs-l       { font-size: 2rem; }
 .fs-m       { font-size: 1.6rem; }
 .fs-s       { font-size: 1.4rem; }
-.fs-xs      { font-size: 1rem; }
+.fs-xs      { font-size: 1.2rem; }
 
 @media (--breakpoint-s) {
     .bps-fs-xxxxxl  { font-size: 11rem; }
@@ -19,7 +19,7 @@
     .bps-fs-l       { font-size: 2rem; }
     .bps-fs-m       { font-size: 1.6rem; }
     .bps-fs-s       { font-size: 1.4rem; }
-    .bps-fs-xs      { font-size: 1rem; }
+    .bps-fs-xs      { font-size: 1.2rem; }
 }
 
 @media (--breakpoint-m) {
@@ -31,7 +31,7 @@
     .bpm-fs-l       { font-size: 2rem; }
     .bpm-fs-m       { font-size: 1.6rem; }
     .bpm-fs-s       { font-size: 1.4rem; }
-    .bpm-fs-xs      { font-size: 1rem; }
+    .bpm-fs-xs      { font-size: 1.2rem; }
 }
 
 @media (--breakpoint-l) {
@@ -43,7 +43,7 @@
     .bpl-fs-l       { font-size: 2rem; }
     .bpl-fs-m       { font-size: 1.6rem; }
     .bpl-fs-s       { font-size: 1.4rem; }
-    .bpl-fs-xs      { font-size: 1rem; }
+    .bpl-fs-xs      { font-size: 1.2rem; }
 }
 
 @media (--breakpoint-xl) {
@@ -55,5 +55,5 @@
     .bpxl-fs-l       { font-size: 2rem; }
     .bpxl-fs-m       { font-size: 1.6rem; }
     .bpxl-fs-s       { font-size: 1.4rem; }
-    .bpxl-fs-xs      { font-size: 1rem; }
+    .bpxl-fs-xs      { font-size: 1.2rem; }
 }
