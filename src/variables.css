@@ -1,6 +1,14 @@
 /* Variables */
 
 :root {
+
+    /* Media queries */
+
+    @custom-media --breakpoint-s (min-width: 48em);
+    @custom-media --breakpoint-m (min-width: 96em);
+    @custom-media --breakpoint-l (min-width: 184em);
+    @custom-media --breakpoint-xl (min-width: 220em);
+
     /* Color scheme */
 
     --black: #000;
