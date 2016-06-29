@@ -26,7 +26,7 @@
 .bc-charcoal            { background-color: var(--charcoal); }
 
 /* Hover states */
-@media screen and (min-width: 48px) {
+@media (--breakpoint-s) {
     .bc-white--hover:hover               { background-color: var(--white); }
     .bc-black--hover:hover               { background-color: var(--black); }
     .bc-transparent--hover:hover         { background-color: var(--transparent); }

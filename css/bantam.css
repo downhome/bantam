@@ -5217,7 +5217,7 @@ input, button, select, textarea {
     background-color: #192124
 }
 /* Hover states */
-@media screen and (min-width: 48px) {
+@media (min-width: 48em) {
     .bc-white--hover:hover {
         background-color: #fff
     }
@@ -5697,7 +5697,7 @@ input, button, select, textarea {
     color: #192124
 }
 /* Hover states */
-@media screen and (min-width: 48px) {
+@media (min-width: 48em) {
     .color-white--hover:hover {
         color: #fff
     }
@@ -5800,7 +5800,7 @@ input, button, select, textarea {
 .fs-xs {
     font-size: 1rem
 }
-@media screen and (min-width: 480px) {
+@media (min-width: 48em) {
     .bps-fs-xxxxxl {
         font-size: 11rem
     }
@@ -5829,7 +5829,7 @@ input, button, select, textarea {
         font-size: 1rem
     }
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 96em) {
     .bpm-fs-xxxxxl {
         font-size: 11rem
     }
@@ -5858,7 +5858,7 @@ input, button, select, textarea {
         font-size: 1rem
     }
 }
-@media screen and (min-width: 1180px) {
+@media (min-width: 184em) {
     .bpl-fs-xxxxxl {
         font-size: 11rem
     }
@@ -5887,7 +5887,7 @@ input, button, select, textarea {
         font-size: 1rem
     }
 }
-@media screen and (min-width: 1320px) {
+@media (min-width: 220em) {
     .bpxl-fs-xxxxxl {
         font-size: 11rem
     }
@@ -5960,7 +5960,7 @@ input, button, select, textarea {
 .lh-s {
     line-height: 2rem
 }
-@media screen and (min-width: 480px) {
+@media (min-width: 48em) {
     .bps-lh-xxxxl {
         line-height: 6.3rem
     }
@@ -5983,7 +5983,7 @@ input, button, select, textarea {
         line-height: 2rem
     }
 }
-@media screen and (min-width: 768px) {
+@media (min-width: 96em) {
     .bpm-lh-xxxxl {
         line-height: 6.3rem
     }
@@ -6006,7 +6006,7 @@ input, button, select, textarea {
         line-height: 2rem
     }
 }
-@media screen and (min-width: 1180px) {
+@media (min-width: 184em) {
     .bpl-lh-xxxxl {
         line-height: 6.3rem
     }
@@ -6029,7 +6029,7 @@ input, button, select, textarea {
         line-height: 2rem
     }
 }
-@media screen and (min-width: 1320px) {
+@media (min-width: 220em) {
     .bpxl-lh-xxxxl {
         line-height: 6.3rem
     }

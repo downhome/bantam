@@ -26,7 +26,7 @@
 .color-charcoal             { color: var(--charcoal); }
 
 /* Hover states */
-@media screen and (min-width: 48px) {
+@media (--breakpoint-s) {
     .color-white--hover:hover               { color: var(--white); }
     .color-black--hover:hover               { color: var(--black); }
     .color-transparent--hover:hover         { color: var(--transparent); }

@@ -10,7 +10,7 @@
 .fs-s       { font-size: 1.4rem; }
 .fs-xs      { font-size: 1rem; }
 
-@media screen and (min-width: 480px) {
+@media (--breakpoint-s) {
     .bps-fs-xxxxxl  { font-size: 11rem; }
     .bps-fs-xxxxl   { font-size: 5.6rem; }
     .bps-fs-xxxl    { font-size: 4.4rem; }
@@ -22,7 +22,7 @@
     .bps-fs-xs      { font-size: 1rem; }
 }
 
-@media screen and (min-width: 768px) {
+@media (--breakpoint-m) {
     .bpm-fs-xxxxxl  { font-size: 11rem; }
     .bpm-fs-xxxxl   { font-size: 5.6rem; }
     .bpm-fs-xxxl    { font-size: 4.4rem; }
@@ -34,7 +34,7 @@
     .bpm-fs-xs      { font-size: 1rem; }
 }
 
-@media screen and (min-width: 1180px) {
+@media (--breakpoint-l) {
     .bpl-fs-xxxxxl  { font-size: 11rem; }
     .bpl-fs-xxxxl   { font-size: 5.6rem; }
     .bpl-fs-xxxl    { font-size: 4.4rem; }
@@ -46,7 +46,7 @@
     .bpl-fs-xs      { font-size: 1rem; }
 }
 
-@media screen and (min-width: 1320px) {
+@media (--breakpoint-xl) {
     .bpxl-fs-xxxxxl  { font-size: 11rem; }
     .bpxl-fs-xxxxl   { font-size: 5.6rem; }
     .bpxl-fs-xxxl    { font-size: 4.4rem; }
