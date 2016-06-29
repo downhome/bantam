@@ -15,19 +15,19 @@
     --white: #fff;
     --transparent: transparent;
 
-    --red500: #F44336;
-    --pink500: #E91E63;
-    --purple500: #673AB7;
-    --indigo500: #3F51B5;
-    --blue500: #2196F3;
-    --cyan500: #00BCD4;
-    --teal500: #009688;
-    --green500: #4CAF50;
-    --lime500: #CDDC39;
-    --yellow500: #FFEB3B;
-    --amber500: #FFC107;
-    --orange500: #FF9800;
-    --brown500: #795548;
+    --red: #F44336;
+    --pink: #E91E63;
+    --purple: #673AB7;
+    --indigo: #3F51B5;
+    --blue: #2196F3;
+    --cyan: #00BCD4;
+    --teal: #009688;
+    --green: #4CAF50;
+    --lime: #CDDC39;
+    --yellow: #FFEB3B;
+    --amber: #FFC107;
+    --orange: #FF9800;
+    --brown: #795548;
 
     --gray: #9E9E9E;
 
