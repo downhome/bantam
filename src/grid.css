@@ -1,8 +1,8 @@
 /* Grid */
 
 .grid {
-    margin-top: -40px;
-    margin-left: -40px;
+    margin-top: -var(--spacing-l);
+    margin-left: -var(--spacing-l);
 }
 
 .col-1,
@@ -68,8 +68,8 @@
     position: relative;
     min-height: 1px;
     float: left;
-    padding-top: 40px;
-    padding-left: 40px;
+    padding-top: var(--spacing-l);
+    padding-left: var(--spacing-l);
 }
 
 /* Column widths */
