@@ -92,7 +92,7 @@ body {
                 appearance: field
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-appearance-none {
         -webkit-appearance: none;
            -moz-appearance: none;
@@ -207,7 +207,7 @@ body {
                 backface-visibility: visible
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-bv-hidden {
         -webkit-backface-visibility: hidden;
                 backface-visibility: hidden
@@ -294,7 +294,7 @@ body {
         background-position: center bottom
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-bp-LT {
         background-position: left top
     }
@@ -414,7 +414,7 @@ body {
         background-size: 100%
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-bs-cover {
         background-size: cover
     }
@@ -492,7 +492,7 @@ body {
         border-style: solid
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-bs-none {
         border-style: none
     }
@@ -595,7 +595,7 @@ body {
         box-sizing: border-box
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-bs-contentBox {
         box-sizing: content-box
     }
@@ -646,7 +646,7 @@ body {
         clear: both
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-clear-none {
         clear: none
     }
@@ -911,7 +911,7 @@ body {
         cursor: zoom-out
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-cursor-alias {
         cursor: alias
     }
@@ -1262,7 +1262,7 @@ body {
         direction: rtl
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-direction-ltr {
         direction: ltr
     }
@@ -1343,7 +1343,7 @@ body {
         display: table-row
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-display-none {
         display: none
     }
@@ -1451,7 +1451,7 @@ body {
         float: right
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-float-none {
         float: none
     }
@@ -1505,7 +1505,7 @@ body {
         font-style: oblique
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-fs-normal {
         font-style: normal
     }
@@ -1595,7 +1595,7 @@ body {
         font-weight: 900
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-fw-1 {
         font-weight: 100
     }
@@ -1769,7 +1769,7 @@ body {
         height: 100%
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-height-10 {
         height: 10%
     }
@@ -2042,7 +2042,7 @@ body {
         list-style-type: lower-roman
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-lst-disc {
         list-style-type: disc
     }
@@ -2324,7 +2324,7 @@ body {
         opacity: 1
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-opacity-0 {
         opacity: 0
     }
@@ -2486,7 +2486,7 @@ body {
         outline-style: outset
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-os-none {
         outline-style: none
     }
@@ -2588,7 +2588,7 @@ body {
         outline-width: 2px
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-ow-1 {
         outline-width: 1px
     }
@@ -2687,7 +2687,7 @@ body {
         overflow-y: auto
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-overflow-visible {
         overflow: visible
     }
@@ -2864,7 +2864,7 @@ body {
         pointer-events: all
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-pe-auto {
         pointer-events: auto
     }
@@ -2992,7 +2992,7 @@ body {
         position: static
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-position-fixed {
         position: fixed;
         -webkit-backface-visibility: hidden;
@@ -3067,7 +3067,7 @@ body {
         resize: vertical
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-resize-none {
         resize: none
     }
@@ -3124,7 +3124,7 @@ body {
         table-layout: fixed
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-tl-auto {
         table-layout: auto
     }
@@ -3169,7 +3169,7 @@ body {
         text-align: right
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-ta-left {
         text-align: left
     }
@@ -3229,7 +3229,7 @@ body {
         text-decoration: line-through
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-td-none {
         text-decoration: none
     }
@@ -3240,6 +3240,18 @@ body {
         text-decoration: overline
     }
     .bpm-td-lineThrough {
+        text-decoration: line-through
+    }
+    .td-none--hover:hover {
+        text-decoration: none
+    }
+    .td-underline--hover:hover {
+        text-decoration: underline
+    }
+    .td-overline--hover:hover {
+        text-decoration: overline
+    }
+    .td-lineThrough--hover:hover {
         text-decoration: line-through
     }
 }
@@ -3292,7 +3304,7 @@ body {
         text-overflow: string
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-to-clip {
         text-overflow: clip
     }
@@ -3352,7 +3364,7 @@ body {
         text-rendering: geometricPrecision
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-tr-auto {
         text-rendering: auto
     }
@@ -3421,7 +3433,7 @@ body {
         text-transform: lowercase
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-tt-none {
         text-transform: none
     }
@@ -3574,7 +3586,7 @@ body {
         transition-property: opacity
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-tp-none {
         -webkit-transition-property: none;
         transition-property: none
@@ -3761,7 +3773,7 @@ body {
                 transform-style: preserve-3d
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-ts-flat {
         -webkit-transform-style: flat;
                 transform-style: flat
@@ -3854,7 +3866,7 @@ body {
                 user-select: all
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-us-none {
         -webkit-user-select: none;
            -moz-user-select: none;
@@ -4001,7 +4013,7 @@ body {
         vertical-align: text-bottom
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-va-baseline {
         vertical-align: baseline
     }
@@ -4100,7 +4112,7 @@ body {
         visibility: collapse
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-visibility-hidden {
         visibility: hidden
     }
@@ -4166,7 +4178,7 @@ body {
         white-space: pre-wrap
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-ws-normal {
         white-space: normal
     }
@@ -4304,7 +4316,7 @@ body {
         width: 100%
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-width-10 {
         width: 10%
     }
@@ -4487,7 +4499,7 @@ body {
         will-change: right
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-wc-scrollPosition {
         will-change: scroll-position
     }
@@ -4586,7 +4598,7 @@ body {
         word-break: keep-all
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-wb-normal {
         word-break: normal
     }
@@ -4634,7 +4646,7 @@ body {
         word-wrap: break-word
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-ww-normal {
         word-wrap: normal
     }
@@ -4727,7 +4739,7 @@ body {
         z-index: 999999
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-zi-1 {
         z-index: 100
     }
@@ -4921,7 +4933,7 @@ body {
         width: 100%
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-col-1 {
         width: 8.3333333333%
     }
@@ -5444,7 +5456,7 @@ body {
         border-bottom-left-radius: 10px
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-br-0 {
         border-radius: 0
     }
@@ -5823,6 +5835,12 @@ body {
 .ff-system {
     font-family: -apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif
 }
+.ff-serif {
+    font-family: Georgia,Times,"Times New Roman",serif
+}
+.ff-cursive {
+    font-family: 'Brush Script MT',cursive
+}
 .ff-monospace {
     font-family: "Source Code Pro","Input Mono",Consolas,"Liberation Mono",Menlo,Courier,monospace
 }
@@ -5834,10 +5852,10 @@ body {
     font-size: 5.6rem
 }
 .fs-xxxl {
-    font-size: 4.4rem
+    font-size: 4.6rem
 }
 .fs-xxl {
-    font-size: 3.2rem
+    font-size: 2.8rem
 }
 .fs-xl {
     font-size: 2.4rem
@@ -5862,10 +5880,10 @@ body {
         font-size: 5.6rem
     }
     .bps-fs-xxxl {
-        font-size: 4.4rem
+        font-size: 4.6rem
     }
     .bps-fs-xxl {
-        font-size: 3.2rem
+        font-size: 2.8rem
     }
     .bps-fs-xl {
         font-size: 2.4rem
@@ -5883,7 +5901,7 @@ body {
         font-size: 1.2rem
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-fs-xxxxxl {
         font-size: 11rem
     }
@@ -5891,10 +5909,10 @@ body {
         font-size: 5.6rem
     }
     .bpm-fs-xxxl {
-        font-size: 4.4rem
+        font-size: 4.6rem
     }
     .bpm-fs-xxl {
-        font-size: 3.2rem
+        font-size: 2.8rem
     }
     .bpm-fs-xl {
         font-size: 2.4rem
@@ -5920,10 +5938,10 @@ body {
         font-size: 5.6rem
     }
     .bpl-fs-xxxl {
-        font-size: 4.4rem
+        font-size: 4.6rem
     }
     .bpl-fs-xxl {
-        font-size: 3.2rem
+        font-size: 2.8rem
     }
     .bpl-fs-xl {
         font-size: 2.4rem
@@ -5949,10 +5967,10 @@ body {
         font-size: 5.6rem
     }
     .bpxl-fs-xxxl {
-        font-size: 4.4rem
+        font-size: 4.6rem
     }
     .bpxl-fs-xxl {
-        font-size: 3.2rem
+        font-size: 2.8rem
     }
     .bpxl-fs-xl {
         font-size: 2.4rem
@@ -6015,7 +6033,7 @@ body {
         letter-spacing: -2px
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-ls-xxl {
         letter-spacing: 2px
     }
@@ -6129,7 +6147,7 @@ body {
         line-height: 2rem
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-lh-xxxxl {
         line-height: 6.3rem
     }
@@ -6441,7 +6459,7 @@ body {
         margin-left: 0
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-margin-xxl {
         margin: 96px
     }
@@ -7050,7 +7068,7 @@ body {
         padding-left: 0
     }
 }
-@media (min-width: 74em) {
+@media (min-width: 68em) {
     .bpm-padding-xxl {
         padding: 96px
     }

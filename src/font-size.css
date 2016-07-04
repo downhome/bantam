@@ -2,8 +2,8 @@
 
 .fs-xxxxxl  { font-size: 11rem; }
 .fs-xxxxl   { font-size: 5.6rem; }
-.fs-xxxl    { font-size: 4.4rem; }
-.fs-xxl     { font-size: 3.2rem; }
+.fs-xxxl    { font-size: 4.6rem; }
+.fs-xxl     { font-size: 2.8rem; }
 .fs-xl      { font-size: 2.4rem; }
 .fs-l       { font-size: 2rem; }
 .fs-m       { font-size: 1.6rem; }
@@ -13,8 +13,8 @@
 @media (--breakpoint-s) {
     .bps-fs-xxxxxl  { font-size: 11rem; }
     .bps-fs-xxxxl   { font-size: 5.6rem; }
-    .bps-fs-xxxl    { font-size: 4.4rem; }
-    .bps-fs-xxl     { font-size: 3.2rem; }
+    .bps-fs-xxxl    { font-size: 4.6rem; }
+    .bps-fs-xxl     { font-size: 2.8rem; }
     .bps-fs-xl      { font-size: 2.4rem; }
     .bps-fs-l       { font-size: 2rem; }
     .bps-fs-m       { font-size: 1.6rem; }
@@ -25,8 +25,8 @@
 @media (--breakpoint-m) {
     .bpm-fs-xxxxxl  { font-size: 11rem; }
     .bpm-fs-xxxxl   { font-size: 5.6rem; }
-    .bpm-fs-xxxl    { font-size: 4.4rem; }
-    .bpm-fs-xxl     { font-size: 3.2rem; }
+    .bpm-fs-xxxl    { font-size: 4.6rem; }
+    .bpm-fs-xxl     { font-size: 2.8rem; }
     .bpm-fs-xl      { font-size: 2.4rem; }
     .bpm-fs-l       { font-size: 2rem; }
     .bpm-fs-m       { font-size: 1.6rem; }
@@ -37,8 +37,8 @@
 @media (--breakpoint-l) {
     .bpl-fs-xxxxxl  { font-size: 11rem; }
     .bpl-fs-xxxxl   { font-size: 5.6rem; }
-    .bpl-fs-xxxl    { font-size: 4.4rem; }
-    .bpl-fs-xxl     { font-size: 3.2rem; }
+    .bpl-fs-xxxl    { font-size: 4.6rem; }
+    .bpl-fs-xxl     { font-size: 2.8rem; }
     .bpl-fs-xl      { font-size: 2.4rem; }
     .bpl-fs-l       { font-size: 2rem; }
     .bpl-fs-m       { font-size: 1.6rem; }
@@ -49,8 +49,8 @@
 @media (--breakpoint-xl) {
     .bpxl-fs-xxxxxl  { font-size: 11rem; }
     .bpxl-fs-xxxxl   { font-size: 5.6rem; }
-    .bpxl-fs-xxxl    { font-size: 4.4rem; }
-    .bpxl-fs-xxl     { font-size: 3.2rem; }
+    .bpxl-fs-xxxl    { font-size: 4.6rem; }
+    .bpxl-fs-xxl     { font-size: 2.8rem; }
     .bpxl-fs-xl      { font-size: 2.4rem; }
     .bpxl-fs-l       { font-size: 2rem; }
     .bpxl-fs-m       { font-size: 1.6rem; }

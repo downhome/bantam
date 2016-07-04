@@ -17,6 +17,11 @@
   .bpm-td-underline   { text-decoration: underline; }
   .bpm-td-overline    { text-decoration: overline; }
   .bpm-td-lineThrough { text-decoration: line-through; }
+
+  .td-none--hover:hover        { text-decoration: none; }
+  .td-underline--hover:hover   { text-decoration: underline; }
+  .td-overline--hover:hover    { text-decoration: overline; }
+  .td-lineThrough--hover:hover { text-decoration: line-through; }
 }
 
 @media (--breakpoint-l) {

@@ -5,7 +5,7 @@
     /* Media queries */
 
     @custom-media --breakpoint-s (min-width: 38em);
-    @custom-media --breakpoint-m (min-width: 74em);
+    @custom-media --breakpoint-m (min-width: 68em);
     @custom-media --breakpoint-l (min-width: 96em);
     @custom-media --breakpoint-xl (min-width: 120em);
 
