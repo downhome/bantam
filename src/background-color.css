@@ -36,7 +36,7 @@
 .bc-charcoal            { background-color: var(--charcoal); }
 
 /* Hover states */
-@media (--breakpoint-s) {
+@media (hover) {
     .bc-white--hover:hover               { background-color: var(--white); }
     .bc-black--hover:hover               { background-color: var(--black); }
     .bc-transparent--hover:hover         { background-color: var(--transparent); }

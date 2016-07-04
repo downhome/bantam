@@ -44,6 +44,15 @@
 
     /* Spacing  */
 
+    --spacing-none: 0;
+    --spacing-xxs: .5rem;
+    --spacing-xs: 1rem;
+    --spacing-s: 1.5rem;
+    --spacing-m: 2rem;
+    --spacing-l: 4rem;
+    --spacing-xl: 8rem;
+    --spacing-xxl: 10.2rem;
+
     /* Font size  */
 
     /* Line height  */

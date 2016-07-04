@@ -36,7 +36,7 @@
 .color-charcoal             { color: var(--charcoal); }
 
 /* Hover states */
-@media (--breakpoint-s) {
+@media (hover) {
     .color-white--hover:hover               { color: var(--white); }
     .color-black--hover:hover               { color: var(--black); }
     .color-transparent--hover:hover         { color: var(--transparent); }
