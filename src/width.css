@@ -15,6 +15,11 @@
 .width-90   { width: 90%; }
 .width-100  { width: 100%; }
 
+.width-s    { width: var(--UIs); }
+.width-m    { width: var(--UIm); }
+.width-l    { width: var(--UIl); }
+.width-xl   { width: var(--UIxl); }
+
 @media (--breakpoint-s) {
   .bps-width-10   { width: 10%; }
   .bps-width-20   { width: 20%; }
@@ -30,6 +35,11 @@
   .bps-width-80   { width: 80%; }
   .bps-width-90   { width: 90%; }
   .bps-width-100  { width: 100%; }
+
+  .bps-width-s    { width: var(--UIs); }
+  .bps-width-m    { width: var(--UIm); }
+  .bps-width-l    { width: var(--UIl); }
+  .bps-width-xl   { width: var(--UIxl); }
 }
 
 @media (--breakpoint-m) {
@@ -47,6 +57,11 @@
   .bpm-width-80   { width: 80%; }
   .bpm-width-90   { width: 90%; }
   .bpm-width-100  { width: 100%; }
+
+  .bpm-width-s    { width: var(--UIs); }
+  .bpm-width-m    { width: var(--UIm); }
+  .bpm-width-l    { width: var(--UIl); }
+  .bpm-width-xl   { width: var(--UIxl); }
 }
 
 @media (--breakpoint-l) {
@@ -64,6 +79,11 @@
   .bpl-width-80   { width: 80%; }
   .bpl-width-90   { width: 90%; }
   .bpl-width-100  { width: 100%; }
+
+  .bpl-width-s    { width: var(--UIs); }
+  .bpl-width-m    { width: var(--UIm); }
+  .bpl-width-l    { width: var(--UIl); }
+  .bpl-width-xl   { width: var(--UIxl); }
 }
 
 @media (--breakpoint-xl) {
@@ -81,4 +101,9 @@
   .bpxl-width-80   { width: 80%; }
   .bpxl-width-90   { width: 90%; }
   .bpxl-width-100  { width: 100%; }
+
+  .bpxl-width-s    { width: var(--UIs); }
+  .bpxl-width-m    { width: var(--UIm); }
+  .bpxl-width-l    { width: var(--UIl); }
+  .bpxl-width-xl   { width: var(--UIxl); }
 }

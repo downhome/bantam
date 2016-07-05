@@ -53,7 +53,10 @@
     --spacing-xl: 8rem;
     --spacing-xxl: 10.2rem;
 
-    /* Font size  */
+    /* Dimensions  */
 
-    /* Line height  */
+    --UIs: 30px;
+    --UIm: 40px;
+    --UIl: 50px;
+    --UIxl: 60px;
 }
