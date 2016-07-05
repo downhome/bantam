@@ -7,6 +7,7 @@
 .ls-s       { letter-spacing: -.5px; }
 .ls-xs      { letter-spacing: -1px; }
 .ls-xxs     { letter-spacing: -2px; }
+.ls-xxxs     { letter-spacing: -4px; }
 
 @media (--breakpoint-s) {
     .bps-ls-xxl     { letter-spacing: 2px; }
@@ -16,6 +17,7 @@
     .bps-ls-s       { letter-spacing: -.5px; }
     .bps-ls-xs      { letter-spacing: -1px; }
     .bps-ls-xxs     { letter-spacing: -2px; }
+    .bps-ls-xxxs    { letter-spacing: -4px; }
 }
 
 @media (--breakpoint-m) {
@@ -26,6 +28,7 @@
     .bpm-ls-s       { letter-spacing: -.5px; }
     .bpm-ls-xs      { letter-spacing: -1px; }
     .bpm-ls-xxs     { letter-spacing: -2px; }
+    .bpm-ls-xxxs    { letter-spacing: -4px; }
 }
 
 @media (--breakpoint-l) {
@@ -36,6 +39,7 @@
     .bpl-ls-s       { letter-spacing: -.5px; }
     .bpl-ls-xs      { letter-spacing: -1px; }
     .bpl-ls-xxs     { letter-spacing: -2px; }
+    .bpl-ls-xxxs    { letter-spacing: -4px; }
 }
 
 @media (--breakpoint-xl) {
@@ -46,4 +50,5 @@
     .bpxl-ls-s       { letter-spacing: -.5px; }
     .bpxl-ls-xs      { letter-spacing: -1px; }
     .bpxl-ls-xxs     { letter-spacing: -2px; }
+    .bpxl-ls-xxxs    { letter-spacing: -4px; }
 }

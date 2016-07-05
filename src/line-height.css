@@ -1,5 +1,6 @@
 /* Line height */
 
+.lh-xxxxxl  { line-height: 10.4rem; }
 .lh-xxxxl   { line-height: 6.3rem; }
 .lh-xxxl    { line-height: 4.8rem; }
 .lh-xxl     { line-height: 3.6rem; }
@@ -9,6 +10,7 @@
 .lh-s       { line-height: 2rem; }
 
 @media (--breakpoint-s) {
+    .bps-lh-xxxxxl  { line-height: 10.4rem; }
     .bps-lh-xxxxl   { line-height: 6.3rem; }
     .bps-lh-xxxl    { line-height: 4.8rem; }
     .bps-lh-xxl     { line-height: 4rem; }
@@ -19,6 +21,7 @@
 }
 
 @media (--breakpoint-m) {
+    .bpm-lh-xxxxxl  { line-height: 10.4rem; }
     .bpm-lh-xxxxl   { line-height: 6.3rem; }
     .bpm-lh-xxxl    { line-height: 4.8rem; }
     .bpm-lh-xxl     { line-height: 4rem; }
@@ -29,6 +32,7 @@
 }
 
 @media (--breakpoint-l) {
+    .bpl-lh-xxxxxl  { line-height: 10.4rem; }
     .bpl-lh-xxxxl   { line-height: 6.3rem; }
     .bpl-lh-xxxl    { line-height: 4.8rem; }
     .bpl-lh-xxl     { line-height: 4rem; }
@@ -39,6 +43,7 @@
 }
 
 @media (--breakpoint-xl) {
+    .bpxl-lh-xxxxxl  { line-height: 10.4rem; }
     .bpxl-lh-xxxxl   { line-height: 6.3rem; }
     .bpxl-lh-xxxl    { line-height: 4.8rem; }
     .bpxl-lh-xxl     { line-height: 4rem; }

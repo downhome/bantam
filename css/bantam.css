@@ -6249,6 +6249,9 @@ mark {
 .ls-xxs {
     letter-spacing: -2px
 }
+.ls-xxxs {
+    letter-spacing: -4px
+}
 @media (min-width: 38em) {
     .bps-ls-xxl {
         letter-spacing: 2px
@@ -6270,6 +6273,9 @@ mark {
     }
     .bps-ls-xxs {
         letter-spacing: -2px
+    }
+    .bps-ls-xxxs {
+        letter-spacing: -4px
     }
 }
 @media (min-width: 68em) {
@@ -6294,6 +6300,9 @@ mark {
     .bpm-ls-xxs {
         letter-spacing: -2px
     }
+    .bpm-ls-xxxs {
+        letter-spacing: -4px
+    }
 }
 @media (min-width: 96em) {
     .bpl-ls-xxl {
@@ -6316,6 +6325,9 @@ mark {
     }
     .bpl-ls-xxs {
         letter-spacing: -2px
+    }
+    .bpl-ls-xxxs {
+        letter-spacing: -4px
     }
 }
 @media (min-width: 120em) {
@@ -6340,8 +6352,14 @@ mark {
     .bpxl-ls-xxs {
         letter-spacing: -2px
     }
+    .bpxl-ls-xxxs {
+        letter-spacing: -4px
+    }
 }
 /* Line height */
+.lh-xxxxxl {
+    line-height: 10.4rem
+}
 .lh-xxxxl {
     line-height: 6.3rem
 }
@@ -6364,6 +6382,9 @@ mark {
     line-height: 2rem
 }
 @media (min-width: 38em) {
+    .bps-lh-xxxxxl {
+        line-height: 10.4rem
+    }
     .bps-lh-xxxxl {
         line-height: 6.3rem
     }
@@ -6387,6 +6408,9 @@ mark {
     }
 }
 @media (min-width: 68em) {
+    .bpm-lh-xxxxxl {
+        line-height: 10.4rem
+    }
     .bpm-lh-xxxxl {
         line-height: 6.3rem
     }
@@ -6410,6 +6434,9 @@ mark {
     }
 }
 @media (min-width: 96em) {
+    .bpl-lh-xxxxxl {
+        line-height: 10.4rem
+    }
     .bpl-lh-xxxxl {
         line-height: 6.3rem
     }
@@ -6433,6 +6460,9 @@ mark {
     }
 }
 @media (min-width: 120em) {
+    .bpxl-lh-xxxxxl {
+        line-height: 10.4rem
+    }
     .bpxl-lh-xxxxl {
         line-height: 6.3rem
     }
