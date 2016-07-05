@@ -8,8 +8,8 @@ A set of single-purpose CSS classes for every functional CSS property. Reuse thi
 - Simple and easy to learn naming convention.
 - Built on PostCSS.
 - Reusable across all projects.
-- Less than 5kb when minified and gzipped.
-- Browser support down to IE7.
+- Less than 15kb when minified and gzipped.
+- Browser support down to IE9.
 
 ### Naming convention
 
