@@ -17,10 +17,11 @@ The general syntax looks like {propertyName-valueName}
 
     .float-left { float: left; }
 
-When the CSS property consists of two or more words, abbreviate the words to their initials:
+When the CSS property consists of two or more words, abbreviate the property name to its initials:
 
     .ta-center { text-align: center; }
     .lst-disc  { list-style-type: disc; }
+    .tr-optimizeLegibility  { text-rendering: optimizeLegibility; }
 
 ## Getting started
 
