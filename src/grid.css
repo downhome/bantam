@@ -1,5 +1,17 @@
 /* Grid */
 
+.grid:before,
+.grid:after {
+    content: "";
+    display: table;
+}
+
+.grid:after {
+  clear: both;
+}
+
+.grid { *zoom: 1; }
+
 .grid {
     margin-top: -var(--spacing-l);
     margin-left: -var(--spacing-l);
