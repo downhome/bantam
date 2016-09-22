@@ -4,6 +4,7 @@
 @import "variables.css";
 
 /* Reset */
+@import "normalize.css";
 @import "reset.css";
 
 /* Functional properties */
