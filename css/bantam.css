@@ -2885,6 +2885,97 @@ mark {
         opacity: 1
     }
 }
+/* Outline color */
+.oc-white {
+    outline-color: #fff
+}
+.oc-black {
+    outline-color: #000
+}
+.oc-transparent {
+    outline-color: .5
+}
+.oc-white--translucent {
+    outline-color: rgba(255,255,255, .98)
+}
+.oc-white--transparent {
+    outline-color: rgba(255,255,255, .5)
+}
+.oc-white--pellucid {
+    outline-color: rgba(255,255,255, .2)
+}
+.oc-white--limpid {
+    outline-color: rgba(255,255,255, .05)
+}
+.oc-black--translucent {
+    outline-color: rgba(0,0,0, .98)
+}
+.oc-black--transparent {
+    outline-color: rgba(0,0,0, .5)
+}
+.oc-black--pellucid {
+    outline-color: rgba(0,0,0, .2)
+}
+.oc-black--limpid {
+    outline-color: rgba(0,0,0, .05)
+}
+.oc-red {
+    outline-color: #F44336
+}
+.oc-pink {
+    outline-color: #E91E63
+}
+.oc-purple {
+    outline-color: #673AB7
+}
+.oc-indigo {
+    outline-color: #3F51B5
+}
+.oc-blue {
+    outline-color: #2196F3
+}
+.oc-cyan {
+    outline-color: #00BCD4
+}
+.oc-teal {
+    outline-color: #009688
+}
+.oc-green {
+    outline-color: #4CAF50
+}
+.oc-lime {
+    outline-color: #CDDC39
+}
+.oc-yellow {
+    outline-color: #FFEB3B
+}
+.oc-amber {
+    outline-color: #FFC107
+}
+.oc-orange {
+    outline-color: #FF9800
+}
+.oc-brown {
+    outline-color: #795548
+}
+.oc-gray {
+    outline-color: #9E9E9E
+}
+.oc-snow {
+    outline-color: #ECEFF1
+}
+.oc-smoke {
+    outline-color: #B0BEC5
+}
+.oc-steel {
+    outline-color: #8d9da5
+}
+.oc-lead {
+    outline-color: #37474F
+}
+.oc-charcoal {
+    outline-color: #111618
+}
 /* Outline Style */
 .os-none {
     outline-style: none
