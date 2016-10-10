@@ -17,15 +17,19 @@
 .color-red                  { color: var(--red); }
 .color-pink                 { color: var(--pink); }
 .color-purple               { color: var(--purple); }
+.color-deepPurple           { color: var(--deepPurple); }
 .color-indigo               { color: var(--indigo); }
 .color-blue                 { color: var(--blue); }
+.color-lightBlue            { color: var(--lightBlue); }
 .color-cyan                 { color: var(--cyan); }
 .color-teal                 { color: var(--teal); }
 .color-green                { color: var(--green); }
+.color-lightGreen           { color: var(--lightGreen); }
 .color-lime                 { color: var(--lime); }
 .color-yellow               { color: var(--yellow); }
 .color-amber                { color: var(--amber); }
 .color-orange               { color: var(--orange); }
+.color-deepOrange           { color: var(--deepOrange); }
 .color-brown                { color: var(--brown); }
 .color-gray                 { color: var(--gray); }
 
@@ -44,15 +48,19 @@
     .color-red--hover:hover                 { color: var(--red); }
     .color-pink--hover:hover                { color: var(--pink); }
     .color-purple--hover:hover              { color: var(--purple); }
+    .color-deepPurple--hover:hover          { color: var(--deepPurple); }
     .color-indigo--hover:hover              { color: var(--indigo); }
     .color-blue--hover:hover                { color: var(--blue); }
+    .color-lightBlue--hover:hover           { color: var(--lightBlue); }
     .color-cyan--hover:hover                { color: var(--cyan); }
     .color-teal--hover:hover                { color: var(--teal); }
     .color-green--hover:hover               { color: var(--green); }
+    .color-lightGreen--hover:hover          { color: var(--lightGreen); }
     .color-lime--hover:hover                { color: var(--lime); }
     .color-yellow--hover:hover              { color: var(--yellow); }
     .color-amber--hover:hover               { color: var(--amber); }
     .color-orange--hover:hover              { color: var(--orange); }
+    .color-deepOrange--hover:hover          { color: var(--deepOrange); }
     .color-brown--hover:hover               { color: var(--brown); }
     .color-gray--hover:hover                { color: var(--gray); }
 

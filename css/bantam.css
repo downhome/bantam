@@ -2964,11 +2964,17 @@ mark {
 .oc-purple {
     outline-color: #673AB7
 }
+.oc-deepPurple {
+    outline-color: #673AB7
+}
 .oc-indigo {
     outline-color: #3F51B5
 }
 .oc-blue {
     outline-color: #2196F3
+}
+.oc-lightBlue {
+    outline-color: #03A9F4
 }
 .oc-cyan {
     outline-color: #00BCD4
@@ -2978,6 +2984,9 @@ mark {
 }
 .oc-green {
     outline-color: #4CAF50
+}
+.oc-lightGreen {
+    outline-color: #8BC34A
 }
 .oc-lime {
     outline-color: #CDDC39
@@ -2990,6 +2999,9 @@ mark {
 }
 .oc-orange {
     outline-color: #FF9800
+}
+.oc-deepOrange {
+    outline-color: #FF5722
 }
 .oc-brown {
     outline-color: #795548
@@ -5865,11 +5877,17 @@ mark {
 .bc-purple {
     background-color: #673AB7
 }
+.bc-deepPurple {
+    background-color: #673AB7
+}
 .bc-indigo {
     background-color: #3F51B5
 }
 .bc-blue {
     background-color: #2196F3
+}
+.bc-lightBlue {
+    background-color: #03A9F4
 }
 .bc-cyan {
     background-color: #00BCD4
@@ -5879,6 +5897,9 @@ mark {
 }
 .bc-green {
     background-color: #4CAF50
+}
+.bc-lightGreen {
+    background-color: #8BC34A
 }
 .bc-lime {
     background-color: #CDDC39
@@ -5891,6 +5912,9 @@ mark {
 }
 .bc-orange {
     background-color: #FF9800
+}
+.bc-deepOrange {
+    background-color: #FF5722
 }
 .bc-brown {
     background-color: #795548
@@ -5933,11 +5957,17 @@ mark {
     .bc-purple--hover:hover {
         background-color: #673AB7
     }
+    .bc-deepPurple--hover:hover {
+        background-color: #673AB7
+    }
     .bc-indigo--hover:hover {
         background-color: #3F51B5
     }
     .bc-blue--hover:hover {
         background-color: #2196F3
+    }
+    .bc-lightBlue--hover:hover {
+        background-color: #03A9F4
     }
     .bc-cyan--hover:hover {
         background-color: #00BCD4
@@ -5947,6 +5977,9 @@ mark {
     }
     .bc-green--hover:hover {
         background-color: #4CAF50
+    }
+    .bc-lightGreen--hover:hover {
+        background-color: #8BC34A
     }
     .bc-lime--hover:hover {
         background-color: #CDDC39
@@ -5959,6 +5992,9 @@ mark {
     }
     .bc-orange--hover:hover {
         background-color: #FF9800
+    }
+    .bc-deepOrange--hover:hover {
+        background-color: #FF5722
     }
     .bc-brown--hover:hover {
         background-color: #795548
@@ -6369,11 +6405,17 @@ mark {
 .color-purple {
     color: #673AB7
 }
+.color-deepPurple {
+    color: #673AB7
+}
 .color-indigo {
     color: #3F51B5
 }
 .color-blue {
     color: #2196F3
+}
+.color-lightBlue {
+    color: #03A9F4
 }
 .color-cyan {
     color: #00BCD4
@@ -6383,6 +6425,9 @@ mark {
 }
 .color-green {
     color: #4CAF50
+}
+.color-lightGreen {
+    color: #8BC34A
 }
 .color-lime {
     color: #CDDC39
@@ -6395,6 +6440,9 @@ mark {
 }
 .color-orange {
     color: #FF9800
+}
+.color-deepOrange {
+    color: #FF5722
 }
 .color-brown {
     color: #795548
@@ -6437,11 +6485,17 @@ mark {
     .color-purple--hover:hover {
         color: #673AB7
     }
+    .color-deepPurple--hover:hover {
+        color: #673AB7
+    }
     .color-indigo--hover:hover {
         color: #3F51B5
     }
     .color-blue--hover:hover {
         color: #2196F3
+    }
+    .color-lightBlue--hover:hover {
+        color: #03A9F4
     }
     .color-cyan--hover:hover {
         color: #00BCD4
@@ -6451,6 +6505,9 @@ mark {
     }
     .color-green--hover:hover {
         color: #4CAF50
+    }
+    .color-lightGreen--hover:hover {
+        color: #8BC34A
     }
     .color-lime--hover:hover {
         color: #CDDC39
@@ -6463,6 +6520,9 @@ mark {
     }
     .color-orange--hover:hover {
         color: #FF9800
+    }
+    .color-deepOrange--hover:hover {
+        color: #FF5722
     }
     .color-brown--hover:hover {
         color: #795548
