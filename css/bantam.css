@@ -2885,6 +2885,42 @@ mark {
         opacity: 1
     }
 }
+/* Hover states */
+@media (hover) {
+    .opacity-0--hover:hover {
+        opacity: 0
+    }
+    .opacity-10--hover:hover {
+        opacity: .1
+    }
+    .opacity-20--hover:hover {
+        opacity: .2
+    }
+    .opacity-30--hover:hover {
+        opacity: .3
+    }
+    .opacity-40--hover:hover {
+        opacity: .4
+    }
+    .opacity-50--hover:hover {
+        opacity: .5
+    }
+    .opacity-60--hover:hover {
+        opacity: .6
+    }
+    .opacity-70--hover:hover {
+        opacity: .7
+    }
+    .opacity-80--hover:hover {
+        opacity: .8
+    }
+    .opacity-90--hover:hover {
+        opacity: .9
+    }
+    .opacity-100--hover:hover {
+        opacity: 1
+    }
+}
 /* Outline color */
 .oc-white {
     outline-color: #fff
