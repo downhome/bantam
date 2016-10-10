@@ -2711,6 +2711,19 @@ mark {
         list-style-type: lower-roman
     }
 }
+/* Min Width */
+.mw-s {
+    min-width: 30px
+}
+.mw-m {
+    min-width: 40px
+}
+.mw-l {
+    min-width: 50px
+}
+.mw-xl {
+    min-width: 60px
+}
 /* Opacity */
 .opacity-0 {
     opacity: 0

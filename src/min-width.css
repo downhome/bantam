@@ -1,0 +1,6 @@
+/* Min Width */
+
+.mw-s       { min-width: var(--UIs); }
+.mw-m       { min-width: var(--UIm); }
+.mw-l       { min-width: var(--UIl); }
+.mw-xl      { min-width: var(--UIxl); }
