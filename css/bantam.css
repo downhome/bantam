@@ -5922,6 +5922,30 @@ mark {
 .bc-gray {
     background-color: #9E9E9E
 }
+.bc-pinkTint {
+    background-color: #FCE4EC
+}
+.bc-blueTint {
+    background-color: #E3F2FD
+}
+.bc-tealTint {
+    background-color: #E0F2F1
+}
+.bc-amberTint {
+    background-color: #FFF8E1
+}
+.bc-redBright {
+    background-color: #FF1744
+}
+.bc-purpleBright {
+    background-color: #D500F9
+}
+.bc-blueBright {
+    background-color: #2979FF
+}
+.bc-tealBright {
+    background-color: #1DE9B6
+}
 .bc-snow {
     background-color: #ECEFF1
 }
@@ -6001,6 +6025,30 @@ mark {
     }
     .bc-gray--hover:hover {
         background-color: #9E9E9E
+    }
+    .bc-pinkTint--hover:hover {
+        background-color: #FCE4EC
+    }
+    .bc-blueTint--hover:hover {
+        background-color: #E3F2FD
+    }
+    .bc-tealTint--hover:hover {
+        background-color: #E0F2F1
+    }
+    .bc-amberTint--hover:hover {
+        background-color: #FFF8E1
+    }
+    .bc-redBright--hover:hover {
+        background-color: #FF1744
+    }
+    .bc-purpleBright--hover:hover {
+        background-color: #D500F9
+    }
+    .bc-blueBright--hover:hover {
+        background-color: #2979FF
+    }
+    .bc-tealBright--hover:hover {
+        background-color: #1DE9B6
     }
     .bc-snow--hover:hover {
         background-color: #ECEFF1

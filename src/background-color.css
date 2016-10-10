@@ -33,11 +33,21 @@
 .bc-brown                { background-color: var(--brown); }
 .bc-gray                 { background-color: var(--gray); }
 
-.bc-snow                { background-color: var(--snow); }
-.bc-smoke               { background-color: var(--smoke); }
-.bc-steel               { background-color: var(--steel); }
-.bc-lead                { background-color: var(--lead); }
-.bc-charcoal            { background-color: var(--charcoal); }
+.bc-pinkTint             { background-color: var(--pinkTint); }
+.bc-blueTint             { background-color: var(--blueTint); }
+.bc-tealTint             { background-color: var(--tealTint); }
+.bc-amberTint            { background-color: var(--amberTint); }
+
+.bc-redBright            { background-color: var(--redBright); }
+.bc-purpleBright         { background-color: var(--purpleBright); }
+.bc-blueBright           { background-color: var(--blueBright); }
+.bc-tealBright           { background-color: var(--tealBright); }
+
+.bc-snow                 { background-color: var(--snow); }
+.bc-smoke                { background-color: var(--smoke); }
+.bc-steel                { background-color: var(--steel); }
+.bc-lead                 { background-color: var(--lead); }
+.bc-charcoal             { background-color: var(--charcoal); }
 
 /* Hover states */
 @media (hover) {
@@ -63,6 +73,16 @@
     .bc-deepOrange--hover:hover          { background-color: var(--deepOrange); }
     .bc-brown--hover:hover               { background-color: var(--brown); }
     .bc-gray--hover:hover                { background-color: var(--gray); }
+
+    .bc-pinkTint--hover:hover            { background-color: var(--pinkTint); }
+    .bc-blueTint--hover:hover            { background-color: var(--blueTint); }
+    .bc-tealTint--hover:hover            { background-color: var(--tealTint); }
+    .bc-amberTint--hover:hover           { background-color: var(--amberTint); }
+
+    .bc-redBright--hover:hover           { background-color: var(--redBright); }
+    .bc-purpleBright--hover:hover        { background-color: var(--purpleBright); }
+    .bc-blueBright--hover:hover          { background-color: var(--blueBright); }
+    .bc-tealBright--hover:hover          { background-color: var(--tealBright); }
 
     .bc-snow--hover:hover                { background-color: var(--snow); }
     .bc-smoke--hover:hover               { background-color: var(--smoke); }
