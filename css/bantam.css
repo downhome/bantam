@@ -7010,16 +7010,16 @@ mark {
     line-height: 2rem
 }
 .lh-UIs {
-    min-width: 30px
+    line-height: 30px
 }
 .lh-UIm {
-    min-width: 40px
+    line-height: 40px
 }
 .lh-UIl {
-    min-width: 50px
+    line-height: 50px
 }
 .lh-UIxl {
-    min-width: 60px
+    line-height: 60px
 }
 @media (min-width: 38em) {
     .bps-lh-xxxxxl {
@@ -7047,16 +7047,16 @@ mark {
         line-height: 2rem
     }
     .bps-lh-UIs {
-        min-width: 30px
+        line-height: 30px
     }
     .bps-lh-UIm {
-        min-width: 40px
+        line-height: 40px
     }
     .bps-lh-UIl {
-        min-width: 50px
+        line-height: 50px
     }
     .bps-lh-UIxl {
-        min-width: 60px
+        line-height: 60px
     }
 }
 @media (min-width: 68em) {
@@ -7085,16 +7085,16 @@ mark {
         line-height: 2rem
     }
     .bpm-lh-UIs {
-        min-width: 30px
+        line-height: 30px
     }
     .bpm-lh-UIm {
-        min-width: 40px
+        line-height: 40px
     }
     .bpm-lh-UIl {
-        min-width: 50px
+        line-height: 50px
     }
     .bpm-lh-UIxl {
-        min-width: 60px
+        line-height: 60px
     }
 }
 @media (min-width: 96em) {
@@ -7123,16 +7123,16 @@ mark {
         line-height: 2rem
     }
     .bpl-lh-UIs {
-        min-width: 30px
+        line-height: 30px
     }
     .bpl-lh-UIm {
-        min-width: 40px
+        line-height: 40px
     }
     .bpl-lh-UIl {
-        min-width: 50px
+        line-height: 50px
     }
     .bpl-lh-UIxl {
-        min-width: 60px
+        line-height: 60px
     }
 }
 @media (min-width: 120em) {
@@ -7161,16 +7161,16 @@ mark {
         line-height: 2rem
     }
     .bpxl-lh-UIs {
-        min-width: 30px
+        line-height: 30px
     }
     .bpxl-lh-UIm {
-        min-width: 40px
+        line-height: 40px
     }
     .bpxl-lh-UIl {
-        min-width: 50px
+        line-height: 50px
     }
     .bpxl-lh-UIxl {
-        min-width: 60px
+        line-height: 60px
     }
 }
 /* Margin */

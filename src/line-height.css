@@ -9,10 +9,10 @@
 .lh-m       { line-height: 2.4rem; }
 .lh-s       { line-height: 2rem; }
 
-.lh-UIs       { min-width: var(--UIs); }
-.lh-UIm       { min-width: var(--UIm); }
-.lh-UIl       { min-width: var(--UIl); }
-.lh-UIxl      { min-width: var(--UIxl); }
+.lh-UIs       { line-height: var(--UIs); }
+.lh-UIm       { line-height: var(--UIm); }
+.lh-UIl       { line-height: var(--UIl); }
+.lh-UIxl      { line-height: var(--UIxl); }
 
 @media (--breakpoint-s) {
     .bps-lh-xxxxxl  { line-height: 10.4rem; }
@@ -24,10 +24,10 @@
     .bps-lh-m       { line-height: 2.4rem; }
     .bps-lh-s       { line-height: 2rem; }
 
-    .bps-lh-UIs       { min-width: var(--UIs); }
-    .bps-lh-UIm       { min-width: var(--UIm); }
-    .bps-lh-UIl       { min-width: var(--UIl); }
-    .bps-lh-UIxl      { min-width: var(--UIxl); }
+    .bps-lh-UIs       { line-height: var(--UIs); }
+    .bps-lh-UIm       { line-height: var(--UIm); }
+    .bps-lh-UIl       { line-height: var(--UIl); }
+    .bps-lh-UIxl      { line-height: var(--UIxl); }
 }
 
 @media (--breakpoint-m) {
@@ -40,10 +40,10 @@
     .bpm-lh-m       { line-height: 2.4rem; }
     .bpm-lh-s       { line-height: 2rem; }
 
-    .bpm-lh-UIs       { min-width: var(--UIs); }
-    .bpm-lh-UIm       { min-width: var(--UIm); }
-    .bpm-lh-UIl       { min-width: var(--UIl); }
-    .bpm-lh-UIxl      { min-width: var(--UIxl); }
+    .bpm-lh-UIs       { line-height: var(--UIs); }
+    .bpm-lh-UIm       { line-height: var(--UIm); }
+    .bpm-lh-UIl       { line-height: var(--UIl); }
+    .bpm-lh-UIxl      { line-height: var(--UIxl); }
 }
 
 @media (--breakpoint-l) {
@@ -56,10 +56,10 @@
     .bpl-lh-m       { line-height: 2.4rem; }
     .bpl-lh-s       { line-height: 2rem; }
 
-    .bpl-lh-UIs       { min-width: var(--UIs); }
-    .bpl-lh-UIm       { min-width: var(--UIm); }
-    .bpl-lh-UIl       { min-width: var(--UIl); }
-    .bpl-lh-UIxl      { min-width: var(--UIxl); }
+    .bpl-lh-UIs       { line-height: var(--UIs); }
+    .bpl-lh-UIm       { line-height: var(--UIm); }
+    .bpl-lh-UIl       { line-height: var(--UIl); }
+    .bpl-lh-UIxl      { line-height: var(--UIxl); }
 }
 
 @media (--breakpoint-xl) {
@@ -72,8 +72,8 @@
     .bpxl-lh-m       { line-height: 2.4rem; }
     .bpxl-lh-s       { line-height: 2rem; }
 
-    .bpxl-lh-UIs       { min-width: var(--UIs); }
-    .bpxl-lh-UIm       { min-width: var(--UIm); }
-    .bpxl-lh-UIl       { min-width: var(--UIl); }
-    .bpxl-lh-UIxl      { min-width: var(--UIxl); }
+    .bpxl-lh-UIs       { line-height: var(--UIs); }
+    .bpxl-lh-UIm       { line-height: var(--UIm); }
+    .bpxl-lh-UIl       { line-height: var(--UIl); }
+    .bpxl-lh-UIxl      { line-height: var(--UIxl); }
 }
