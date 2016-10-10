@@ -9,6 +9,11 @@
 .lh-m       { line-height: 2.4rem; }
 .lh-s       { line-height: 2rem; }
 
+.lh-UIs       { min-width: var(--UIs); }
+.lh-UIm       { min-width: var(--UIm); }
+.lh-UIl       { min-width: var(--UIl); }
+.lh-UIxl      { min-width: var(--UIxl); }
+
 @media (--breakpoint-s) {
     .bps-lh-xxxxxl  { line-height: 10.4rem; }
     .bps-lh-xxxxl   { line-height: 6.3rem; }
@@ -18,6 +23,11 @@
     .bps-lh-l       { line-height: 2.8rem; }
     .bps-lh-m       { line-height: 2.4rem; }
     .bps-lh-s       { line-height: 2rem; }
+
+    .bps-lh-UIs       { min-width: var(--UIs); }
+    .bps-lh-UIm       { min-width: var(--UIm); }
+    .bps-lh-UIl       { min-width: var(--UIl); }
+    .bps-lh-UIxl      { min-width: var(--UIxl); }
 }
 
 @media (--breakpoint-m) {
@@ -29,6 +39,11 @@
     .bpm-lh-l       { line-height: 2.8rem; }
     .bpm-lh-m       { line-height: 2.4rem; }
     .bpm-lh-s       { line-height: 2rem; }
+
+    .bpm-lh-UIs       { min-width: var(--UIs); }
+    .bpm-lh-UIm       { min-width: var(--UIm); }
+    .bpm-lh-UIl       { min-width: var(--UIl); }
+    .bpm-lh-UIxl      { min-width: var(--UIxl); }
 }
 
 @media (--breakpoint-l) {
@@ -40,6 +55,11 @@
     .bpl-lh-l       { line-height: 2.8rem; }
     .bpl-lh-m       { line-height: 2.4rem; }
     .bpl-lh-s       { line-height: 2rem; }
+
+    .bpl-lh-UIs       { min-width: var(--UIs); }
+    .bpl-lh-UIm       { min-width: var(--UIm); }
+    .bpl-lh-UIl       { min-width: var(--UIl); }
+    .bpl-lh-UIxl      { min-width: var(--UIxl); }
 }
 
 @media (--breakpoint-xl) {
@@ -51,4 +71,9 @@
     .bpxl-lh-l       { line-height: 2.8rem; }
     .bpxl-lh-m       { line-height: 2.4rem; }
     .bpxl-lh-s       { line-height: 2rem; }
+
+    .bpxl-lh-UIs       { min-width: var(--UIs); }
+    .bpxl-lh-UIm       { min-width: var(--UIm); }
+    .bpxl-lh-UIl       { min-width: var(--UIl); }
+    .bpxl-lh-UIxl      { min-width: var(--UIxl); }
 }
