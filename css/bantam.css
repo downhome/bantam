@@ -4494,6 +4494,31 @@ mark {
     -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
             transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55)
 }
+/* Transform origin */
+.transform-scaleUp--hover:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2)
+}
+.transform-scaleDown--hover:hover {
+    -webkit-transform: scale(.8);
+            transform: scale(.8)
+}
+.transform-pullUp--hover:hover {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px)
+}
+.transform-pullRight--hover:hover {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px)
+}
+.transform-pullDown--hover:hover {
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px)
+}
+.transform-pullLeft--hover:hover {
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px)
+}
 /* Transform Style */
 .ts-flat {
     -webkit-transform-style: flat;
