@@ -73,4 +73,13 @@
     --UIm: 40px;
     --UIl: 50px;
     --UIxl: 60px;
+
+    /* Durations  */
+
+    --duration-none: 0;
+    --duration-xl: 1000ms;
+    --duration-l: 500ms;
+    --duration-m: 300ms;
+    --duration-s: 100ms;
+    --duration-xs: 50ms;
 }

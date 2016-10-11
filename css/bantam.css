@@ -2,7 +2,7 @@
 
 /* Variables */
 /* Variables */
-:root {/* Media queries *//* Color scheme *//* Spacing  *//* Dimensions  */
+:root {/* Media queries *//* Color scheme *//* Spacing  *//* Dimensions  *//* Durations  */
 }
 
 /* Reset */
@@ -2975,7 +2975,7 @@ mark {
     outline-color: #E91E63
 }
 .oc-purple {
-    outline-color: #673AB7
+    outline-color: #9C27B0
 }
 .oc-deepPurple {
     outline-color: #673AB7
@@ -4085,6 +4085,31 @@ mark {
         text-transform: lowercase
     }
 }
+/* Transition duration */
+.td-0 {
+    -webkit-transition-duration: 0;
+            transition-duration: 0
+}
+.td-xl {
+    -webkit-transition-duration: 1000ms;
+            transition-duration: 1000ms
+}
+.td-l {
+    -webkit-transition-duration: 500ms;
+            transition-duration: 500ms
+}
+.td-m {
+    -webkit-transition-duration: 300ms;
+            transition-duration: 300ms
+}
+.td-s {
+    -webkit-transition-duration: 100ms;
+            transition-duration: 100ms
+}
+.td-xs {
+    -webkit-transition-duration: 50ms;
+            transition-duration: 50ms
+}
 /* Transition Property */
 .tp-none {
     -webkit-transition-property: none;
@@ -4987,16 +5012,16 @@ mark {
 .width-100 {
     width: 100%
 }
-.width-s {
+.width-UIs {
     width: 30px
 }
-.width-m {
+.width-UIm {
     width: 40px
 }
-.width-l {
+.width-UIl {
     width: 50px
 }
-.width-xl {
+.width-UIxl {
     width: 60px
 }
 @media (min-width: 38em) {
@@ -5993,7 +6018,7 @@ mark {
     background-color: #E91E63
 }
 .bc-purple {
-    background-color: #673AB7
+    background-color: #9C27B0
 }
 .bc-deepPurple {
     background-color: #673AB7
@@ -6097,7 +6122,7 @@ mark {
         background-color: #E91E63
     }
     .bc-purple--hover:hover {
-        background-color: #673AB7
+        background-color: #9C27B0
     }
     .bc-deepPurple--hover:hover {
         background-color: #673AB7
@@ -6569,7 +6594,7 @@ mark {
     color: #E91E63
 }
 .color-purple {
-    color: #673AB7
+    color: #9C27B0
 }
 .color-deepPurple {
     color: #673AB7
@@ -6649,7 +6674,7 @@ mark {
         color: #E91E63
     }
     .color-purple--hover:hover {
-        color: #673AB7
+        color: #9C27B0
     }
     .color-deepPurple--hover:hover {
         color: #673AB7
@@ -6753,7 +6778,7 @@ mark {
     fill: #E91E63
 }
 .fill-purple {
-    fill: #673AB7
+    fill: #9C27B0
 }
 .fill-indigo {
     fill: #3F51B5

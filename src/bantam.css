@@ -40,6 +40,7 @@
 @import "text-overflow.css";
 @import "text-rendering.css";
 @import "text-transform.css";
+@import "transition-duration.css";
 @import "transition-property.css";
 @import "transition-timing-function.css";
 @import "transform-style.css";
