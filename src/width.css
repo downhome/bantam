@@ -15,10 +15,10 @@
 .width-90   { width: 90%; }
 .width-100  { width: 100%; }
 
-.width-s    { width: var(--UIs); }
-.width-m    { width: var(--UIm); }
-.width-l    { width: var(--UIl); }
-.width-xl   { width: var(--UIxl); }
+.width-UIs    { width: var(--UIs); }
+.width-UIm    { width: var(--UIm); }
+.width-UIl    { width: var(--UIl); }
+.width-UIxl   { width: var(--UIxl); }
 
 @media (--breakpoint-s) {
   .bps-width-10   { width: 10%; }
