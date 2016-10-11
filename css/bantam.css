@@ -6535,13 +6535,13 @@ mark {
 }
 /* Box shadow */
 .bs-raise {
-    box-shadow: 0 4px 10px rgba(#111618), 0 1px 3px rgba(0,0,0,.08)
+    box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.08)
 }
 .bs-active {
-    box-shadow: 0 6px 12px rgba(#111618),0 3px 6px rgba(0,0,0,.1)
+    box-shadow: 0 5px 10px rgba(0,0,0,.15),0 3px 6px rgba(0,0,0,.1)
 }
 .bs-distant {
-    box-shadow: 0 8px 16px rgba(17,22,24,.1),0 3px 6px rgba(0,0,0,.14)
+    box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
 }
 .bs-bevel {
     box-shadow: 0 -1px 0 #B0BEC5,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
@@ -6549,13 +6549,13 @@ mark {
 /* Hover states */
 @media (hover) {
     .bs-raise--hover:hover {
-        box-shadow: 0 4px 10px rgba(#111618), 0 1px 3px rgba(0,0,0,.08)
+        box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.08)
     }
     .bs-active--hover:hover {
-        box-shadow: 0 6px 12px rgba(#111618),0 3px 6px rgba(0,0,0,.1)
+        box-shadow: 0 5px 10px rgba(0,0,0,.15),0 3px 6px rgba(0,0,0,.1)
     }
     .bs-distant--hover:hover {
-        box-shadow: 0 8px 16px rgba(17,22,24,.1),0 3px 6px rgba(0,0,0,.14)
+        box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
     }
     .bs-bevel--hover:hover {
         box-shadow: 0 -1px 0 #B0BEC5,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
