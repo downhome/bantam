@@ -4364,6 +4364,111 @@ mark {
         transition-property: opacity
     }
 }
+/* Transition Timing Function */
+.ttf-ease {
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease
+}
+.ttf-linear {
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear
+}
+.ttf-easeInSine {
+    -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+            transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715)
+}
+.ttf-easeOutSine {
+    -webkit-transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+            transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+.ttf-easeInOutSine {
+    -webkit-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+            transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95)
+}
+.ttf-easeInQuad {
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+            transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53)
+}
+.ttf-easeOutQuad {
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+.ttf-easeInOutQuad {
+    -webkit-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955)
+}
+.ttf-easeInCubic {
+    -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19)
+}
+.ttf-easeOutCubic {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+}
+.ttf-easeInOutCubic {
+    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+.ttf-easeInQuart {
+    -webkit-transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+            transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22)
+}
+.ttf-easeOutQuart {
+    -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+            transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.ttf-easeInOutQuart {
+    -webkit-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+            transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1)
+}
+.ttf-easeInQuint {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+            transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06)
+}
+.ttf-easeOutQuint {
+    -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+            transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1)
+}
+.ttf-easeInOutQuint {
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+            transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1)
+}
+.ttf-easeInExpo {
+    -webkit-transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+            transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035)
+}
+.ttf-easeOutExpo {
+    -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
+}
+.ttf-easeInOutExpo {
+    -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+            transition-timing-function: cubic-bezier(1, 0, 0, 1)
+}
+.ttf-easeInCirc {
+    -webkit-transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+            transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335)
+}
+.ttf-easeOutCirc {
+    -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+.ttf-easeInOutCirc {
+    -webkit-transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+            transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+}
+.ttf-easeInBack {
+    -webkit-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+            transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045)
+}
+.ttf-easeOutBack {
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
+}
+.ttf-easeInOutBack {
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55)
+}
 /* Transform Style */
 .ts-flat {
     -webkit-transform-style: flat;
