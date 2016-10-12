@@ -3,17 +3,17 @@
 .transform-scaleUp     { transform: scale(1.1); }
 .transform-scaleDown   { transform: scale(.9); }
 
-.transform-pullUp      { transform: translateY(-1px); }
-.transform-pullRight   { transform: translateX(1px); }
-.transform-pullDown    { transform: translateY(1px); }
-.transform-pullLeft    { transform: translateX(-1px); }
+.transform-pullUp      { transform: translateY(-2px); }
+.transform-pullRight   { transform: translateX(2px); }
+.transform-pullDown    { transform: translateY(2px); }
+.transform-pullLeft    { transform: translateX(-2px); }
 
 @media (hover) {
     .transform-scaleUp--hover:hover     { transform: scale(1.1); }
     .transform-scaleDown--hover:hover   { transform: scale(.9); }
 
-    .transform-pullUp--hover:hover      { transform: translateY(-1px); }
-    .transform-pullRight--hover:hover   { transform: translateX(1px); }
-    .transform-pullDown--hover:hover    { transform: translateY(1px); }
-    .transform-pullLeft--hover:hover    { transform: translateX(-1px); }
+    .transform-pullUp--hover:hover      { transform: translateY(-2px); }
+    .transform-pullRight--hover:hover   { transform: translateX(2px); }
+    .transform-pullDown--hover:hover    { transform: translateY(2px); }
+    .transform-pullLeft--hover:hover    { transform: translateX(-2px); }
 }
