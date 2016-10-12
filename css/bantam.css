@@ -4495,29 +4495,55 @@ mark {
             transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55)
 }
 /* Transform origin */
-.transform-scaleUp--hover:hover {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2)
+.transform-scaleUp {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1)
 }
-.transform-scaleDown--hover:hover {
-    -webkit-transform: scale(.8);
-            transform: scale(.8)
+.transform-scaleDown {
+    -webkit-transform: scale(.9);
+            transform: scale(.9)
 }
-.transform-pullUp--hover:hover {
+.transform-pullUp {
     -webkit-transform: translateY(-1px);
             transform: translateY(-1px)
 }
-.transform-pullRight--hover:hover {
+.transform-pullRight {
     -webkit-transform: translateX(1px);
             transform: translateX(1px)
 }
-.transform-pullDown--hover:hover {
+.transform-pullDown {
     -webkit-transform: translateY(1px);
             transform: translateY(1px)
 }
-.transform-pullLeft--hover:hover {
+.transform-pullLeft {
     -webkit-transform: translateX(-1px);
             transform: translateX(-1px)
+}
+@media (hover) {
+    .transform-scaleUp--hover:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1)
+    }
+    .transform-scaleDown--hover:hover {
+        -webkit-transform: scale(.9);
+                transform: scale(.9)
+    }
+    .transform-pullUp--hover:hover {
+        -webkit-transform: translateY(-1px);
+                transform: translateY(-1px)
+    }
+    .transform-pullRight--hover:hover {
+        -webkit-transform: translateX(1px);
+                transform: translateX(1px)
+    }
+    .transform-pullDown--hover:hover {
+        -webkit-transform: translateY(1px);
+                transform: translateY(1px)
+    }
+    .transform-pullLeft--hover:hover {
+        -webkit-transform: translateX(-1px);
+                transform: translateX(-1px)
+    }
 }
 /* Transform Style */
 .ts-flat {
