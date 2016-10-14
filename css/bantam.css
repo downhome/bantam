@@ -2,7 +2,7 @@
 
 /* Variables */
 /* Variables */
-:root {/* Media queries *//* Color scheme *//* Spacing  *//* Dimensions  *//* Durations  */
+:root {/* Media queries *//* Color scheme *//* Font sizes  *//* Spacing  *//* Dimensions  *//* Durations  */
 }
 
 /* Reset */
@@ -3023,19 +3023,19 @@ mark {
     outline-color: #9E9E9E
 }
 .oc-snow {
-    outline-color: #ECEFF1
+    outline-color: #eceff1
 }
 .oc-smoke {
-    outline-color: #B0BEC5
+    outline-color: #90a4ae
 }
 .oc-steel {
-    outline-color: #8d9da5
+    outline-color: #607d8b
 }
 .oc-lead {
-    outline-color: #37474F
+    outline-color: #151b1e
 }
 .oc-charcoal {
-    outline-color: #111618
+    outline-color: #192124
 }
 /* Outline Style */
 .os-none {
@@ -6140,20 +6140,23 @@ mark {
 .bc-tealBright {
     background-color: #1DE9B6
 }
+.bc-pearl {
+    background-color: #fcfdfd
+}
 .bc-snow {
-    background-color: #ECEFF1
+    background-color: #eceff1
 }
 .bc-smoke {
-    background-color: #B0BEC5
+    background-color: #90a4ae
 }
 .bc-steel {
-    background-color: #8d9da5
+    background-color: #607d8b
 }
 .bc-lead {
-    background-color: #37474F
+    background-color: #151b1e
 }
 .bc-charcoal {
-    background-color: #111618
+    background-color: #192124
 }
 /* Hover states */
 @media (hover) {
@@ -6244,20 +6247,23 @@ mark {
     .bc-tealBright--hover:hover {
         background-color: #1DE9B6
     }
+    .bc-pearl--hover:hover {
+        background-color: #fcfdfd
+    }
     .bc-snow--hover:hover {
-        background-color: #ECEFF1
+        background-color: #eceff1
     }
     .bc-smoke--hover:hover {
-        background-color: #B0BEC5
+        background-color: #90a4ae
     }
     .bc-steel--hover:hover {
-        background-color: #8d9da5
+        background-color: #607d8b
     }
     .bc-lead--hover:hover {
-        background-color: #37474F
+        background-color: #151b1e
     }
     .bc-charcoal--hover:hover {
-        background-color: #111618
+        background-color: #192124
     }
 }
 /* Border radius */
@@ -6595,7 +6601,7 @@ mark {
     box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
 }
 .bs-bevel {
-    box-shadow: 0 -1px 0 #B0BEC5,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+    box-shadow: 0 -1px 0 #90a4ae,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
 }
 /* Hover states */
 @media (hover) {
@@ -6609,7 +6615,7 @@ mark {
         box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
     }
     .bs-bevel--hover:hover {
-        box-shadow: 0 -1px 0 #B0BEC5,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+        box-shadow: 0 -1px 0 #90a4ae,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
     }
 }
 /* Color */
@@ -6700,20 +6706,23 @@ mark {
 .color-gray {
     color: #9E9E9E
 }
+.color-pearl {
+    color: #fcfdfd
+}
 .color-snow {
-    color: #ECEFF1
+    color: #eceff1
 }
 .color-smoke {
-    color: #B0BEC5
+    color: #90a4ae
 }
 .color-steel {
-    color: #8d9da5
+    color: #607d8b
 }
 .color-lead {
-    color: #37474F
+    color: #151b1e
 }
 .color-charcoal {
-    color: #111618
+    color: #192124
 }
 /* Hover states */
 @media (hover) {
@@ -6780,20 +6789,23 @@ mark {
     .color-gray--hover:hover {
         color: #9E9E9E
     }
+    .color-pearl--hover:hover {
+        color: #fcfdfd
+    }
     .color-snow--hover:hover {
-        color: #ECEFF1
+        color: #eceff1
     }
     .color-smoke--hover:hover {
-        color: #B0BEC5
+        color: #90a4ae
     }
     .color-steel--hover:hover {
-        color: #8d9da5
+        color: #607d8b
     }
     .color-lead--hover:hover {
-        color: #37474F
+        color: #151b1e
     }
     .color-charcoal--hover:hover {
-        color: #111618
+        color: #192124
     }
 }
 /* Fill */
@@ -6872,20 +6884,23 @@ mark {
 .fill-gray {
     fill: #9E9E9E
 }
+.fill-pearl {
+    fill: #fcfdfd
+}
 .fill-snow {
-    fill: #ECEFF1
+    fill: #eceff1
 }
 .fill-smoke {
-    fill: #B0BEC5
+    fill: #90a4ae
 }
 .fill-steel {
-    fill: #8d9da5
+    fill: #607d8b
 }
 .fill-lead {
-    fill: #37474F
+    fill: #151b1e
 }
 .fill-charcoal {
-    fill: #111618
+    fill: #192124
 }
 /* Font family */
 .ff-system {
@@ -6901,20 +6916,17 @@ mark {
     font-family: "Source Code Pro","Input Mono",Consolas,"Liberation Mono",Menlo,Courier,monospace
 }
 /* Font size */
-.fs-xxxxxl {
-    font-size: 11rem
-}
 .fs-xxxxl {
-    font-size: 5.6rem
+    font-size: 10rem
 }
 .fs-xxxl {
-    font-size: 4.6rem
+    font-size: 5.2rem
 }
 .fs-xxl {
-    font-size: 2.8rem
+    font-size: 4.2rem
 }
 .fs-xl {
-    font-size: 2.4rem
+    font-size: 2.6rem
 }
 .fs-l {
     font-size: 2rem
@@ -6929,20 +6941,17 @@ mark {
     font-size: 1.2rem
 }
 @media (min-width: 38em) {
-    .bps-fs-xxxxxl {
-        font-size: 11rem
-    }
     .bps-fs-xxxxl {
-        font-size: 5.6rem
+        font-size: 10rem
     }
     .bps-fs-xxxl {
-        font-size: 4.6rem
+        font-size: 5.2rem
     }
     .bps-fs-xxl {
-        font-size: 2.8rem
+        font-size: 4.2rem
     }
     .bps-fs-xl {
-        font-size: 2.4rem
+        font-size: 2.6rem
     }
     .bps-fs-l {
         font-size: 2rem
@@ -6958,20 +6967,17 @@ mark {
     }
 }
 @media (min-width: 68em) {
-    .bpm-fs-xxxxxl {
-        font-size: 11rem
-    }
     .bpm-fs-xxxxl {
-        font-size: 5.6rem
+        font-size: 10rem
     }
     .bpm-fs-xxxl {
-        font-size: 4.6rem
+        font-size: 5.2rem
     }
     .bpm-fs-xxl {
-        font-size: 2.8rem
+        font-size: 4.2rem
     }
     .bpm-fs-xl {
-        font-size: 2.4rem
+        font-size: 2.6rem
     }
     .bpm-fs-l {
         font-size: 2rem
@@ -6987,20 +6993,17 @@ mark {
     }
 }
 @media (min-width: 96em) {
-    .bpl-fs-xxxxxl {
-        font-size: 11rem
-    }
     .bpl-fs-xxxxl {
-        font-size: 5.6rem
+        font-size: 10rem
     }
     .bpl-fs-xxxl {
-        font-size: 4.6rem
+        font-size: 5.2rem
     }
     .bpl-fs-xxl {
-        font-size: 2.8rem
+        font-size: 4.2rem
     }
     .bpl-fs-xl {
-        font-size: 2.4rem
+        font-size: 2.6rem
     }
     .bpl-fs-l {
         font-size: 2rem
@@ -7016,20 +7019,17 @@ mark {
     }
 }
 @media (min-width: 120em) {
-    .bpxl-fs-xxxxxl {
-        font-size: 11rem
-    }
     .bpxl-fs-xxxxl {
-        font-size: 5.6rem
+        font-size: 10rem
     }
     .bpxl-fs-xxxl {
-        font-size: 4.6rem
+        font-size: 5.2rem
     }
     .bpxl-fs-xxl {
-        font-size: 2.8rem
+        font-size: 4.2rem
     }
     .bpxl-fs-xl {
-        font-size: 2.4rem
+        font-size: 2.6rem
     }
     .bpxl-fs-l {
         font-size: 2rem
