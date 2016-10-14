@@ -33,6 +33,7 @@
 .color-brown                { color: var(--brown); }
 .color-gray                 { color: var(--gray); }
 
+.color-pearl                { color: var(--pearl); }
 .color-snow                 { color: var(--snow); }
 .color-smoke                { color: var(--smoke); }
 .color-steel                { color: var(--steel); }
@@ -64,6 +65,7 @@
     .color-brown--hover:hover               { color: var(--brown); }
     .color-gray--hover:hover                { color: var(--gray); }
 
+    .color-pearl--hover:hover               { color: var(--pearl); }
     .color-snow--hover:hover                { color: var(--snow); }
     .color-smoke--hover:hover               { color: var(--smoke); }
     .color-steel--hover:hover               { color: var(--steel); }
