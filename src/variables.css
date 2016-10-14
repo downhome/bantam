@@ -57,6 +57,17 @@
     --lead: #151b1e;
     --charcoal: #192124;
 
+    /* Font sizes  */
+
+    --fs-xs: 1.2rem;
+    --fs-s: 1.4rem;
+    --fs-m: 1.6rem;
+    --fs-l: 2rem;
+    --fs-xl: 2.6rem;
+    --fs-xxl: 4.2rem;
+    --fs-xxxl: 5.2rem;
+    --fs-xxxxl: 10rem;
+
     /* Spacing  */
 
     --spacing-none: 0;

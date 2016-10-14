@@ -1,59 +1,54 @@
 /* Font size */
 
-.fs-xxxxxl  { font-size: 11rem; }
-.fs-xxxxl   { font-size: 5.6rem; }
-.fs-xxxl    { font-size: 4.6rem; }
-.fs-xxl     { font-size: 2.8rem; }
-.fs-xl      { font-size: 2.4rem; }
-.fs-l       { font-size: 2rem; }
-.fs-m       { font-size: 1.6rem; }
-.fs-s       { font-size: 1.4rem; }
-.fs-xs      { font-size: 1.2rem; }
+.fs-xxxxl   { font-size: var(--fs-xxxxl); }
+.fs-xxxl    { font-size: var(--fs-xxxl); }
+.fs-xxl     { font-size: var(--fs-xxl); }
+.fs-xl      { font-size: var(--fs-xl); }
+.fs-l       { font-size: var(--fs-l); }
+.fs-m       { font-size: var(--fs-m); }
+.fs-s       { font-size: var(--fs-s); }
+.fs-xs      { font-size: var(--fs-xs); }
 
 @media (--breakpoint-s) {
-    .bps-fs-xxxxxl  { font-size: 11rem; }
-    .bps-fs-xxxxl   { font-size: 5.6rem; }
-    .bps-fs-xxxl    { font-size: 4.6rem; }
-    .bps-fs-xxl     { font-size: 2.8rem; }
-    .bps-fs-xl      { font-size: 2.4rem; }
-    .bps-fs-l       { font-size: 2rem; }
-    .bps-fs-m       { font-size: 1.6rem; }
-    .bps-fs-s       { font-size: 1.4rem; }
-    .bps-fs-xs      { font-size: 1.2rem; }
+    .bps-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bps-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bps-fs-xxl     { font-size: var(--fs-xxl); }
+    .bps-fs-xl      { font-size: var(--fs-xl); }
+    .bps-fs-l       { font-size: var(--fs-l); }
+    .bps-fs-m       { font-size: var(--fs-m); }
+    .bps-fs-s       { font-size: var(--fs-s); }
+    .bps-fs-xs      { font-size: var(--fs-xs); }
 }
 
 @media (--breakpoint-m) {
-    .bpm-fs-xxxxxl  { font-size: 11rem; }
-    .bpm-fs-xxxxl   { font-size: 5.6rem; }
-    .bpm-fs-xxxl    { font-size: 4.6rem; }
-    .bpm-fs-xxl     { font-size: 2.8rem; }
-    .bpm-fs-xl      { font-size: 2.4rem; }
-    .bpm-fs-l       { font-size: 2rem; }
-    .bpm-fs-m       { font-size: 1.6rem; }
-    .bpm-fs-s       { font-size: 1.4rem; }
-    .bpm-fs-xs      { font-size: 1.2rem; }
+    .bpm-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bpm-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bpm-fs-xxl     { font-size: var(--fs-xxl); }
+    .bpm-fs-xl      { font-size: var(--fs-xl); }
+    .bpm-fs-l       { font-size: var(--fs-l); }
+    .bpm-fs-m       { font-size: var(--fs-m); }
+    .bpm-fs-s       { font-size: var(--fs-s); }
+    .bpm-fs-xs      { font-size: var(--fs-xs); }
 }
 
 @media (--breakpoint-l) {
-    .bpl-fs-xxxxxl  { font-size: 11rem; }
-    .bpl-fs-xxxxl   { font-size: 5.6rem; }
-    .bpl-fs-xxxl    { font-size: 4.6rem; }
-    .bpl-fs-xxl     { font-size: 2.8rem; }
-    .bpl-fs-xl      { font-size: 2.4rem; }
-    .bpl-fs-l       { font-size: 2rem; }
-    .bpl-fs-m       { font-size: 1.6rem; }
-    .bpl-fs-s       { font-size: 1.4rem; }
-    .bpl-fs-xs      { font-size: 1.2rem; }
+    .bpl-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bpl-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bpl-fs-xxl     { font-size: var(--fs-xxl); }
+    .bpl-fs-xl      { font-size: var(--fs-xl); }
+    .bpl-fs-l       { font-size: var(--fs-l); }
+    .bpl-fs-m       { font-size: var(--fs-m); }
+    .bpl-fs-s       { font-size: var(--fs-s); }
+    .bpl-fs-xs      { font-size: var(--fs-xs); }
 }
 
 @media (--breakpoint-xl) {
-    .bpxl-fs-xxxxxl  { font-size: 11rem; }
-    .bpxl-fs-xxxxl   { font-size: 5.6rem; }
-    .bpxl-fs-xxxl    { font-size: 4.6rem; }
-    .bpxl-fs-xxl     { font-size: 2.8rem; }
-    .bpxl-fs-xl      { font-size: 2.4rem; }
-    .bpxl-fs-l       { font-size: 2rem; }
-    .bpxl-fs-m       { font-size: 1.6rem; }
-    .bpxl-fs-s       { font-size: 1.4rem; }
-    .bpxl-fs-xs      { font-size: 1.2rem; }
+    .bpxl-fs-xxxxl   { font-size: var(--fs-xxxxl); }
+    .bpxl-fs-xxxl    { font-size: var(--fs-xxxl); }
+    .bpxl-fs-xxl     { font-size: var(--fs-xxl); }
+    .bpxl-fs-xl      { font-size: var(--fs-xl); }
+    .bpxl-fs-l       { font-size: var(--fs-l); }
+    .bpxl-fs-m       { font-size: var(--fs-m); }
+    .bpxl-fs-s       { font-size: var(--fs-s); }
+    .bpxl-fs-xs      { font-size: var(--fs-xs); }
 }
