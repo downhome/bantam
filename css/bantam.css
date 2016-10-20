@@ -7473,8 +7473,12 @@ mark {
 .ml-0 {
     margin-left: 0
 }
-.mfs0:first-child {
-    margin: 0
+/* Remove margin for from first-child hack */
+.mt-fs div:first-child, .mt-fs li:first-child {
+    margin-top: 0
+}
+.ml-fs div:first-child, .ml-fs li:first-child {
+    margin-left: 0
 }
 @media (min-width: 38em) {
     .bps-margin-xxl {
@@ -8085,8 +8089,11 @@ mark {
 .pl-0 {
     padding-left: 0
 }
-.pfs0:first-child {
-    padding: 0
+.pt-fs div:first-child, .pt-fs li:first-child {
+    padding-top: 0
+}
+.pl-fs div:first-child, .pl-fs li:first-child {
+    padding-left: 0
 }
 @media (min-width: 38em) {
     .bps-padding-xxl {

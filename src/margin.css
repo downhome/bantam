@@ -45,7 +45,17 @@
 .ml-xxs         { margin-left: var(--spacing-xxs); }
 .ml-0           { margin-left: var(--spacing-none); }
 
-.mfs0:first-child { margin: 0; }
+/* Remove margin for from first-child hack */
+
+.mt-fs div:first-child,
+.mt-fs li:first-child {
+    margin-top: 0;
+}
+
+.ml-fs div:first-child,
+.ml-fs li:first-child {
+    margin-left: 0;
+}
 
 @media (--breakpoint-s) {
     .bps-margin-xxl     { margin: var(--spacing-xxl); }

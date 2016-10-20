@@ -45,7 +45,15 @@
 .pl-xxs         { padding-left: var(--spacing-xxs); }
 .pl-0           { padding-left: var(--spacing-none); }
 
-.pfs0:first-child { padding: 0; }
+.pt-fs div:first-child,
+.pt-fs li:first-child {
+    padding-top: 0;
+}
+
+.pl-fs div:first-child,
+.pl-fs li:first-child {
+    padding-left: 0;
+}
 
 @media (--breakpoint-s) {
     .bps-padding-xxl    { padding: var(--spacing-xxl); }
