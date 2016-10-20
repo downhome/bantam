@@ -1180,11 +1180,9 @@ mark {
     cursor: wait
 }
 .cursor-zoomIn {
-    cursor: -webkit-zoom-in;
     cursor: zoom-in
 }
 .cursor-zoomOut {
-    cursor: -webkit-zoom-out;
     cursor: zoom-out
 }
 @media (min-width: 38em) {
@@ -1293,11 +1291,9 @@ mark {
         cursor: wait
     }
     .bps-cursor-zoomIn {
-        cursor: -webkit-zoom-in;
         cursor: zoom-in
     }
     .bps-cursor-zoomOut {
-        cursor: -webkit-zoom-out;
         cursor: zoom-out
     }
 }
@@ -1407,11 +1403,9 @@ mark {
         cursor: wait
     }
     .bpm-cursor-zoomIn {
-        cursor: -webkit-zoom-in;
         cursor: zoom-in
     }
     .bpm-cursor-zoomOut {
-        cursor: -webkit-zoom-out;
         cursor: zoom-out
     }
 }
@@ -1521,11 +1515,9 @@ mark {
         cursor: wait
     }
     .bpl-cursor-zoomIn {
-        cursor: -webkit-zoom-in;
         cursor: zoom-in
     }
     .bpl-cursor-zoomOut {
-        cursor: -webkit-zoom-out;
         cursor: zoom-out
     }
 }
@@ -1635,11 +1627,9 @@ mark {
         cursor: wait
     }
     .bpxl-cursor-zoomIn {
-        cursor: -webkit-zoom-in;
         cursor: zoom-in
     }
     .bpxl-cursor-zoomOut {
-        cursor: -webkit-zoom-out;
         cursor: zoom-out
     }
 }
