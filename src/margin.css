@@ -45,6 +45,8 @@
 .ml-xxs         { margin-left: var(--spacing-xxs); }
 .ml-0           { margin-left: var(--spacing-none); }
 
+.mfs0:first-child { margin: 0; }
+
 @media (--breakpoint-s) {
     .bps-margin-xxl     { margin: var(--spacing-xxl); }
     .bps-margin-xl      { margin: var(--spacing-xl); }

@@ -45,6 +45,8 @@
 .pl-xxs         { padding-left: var(--spacing-xxs); }
 .pl-0           { padding-left: var(--spacing-none); }
 
+.pfs0:first-child { padding: 0; }
+
 @media (--breakpoint-s) {
     .bps-padding-xxl    { padding: var(--spacing-xxl); }
     .bps-padding-xl     { padding: var(--spacing-xl); }
