@@ -1,0 +1,94 @@
+/* Border color */
+
+.borderColor-white                  { border-color: var(--white); }
+.borderColor-black                  { border-color: var(--black); }
+.borderColor-transparent            { border-color: var(--transparent); }
+
+.borderColor-white--translucent     { border-color: rgba(255,255,255, var(--translucent)); }
+.borderColor-white--transparent     { border-color: rgba(255,255,255, var(--transparent)); }
+.borderColor-white--pellucid        { border-color: rgba(255,255,255, var(--pellucid)); }
+.borderColor-white--limpid          { border-color: rgba(255,255,255, var(--limpid)); }
+
+.borderColor-black--translucent     { border-color: rgba(0,0,0, var(--translucent)); }
+.borderColor-black--transparent     { border-color: rgba(0,0,0, var(--transparent)); }
+.borderColor-black--pellucid        { border-color: rgba(0,0,0, var(--pellucid)); }
+.borderColor-black--limpid          { border-color: rgba(0,0,0, var(--limpid)); }
+
+.borderColor-red                    { border-color: var(--red); }
+.borderColor-pink                   { border-color: var(--pink); }
+.borderColor-purple                 { border-color: var(--purple); }
+.borderColor-deepPurple             { border-color: var(--deepPurple); }
+.borderColor-indigo                 { border-color: var(--indigo); }
+.borderColor-blue                   { border-color: var(--blue); }
+.borderColor-lightBlue              { border-color: var(--lightBlue); }
+.borderColor-cyan                   { border-color: var(--cyan); }
+.borderColor-teal                   { border-color: var(--teal); }
+.borderColor-green                  { border-color: var(--green); }
+.borderColor-lightGreen             { border-color: var(--lightGreen); }
+.borderColor-lime                   { border-color: var(--lime); }
+.borderColor-yellow                 { border-color: var(--yellow); }
+.borderColor-amber                  { border-color: var(--amber); }
+.borderColor-orange                 { border-color: var(--orange); }
+.borderColor-deepOrange             { border-color: var(--deepOrange); }
+.borderColor-brown                  { border-color: var(--brown); }
+.borderColor-gray                   { border-color: var(--gray); }
+
+.borderColor-pinkTint               { border-color: var(--pinkTint); }
+.borderColor-blueTint               { border-color: var(--blueTint); }
+.borderColor-tealTint               { border-color: var(--tealTint); }
+.borderColor-amberTint              { border-color: var(--amberTint); }
+
+.borderColor-redBright              { border-color: var(--redBright); }
+.borderColor-purpleBright           { border-color: var(--purpleBright); }
+.borderColor-blueBright             { border-color: var(--blueBright); }
+.borderColor-tealBright             { border-color: var(--tealBright); }
+
+.borderColor-pearl                  { border-color: var(--pearl); }
+.borderColor-snow                   { border-color: var(--snow); }
+.borderColor-smoke                  { border-color: var(--smoke); }
+.borderColor-steel                  { border-color: var(--steel); }
+.borderColor-lead                   { border-color: var(--lead); }
+.borderColor-charcoal               { border-color: var(--charcoal); }
+
+/* Hover states */
+@media (hover) {
+    .borderColor-white--hover:hover               { border-color: var(--white); }
+    .borderColor-black--hover:hover               { border-color: var(--black); }
+    .borderColor-transparent--hover:hover         { border-color: var(--transparent); }
+
+    .borderColor-red--hover:hover                 { border-color: var(--red); }
+    .borderColor-pink--hover:hover                { border-color: var(--pink); }
+    .borderColor-purple--hover:hover              { border-color: var(--purple); }
+    .borderColor-deepPurple--hover:hover          { border-color: var(--deepPurple); }
+    .borderColor-indigo--hover:hover              { border-color: var(--indigo); }
+    .borderColor-blue--hover:hover                { border-color: var(--blue); }
+    .borderColor-lightBlue--hover:hover           { border-color: var(--lightBlue); }
+    .borderColor-cyan--hover:hover                { border-color: var(--cyan); }
+    .borderColor-teal--hover:hover                { border-color: var(--teal); }
+    .borderColor-green--hover:hover               { border-color: var(--green); }
+    .borderColor-lightGreen--hover:hover          { border-color: var(--lightGreen); }
+    .borderColor-lime--hover:hover                { border-color: var(--lime); }
+    .borderColor-yellow--hover:hover              { border-color: var(--yellow); }
+    .borderColor-amber--hover:hover               { border-color: var(--amber); }
+    .borderColor-orange--hover:hover              { border-color: var(--orange); }
+    .borderColor-deepOrange--hover:hover          { border-color: var(--deepOrange); }
+    .borderColor-brown--hover:hover               { border-color: var(--brown); }
+    .borderColor-gray--hover:hover                { border-color: var(--gray); }
+
+    .borderColor-pinkTint--hover:hover            { border-color: var(--pinkTint); }
+    .borderColor-blueTint--hover:hover            { border-color: var(--blueTint); }
+    .borderColor-tealTint--hover:hover            { border-color: var(--tealTint); }
+    .borderColor-amberTint--hover:hover           { border-color: var(--amberTint); }
+
+    .borderColor-redBright--hover:hover           { border-color: var(--redBright); }
+    .borderColor-purpleBright--hover:hover        { border-color: var(--purpleBright); }
+    .borderColor-blueBright--hover:hover          { border-color: var(--blueBright); }
+    .borderColor-tealBright--hover:hover          { border-color: var(--tealBright); }
+
+    .borderColor-pearl--hover:hover               { border-color: var(--pearl); }
+    .borderColor-snow--hover:hover                { border-color: var(--snow); }
+    .borderColor-smoke--hover:hover               { border-color: var(--smoke); }
+    .borderColor-steel--hover:hover               { border-color: var(--steel); }
+    .borderColor-lead--hover:hover                { border-color: var(--lead); }
+    .borderColor-charcoal--hover:hover            { border-color: var(--charcoal); }
+}
