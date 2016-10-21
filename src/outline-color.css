@@ -2,7 +2,6 @@
 
 .oc-white                   { outline-color: var(--white); }
 .oc-black                   { outline-color: var(--black); }
-.oc-transparent             { outline-color: var(--transparent); }
 
 .oc-white--translucent      { outline-color: rgba(255,255,255, var(--translucent)); }
 .oc-white--transparent      { outline-color: rgba(255,255,255, var(--transparent)); }

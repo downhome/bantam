@@ -851,7 +851,7 @@ mark {
         background-size: 100%
     }
 }
-/* Border Style */
+/* Border style */
 .bs-none {
     border-style: none
 }
@@ -3043,9 +3043,6 @@ mark {
 }
 .oc-black {
     outline-color: #000
-}
-.oc-transparent {
-    outline-color: .5
 }
 .oc-white--translucent {
     outline-color: rgba(255,255,255, .98)
@@ -6132,14 +6129,14 @@ mark {
 
 /* Theme */
 /* Background color */
+.bc-none {
+    background-color: transparent
+}
 .bc-white {
     background-color: #fff
 }
 .bc-black {
     background-color: #000
-}
-.bc-transparent {
-    background-color: .5
 }
 .bc-white--translucent {
     background-color: rgba(255,255,255, .98)
