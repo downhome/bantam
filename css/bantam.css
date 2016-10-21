@@ -6705,6 +6705,9 @@ mark {
 }
 /* Hover states */
 @media (hover) {
+    .bs-none--hover:hover {
+        box-shadow: none
+    }
     .bs-raise--hover:hover {
         box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.08)
     }
@@ -6717,6 +6720,133 @@ mark {
     .bs-bevel--hover:hover {
         box-shadow: 0 -1px 0 #90a4ae,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
     }
+}
+/* Inset border hack */
+.bs-white {
+    box-shadow: inset 0 0 0 1px #fff
+}
+.bs-black {
+    box-shadow: inset 0 0 0 1px #000
+}
+.bs-white--translucent {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
+}
+.bs-white--transparent {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, .5)
+}
+.bs-white--pellucid {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, .2)
+}
+.bs-white--limpid {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
+}
+.bs-black--translucent {
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
+}
+.bs-black--transparent {
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, .5)
+}
+.bs-black--pellucid {
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, .2)
+}
+.bs-black--limpid {
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, .05)
+}
+.bs-red {
+    box-shadow: inset 0 0 0 1px #F44336
+}
+.bs-pink {
+    box-shadow: inset 0 0 0 1px #E91E63
+}
+.bs-purple {
+    box-shadow: inset 0 0 0 1px #9C27B0
+}
+.bs-deepPurple {
+    box-shadow: inset 0 0 0 1px #673AB7
+}
+.bs-indigo {
+    box-shadow: inset 0 0 0 1px #3F51B5
+}
+.bs-blue {
+    box-shadow: inset 0 0 0 1px #2196F3
+}
+.bs-lightBlue {
+    box-shadow: inset 0 0 0 1px #03A9F4
+}
+.bs-cyan {
+    box-shadow: inset 0 0 0 1px #00BCD4
+}
+.bs-teal {
+    box-shadow: inset 0 0 0 1px #009688
+}
+.bs-green {
+    box-shadow: inset 0 0 0 1px #4CAF50
+}
+.bs-lightGreen {
+    box-shadow: inset 0 0 0 1px #8BC34A
+}
+.bs-lime {
+    box-shadow: inset 0 0 0 1px #CDDC39
+}
+.bs-yellow {
+    box-shadow: inset 0 0 0 1px #FFEB3B
+}
+.bs-amber {
+    box-shadow: inset 0 0 0 1px #FFC107
+}
+.bs-orange {
+    box-shadow: inset 0 0 0 1px #FF9800
+}
+.bs-deepOrange {
+    box-shadow: inset 0 0 0 1px #FF5722
+}
+.bs-brown {
+    box-shadow: inset 0 0 0 1px #795548
+}
+.bs-gray {
+    box-shadow: inset 0 0 0 1px #9E9E9E
+}
+.bs-pinkTint {
+    box-shadow: inset 0 0 0 1px #FCE4EC
+}
+.bs-blueTint {
+    box-shadow: inset 0 0 0 1px #E3F2FD
+}
+.bs-tealTint {
+    box-shadow: inset 0 0 0 1px #E0F2F1
+}
+.bs-amberTint {
+    box-shadow: inset 0 0 0 1px #FFF8E1
+}
+.bs-redBright {
+    box-shadow: inset 0 0 0 1px #FF1744
+}
+.bs-purpleBright {
+    box-shadow: inset 0 0 0 1px #D500F9
+}
+.bs-blueBright {
+    box-shadow: inset 0 0 0 1px #2979FF
+}
+.bs-tealBright {
+    box-shadow: inset 0 0 0 1px #1DE9B6
+}
+.bs-pearl {
+    box-shadow: inset 0 0 0 1px #fcfdfd
+}
+.bs-snow {
+    box-shadow: inset 0 0 0 1px #eceff1
+}
+.bs-smoke {
+    box-shadow: inset 0 0 0 1px #90a4ae
+}
+.bs-steel {
+    box-shadow: inset 0 0 0 1px #607d8b
+}
+.bs-lead {
+    box-shadow: inset 0 0 0 1px #151b1e
+}
+.bs-charcoal {
+    box-shadow: inset 0 0 0 1px #192124
 }
 /* Color */
 .color-white {

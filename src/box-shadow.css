@@ -1,14 +1,67 @@
 /* Box shadow */
 
-.bs-raise       { box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.08); }
-.bs-active      { box-shadow: 0 5px 10px rgba(0,0,0,.15),0 3px 6px rgba(0,0,0,.1); }
-.bs-distant     { box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14); }
-.bs-bevel       { box-shadow: 0 -1px 0 var(--smoke),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2); }
+.bs-raise               { box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.08); }
+.bs-active              { box-shadow: 0 5px 10px rgba(0,0,0,.15),0 3px 6px rgba(0,0,0,.1); }
+.bs-distant             { box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14); }
+.bs-bevel               { box-shadow: 0 -1px 0 var(--smoke),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2); }
 
 /* Hover states */
+
 @media (hover) {
+    .bs-none--hover:hover       { box-shadow: none; }
     .bs-raise--hover:hover      { box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.08); }
     .bs-active--hover:hover     { box-shadow: 0 5px 10px rgba(0,0,0,.15),0 3px 6px rgba(0,0,0,.1); }
     .bs-distant--hover:hover    { box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14); }
     .bs-bevel--hover:hover      { box-shadow: 0 -1px 0 var(--smoke),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2); }
 }
+
+/* Inset border hack */
+
+.bs-white               { box-shadow: inset 0 0 0 1px var(--white); }
+.bs-black               { box-shadow: inset 0 0 0 1px var(--black); }
+
+.bs-white--translucent  { box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--translucent)); }
+.bs-white--transparent  { box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--transparent)); }
+.bs-white--pellucid     { box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--pellucid)); }
+.bs-white--limpid       { box-shadow: inset 0 0 0 1px rgba(255,255,255, var(--limpid)); }
+
+.bs-black--translucent  { box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--translucent)); }
+.bs-black--transparent  { box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--transparent)); }
+.bs-black--pellucid     { box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--pellucid)); }
+.bs-black--limpid       { box-shadow: inset 0 0 0 1px rgba(0,0,0, var(--limpid)); }
+
+.bs-red                 { box-shadow: inset 0 0 0 1px var(--red); }
+.bs-pink                { box-shadow: inset 0 0 0 1px var(--pink); }
+.bs-purple              { box-shadow: inset 0 0 0 1px var(--purple); }
+.bs-deepPurple          { box-shadow: inset 0 0 0 1px var(--deepPurple); }
+.bs-indigo              { box-shadow: inset 0 0 0 1px var(--indigo); }
+.bs-blue                { box-shadow: inset 0 0 0 1px var(--blue); }
+.bs-lightBlue           { box-shadow: inset 0 0 0 1px var(--lightBlue); }
+.bs-cyan                { box-shadow: inset 0 0 0 1px var(--cyan); }
+.bs-teal                { box-shadow: inset 0 0 0 1px var(--teal); }
+.bs-green               { box-shadow: inset 0 0 0 1px var(--green); }
+.bs-lightGreen          { box-shadow: inset 0 0 0 1px var(--lightGreen); }
+.bs-lime                { box-shadow: inset 0 0 0 1px var(--lime); }
+.bs-yellow              { box-shadow: inset 0 0 0 1px var(--yellow); }
+.bs-amber               { box-shadow: inset 0 0 0 1px var(--amber); }
+.bs-orange              { box-shadow: inset 0 0 0 1px var(--orange); }
+.bs-deepOrange          { box-shadow: inset 0 0 0 1px var(--deepOrange); }
+.bs-brown               { box-shadow: inset 0 0 0 1px var(--brown); }
+.bs-gray                { box-shadow: inset 0 0 0 1px var(--gray); }
+
+.bs-pinkTint            { box-shadow: inset 0 0 0 1px var(--pinkTint); }
+.bs-blueTint            { box-shadow: inset 0 0 0 1px var(--blueTint); }
+.bs-tealTint            { box-shadow: inset 0 0 0 1px var(--tealTint); }
+.bs-amberTint           { box-shadow: inset 0 0 0 1px var(--amberTint); }
+
+.bs-redBright           { box-shadow: inset 0 0 0 1px var(--redBright); }
+.bs-purpleBright        { box-shadow: inset 0 0 0 1px var(--purpleBright); }
+.bs-blueBright          { box-shadow: inset 0 0 0 1px var(--blueBright); }
+.bs-tealBright          { box-shadow: inset 0 0 0 1px var(--tealBright); }
+
+.bs-pearl               { box-shadow: inset 0 0 0 1px var(--pearl); }
+.bs-snow                { box-shadow: inset 0 0 0 1px var(--snow); }
+.bs-smoke               { box-shadow: inset 0 0 0 1px var(--smoke); }
+.bs-steel               { box-shadow: inset 0 0 0 1px var(--steel); }
+.bs-lead                { box-shadow: inset 0 0 0 1px var(--lead); }
+.bs-charcoal            { box-shadow: inset 0 0 0 1px var(--charcoal); }
