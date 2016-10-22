@@ -851,6 +851,241 @@ mark {
         background-size: 100%
     }
 }
+/* Border color */
+.borderColor-white {
+    border-color: #fff
+}
+.borderColor-black {
+    border-color: #000
+}
+.borderColor-white--translucent {
+    border-color: rgba(255,255,255, .98)
+}
+.borderColor-white--transparent {
+    border-color: rgba(255,255,255, .5)
+}
+.borderColor-white--pellucid {
+    border-color: rgba(255,255,255, .15)
+}
+.borderColor-white--limpid {
+    border-color: rgba(255,255,255, .05)
+}
+.borderColor-black--translucent {
+    border-color: rgba(0,0,0, .98)
+}
+.borderColor-black--transparent {
+    border-color: rgba(0,0,0, .5)
+}
+.borderColor-black--pellucid {
+    border-color: rgba(0,0,0, .15)
+}
+.borderColor-black--limpid {
+    border-color: rgba(0,0,0, .05)
+}
+.borderColor-red {
+    border-color: #F44336
+}
+.borderColor-pink {
+    border-color: #E91E63
+}
+.borderColor-purple {
+    border-color: #9C27B0
+}
+.borderColor-deepPurple {
+    border-color: #673AB7
+}
+.borderColor-indigo {
+    border-color: #3F51B5
+}
+.borderColor-blue {
+    border-color: #2196F3
+}
+.borderColor-lightBlue {
+    border-color: #03A9F4
+}
+.borderColor-cyan {
+    border-color: #00BCD4
+}
+.borderColor-teal {
+    border-color: #009688
+}
+.borderColor-green {
+    border-color: #4CAF50
+}
+.borderColor-lightGreen {
+    border-color: #8BC34A
+}
+.borderColor-lime {
+    border-color: #CDDC39
+}
+.borderColor-yellow {
+    border-color: #FFEB3B
+}
+.borderColor-amber {
+    border-color: #FFC107
+}
+.borderColor-orange {
+    border-color: #FF9800
+}
+.borderColor-deepOrange {
+    border-color: #FF5722
+}
+.borderColor-brown {
+    border-color: #795548
+}
+.borderColor-gray {
+    border-color: #9E9E9E
+}
+.borderColor-pinkTint {
+    border-color: #FCE4EC
+}
+.borderColor-blueTint {
+    border-color: #E3F2FD
+}
+.borderColor-tealTint {
+    border-color: #E0F2F1
+}
+.borderColor-amberTint {
+    border-color: #FFF8E1
+}
+.borderColor-redBright {
+    border-color: #FF1744
+}
+.borderColor-purpleBright {
+    border-color: #D500F9
+}
+.borderColor-blueBright {
+    border-color: #2979FF
+}
+.borderColor-tealBright {
+    border-color: #1DE9B6
+}
+.borderColor-pearl {
+    border-color: #fcfdfd
+}
+.borderColor-snow {
+    border-color: #eceff1
+}
+.borderColor-smoke {
+    border-color: #90a4ae
+}
+.borderColor-steel {
+    border-color: #607d8b
+}
+.borderColor-lead {
+    border-color: #151b1e
+}
+.borderColor-charcoal {
+    border-color: #192124
+}
+/* Hover states */
+@media (hover) {
+    .borderColor-white--hover:hover {
+        border-color: #fff
+    }
+    .borderColor-black--hover:hover {
+        border-color: #000
+    }
+    .borderColor-transparent--hover:hover {
+        border-color: .5
+    }
+    .borderColor-red--hover:hover {
+        border-color: #F44336
+    }
+    .borderColor-pink--hover:hover {
+        border-color: #E91E63
+    }
+    .borderColor-purple--hover:hover {
+        border-color: #9C27B0
+    }
+    .borderColor-deepPurple--hover:hover {
+        border-color: #673AB7
+    }
+    .borderColor-indigo--hover:hover {
+        border-color: #3F51B5
+    }
+    .borderColor-blue--hover:hover {
+        border-color: #2196F3
+    }
+    .borderColor-lightBlue--hover:hover {
+        border-color: #03A9F4
+    }
+    .borderColor-cyan--hover:hover {
+        border-color: #00BCD4
+    }
+    .borderColor-teal--hover:hover {
+        border-color: #009688
+    }
+    .borderColor-green--hover:hover {
+        border-color: #4CAF50
+    }
+    .borderColor-lightGreen--hover:hover {
+        border-color: #8BC34A
+    }
+    .borderColor-lime--hover:hover {
+        border-color: #CDDC39
+    }
+    .borderColor-yellow--hover:hover {
+        border-color: #FFEB3B
+    }
+    .borderColor-amber--hover:hover {
+        border-color: #FFC107
+    }
+    .borderColor-orange--hover:hover {
+        border-color: #FF9800
+    }
+    .borderColor-deepOrange--hover:hover {
+        border-color: #FF5722
+    }
+    .borderColor-brown--hover:hover {
+        border-color: #795548
+    }
+    .borderColor-gray--hover:hover {
+        border-color: #9E9E9E
+    }
+    .borderColor-pinkTint--hover:hover {
+        border-color: #FCE4EC
+    }
+    .borderColor-blueTint--hover:hover {
+        border-color: #E3F2FD
+    }
+    .borderColor-tealTint--hover:hover {
+        border-color: #E0F2F1
+    }
+    .borderColor-amberTint--hover:hover {
+        border-color: #FFF8E1
+    }
+    .borderColor-redBright--hover:hover {
+        border-color: #FF1744
+    }
+    .borderColor-purpleBright--hover:hover {
+        border-color: #D500F9
+    }
+    .borderColor-blueBright--hover:hover {
+        border-color: #2979FF
+    }
+    .borderColor-tealBright--hover:hover {
+        border-color: #1DE9B6
+    }
+    .borderColor-pearl--hover:hover {
+        border-color: #fcfdfd
+    }
+    .borderColor-snow--hover:hover {
+        border-color: #eceff1
+    }
+    .borderColor-smoke--hover:hover {
+        border-color: #90a4ae
+    }
+    .borderColor-steel--hover:hover {
+        border-color: #607d8b
+    }
+    .borderColor-lead--hover:hover {
+        border-color: #151b1e
+    }
+    .borderColor-charcoal--hover:hover {
+        border-color: #192124
+    }
+}
 /* Border style */
 .bs-none {
     border-style: none
