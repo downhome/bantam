@@ -6260,14 +6260,38 @@ mark {
 }
 /* Hover states */
 @media (hover) {
+    .bc-none--hover:hover {
+        background-color: .5
+    }
     .bc-white--hover:hover {
         background-color: #fff
     }
     .bc-black--hover:hover {
         background-color: #000
     }
-    .bc-transparent--hover:hover {
-        background-color: .5
+    .bc-white--translucent--hover:hover {
+        background-color: rgba(255,255,255, .98)
+    }
+    .bc-white--transparent--hover:hover {
+        background-color: rgba(255,255,255, .5)
+    }
+    .bc-white--pellucid--hover:hover {
+        background-color: rgba(255,255,255, .15)
+    }
+    .bc-white--limpid--hover:hover {
+        background-color: rgba(255,255,255, .05)
+    }
+    .bc-black--translucent--hover:hover {
+        background-color: rgba(0,0,0, .98)
+    }
+    .bc-black--transparent--hover:hover {
+        background-color: rgba(0,0,0, .5)
+    }
+    .bc-black--pellucid--hover:hover {
+        background-color: rgba(0,0,0, .15)
+    }
+    .bc-black--limpid--hover:hover {
+        background-color: rgba(0,0,0, .05)
     }
     .bc-red--hover:hover {
         background-color: #F44336

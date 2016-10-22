@@ -53,9 +53,20 @@
 
 /* Hover states */
 @media (hover) {
+    .bc-none--hover:hover                { background-color: var(--transparent); }
+
     .bc-white--hover:hover               { background-color: var(--white); }
     .bc-black--hover:hover               { background-color: var(--black); }
-    .bc-transparent--hover:hover         { background-color: var(--transparent); }
+
+    .bc-white--translucent--hover:hover  { background-color: rgba(255,255,255, var(--translucent)); }
+    .bc-white--transparent--hover:hover  { background-color: rgba(255,255,255, var(--transparent)); }
+    .bc-white--pellucid--hover:hover     { background-color: rgba(255,255,255, var(--pellucid)); }
+    .bc-white--limpid--hover:hover       { background-color: rgba(255,255,255, var(--limpid)); }
+
+    .bc-black--translucent--hover:hover  { background-color: rgba(0,0,0, var(--translucent)); }
+    .bc-black--transparent--hover:hover  { background-color: rgba(0,0,0, var(--transparent)); }
+    .bc-black--pellucid--hover:hover     { background-color: rgba(0,0,0, var(--pellucid)); }
+    .bc-black--limpid--hover:hover       { background-color: rgba(0,0,0, var(--limpid)); }
 
     .bc-red--hover:hover                 { background-color: var(--red); }
     .bc-pink--hover:hover                { background-color: var(--pink); }
