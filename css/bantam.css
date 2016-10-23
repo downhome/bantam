@@ -1554,6 +1554,19 @@ mark {
         border-left-width: 1px
     }
 }
+/* Box decoration break */
+.bdb-clone {
+    -webkit-box-decoration-break: clone;
+            box-decoration-break: clone
+}
+.bdb-initial {
+    -webkit-box-decoration-break: initial;
+            box-decoration-break: initial
+}
+.bdb-slice {
+    -webkit-box-decoration-break: slice;
+            box-decoration-break: slice
+}
 /* Box Sizing */
 .bs-contentBox {
     box-sizing: content-box
