@@ -986,8 +986,29 @@ mark {
     .borderColor-black--hover:hover {
         border-color: #000
     }
-    .borderColor-transparent--hover:hover {
-        border-color: .5
+    .borderColor-white--translucent--hover:hover {
+        border-color: rgba(255,255,255, .98)
+    }
+    .borderColor-white--transparent--hover:hover {
+        border-color: rgba(255,255,255, .5)
+    }
+    .borderColor-white--pellucid--hover:hover {
+        border-color: rgba(255,255,255, .15)
+    }
+    .borderColor-white--limpid--hover:hover {
+        border-color: rgba(255,255,255, .05)
+    }
+    .borderColor-black--translucent--hover:hover {
+        border-color: rgba(0,0,0, .98)
+    }
+    .borderColor-black--transparent--hover:hover {
+        border-color: rgba(0,0,0, .5)
+    }
+    .borderColor-black--pellucid--hover:hover {
+        border-color: rgba(0,0,0, .15)
+    }
+    .borderColor-black--limpid--hover:hover {
+        border-color: rgba(0,0,0, .05)
     }
     .borderColor-red--hover:hover {
         border-color: #F44336

@@ -51,43 +51,52 @@
 
 /* Hover states */
 @media (hover) {
-    .borderColor-white--hover:hover               { border-color: var(--white); }
-    .borderColor-black--hover:hover               { border-color: var(--black); }
-    .borderColor-transparent--hover:hover         { border-color: var(--transparent); }
+    .borderColor-white--hover:hover                 { border-color: var(--white); }
+    .borderColor-black--hover:hover                 { border-color: var(--black); }
 
-    .borderColor-red--hover:hover                 { border-color: var(--red); }
-    .borderColor-pink--hover:hover                { border-color: var(--pink); }
-    .borderColor-purple--hover:hover              { border-color: var(--purple); }
-    .borderColor-deepPurple--hover:hover          { border-color: var(--deepPurple); }
-    .borderColor-indigo--hover:hover              { border-color: var(--indigo); }
-    .borderColor-blue--hover:hover                { border-color: var(--blue); }
-    .borderColor-lightBlue--hover:hover           { border-color: var(--lightBlue); }
-    .borderColor-cyan--hover:hover                { border-color: var(--cyan); }
-    .borderColor-teal--hover:hover                { border-color: var(--teal); }
-    .borderColor-green--hover:hover               { border-color: var(--green); }
-    .borderColor-lightGreen--hover:hover          { border-color: var(--lightGreen); }
-    .borderColor-lime--hover:hover                { border-color: var(--lime); }
-    .borderColor-yellow--hover:hover              { border-color: var(--yellow); }
-    .borderColor-amber--hover:hover               { border-color: var(--amber); }
-    .borderColor-orange--hover:hover              { border-color: var(--orange); }
-    .borderColor-deepOrange--hover:hover          { border-color: var(--deepOrange); }
-    .borderColor-brown--hover:hover               { border-color: var(--brown); }
-    .borderColor-gray--hover:hover                { border-color: var(--gray); }
+    .borderColor-white--translucent--hover:hover    { border-color: rgba(255,255,255, var(--translucent)); }
+    .borderColor-white--transparent--hover:hover    { border-color: rgba(255,255,255, var(--transparent)); }
+    .borderColor-white--pellucid--hover:hover       { border-color: rgba(255,255,255, var(--pellucid)); }
+    .borderColor-white--limpid--hover:hover         { border-color: rgba(255,255,255, var(--limpid)); }
 
-    .borderColor-pinkTint--hover:hover            { border-color: var(--pinkTint); }
-    .borderColor-blueTint--hover:hover            { border-color: var(--blueTint); }
-    .borderColor-tealTint--hover:hover            { border-color: var(--tealTint); }
-    .borderColor-amberTint--hover:hover           { border-color: var(--amberTint); }
+    .borderColor-black--translucent--hover:hover    { border-color: rgba(0,0,0, var(--translucent)); }
+    .borderColor-black--transparent--hover:hover    { border-color: rgba(0,0,0, var(--transparent)); }
+    .borderColor-black--pellucid--hover:hover       { border-color: rgba(0,0,0, var(--pellucid)); }
+    .borderColor-black--limpid--hover:hover         { border-color: rgba(0,0,0, var(--limpid)); }
 
-    .borderColor-redBright--hover:hover           { border-color: var(--redBright); }
-    .borderColor-purpleBright--hover:hover        { border-color: var(--purpleBright); }
-    .borderColor-blueBright--hover:hover          { border-color: var(--blueBright); }
-    .borderColor-tealBright--hover:hover          { border-color: var(--tealBright); }
+    .borderColor-red--hover:hover                   { border-color: var(--red); }
+    .borderColor-pink--hover:hover                  { border-color: var(--pink); }
+    .borderColor-purple--hover:hover                { border-color: var(--purple); }
+    .borderColor-deepPurple--hover:hover            { border-color: var(--deepPurple); }
+    .borderColor-indigo--hover:hover                { border-color: var(--indigo); }
+    .borderColor-blue--hover:hover                  { border-color: var(--blue); }
+    .borderColor-lightBlue--hover:hover             { border-color: var(--lightBlue); }
+    .borderColor-cyan--hover:hover                  { border-color: var(--cyan); }
+    .borderColor-teal--hover:hover                  { border-color: var(--teal); }
+    .borderColor-green--hover:hover                 { border-color: var(--green); }
+    .borderColor-lightGreen--hover:hover            { border-color: var(--lightGreen); }
+    .borderColor-lime--hover:hover                  { border-color: var(--lime); }
+    .borderColor-yellow--hover:hover                { border-color: var(--yellow); }
+    .borderColor-amber--hover:hover                 { border-color: var(--amber); }
+    .borderColor-orange--hover:hover                { border-color: var(--orange); }
+    .borderColor-deepOrange--hover:hover            { border-color: var(--deepOrange); }
+    .borderColor-brown--hover:hover                 { border-color: var(--brown); }
+    .borderColor-gray--hover:hover                  { border-color: var(--gray); }
 
-    .borderColor-pearl--hover:hover               { border-color: var(--pearl); }
-    .borderColor-snow--hover:hover                { border-color: var(--snow); }
-    .borderColor-smoke--hover:hover               { border-color: var(--smoke); }
-    .borderColor-steel--hover:hover               { border-color: var(--steel); }
-    .borderColor-lead--hover:hover                { border-color: var(--lead); }
-    .borderColor-charcoal--hover:hover            { border-color: var(--charcoal); }
+    .borderColor-pinkTint--hover:hover              { border-color: var(--pinkTint); }
+    .borderColor-blueTint--hover:hover              { border-color: var(--blueTint); }
+    .borderColor-tealTint--hover:hover              { border-color: var(--tealTint); }
+    .borderColor-amberTint--hover:hover             { border-color: var(--amberTint); }
+
+    .borderColor-redBright--hover:hover             { border-color: var(--redBright); }
+    .borderColor-purpleBright--hover:hover          { border-color: var(--purpleBright); }
+    .borderColor-blueBright--hover:hover            { border-color: var(--blueBright); }
+    .borderColor-tealBright--hover:hover            { border-color: var(--tealBright); }
+
+    .borderColor-pearl--hover:hover                 { border-color: var(--pearl); }
+    .borderColor-snow--hover:hover                  { border-color: var(--snow); }
+    .borderColor-smoke--hover:hover                 { border-color: var(--smoke); }
+    .borderColor-steel--hover:hover                 { border-color: var(--steel); }
+    .borderColor-lead--hover:hover                  { border-color: var(--lead); }
+    .borderColor-charcoal--hover:hover              { border-color: var(--charcoal); }
 }
