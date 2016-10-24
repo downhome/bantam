@@ -49,6 +49,56 @@
 .borderColor-lead                   { border-color: var(--lead); }
 .borderColor-charcoal               { border-color: var(--charcoal); }
 
+/* Focus states */
+.borderColor-white--focus:focus                 { border-color: var(--white); }
+.borderColor-black--focus:focus                 { border-color: var(--black); }
+
+.borderColor-white--translucent--focus:focus    { border-color: rgba(255,255,255, var(--translucent)); }
+.borderColor-white--transparent--focus:focus    { border-color: rgba(255,255,255, var(--transparent)); }
+.borderColor-white--pellucid--focus:focus       { border-color: rgba(255,255,255, var(--pellucid)); }
+.borderColor-white--limpid--focus:focus         { border-color: rgba(255,255,255, var(--limpid)); }
+
+.borderColor-black--translucent--focus:focus    { border-color: rgba(0,0,0, var(--translucent)); }
+.borderColor-black--transparent--focus:focus    { border-color: rgba(0,0,0, var(--transparent)); }
+.borderColor-black--pellucid--focus:focus       { border-color: rgba(0,0,0, var(--pellucid)); }
+.borderColor-black--limpid--focus:focus         { border-color: rgba(0,0,0, var(--limpid)); }
+
+.borderColor-red--focus:focus                   { border-color: var(--red); }
+.borderColor-pink--focus:focus                  { border-color: var(--pink); }
+.borderColor-purple--focus:focus                { border-color: var(--purple); }
+.borderColor-deepPurple--focus:focus            { border-color: var(--deepPurple); }
+.borderColor-indigo--focus:focus                { border-color: var(--indigo); }
+.borderColor-blue--focus:focus                  { border-color: var(--blue); }
+.borderColor-lightBlue--focus:focus             { border-color: var(--lightBlue); }
+.borderColor-cyan--focus:focus                  { border-color: var(--cyan); }
+.borderColor-teal--focus:focus                  { border-color: var(--teal); }
+.borderColor-green--focus:focus                 { border-color: var(--green); }
+.borderColor-lightGreen--focus:focus            { border-color: var(--lightGreen); }
+.borderColor-lime--focus:focus                  { border-color: var(--lime); }
+.borderColor-yellow--focus:focus                { border-color: var(--yellow); }
+.borderColor-amber--focus:focus                 { border-color: var(--amber); }
+.borderColor-orange--focus:focus                { border-color: var(--orange); }
+.borderColor-deepOrange--focus:focus            { border-color: var(--deepOrange); }
+.borderColor-brown--focus:focus                 { border-color: var(--brown); }
+.borderColor-gray--focus:focus                  { border-color: var(--gray); }
+
+.borderColor-pinkTint--focus:focus              { border-color: var(--pinkTint); }
+.borderColor-blueTint--focus:focus              { border-color: var(--blueTint); }
+.borderColor-tealTint--focus:focus              { border-color: var(--tealTint); }
+.borderColor-amberTint--focus:focus             { border-color: var(--amberTint); }
+
+.borderColor-redBright--focus:focus             { border-color: var(--redBright); }
+.borderColor-purpleBright--focus:focus          { border-color: var(--purpleBright); }
+.borderColor-blueBright--focus:focus            { border-color: var(--blueBright); }
+.borderColor-tealBright--focus:focus            { border-color: var(--tealBright); }
+
+.borderColor-pearl--focus:focus                 { border-color: var(--pearl); }
+.borderColor-snow--focus:focus                  { border-color: var(--snow); }
+.borderColor-smoke--focus:focus                 { border-color: var(--smoke); }
+.borderColor-steel--focus:focus                 { border-color: var(--steel); }
+.borderColor-lead--focus:focus                  { border-color: var(--lead); }
+.borderColor-charcoal--focus:focus              { border-color: var(--charcoal); }
+
 /* Hover states */
 @media (hover) {
     .borderColor-white--hover:hover                 { border-color: var(--white); }
