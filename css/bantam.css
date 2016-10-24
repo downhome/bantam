@@ -5259,20 +5259,20 @@ mark {
             transform: scale(.9)
 }
 .transform-pullUp {
-    -webkit-transform: translateY(-2px);
-            transform: translateY(-2px)
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px)
 }
 .transform-pullRight {
-    -webkit-transform: translateX(2px);
-            transform: translateX(2px)
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px)
 }
 .transform-pullDown {
-    -webkit-transform: translateY(2px);
-            transform: translateY(2px)
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px)
 }
 .transform-pullLeft {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px)
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px)
 }
 @media (hover) {
     .transform-scaleUp--hover:hover {
@@ -5284,20 +5284,20 @@ mark {
                 transform: scale(.9)
     }
     .transform-pullUp--hover:hover {
-        -webkit-transform: translateY(-2px);
-                transform: translateY(-2px)
+        -webkit-transform: translateY(-1px);
+                transform: translateY(-1px)
     }
     .transform-pullRight--hover:hover {
-        -webkit-transform: translateX(2px);
-                transform: translateX(2px)
+        -webkit-transform: translateX(1px);
+                transform: translateX(1px)
     }
     .transform-pullDown--hover:hover {
-        -webkit-transform: translateY(2px);
-                transform: translateY(2px)
+        -webkit-transform: translateY(1px);
+                transform: translateY(1px)
     }
     .transform-pullLeft--hover:hover {
-        -webkit-transform: translateX(-2px);
-                transform: translateX(-2px)
+        -webkit-transform: translateX(-1px);
+                transform: translateX(-1px)
     }
 }
 /* Transform Style */
