@@ -123,3 +123,24 @@ textarea {
 mark {
     background: none;
 }
+
+/* Input placeholders */
+
+::-webkit-input-placeholder {
+    color: var(--smoke);
+}
+:-moz-placeholder {
+   color: var(--smoke);
+   opacity:  1;
+}
+::-moz-placeholder {
+   color: var(--smoke);
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color: var(--smoke);
+}
+[contentEditable=true]:empty:before {
+    content: attr(placeholder);
+    color: var(--smoke);
+}

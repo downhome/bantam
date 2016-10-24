@@ -329,6 +329,25 @@ h1, h2, h3, h4, h5, h6, p, span, small, strong, input, button, select, textarea 
 mark {
     background: none
 }
+/* Input placeholders */
+::-webkit-input-placeholder {
+    color: #90a4ae
+}
+:-moz-placeholder {
+    color: #90a4ae;
+    opacity: 1
+}
+::-moz-placeholder {
+    color: #90a4ae;
+    opacity: 1
+}
+:-ms-input-placeholder {
+    color: #90a4ae
+}
+[contentEditable=true]:empty:before {
+    content: attr(placeholder);
+    color: #90a4ae
+}
 
 /* Functional properties */
 /* Appearance */
