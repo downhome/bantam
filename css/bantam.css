@@ -7527,6 +7527,135 @@ mark {
 .bs-charcoal {
     box-shadow: inset 0 0 0 1px #192124
 }
+/* Inset border hack hover states */
+@media (hover) {
+    .bs-white--hover:hover {
+        box-shadow: inset 0 0 0 1px #fff
+    }
+    .bs-black--hover:hover {
+        box-shadow: inset 0 0 0 1px #000
+    }
+    .bs-white--translucent--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
+    }
+    .bs-white--transparent--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, .5)
+    }
+    .bs-white--pellucid--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, .15)
+    }
+    .bs-white--limpid--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
+    }
+    .bs-black--translucent--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
+    }
+    .bs-black--transparent--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, .5)
+    }
+    .bs-black--pellucid--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, .15)
+    }
+    .bs-black--limpid--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, .05)
+    }
+    .bs-red--hover:hover {
+        box-shadow: inset 0 0 0 1px #F44336
+    }
+    .bs-pink--hover:hover {
+        box-shadow: inset 0 0 0 1px #E91E63
+    }
+    .bs-purple--hover:hover {
+        box-shadow: inset 0 0 0 1px #9C27B0
+    }
+    .bs-deepPurple--hover:hover {
+        box-shadow: inset 0 0 0 1px #673AB7
+    }
+    .bs-indigo--hover:hover {
+        box-shadow: inset 0 0 0 1px #3F51B5
+    }
+    .bs-blue--hover:hover {
+        box-shadow: inset 0 0 0 1px #2196F3
+    }
+    .bs-lightBlue--hover:hover {
+        box-shadow: inset 0 0 0 1px #03A9F4
+    }
+    .bs-cyan--hover:hover {
+        box-shadow: inset 0 0 0 1px #00BCD4
+    }
+    .bs-teal--hover:hover {
+        box-shadow: inset 0 0 0 1px #009688
+    }
+    .bs-green--hover:hover {
+        box-shadow: inset 0 0 0 1px #4CAF50
+    }
+    .bs-lightGreen--hover:hover {
+        box-shadow: inset 0 0 0 1px #8BC34A
+    }
+    .bs-lime--hover:hover {
+        box-shadow: inset 0 0 0 1px #CDDC39
+    }
+    .bs-yellow--hover:hover {
+        box-shadow: inset 0 0 0 1px #FFEB3B
+    }
+    .bs-amber--hover:hover {
+        box-shadow: inset 0 0 0 1px #FFC107
+    }
+    .bs-orange--hover:hover {
+        box-shadow: inset 0 0 0 1px #FF9800
+    }
+    .bs-deepOrange--hover:hover {
+        box-shadow: inset 0 0 0 1px #FF5722
+    }
+    .bs-brown--hover:hover {
+        box-shadow: inset 0 0 0 1px #795548
+    }
+    .bs-gray--hover:hover {
+        box-shadow: inset 0 0 0 1px #9E9E9E
+    }
+    .bs-pinkTint--hover:hover {
+        box-shadow: inset 0 0 0 1px #FCE4EC
+    }
+    .bs-blueTint--hover:hover {
+        box-shadow: inset 0 0 0 1px #E3F2FD
+    }
+    .bs-tealTint--hover:hover {
+        box-shadow: inset 0 0 0 1px #E0F2F1
+    }
+    .bs-amberTint--hover:hover {
+        box-shadow: inset 0 0 0 1px #FFF8E1
+    }
+    .bs-redBright--hover:hover {
+        box-shadow: inset 0 0 0 1px #FF1744
+    }
+    .bs-purpleBright--hover:hover {
+        box-shadow: inset 0 0 0 1px #D500F9
+    }
+    .bs-blueBright--hover:hover {
+        box-shadow: inset 0 0 0 1px #2979FF
+    }
+    .bs-tealBright--hover:hover {
+        box-shadow: inset 0 0 0 1px #1DE9B6
+    }
+    .bs-pearl--hover:hover {
+        box-shadow: inset 0 0 0 1px #fcfdfd
+    }
+    .bs-snow--hover:hover {
+        box-shadow: inset 0 0 0 1px #eceff1
+    }
+    .bs-smoke--hover:hover {
+        box-shadow: inset 0 0 0 1px #90a4ae
+    }
+    .bs-steel--hover:hover {
+        box-shadow: inset 0 0 0 1px #607d8b
+    }
+    .bs-lead--hover:hover {
+        box-shadow: inset 0 0 0 1px #151b1e
+    }
+    .bs-charcoal--hover:hover {
+        box-shadow: inset 0 0 0 1px #192124
+    }
+}
 /* Color */
 .color-white {
     color: #fff
