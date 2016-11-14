@@ -3096,6 +3096,42 @@ mark {
         height: 60px
     }
 }
+/* Input placeholder */
+.ip-smoke::-webkit-input-placeholder {
+    color: #90a4ae
+}
+.ip-smoke:-moz-placeholder {
+    color: #90a4ae;
+    opacity: 1
+}
+.ip-smoke:-ms-input-placeholder {
+    color: #90a4ae
+}
+.ip-white::-webkit-input-placeholder {
+    color: rgba(255,255,255, .5)
+}
+.ip-white:-moz-placeholder {
+    color: rgba(255,255,255, .5);
+    opacity: 1
+}
+.ip-white:-ms-input-placeholder {
+    color: rgba(255,255,255, .5)
+}
+.ip-black::-webkit-input-placeholder {
+    color: rgba(0,0,0, .15)
+}
+.ip-black:-moz-placeholder {
+    color: rgba(0,0,0, .15);
+    opacity: 1
+}
+.ip-black:-ms-input-placeholder {
+    color: rgba(0,0,0, .15)
+}
+/* ContentEditable placeholder */
+[contentEditable=true]:empty:before {
+    content: attr(placeholder);
+    color: #90a4ae
+}
 /* List Style */
 .lst-disc {
     list-style-type: disc
