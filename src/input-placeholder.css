@@ -1,0 +1,41 @@
+/* Input placeholder */
+
+.ip-smoke::-webkit-input-placeholder {
+   color: var(--smoke);
+}
+.ip-smoke:-moz-placeholder {
+   color: var(--smoke);
+   opacity:  1;
+}
+.ip-smoke:-ms-input-placeholder {
+   color: var(--smoke);
+}
+
+.ip-white::-webkit-input-placeholder {
+   color: rgba(255,255,255, var(--transparent));
+}
+.ip-white:-moz-placeholder {
+   color: rgba(255,255,255, var(--transparent));
+   opacity:  1;
+}
+.ip-white:-ms-input-placeholder {
+   color: rgba(255,255,255, var(--transparent));
+}
+
+.ip-black::-webkit-input-placeholder {
+   color: rgba(0,0,0, var(--pellucid));
+}
+.ip-black:-moz-placeholder {
+   color: rgba(0,0,0, var(--pellucid));
+   opacity:  1;
+}
+.ip-black:-ms-input-placeholder {
+   color: rgba(0,0,0, var(--pellucid));
+}
+
+/* ContentEditable placeholder */
+
+[contentEditable=true]:empty:before {
+    content: attr(placeholder);
+    color: var(--smoke);
+}
