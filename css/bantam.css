@@ -970,7 +970,7 @@ mark {
     border-color: #eceff1
 }
 .borderColor-smoke {
-    border-color: #90a4ae
+    border-color: #cfd8dc
 }
 .borderColor-steel {
     border-color: #607d8b
@@ -1101,7 +1101,7 @@ mark {
         border-color: #eceff1
     }
     .borderColor-smoke--hover:hover {
-        border-color: #90a4ae
+        border-color: #cfd8dc
     }
     .borderColor-steel--hover:hover {
         border-color: #607d8b
@@ -1232,7 +1232,7 @@ mark {
     border-color: #eceff1
 }
 .borderColor-smoke--focus:focus {
-    border-color: #90a4ae
+    border-color: #cfd8dc
 }
 .borderColor-steel--focus:focus {
     border-color: #607d8b
@@ -3107,14 +3107,14 @@ mark {
 }
 /* Input placeholder */
 .ip-smoke::-webkit-input-placeholder {
-    color: #90a4ae
+    color: #cfd8dc
 }
 .ip-smoke:-moz-placeholder {
-    color: #90a4ae;
+    color: #cfd8dc;
     opacity: 1
 }
 .ip-smoke:-ms-input-placeholder {
-    color: #90a4ae
+    color: #cfd8dc
 }
 .ip-white::-webkit-input-placeholder {
     color: rgba(255,255,255, .5)
@@ -3139,7 +3139,7 @@ mark {
 /* ContentEditable placeholder */
 [contentEditable=true]:empty:before {
     content: attr(placeholder);
-    color: #90a4ae
+    color: #cfd8dc
 }
 /* List Style */
 .lst-disc {
@@ -3807,7 +3807,7 @@ mark {
     outline-color: #eceff1
 }
 .oc-smoke {
-    outline-color: #90a4ae
+    outline-color: #cfd8dc
 }
 .oc-steel {
     outline-color: #607d8b
@@ -6928,7 +6928,7 @@ mark {
     background-color: #eceff1
 }
 .bc-smoke {
-    background-color: #90a4ae
+    background-color: #cfd8dc
 }
 .bc-steel {
     background-color: #607d8b
@@ -7059,7 +7059,7 @@ mark {
         background-color: #eceff1
     }
     .bc-smoke--hover:hover {
-        background-color: #90a4ae
+        background-color: #cfd8dc
     }
     .bc-steel--hover:hover {
         background-color: #607d8b
@@ -7190,7 +7190,7 @@ mark {
     background-color: #eceff1
 }
 .bc-smoke--focus:focus {
-    background-color: #90a4ae
+    background-color: #cfd8dc
 }
 .bc-steel--focus:focus {
     background-color: #607d8b
@@ -7536,7 +7536,7 @@ mark {
     box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
 }
 .bs-bevel {
-    box-shadow: 0 -1px 0 #90a4ae,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+    box-shadow: 0 -1px 0 #cfd8dc,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
 }
 /* Hover states */
 @media (hover) {
@@ -7553,7 +7553,7 @@ mark {
         box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
     }
     .bs-bevel--hover:hover {
-        box-shadow: 0 -1px 0 #90a4ae,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+        box-shadow: 0 -1px 0 #cfd8dc,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
     }
 }
 /* Inset border hack */
@@ -7672,7 +7672,7 @@ mark {
     box-shadow: inset 0 0 0 1px #eceff1
 }
 .bs-smoke {
-    box-shadow: inset 0 0 0 1px #90a4ae
+    box-shadow: inset 0 0 0 1px #cfd8dc
 }
 .bs-steel {
     box-shadow: inset 0 0 0 1px #607d8b
@@ -7800,7 +7800,7 @@ mark {
         box-shadow: inset 0 0 0 1px #eceff1
     }
     .bs-smoke--hover:hover {
-        box-shadow: inset 0 0 0 1px #90a4ae
+        box-shadow: inset 0 0 0 1px #cfd8dc
     }
     .bs-steel--hover:hover {
         box-shadow: inset 0 0 0 1px #607d8b
@@ -7907,7 +7907,7 @@ mark {
     color: #eceff1
 }
 .color-smoke {
-    color: #90a4ae
+    color: #cfd8dc
 }
 .color-steel {
     color: #607d8b
@@ -7990,7 +7990,7 @@ mark {
         color: #eceff1
     }
     .color-smoke--hover:hover {
-        color: #90a4ae
+        color: #cfd8dc
     }
     .color-steel--hover:hover {
         color: #607d8b
@@ -8085,7 +8085,7 @@ mark {
     fill: #eceff1
 }
 .fill-smoke {
-    fill: #90a4ae
+    fill: #cfd8dc
 }
 .fill-steel {
     fill: #607d8b
