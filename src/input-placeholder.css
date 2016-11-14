@@ -23,14 +23,14 @@
 }
 
 .ip-black::-webkit-input-placeholder {
-   color: rgba(0,0,0, var(--pellucid));
+   color: rgba(0,0,0, var(--transparent));
 }
 .ip-black:-moz-placeholder {
-   color: rgba(0,0,0, var(--pellucid));
+   color: rgba(0,0,0, var(--transparent));
    opacity:  1;
 }
 .ip-black:-ms-input-placeholder {
-   color: rgba(0,0,0, var(--pellucid));
+   color: rgba(0,0,0, var(--transparent));
 }
 
 /* ContentEditable placeholder */

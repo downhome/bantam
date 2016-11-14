@@ -3127,14 +3127,14 @@ mark {
     color: rgba(255,255,255, .5)
 }
 .ip-black::-webkit-input-placeholder {
-    color: rgba(0,0,0, .15)
+    color: rgba(0,0,0, .5)
 }
 .ip-black:-moz-placeholder {
-    color: rgba(0,0,0, .15);
+    color: rgba(0,0,0, .5);
     opacity: 1
 }
 .ip-black:-ms-input-placeholder {
-    color: rgba(0,0,0, .15)
+    color: rgba(0,0,0, .5)
 }
 /* ContentEditable placeholder */
 [contentEditable=true]:empty:before {
