@@ -47,13 +47,13 @@
 
 /* Remove margin for from first-child hack */
 
-.mt-fs div:first-child,
-.mt-fs li:first-child {
+.mt-fc div:first-child,
+.mt-fc li:first-child {
     margin-top: 0;
 }
 
-.ml-fs div:first-child,
-.ml-fs li:first-child {
+.ml-fc div:first-child,
+.ml-fc li:first-child {
     margin-left: 0;
 }
 
