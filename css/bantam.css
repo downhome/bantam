@@ -7071,6 +7071,136 @@ mark {
         background-color: #192124
     }
 }
+/* Focus states */
+.bc-none--focus:focus {
+    background-color: .5
+}
+.bc-white--focus:focus {
+    background-color: #fff
+}
+.bc-black--focus:focus {
+    background-color: #000
+}
+.bc-white--translucent--focus:focus {
+    background-color: rgba(255,255,255, .98)
+}
+.bc-white--transparent--focus:focus {
+    background-color: rgba(255,255,255, .5)
+}
+.bc-white--pellucid--focus:focus {
+    background-color: rgba(255,255,255, .15)
+}
+.bc-white--limpid--focus:focus {
+    background-color: rgba(255,255,255, .05)
+}
+.bc-black--translucent--focus:focus {
+    background-color: rgba(0,0,0, .98)
+}
+.bc-black--transparent--focus:focus {
+    background-color: rgba(0,0,0, .5)
+}
+.bc-black--pellucid--focus:focus {
+    background-color: rgba(0,0,0, .15)
+}
+.bc-black--limpid--focus:focus {
+    background-color: rgba(0,0,0, .05)
+}
+.bc-red--focus:focus {
+    background-color: #F44336
+}
+.bc-pink--focus:focus {
+    background-color: #E91E63
+}
+.bc-purple--focus:focus {
+    background-color: #9C27B0
+}
+.bc-deepPurple--focus:focus {
+    background-color: #673AB7
+}
+.bc-indigo--focus:focus {
+    background-color: #3F51B5
+}
+.bc-blue--focus:focus {
+    background-color: #2196F3
+}
+.bc-lightBlue--focus:focus {
+    background-color: #03A9F4
+}
+.bc-cyan--focus:focus {
+    background-color: #00BCD4
+}
+.bc-teal--focus:focus {
+    background-color: #009688
+}
+.bc-green--focus:focus {
+    background-color: #4CAF50
+}
+.bc-lightGreen--focus:focus {
+    background-color: #8BC34A
+}
+.bc-lime--focus:focus {
+    background-color: #CDDC39
+}
+.bc-yellow--focus:focus {
+    background-color: #FFEB3B
+}
+.bc-amber--focus:focus {
+    background-color: #FFC107
+}
+.bc-orange--focus:focus {
+    background-color: #FF9800
+}
+.bc-deepOrange--focus:focus {
+    background-color: #FF5722
+}
+.bc-brown--focus:focus {
+    background-color: #795548
+}
+.bc-gray--focus:focus {
+    background-color: #9E9E9E
+}
+.bc-pinkTint--focus:focus {
+    background-color: #FCE4EC
+}
+.bc-blueTint--focus:focus {
+    background-color: #E3F2FD
+}
+.bc-tealTint--focus:focus {
+    background-color: #E0F2F1
+}
+.bc-amberTint--focus:focus {
+    background-color: #FFF8E1
+}
+.bc-redBright--focus:focus {
+    background-color: #FF1744
+}
+.bc-purpleBright--focus:focus {
+    background-color: #D500F9
+}
+.bc-blueBright--focus:focus {
+    background-color: #2979FF
+}
+.bc-tealBright--focus:focus {
+    background-color: #1DE9B6
+}
+.bc-pearl--focus:focus {
+    background-color: #fcfdfd
+}
+.bc-snow--focus:focus {
+    background-color: #eceff1
+}
+.bc-smoke--focus:focus {
+    background-color: #90a4ae
+}
+.bc-steel--focus:focus {
+    background-color: #607d8b
+}
+.bc-lead--focus:focus {
+    background-color: #151b1e
+}
+.bc-charcoal--focus:focus {
+    background-color: #192124
+}
 /* Border radius */
 .br-0 {
     border-radius: 0
