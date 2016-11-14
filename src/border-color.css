@@ -2,6 +2,7 @@
 
 .borderColor-white                  { border-color: var(--white); }
 .borderColor-black                  { border-color: var(--black); }
+.borderColor-transparent            { border-color: transparent; }
 
 .borderColor-white--translucent     { border-color: rgba(255,255,255, var(--translucent)); }
 .borderColor-white--transparent     { border-color: rgba(255,255,255, var(--transparent)); }
@@ -53,6 +54,7 @@
 @media (hover) {
     .borderColor-white--hover:hover                 { border-color: var(--white); }
     .borderColor-black--hover:hover                 { border-color: var(--black); }
+    .borderColor-transparent--hover:hover           { border-color: transparent; }
 
     .borderColor-white--translucent--hover:hover    { border-color: rgba(255,255,255, var(--translucent)); }
     .borderColor-white--transparent--hover:hover    { border-color: rgba(255,255,255, var(--transparent)); }
@@ -104,6 +106,7 @@
 /* Focus states */
 .borderColor-white--focus:focus                 { border-color: var(--white); }
 .borderColor-black--focus:focus                 { border-color: var(--black); }
+.borderColor-transparent--focus:focus           { border-color: transparent; }
 
 .borderColor-white--translucent--focus:focus    { border-color: rgba(255,255,255, var(--translucent)); }
 .borderColor-white--transparent--focus:focus    { border-color: rgba(255,255,255, var(--transparent)); }

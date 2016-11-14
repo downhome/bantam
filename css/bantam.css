@@ -858,6 +858,9 @@ mark {
 .borderColor-black {
     border-color: #000
 }
+.borderColor-transparent {
+    border-color: transparent
+}
 .borderColor-white--translucent {
     border-color: rgba(255,255,255, .98)
 }
@@ -986,6 +989,9 @@ mark {
     .borderColor-black--hover:hover {
         border-color: #000
     }
+    .borderColor-transparent--hover:hover {
+        border-color: transparent
+    }
     .borderColor-white--translucent--hover:hover {
         border-color: rgba(255,255,255, .98)
     }
@@ -1113,6 +1119,9 @@ mark {
 }
 .borderColor-black--focus:focus {
     border-color: #000
+}
+.borderColor-transparent--focus:focus {
+    border-color: transparent
 }
 .borderColor-white--translucent--focus:focus {
     border-color: rgba(255,255,255, .98)
