@@ -8629,6 +8629,9 @@ mark {
 .mr-0 {
     margin-right: 0
 }
+.mr-auto {
+    margin-right: auto
+}
 .mb-xxl {
     margin-bottom: 10.2rem
 }
@@ -8676,6 +8679,9 @@ mark {
 }
 .ml-0 {
     margin-left: 0
+}
+.ml-auto {
+    margin-left: auto
 }
 /* Remove margin for from first-child hack */
 .mt-fc > div:first-child, .mt-fc > li:first-child {

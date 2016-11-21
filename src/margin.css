@@ -26,6 +26,7 @@
 .mr-xs          { margin-right: var(--spacing-xs); }
 .mr-xxs         { margin-right: var(--spacing-xxs); }
 .mr-0           { margin-right: var(--spacing-none); }
+.mr-auto        { margin-right: auto; }
 
 .mb-xxl         { margin-bottom: var(--spacing-xxl); }
 .mb-xl          { margin-bottom: var(--spacing-xl); }
@@ -44,6 +45,7 @@
 .ml-xs          { margin-left: var(--spacing-xs); }
 .ml-xxs         { margin-left: var(--spacing-xxs); }
 .ml-0           { margin-left: var(--spacing-none); }
+.ml-auto        { margin-left: auto; }
 
 /* Remove margin for from first-child hack */
 
