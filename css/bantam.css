@@ -6479,26 +6479,26 @@ mark {
 
 /* Grid */
 /* Grid */
-.grid:before, .grid:after {
-    content: "";
-    display: table
-}
-.grid:after {
-    clear: both
-}
-.grid {
-    zoom: 1
-}
-.grid {
+.grid--l {
     margin-top: -4rem;
     margin-left: -4rem
+}
+.grid--m {
+    margin-top: -2rem;
+    margin-left: -2rem
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .bps-col-1, .bps-col-2, .bps-col-3, .bps-col-4, .bps-col-5, .bps-col-6, .bps-col-7, .bps-col-8, .bps-col-9, .bps-col-10, .bps-col-11, .bps-col-12, .bpm-col-1, .bpm-col-2, .bpm-col-3, .bpm-col-4, .bpm-col-5, .bpm-col-6, .bpm-col-7, .bpm-col-8, .bpm-col-9, .bpm-col-10, .bpm-col-11, .bpm-col-12, .bpl-col-1, .bpl-col-2, .bpl-col-3, .bpl-col-4, .bpl-col-5, .bpl-col-6, .bpl-col-7, .bpl-col-8, .bpl-col-9, .bpl-col-10, .bpl-col-11, .bpl-col-12, .bpxl-col-1, .bpxl-col-2, .bpxl-col-3, .bpxl-col-4, .bpxl-col-5, .bpxl-col-6, .bpxl-col-7, .bpxl-col-8, .bpxl-col-9, .bpxl-col-10, .bpxl-col-11, .bpxl-col-12,  {
     position: relative;
     min-height: 1px;
-    float: left;
+    float: left
+}
+.grid--l > .col-1, .grid--l > .col-2, .grid--l > .col-3, .grid--l > .col-4, .grid--l > .col-5, .grid--l > .col-6, .grid--l > .col-7, .grid--l > .col-8, .grid--l > .col-9, .grid--l > .col-10, .grid--l > .col-11, .grid--l > .col-12, .grid--l > .bps-col-1, .grid--l > .bps-col-2, .grid--l > .bps-col-3, .grid--l > .bps-col-4, .grid--l > .bps-col-5, .grid--l > .bps-col-6, .grid--l > .bps-col-7, .grid--l > .bps-col-8, .grid--l > .bps-col-9, .grid--l > .bps-col-10, .grid--l > .bps-col-11, .grid--l > .bps-col-12, .grid--l > .bpm-col-1, .grid--l > .bpm-col-2, .grid--l > .bpm-col-3, .grid--l > .bpm-col-4, .grid--l > .bpm-col-5, .grid--l > .bpm-col-6, .grid--l > .bpm-col-7, .grid--l > .bpm-col-8, .grid--l > .bpm-col-9, .grid--l > .bpm-col-10, .grid--l > .bpm-col-11, .grid--l > .bpm-col-12, .grid--l > .bpl-col-1, .grid--l > .bpl-col-2, .grid--l > .bpl-col-3, .grid--l > .bpl-col-4, .grid--l > .bpl-col-5, .grid--l > .bpl-col-6, .grid--l > .bpl-col-7, .grid--l > .bpl-col-8, .grid--l > .bpl-col-9, .grid--l > .bpl-col-10, .grid--l > .bpl-col-11, .grid--l > .bpl-col-12, .grid--l > .bpxl-col-1, .grid--l > .bpxl-col-2, .grid--l > .bpxl-col-3, .grid--l > .bpxl-col-4, .grid--l > .bpxl-col-5, .grid--l > .bpxl-col-6, .grid--l > .bpxl-col-7, .grid--l > .bpxl-col-8, .grid--l > .bpxl-col-9, .grid--l > .bpxl-col-10, .grid--l > .bpxl-col-11, .grid--l > .bpxl-col-12,  {
     padding-top: 4rem;
     padding-left: 4rem
+}
+.grid--m > .col-1, .grid--m > .col-2, .grid--m > .col-3, .grid--m > .col-4, .grid--m > .col-5, .grid--m > .col-6, .grid--m > .col-7, .grid--m > .col-8, .grid--m > .col-9, .grid--m > .col-10, .grid--m > .col-11, .grid--m > .col-12, .grid--m > .bps-col-1, .grid--m > .bps-col-2, .grid--m > .bps-col-3, .grid--m > .bps-col-4, .grid--m > .bps-col-5, .grid--m > .bps-col-6, .grid--m > .bps-col-7, .grid--m > .bps-col-8, .grid--m > .bps-col-9, .grid--m > .bps-col-10, .grid--m > .bps-col-11, .grid--m > .bps-col-12, .grid--m > .bpm-col-1, .grid--m > .bpm-col-2, .grid--m > .bpm-col-3, .grid--m > .bpm-col-4, .grid--m > .bpm-col-5, .grid--m > .bpm-col-6, .grid--m > .bpm-col-7, .grid--m > .bpm-col-8, .grid--m > .bpm-col-9, .grid--m > .bpm-col-10, .grid--m > .bpm-col-11, .grid--m > .bpm-col-12, .grid--m > .bpl-col-1, .grid--m > .bpl-col-2, .grid--m > .bpl-col-3, .grid--m > .bpl-col-4, .grid--m > .bpl-col-5, .grid--m > .bpl-col-6, .grid--m > .bpl-col-7, .grid--m > .bpl-col-8, .grid--m > .bpl-col-9, .grid--m > .bpl-col-10, .grid--m > .bpl-col-11, .grid--m > .bpl-col-12, .grid--m > .bpxl-col-1, .grid--m > .bpxl-col-2, .grid--m > .bpxl-col-3, .grid--m > .bpxl-col-4, .grid--m > .bpxl-col-5, .grid--m > .bpxl-col-6, .grid--m > .bpxl-col-7, .grid--m > .bpxl-col-8, .grid--m > .bpxl-col-9, .grid--m > .bpxl-col-10, .grid--m > .bpxl-col-11, .grid--m > .bpxl-col-12,  {
+    padding-top: 2rem;
+    padding-left: 2rem
 }
 /* Column widths */
 .col-1 {
