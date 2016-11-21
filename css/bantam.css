@@ -8678,10 +8678,10 @@ mark {
     margin-left: 0
 }
 /* Remove margin for from first-child hack */
-.mt-fc div:first-child, .mt-fc li:first-child {
+.mt-fc > div:first-child, .mt-fc > li:first-child {
     margin-top: 0
 }
-.ml-fc div:first-child, .ml-fc li:first-child {
+.ml-fc > div:first-child, .ml-fc > li:first-child {
     margin-left: 0
 }
 @media (min-width: 38em) {
@@ -9293,10 +9293,10 @@ mark {
 .pl-0 {
     padding-left: 0
 }
-.pt-fc div:first-child, .pt-fc li:first-child {
+.pt-fc > div:first-child, .pt-fc > li:first-child {
     padding-top: 0
 }
-.pl-fc div:first-child, .pl-fc li:first-child {
+.pl-fc > div:first-child, .pl-fc > li:first-child {
     padding-left: 0
 }
 @media (min-width: 38em) {

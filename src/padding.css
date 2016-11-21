@@ -45,13 +45,13 @@
 .pl-xxs         { padding-left: var(--spacing-xxs); }
 .pl-0           { padding-left: var(--spacing-none); }
 
-.pt-fc div:first-child,
-.pt-fc li:first-child {
+.pt-fc > div:first-child,
+.pt-fc > li:first-child {
     padding-top: 0;
 }
 
-.pl-fc div:first-child,
-.pl-fc li:first-child {
+.pl-fc > div:first-child,
+.pl-fc > li:first-child {
     padding-left: 0;
 }
 
