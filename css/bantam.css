@@ -5313,6 +5313,115 @@ mark {
         text-decoration: line-through
     }
 }
+/* Text decoration skip */
+.tds-edges {
+    -webkit-text-decoration-skip: edges;
+            text-decoration-skip: edges
+}
+.tds-ink {
+    -webkit-text-decoration-skip: ink;
+            text-decoration-skip: ink
+}
+.tds-none {
+    -webkit-text-decoration-skip: none;
+            text-decoration-skip: none
+}
+.tds-objects {
+    -webkit-text-decoration-skip: objects;
+            text-decoration-skip: objects
+}
+.tds-spaces {
+    -webkit-text-decoration-skip: spaces;
+            text-decoration-skip: spaces
+}
+@media (min-width: 38em) {
+    .bps-tds-edges {
+        -webkit-text-decoration-skip: edges;
+                text-decoration-skip: edges
+    }
+    .bps-tds-ink {
+        -webkit-text-decoration-skip: ink;
+                text-decoration-skip: ink
+    }
+    .bps-tds-none {
+        -webkit-text-decoration-skip: none;
+                text-decoration-skip: none
+    }
+    .bps-tds-objects {
+        -webkit-text-decoration-skip: objects;
+                text-decoration-skip: objects
+    }
+    .bps-tds-spaces {
+        -webkit-text-decoration-skip: spaces;
+                text-decoration-skip: spaces
+    }
+}
+@media (min-width: 68em) {
+    .bpm-tds-edges {
+        -webkit-text-decoration-skip: edges;
+                text-decoration-skip: edges
+    }
+    .bpm-tds-ink {
+        -webkit-text-decoration-skip: ink;
+                text-decoration-skip: ink
+    }
+    .bpm-tds-none {
+        -webkit-text-decoration-skip: none;
+                text-decoration-skip: none
+    }
+    .bpm-tds-objects {
+        -webkit-text-decoration-skip: objects;
+                text-decoration-skip: objects
+    }
+    .bpm-tds-spaces {
+        -webkit-text-decoration-skip: spaces;
+                text-decoration-skip: spaces
+    }
+}
+@media (min-width: 96em) {
+    .bpl-tds-edges {
+        -webkit-text-decoration-skip: edges;
+                text-decoration-skip: edges
+    }
+    .bpl-tds-ink {
+        -webkit-text-decoration-skip: ink;
+                text-decoration-skip: ink
+    }
+    .bpl-tds-none {
+        -webkit-text-decoration-skip: none;
+                text-decoration-skip: none
+    }
+    .bpl-tds-objects {
+        -webkit-text-decoration-skip: objects;
+                text-decoration-skip: objects
+    }
+    .bpl-tds-spaces {
+        -webkit-text-decoration-skip: spaces;
+                text-decoration-skip: spaces
+    }
+}
+@media (min-width: 120em) {
+    .bpxl-tds-edges {
+        -webkit-text-decoration-skip: edges;
+                text-decoration-skip: edges
+    }
+    .bpxl-tds-ink {
+        -webkit-text-decoration-skip: ink;
+                text-decoration-skip: ink
+    }
+    .bpxl-tds-none {
+        -webkit-text-decoration-skip: none;
+                text-decoration-skip: none
+    }
+    .bpxl-tds-objects {
+        -webkit-text-decoration-skip: objects;
+                text-decoration-skip: objects
+    }
+    .bpxl-tds-spaces {
+        -webkit-text-decoration-skip: spaces;
+                text-decoration-skip: spaces
+    }
+}
 /* Text Overflow */
 .to-clip {
     text-overflow: clip

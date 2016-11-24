@@ -41,6 +41,7 @@
 @import "table-layout.css";
 @import "text-align.css";
 @import "text-decoration.css";
+@import "text-decoration-skip.css";
 @import "text-overflow.css";
 @import "text-rendering.css";
 @import "text-transform.css";
