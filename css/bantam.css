@@ -5624,8 +5624,8 @@ mark {
             transition-duration: 1000ms
 }
 .td-l {
-    -webkit-transition-duration: 500ms;
-            transition-duration: 500ms
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms
 }
 .td-m {
     -webkit-transition-duration: 200ms;
@@ -6020,8 +6020,8 @@ mark {
             transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275)
 }
 .ttf-easeInOutBack {
-    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55)
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.35);
+            transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.35)
 }
 /* Transform origin */
 .transform-scaleUp {
