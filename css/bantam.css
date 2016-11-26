@@ -7535,8 +7535,8 @@ mark {
     margin: auto
 }
 .pinOS {
-    top: -9999999px;
-    left: -9999999px
+    top: -99999px;
+    left: -99999px
 }
 /* Truncate Text */
 .truncateText {
