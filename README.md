@@ -27,7 +27,7 @@ When the CSS property consists of two or more words, abbreviate the property nam
 
 The simplest and fastest way to get started is to include the minified CSS file in your project. Just add this snippet to the head of your html file:
 
-    <link rel="stylesheet" href="https://s3.amazonaws.com/bantam/bantam.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/bantam/bantam.min.css">
 
 Install through npm to take advantage of future updates:
 
