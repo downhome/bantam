@@ -81,7 +81,7 @@ time,
 mark,
 audio,
 video,
-input[type="submit"],
+input,
 button {
     margin: 0;
     padding: 0;
