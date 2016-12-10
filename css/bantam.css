@@ -3846,38 +3846,45 @@ mark {
 }
 /* Input placeholder */
 .ip-smoke::-webkit-input-placeholder {
-    color: #cfd8dc
+    color: #cfd8dc;
+    opacity: 1
 }
 .ip-smoke:-moz-placeholder {
     color: #cfd8dc;
     opacity: 1
 }
 .ip-smoke:-ms-input-placeholder {
-    color: #cfd8dc
+    color: #cfd8dc;
+    opacity: 1
 }
 .ip-white::-webkit-input-placeholder {
-    color: rgba(255,255,255, .5)
+    color: rgba(255,255,255, .5);
+    opacity: 1
 }
 .ip-white:-moz-placeholder {
     color: rgba(255,255,255, .5);
     opacity: 1
 }
 .ip-white:-ms-input-placeholder {
-    color: rgba(255,255,255, .5)
+    color: rgba(255,255,255, .5);
+    opacity: 1
 }
 .ip-black::-webkit-input-placeholder {
-    color: rgba(0,0,0, .5)
+    color: rgba(0,0,0, .5);
+    opacity: 1
 }
 .ip-black:-moz-placeholder {
     color: rgba(0,0,0, .5);
     opacity: 1
 }
 .ip-black:-ms-input-placeholder {
-    color: rgba(0,0,0, .5)
+    color: rgba(0,0,0, .5);
+    opacity: 1
 }
 /* ContentEditable placeholder */
 [contentEditable=true]:empty:before {
     content: attr(placeholder);
+    opacity: 1;
     color: #cfd8dc
 }
 /* List Style */
