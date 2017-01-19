@@ -970,16 +970,16 @@ mark {
     border-color: hsl(208, 45%, 97%)
 }
 .borderColor-smoke {
-    border-color: hsl(198, 16%, 84%)
+    border-color: hsl(208, 28%, 92%)
 }
 .borderColor-steel {
-    border-color: hsl(200, 18%, 46%)
+    border-color: hsl(208, 20%, 50%)
 }
 .borderColor-lead {
-    border-color: hsl(200, 18%, 10%)
+    border-color: hsl(208, 20%, 10%)
 }
 .borderColor-charcoal {
-    border-color: hsl(196, 18%, 12%)
+    border-color: hsl(208, 20%, 12%)
 }
 /* Hover states */
 @media (hover) {
@@ -1101,16 +1101,16 @@ mark {
         border-color: hsl(208, 45%, 97%)
     }
     .borderColor-smoke--hover:hover {
-        border-color: hsl(198, 16%, 84%)
+        border-color: hsl(208, 28%, 92%)
     }
     .borderColor-steel--hover:hover {
-        border-color: hsl(200, 18%, 46%)
+        border-color: hsl(208, 20%, 50%)
     }
     .borderColor-lead--hover:hover {
-        border-color: hsl(200, 18%, 10%)
+        border-color: hsl(208, 20%, 10%)
     }
     .borderColor-charcoal--hover:hover {
-        border-color: hsl(196, 18%, 12%)
+        border-color: hsl(208, 20%, 12%)
     }
 }
 /* Focus states */
@@ -1232,16 +1232,16 @@ mark {
     border-color: hsl(208, 45%, 97%)
 }
 .borderColor-smoke--focus:focus {
-    border-color: hsl(198, 16%, 84%)
+    border-color: hsl(208, 28%, 92%)
 }
 .borderColor-steel--focus:focus {
-    border-color: hsl(200, 18%, 46%)
+    border-color: hsl(208, 20%, 50%)
 }
 .borderColor-lead--focus:focus {
-    border-color: hsl(200, 18%, 10%)
+    border-color: hsl(208, 20%, 10%)
 }
 .borderColor-charcoal--focus:focus {
-    border-color: hsl(196, 18%, 12%)
+    border-color: hsl(208, 20%, 12%)
 }
 /* Border style */
 .bs-none {
@@ -3846,15 +3846,15 @@ mark {
 }
 /* Input placeholder */
 .ip-smoke::-webkit-input-placeholder {
-    color: hsl(198, 16%, 84%);
+    color: hsl(208, 28%, 92%);
     opacity: 1
 }
 .ip-smoke:-moz-placeholder {
-    color: hsl(198, 16%, 84%);
+    color: hsl(208, 28%, 92%);
     opacity: 1
 }
 .ip-smoke:-ms-input-placeholder {
-    color: hsl(198, 16%, 84%);
+    color: hsl(208, 28%, 92%);
     opacity: 1
 }
 .ip-white::-webkit-input-placeholder {
@@ -3885,7 +3885,7 @@ mark {
 [contentEditable=true]:empty:before {
     content: attr(placeholder);
     opacity: 1;
-    color: hsl(198, 16%, 84%)
+    color: hsl(208, 28%, 92%)
 }
 /* List Style */
 .lst-disc {
@@ -4982,16 +4982,16 @@ mark {
     outline-color: hsl(208, 45%, 97%)
 }
 .oc-smoke {
-    outline-color: hsl(198, 16%, 84%)
+    outline-color: hsl(208, 28%, 92%)
 }
 .oc-steel {
-    outline-color: hsl(200, 18%, 46%)
+    outline-color: hsl(208, 20%, 50%)
 }
 .oc-lead {
-    outline-color: hsl(200, 18%, 10%)
+    outline-color: hsl(208, 20%, 10%)
 }
 .oc-charcoal {
-    outline-color: hsl(196, 18%, 12%)
+    outline-color: hsl(208, 20%, 12%)
 }
 /* Outline Style */
 .os-none {
@@ -8316,16 +8316,16 @@ mark {
     background-color: hsl(208, 45%, 97%)
 }
 .bc-smoke {
-    background-color: hsl(198, 16%, 84%)
+    background-color: hsl(208, 28%, 92%)
 }
 .bc-steel {
-    background-color: hsl(200, 18%, 46%)
+    background-color: hsl(208, 20%, 50%)
 }
 .bc-lead {
-    background-color: hsl(200, 18%, 10%)
+    background-color: hsl(208, 20%, 10%)
 }
 .bc-charcoal {
-    background-color: hsl(196, 18%, 12%)
+    background-color: hsl(208, 20%, 12%)
 }
 /* Hover states */
 @media (hover) {
@@ -8447,16 +8447,16 @@ mark {
         background-color: hsl(208, 45%, 97%)
     }
     .bc-smoke--hover:hover {
-        background-color: hsl(198, 16%, 84%)
+        background-color: hsl(208, 28%, 92%)
     }
     .bc-steel--hover:hover {
-        background-color: hsl(200, 18%, 46%)
+        background-color: hsl(208, 20%, 50%)
     }
     .bc-lead--hover:hover {
-        background-color: hsl(200, 18%, 10%)
+        background-color: hsl(208, 20%, 10%)
     }
     .bc-charcoal--hover:hover {
-        background-color: hsl(196, 18%, 12%)
+        background-color: hsl(208, 20%, 12%)
     }
 }
 /* Focus states */
@@ -8578,16 +8578,16 @@ mark {
     background-color: hsl(208, 45%, 97%)
 }
 .bc-smoke--focus:focus {
-    background-color: hsl(198, 16%, 84%)
+    background-color: hsl(208, 28%, 92%)
 }
 .bc-steel--focus:focus {
-    background-color: hsl(200, 18%, 46%)
+    background-color: hsl(208, 20%, 50%)
 }
 .bc-lead--focus:focus {
-    background-color: hsl(200, 18%, 10%)
+    background-color: hsl(208, 20%, 10%)
 }
 .bc-charcoal--focus:focus {
-    background-color: hsl(196, 18%, 12%)
+    background-color: hsl(208, 20%, 12%)
 }
 /* Border radius */
 .br-0 {
@@ -8924,7 +8924,7 @@ mark {
     box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
 }
 .bs-bevel {
-    box-shadow: 0 -1px 0 hsl(198, 16%, 84%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+    box-shadow: 0 -1px 0 hsl(208, 28%, 92%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
 }
 /* Hover states */
 @media (hover) {
@@ -8941,7 +8941,7 @@ mark {
         box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
     }
     .bs-bevel--hover:hover {
-        box-shadow: 0 -1px 0 hsl(198, 16%, 84%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+        box-shadow: 0 -1px 0 hsl(208, 28%, 92%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
     }
 }
 /* Inset border hack */
@@ -9060,16 +9060,16 @@ mark {
     box-shadow: inset 0 0 0 1px hsl(208, 45%, 97%)
 }
 .bs-smoke {
-    box-shadow: inset 0 0 0 1px hsl(198, 16%, 84%)
+    box-shadow: inset 0 0 0 1px hsl(208, 28%, 92%)
 }
 .bs-steel {
-    box-shadow: inset 0 0 0 1px hsl(200, 18%, 46%)
+    box-shadow: inset 0 0 0 1px hsl(208, 20%, 50%)
 }
 .bs-lead {
-    box-shadow: inset 0 0 0 1px hsl(200, 18%, 10%)
+    box-shadow: inset 0 0 0 1px hsl(208, 20%, 10%)
 }
 .bs-charcoal {
-    box-shadow: inset 0 0 0 1px hsl(196, 18%, 12%)
+    box-shadow: inset 0 0 0 1px hsl(208, 20%, 12%)
 }
 /* Inset border hack hover states */
 @media (hover) {
@@ -9188,16 +9188,16 @@ mark {
         box-shadow: inset 0 0 0 1px hsl(208, 45%, 97%)
     }
     .bs-smoke--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(198, 16%, 84%)
+        box-shadow: inset 0 0 0 1px hsl(208, 28%, 92%)
     }
     .bs-steel--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(200, 18%, 46%)
+        box-shadow: inset 0 0 0 1px hsl(208, 20%, 50%)
     }
     .bs-lead--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(200, 18%, 10%)
+        box-shadow: inset 0 0 0 1px hsl(208, 20%, 10%)
     }
     .bs-charcoal--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(196, 18%, 12%)
+        box-shadow: inset 0 0 0 1px hsl(208, 20%, 12%)
     }
 }
 /* Color */
@@ -9295,16 +9295,16 @@ mark {
     color: hsl(208, 45%, 97%)
 }
 .color-smoke {
-    color: hsl(198, 16%, 84%)
+    color: hsl(208, 28%, 92%)
 }
 .color-steel {
-    color: hsl(200, 18%, 46%)
+    color: hsl(208, 20%, 50%)
 }
 .color-lead {
-    color: hsl(200, 18%, 10%)
+    color: hsl(208, 20%, 10%)
 }
 .color-charcoal {
-    color: hsl(196, 18%, 12%)
+    color: hsl(208, 20%, 12%)
 }
 /* Hover states */
 @media (hover) {
@@ -9378,16 +9378,16 @@ mark {
         color: hsl(208, 45%, 97%)
     }
     .color-smoke--hover:hover {
-        color: hsl(198, 16%, 84%)
+        color: hsl(208, 28%, 92%)
     }
     .color-steel--hover:hover {
-        color: hsl(200, 18%, 46%)
+        color: hsl(208, 20%, 50%)
     }
     .color-lead--hover:hover {
-        color: hsl(200, 18%, 10%)
+        color: hsl(208, 20%, 10%)
     }
     .color-charcoal--hover:hover {
-        color: hsl(196, 18%, 12%)
+        color: hsl(208, 20%, 12%)
     }
 }
 /* Fill */
@@ -9473,16 +9473,16 @@ mark {
     fill: hsl(208, 45%, 97%)
 }
 .fill-smoke {
-    fill: hsl(198, 16%, 84%)
+    fill: hsl(208, 28%, 92%)
 }
 .fill-steel {
-    fill: hsl(200, 18%, 46%)
+    fill: hsl(208, 20%, 50%)
 }
 .fill-lead {
-    fill: hsl(200, 18%, 10%)
+    fill: hsl(208, 20%, 10%)
 }
 .fill-charcoal {
-    fill: hsl(196, 18%, 12%)
+    fill: hsl(208, 20%, 12%)
 }
 /* Font family */
 .ff-sansSerif {
