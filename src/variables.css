@@ -71,20 +71,15 @@
     /* Spacing  */
 
     --spacing-none: 0;
-    --spacing-xxs: .5rem;
-    --spacing-xs: 1rem;
-    --spacing-s: 1.5rem;
-    --spacing-m: 2rem;
+    --spacing-xxxs: .4rem;
+    --spacing-xxs: .8rem;
+    --spacing-xs: 1.6rem;
+    --spacing-s: 2.4rem;
+    --spacing-m: 3.2rem;
     --spacing-l: 4rem;
-    --spacing-xl: 8rem;
-    --spacing-xxl: 10.2rem;
-
-    /* Dimensions  */
-
-    --UIs: 30px;
-    --UIm: 40px;
-    --UIl: 50px;
-    --UIxl: 60px;
+    --spacing-xl: 4.8rem;
+    --spacing-xxl: 6.4rem;
+    --spacing-xxxl: 8rem;
 
     /* Durations  */
 

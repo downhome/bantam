@@ -15,10 +15,10 @@
 .height-90  { height: 90%; }
 .height-100 { height: 100%; }
 
-.height-UIs   { height: var(--UIs); }
-.height-UIm   { height: var(--UIm); }
-.height-UIl   { height: var(--UIl); }
-.height-UIxl  { height: var(--UIxl); }
+.height-UIs   { height: var(--spacing-m); }
+.height-UIm   { height: var(--spacing-l); }
+.height-UIl   { height: var(--spacing-xl); }
+.height-UIxl  { height: var(--spacing-xxl); }
 
 @media (--breakpoint-s) {
   .bps-height-10  { height: 10%; }
@@ -36,10 +36,10 @@
   .bps-height-90  { height: 90%; }
   .bps-height-100 { height: 100%; }
 
-  .bps-height-UIs   { height: var(--UIs); }
-  .bps-height-UIm   { height: var(--UIm); }
-  .bps-height-UIl   { height: var(--UIl); }
-  .bps-height-UIxl  { height: var(--UIxl); }
+  .bps-height-UIs   { height: var(--spacing-m); }
+  .bps-height-UIm   { height: var(--spacing-l); }
+  .bps-height-UIl   { height: var(--spacing-xl); }
+  .bps-height-UIxl  { height: var(--spacing-xxl); }
 }
 
 @media (--breakpoint-m) {
@@ -58,10 +58,10 @@
   .bpm-height-90  { height: 90%; }
   .bpm-height-100 { height: 100%; }
 
-  .bpm-height-UIs   { height: var(--UIs); }
-  .bpm-height-UIm   { height: var(--UIm); }
-  .bpm-height-UIl   { height: var(--UIl); }
-  .bpm-height-UIxl  { height: var(--UIxl); }
+  .bpm-height-UIs   { height: var(--spacing-m); }
+  .bpm-height-UIm   { height: var(--spacing-l); }
+  .bpm-height-UIl   { height: var(--spacing-xl); }
+  .bpm-height-UIxl  { height: var(--spacing-xxl); }
 }
 
 @media (--breakpoint-l) {
@@ -80,10 +80,10 @@
   .bpl-height-90  { height: 90%; }
   .bpl-height-100 { height: 100%; }
 
-  .bpl-height-UIs   { height: var(--UIs); }
-  .bpl-height-UIm   { height: var(--UIm); }
-  .bpl-height-UIl   { height: var(--UIl); }
-  .bpl-height-UIxl  { height: var(--UIxl); }
+  .bpl-height-UIs   { height: var(--spacing-m); }
+  .bpl-height-UIm   { height: var(--spacing-l); }
+  .bpl-height-UIl   { height: var(--spacing-xl); }
+  .bpl-height-UIxl  { height: var(--spacing-xxl); }
 }
 
 @media (--breakpoint-xl) {
@@ -102,8 +102,8 @@
   .bpxl-height-90  { height: 90%; }
   .bpxl-height-100 { height: 100%; }
 
-  .bpxl-height-UIs   { height: var(--UIs); }
-  .bpxl-height-UIm   { height: var(--UIm); }
-  .bpxl-height-UIl   { height: var(--UIl); }
-  .bpxl-height-UIxl  { height: var(--UIxl); }
+  .bpxl-height-UIs   { height: var(--spacing-m); }
+  .bpxl-height-UIm   { height: var(--spacing-l); }
+  .bpxl-height-UIl   { height: var(--spacing-xl); }
+  .bpxl-height-UIxl  { height: var(--spacing-xxl); }
 }
