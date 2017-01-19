@@ -15,7 +15,8 @@
     --white: hsl(0, 0%, 100%);
     --transparent: transparent;
 
-    --translucent: .98;
+    --opaque: .98;
+    --translucent: .8;
     --transparent: .5;
     --pellucid: .15;
     --limpid: .05;

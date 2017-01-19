@@ -4,11 +4,13 @@
 .borderColor-black                  { border-color: var(--black); }
 .borderColor-transparent            { border-color: transparent; }
 
+.borderColor-white--opaque          { border-color: rgba(255,255,255, var(--opaque)); }
 .borderColor-white--translucent     { border-color: rgba(255,255,255, var(--translucent)); }
 .borderColor-white--transparent     { border-color: rgba(255,255,255, var(--transparent)); }
 .borderColor-white--pellucid        { border-color: rgba(255,255,255, var(--pellucid)); }
 .borderColor-white--limpid          { border-color: rgba(255,255,255, var(--limpid)); }
 
+.borderColor-black--opaque          { border-color: rgba(0,0,0, var(--opaque)); }
 .borderColor-black--translucent     { border-color: rgba(0,0,0, var(--translucent)); }
 .borderColor-black--transparent     { border-color: rgba(0,0,0, var(--transparent)); }
 .borderColor-black--pellucid        { border-color: rgba(0,0,0, var(--pellucid)); }
@@ -56,11 +58,13 @@
     .borderColor-black--hover:hover                 { border-color: var(--black); }
     .borderColor-transparent--hover:hover           { border-color: transparent; }
 
+    .borderColor-white--opaque--hover:hover         { border-color: rgba(255,255,255, var(--opaque)); }
     .borderColor-white--translucent--hover:hover    { border-color: rgba(255,255,255, var(--translucent)); }
     .borderColor-white--transparent--hover:hover    { border-color: rgba(255,255,255, var(--transparent)); }
     .borderColor-white--pellucid--hover:hover       { border-color: rgba(255,255,255, var(--pellucid)); }
     .borderColor-white--limpid--hover:hover         { border-color: rgba(255,255,255, var(--limpid)); }
 
+    .borderColor-black--opaque--hover:hover         { border-color: rgba(0,0,0, var(--opaque)); }
     .borderColor-black--translucent--hover:hover    { border-color: rgba(0,0,0, var(--translucent)); }
     .borderColor-black--transparent--hover:hover    { border-color: rgba(0,0,0, var(--transparent)); }
     .borderColor-black--pellucid--hover:hover       { border-color: rgba(0,0,0, var(--pellucid)); }
@@ -108,11 +112,13 @@
 .borderColor-black--focus:focus                 { border-color: var(--black); }
 .borderColor-transparent--focus:focus           { border-color: transparent; }
 
+.borderColor-white--opaque--focus:focus         { border-color: rgba(255,255,255, var(--opaque)); }
 .borderColor-white--translucent--focus:focus    { border-color: rgba(255,255,255, var(--translucent)); }
 .borderColor-white--transparent--focus:focus    { border-color: rgba(255,255,255, var(--transparent)); }
 .borderColor-white--pellucid--focus:focus       { border-color: rgba(255,255,255, var(--pellucid)); }
 .borderColor-white--limpid--focus:focus         { border-color: rgba(255,255,255, var(--limpid)); }
 
+.borderColor-black--opaque--focus:focus         { border-color: rgba(0,0,0, var(--opaque)); }
 .borderColor-black--translucent--focus:focus    { border-color: rgba(0,0,0, var(--translucent)); }
 .borderColor-black--transparent--focus:focus    { border-color: rgba(0,0,0, var(--transparent)); }
 .borderColor-black--pellucid--focus:focus       { border-color: rgba(0,0,0, var(--pellucid)); }

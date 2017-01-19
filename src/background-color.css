@@ -5,11 +5,13 @@
 .bc-white               { background-color: var(--white); }
 .bc-black               { background-color: var(--black); }
 
+.bc-white--opaque       { background-color: rgba(255,255,255, var(--opaque)); }
 .bc-white--translucent  { background-color: rgba(255,255,255, var(--translucent)); }
 .bc-white--transparent  { background-color: rgba(255,255,255, var(--transparent)); }
 .bc-white--pellucid     { background-color: rgba(255,255,255, var(--pellucid)); }
 .bc-white--limpid       { background-color: rgba(255,255,255, var(--limpid)); }
 
+.bc-black--opaque       { background-color: rgba(0,0,0, var(--opaque)); }
 .bc-black--translucent  { background-color: rgba(0,0,0, var(--translucent)); }
 .bc-black--transparent  { background-color: rgba(0,0,0, var(--transparent)); }
 .bc-black--pellucid     { background-color: rgba(0,0,0, var(--pellucid)); }
@@ -58,11 +60,13 @@
     .bc-white--hover:hover               { background-color: var(--white); }
     .bc-black--hover:hover               { background-color: var(--black); }
 
+    .bc-white--opaque--hover:hover       { background-color: rgba(255,255,255, var(--opaque)); }
     .bc-white--translucent--hover:hover  { background-color: rgba(255,255,255, var(--translucent)); }
     .bc-white--transparent--hover:hover  { background-color: rgba(255,255,255, var(--transparent)); }
     .bc-white--pellucid--hover:hover     { background-color: rgba(255,255,255, var(--pellucid)); }
     .bc-white--limpid--hover:hover       { background-color: rgba(255,255,255, var(--limpid)); }
 
+    .bc-black--opaque--hover:hover       { background-color: rgba(0,0,0, var(--opaque)); }
     .bc-black--translucent--hover:hover  { background-color: rgba(0,0,0, var(--translucent)); }
     .bc-black--transparent--hover:hover  { background-color: rgba(0,0,0, var(--transparent)); }
     .bc-black--pellucid--hover:hover     { background-color: rgba(0,0,0, var(--pellucid)); }
@@ -111,11 +115,13 @@
 .bc-white--focus:focus               { background-color: var(--white); }
 .bc-black--focus:focus               { background-color: var(--black); }
 
+.bc-white--opaque--focus:focus       { background-color: rgba(255,255,255, var(--opaque)); }
 .bc-white--translucent--focus:focus  { background-color: rgba(255,255,255, var(--translucent)); }
 .bc-white--transparent--focus:focus  { background-color: rgba(255,255,255, var(--transparent)); }
 .bc-white--pellucid--focus:focus     { background-color: rgba(255,255,255, var(--pellucid)); }
 .bc-white--limpid--focus:focus       { background-color: rgba(255,255,255, var(--limpid)); }
 
+.bc-black--opaque--focus:focus       { background-color: rgba(0,0,0, var(--opaque)); }
 .bc-black--translucent--focus:focus  { background-color: rgba(0,0,0, var(--translucent)); }
 .bc-black--transparent--focus:focus  { background-color: rgba(0,0,0, var(--transparent)); }
 .bc-black--pellucid--focus:focus     { background-color: rgba(0,0,0, var(--pellucid)); }

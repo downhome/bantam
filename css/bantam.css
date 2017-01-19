@@ -861,8 +861,11 @@ mark {
 .borderColor-transparent {
     border-color: transparent
 }
-.borderColor-white--translucent {
+.borderColor-white--opaque {
     border-color: rgba(255,255,255, .98)
+}
+.borderColor-white--translucent {
+    border-color: rgba(255,255,255, .8)
 }
 .borderColor-white--transparent {
     border-color: rgba(255,255,255, .5)
@@ -873,8 +876,11 @@ mark {
 .borderColor-white--limpid {
     border-color: rgba(255,255,255, .05)
 }
-.borderColor-black--translucent {
+.borderColor-black--opaque {
     border-color: rgba(0,0,0, .98)
+}
+.borderColor-black--translucent {
+    border-color: rgba(0,0,0, .8)
 }
 .borderColor-black--transparent {
     border-color: rgba(0,0,0, .5)
@@ -992,8 +998,11 @@ mark {
     .borderColor-transparent--hover:hover {
         border-color: transparent
     }
-    .borderColor-white--translucent--hover:hover {
+    .borderColor-white--opaque--hover:hover {
         border-color: rgba(255,255,255, .98)
+    }
+    .borderColor-white--translucent--hover:hover {
+        border-color: rgba(255,255,255, .8)
     }
     .borderColor-white--transparent--hover:hover {
         border-color: rgba(255,255,255, .5)
@@ -1004,8 +1013,11 @@ mark {
     .borderColor-white--limpid--hover:hover {
         border-color: rgba(255,255,255, .05)
     }
-    .borderColor-black--translucent--hover:hover {
+    .borderColor-black--opaque--hover:hover {
         border-color: rgba(0,0,0, .98)
+    }
+    .borderColor-black--translucent--hover:hover {
+        border-color: rgba(0,0,0, .8)
     }
     .borderColor-black--transparent--hover:hover {
         border-color: rgba(0,0,0, .5)
@@ -1123,8 +1135,11 @@ mark {
 .borderColor-transparent--focus:focus {
     border-color: transparent
 }
-.borderColor-white--translucent--focus:focus {
+.borderColor-white--opaque--focus:focus {
     border-color: rgba(255,255,255, .98)
+}
+.borderColor-white--translucent--focus:focus {
+    border-color: rgba(255,255,255, .8)
 }
 .borderColor-white--transparent--focus:focus {
     border-color: rgba(255,255,255, .5)
@@ -1135,8 +1150,11 @@ mark {
 .borderColor-white--limpid--focus:focus {
     border-color: rgba(255,255,255, .05)
 }
-.borderColor-black--translucent--focus:focus {
+.borderColor-black--opaque--focus:focus {
     border-color: rgba(0,0,0, .98)
+}
+.borderColor-black--translucent--focus:focus {
+    border-color: rgba(0,0,0, .8)
 }
 .borderColor-black--transparent--focus:focus {
     border-color: rgba(0,0,0, .5)
@@ -5021,7 +5039,7 @@ mark {
     outline-color: hsl(0, 0%, 0%)
 }
 .oc-white--translucent {
-    outline-color: rgba(255,255,255, .98)
+    outline-color: rgba(255,255,255, .8)
 }
 .oc-white--transparent {
     outline-color: rgba(255,255,255, .5)
@@ -5033,7 +5051,7 @@ mark {
     outline-color: rgba(255,255,255, .05)
 }
 .oc-black--translucent {
-    outline-color: rgba(0,0,0, .98)
+    outline-color: rgba(0,0,0, .8)
 }
 .oc-black--transparent {
     outline-color: rgba(0,0,0, .5)
@@ -8327,8 +8345,11 @@ mark {
 .bc-black {
     background-color: hsl(0, 0%, 0%)
 }
-.bc-white--translucent {
+.bc-white--opaque {
     background-color: rgba(255,255,255, .98)
+}
+.bc-white--translucent {
+    background-color: rgba(255,255,255, .8)
 }
 .bc-white--transparent {
     background-color: rgba(255,255,255, .5)
@@ -8339,8 +8360,11 @@ mark {
 .bc-white--limpid {
     background-color: rgba(255,255,255, .05)
 }
-.bc-black--translucent {
+.bc-black--opaque {
     background-color: rgba(0,0,0, .98)
+}
+.bc-black--translucent {
+    background-color: rgba(0,0,0, .8)
 }
 .bc-black--transparent {
     background-color: rgba(0,0,0, .5)
@@ -8458,8 +8482,11 @@ mark {
     .bc-black--hover:hover {
         background-color: hsl(0, 0%, 0%)
     }
-    .bc-white--translucent--hover:hover {
+    .bc-white--opaque--hover:hover {
         background-color: rgba(255,255,255, .98)
+    }
+    .bc-white--translucent--hover:hover {
+        background-color: rgba(255,255,255, .8)
     }
     .bc-white--transparent--hover:hover {
         background-color: rgba(255,255,255, .5)
@@ -8470,8 +8497,11 @@ mark {
     .bc-white--limpid--hover:hover {
         background-color: rgba(255,255,255, .05)
     }
-    .bc-black--translucent--hover:hover {
+    .bc-black--opaque--hover:hover {
         background-color: rgba(0,0,0, .98)
+    }
+    .bc-black--translucent--hover:hover {
+        background-color: rgba(0,0,0, .8)
     }
     .bc-black--transparent--hover:hover {
         background-color: rgba(0,0,0, .5)
@@ -8589,8 +8619,11 @@ mark {
 .bc-black--focus:focus {
     background-color: hsl(0, 0%, 0%)
 }
-.bc-white--translucent--focus:focus {
+.bc-white--opaque--focus:focus {
     background-color: rgba(255,255,255, .98)
+}
+.bc-white--translucent--focus:focus {
+    background-color: rgba(255,255,255, .8)
 }
 .bc-white--transparent--focus:focus {
     background-color: rgba(255,255,255, .5)
@@ -8601,8 +8634,11 @@ mark {
 .bc-white--limpid--focus:focus {
     background-color: rgba(255,255,255, .05)
 }
-.bc-black--translucent--focus:focus {
+.bc-black--opaque--focus:focus {
     background-color: rgba(0,0,0, .98)
+}
+.bc-black--translucent--focus:focus {
+    background-color: rgba(0,0,0, .8)
 }
 .bc-black--transparent--focus:focus {
     background-color: rgba(0,0,0, .5)
@@ -9072,7 +9108,7 @@ mark {
     box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
 }
 .bs-white--translucent {
-    box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, .8)
 }
 .bs-white--transparent {
     box-shadow: inset 0 0 0 1px rgba(255,255,255, .5)
@@ -9084,7 +9120,7 @@ mark {
     box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
 }
 .bs-black--translucent {
-    box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, .8)
 }
 .bs-black--transparent {
     box-shadow: inset 0 0 0 1px rgba(0,0,0, .5)
@@ -9200,7 +9236,7 @@ mark {
         box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
     }
     .bs-white--translucent--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, .8)
     }
     .bs-white--transparent--hover:hover {
         box-shadow: inset 0 0 0 1px rgba(255,255,255, .5)
@@ -9212,7 +9248,7 @@ mark {
         box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
     }
     .bs-black--translucent--hover:hover {
-        box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, .8)
     }
     .bs-black--transparent--hover:hover {
         box-shadow: inset 0 0 0 1px rgba(0,0,0, .5)
@@ -9330,8 +9366,11 @@ mark {
 .color-transparent {
     color: .5
 }
-.color-white--translucent {
+.color-white--opaque {
     color: rgba(255,255,255, .98)
+}
+.color-white--translucent {
+    color: rgba(255,255,255, .8)
 }
 .color-white--transparent {
     color: rgba(255,255,255, .5)
@@ -9342,8 +9381,11 @@ mark {
 .color-white--limpid {
     color: rgba(255,255,255, .05)
 }
-.color-black--translucent {
+.color-black--opaque {
     color: rgba(0,0,0, .98)
+}
+.color-black--translucent {
+    color: rgba(0,0,0, .8)
 }
 .color-black--transparent {
     color: rgba(0,0,0, .5)
@@ -9521,7 +9563,7 @@ mark {
     fill: .5
 }
 .fill-white--translucent {
-    fill: rgba(255,255,255, .98)
+    fill: rgba(255,255,255, .8)
 }
 .fill-white--transparent {
     fill: rgba(255,255,255, .5)
@@ -9533,7 +9575,7 @@ mark {
     fill: rgba(255,255,255, .05)
 }
 .fill-black--translucent {
-    fill: rgba(0,0,0, .98)
+    fill: rgba(0,0,0, .8)
 }
 .fill-black--transparent {
     fill: rgba(0,0,0, .5)
