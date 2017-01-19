@@ -967,7 +967,7 @@ mark {
     border-color: #fcfdfd
 }
 .borderColor-snow {
-    border-color: #eceff1
+    border-color: #f4f8fb
 }
 .borderColor-smoke {
     border-color: #cfd8dc
@@ -1098,7 +1098,7 @@ mark {
         border-color: #fcfdfd
     }
     .borderColor-snow--hover:hover {
-        border-color: #eceff1
+        border-color: #f4f8fb
     }
     .borderColor-smoke--hover:hover {
         border-color: #cfd8dc
@@ -1229,7 +1229,7 @@ mark {
     border-color: #fcfdfd
 }
 .borderColor-snow--focus:focus {
-    border-color: #eceff1
+    border-color: #f4f8fb
 }
 .borderColor-smoke--focus:focus {
     border-color: #cfd8dc
@@ -4979,7 +4979,7 @@ mark {
     outline-color: #9E9E9E
 }
 .oc-snow {
-    outline-color: #eceff1
+    outline-color: #f4f8fb
 }
 .oc-smoke {
     outline-color: #cfd8dc
@@ -8313,7 +8313,7 @@ mark {
     background-color: #fcfdfd
 }
 .bc-snow {
-    background-color: #eceff1
+    background-color: #f4f8fb
 }
 .bc-smoke {
     background-color: #cfd8dc
@@ -8444,7 +8444,7 @@ mark {
         background-color: #fcfdfd
     }
     .bc-snow--hover:hover {
-        background-color: #eceff1
+        background-color: #f4f8fb
     }
     .bc-smoke--hover:hover {
         background-color: #cfd8dc
@@ -8575,7 +8575,7 @@ mark {
     background-color: #fcfdfd
 }
 .bc-snow--focus:focus {
-    background-color: #eceff1
+    background-color: #f4f8fb
 }
 .bc-smoke--focus:focus {
     background-color: #cfd8dc
@@ -9057,7 +9057,7 @@ mark {
     box-shadow: inset 0 0 0 1px #fcfdfd
 }
 .bs-snow {
-    box-shadow: inset 0 0 0 1px #eceff1
+    box-shadow: inset 0 0 0 1px #f4f8fb
 }
 .bs-smoke {
     box-shadow: inset 0 0 0 1px #cfd8dc
@@ -9185,7 +9185,7 @@ mark {
         box-shadow: inset 0 0 0 1px #fcfdfd
     }
     .bs-snow--hover:hover {
-        box-shadow: inset 0 0 0 1px #eceff1
+        box-shadow: inset 0 0 0 1px #f4f8fb
     }
     .bs-smoke--hover:hover {
         box-shadow: inset 0 0 0 1px #cfd8dc
@@ -9292,7 +9292,7 @@ mark {
     color: #fcfdfd
 }
 .color-snow {
-    color: #eceff1
+    color: #f4f8fb
 }
 .color-smoke {
     color: #cfd8dc
@@ -9375,7 +9375,7 @@ mark {
         color: #fcfdfd
     }
     .color-snow--hover:hover {
-        color: #eceff1
+        color: #f4f8fb
     }
     .color-smoke--hover:hover {
         color: #cfd8dc
@@ -9470,7 +9470,7 @@ mark {
     fill: #fcfdfd
 }
 .fill-snow {
-    fill: #eceff1
+    fill: #f4f8fb
 }
 .fill-smoke {
     fill: #cfd8dc
