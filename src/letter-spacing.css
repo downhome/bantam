@@ -1,5 +1,6 @@
 /* Letter spacing */
 
+.ls-xxxl    { letter-spacing: 4px; }
 .ls-xxl     { letter-spacing: 2px; }
 .ls-xl      { letter-spacing: 1px; }
 .ls-l       { letter-spacing: .5px; }
@@ -7,9 +8,10 @@
 .ls-s       { letter-spacing: -.5px; }
 .ls-xs      { letter-spacing: -1px; }
 .ls-xxs     { letter-spacing: -2px; }
-.ls-xxxs     { letter-spacing: -4px; }
+.ls-xxxs    { letter-spacing: -4px; }
 
 @media (--breakpoint-s) {
+    .bps-ls-xxxl    { letter-spacing: 4px; }
     .bps-ls-xxl     { letter-spacing: 2px; }
     .bps-ls-xl      { letter-spacing: 1px; }
     .bps-ls-l       { letter-spacing: .5px; }
@@ -21,6 +23,7 @@
 }
 
 @media (--breakpoint-m) {
+    .bpm-ls-xxxl    { letter-spacing: 4px; }
     .bpm-ls-xxl     { letter-spacing: 2px; }
     .bpm-ls-xl      { letter-spacing: 1px; }
     .bpm-ls-l       { letter-spacing: .5px; }
@@ -32,6 +35,7 @@
 }
 
 @media (--breakpoint-l) {
+    .bpl-ls-xxxl    { letter-spacing: 4px; }
     .bpl-ls-xxl     { letter-spacing: 2px; }
     .bpl-ls-xl      { letter-spacing: 1px; }
     .bpl-ls-l       { letter-spacing: .5px; }
@@ -43,6 +47,7 @@
 }
 
 @media (--breakpoint-xl) {
+    .bpxl-ls-xxxl    { letter-spacing: 4px; }
     .bpxl-ls-xxl     { letter-spacing: 2px; }
     .bpxl-ls-xl      { letter-spacing: 1px; }
     .bpxl-ls-l       { letter-spacing: .5px; }

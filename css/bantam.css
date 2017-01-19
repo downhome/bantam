@@ -9210,6 +9210,9 @@ mark {
     }
 }
 /* Letter spacing */
+.ls-xxxl {
+    letter-spacing: 4px
+}
 .ls-xxl {
     letter-spacing: 2px
 }
@@ -9235,6 +9238,9 @@ mark {
     letter-spacing: -4px
 }
 @media (min-width: 38em) {
+    .bps-ls-xxxl {
+        letter-spacing: 4px
+    }
     .bps-ls-xxl {
         letter-spacing: 2px
     }
@@ -9261,6 +9267,9 @@ mark {
     }
 }
 @media (min-width: 68em) {
+    .bpm-ls-xxxl {
+        letter-spacing: 4px
+    }
     .bpm-ls-xxl {
         letter-spacing: 2px
     }
@@ -9287,6 +9296,9 @@ mark {
     }
 }
 @media (min-width: 96em) {
+    .bpl-ls-xxxl {
+        letter-spacing: 4px
+    }
     .bpl-ls-xxl {
         letter-spacing: 2px
     }
@@ -9313,6 +9325,9 @@ mark {
     }
 }
 @media (min-width: 120em) {
+    .bpxl-ls-xxxl {
+        letter-spacing: 4px
+    }
     .bpxl-ls-xxl {
         letter-spacing: 2px
     }
