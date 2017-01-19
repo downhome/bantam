@@ -49,6 +49,7 @@
 .bc-pearl               { background-color: var(--pearl); }
 .bc-snow                { background-color: var(--snow); }
 .bc-smoke               { background-color: var(--smoke); }
+.bc-silver              { background-color: var(--silver); }
 .bc-steel               { background-color: var(--steel); }
 .bc-lead                { background-color: var(--lead); }
 .bc-charcoal            { background-color: var(--charcoal); }
@@ -104,6 +105,7 @@
     .bc-pearl--hover:hover               { background-color: var(--pearl); }
     .bc-snow--hover:hover                { background-color: var(--snow); }
     .bc-smoke--hover:hover               { background-color: var(--smoke); }
+    .bc-silver--hover:hover              { background-color: var(--silver); }
     .bc-steel--hover:hover               { background-color: var(--steel); }
     .bc-lead--hover:hover                { background-color: var(--lead); }
     .bc-charcoal--hover:hover            { background-color: var(--charcoal); }
@@ -159,6 +161,7 @@
 .bc-pearl--focus:focus               { background-color: var(--pearl); }
 .bc-snow--focus:focus                { background-color: var(--snow); }
 .bc-smoke--focus:focus               { background-color: var(--smoke); }
+.bc-silver--focus:focus              { background-color: var(--silver); }
 .bc-steel--focus:focus               { background-color: var(--steel); }
 .bc-lead--focus:focus                { background-color: var(--lead); }
 .bc-charcoal--focus:focus            { background-color: var(--charcoal); }

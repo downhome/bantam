@@ -38,6 +38,7 @@
 .color-pearl                { color: var(--pearl); }
 .color-snow                 { color: var(--snow); }
 .color-smoke                { color: var(--smoke); }
+.color-silver               { color: var(--silver); }
 .color-steel                { color: var(--steel); }
 .color-lead                 { color: var(--lead); }
 .color-charcoal             { color: var(--charcoal); }
@@ -70,6 +71,7 @@
     .color-pearl--hover:hover               { color: var(--pearl); }
     .color-snow--hover:hover                { color: var(--snow); }
     .color-smoke--hover:hover               { color: var(--smoke); }
+    .color-silver--hover:hover              { color: var(--silver); }
     .color-steel--hover:hover               { color: var(--steel); }
     .color-lead--hover:hover                { color: var(--lead); }
     .color-charcoal--hover:hover            { color: var(--charcoal); }

@@ -54,6 +54,7 @@
     --pearl: hsl(208, 32%, 99%);
     --snow: hsl(208, 32%, 96%);
     --smoke: hsl(208, 28%, 92%);
+    --silver: hsl(208, 20%, 85%);
     --steel: hsl(208, 20%, 50%);
     --charcoal: hsl(208, 20%, 12%);
     --lead: hsl(208, 20%, 10%);
@@ -74,7 +75,7 @@
     --spacing-none: 0;
     --spacing-xxxs: .4rem;
     --spacing-xxs: .8rem;
-    --spacing-xs: 1.6rem;
+    --spacing-xs: 1.2rem;
     --spacing-s: 2.4rem;
     --spacing-m: 3.2rem;
     --spacing-l: 4rem;

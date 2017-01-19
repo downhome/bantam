@@ -978,6 +978,9 @@ mark {
 .borderColor-smoke {
     border-color: hsl(208, 28%, 92%)
 }
+.borderColor-silver {
+    border-color: hsl(208, 20%, 85%)
+}
 .borderColor-steel {
     border-color: hsl(208, 20%, 50%)
 }
@@ -1115,6 +1118,9 @@ mark {
     .borderColor-smoke--hover:hover {
         border-color: hsl(208, 28%, 92%)
     }
+    .borderColor-silver--hover:hover {
+        border-color: hsl(208, 20%, 85%)
+    }
     .borderColor-steel--hover:hover {
         border-color: hsl(208, 20%, 50%)
     }
@@ -1251,6 +1257,9 @@ mark {
 }
 .borderColor-smoke--focus:focus {
     border-color: hsl(208, 28%, 92%)
+}
+.borderColor-silver--focus:focus {
+    border-color: hsl(208, 20%, 85%)
 }
 .borderColor-steel--focus:focus {
     border-color: hsl(208, 20%, 50%)
@@ -4486,7 +4495,7 @@ mark {
     min-width: .8rem
 }
 .mw-UIxs {
-    min-width: 1.6rem
+    min-width: 1.2rem
 }
 .mw-UIs {
     min-width: 2.4rem
@@ -4526,7 +4535,7 @@ mark {
     margin-top: -2.4rem
 }
 .nmt-xs {
-    margin-top: -1.6rem
+    margin-top: -1.2rem
 }
 .nmt-xxs {
     margin-top: -.8rem
@@ -4553,7 +4562,7 @@ mark {
     margin-right: -2.4rem
 }
 .nmr-xs {
-    margin-right: -1.6rem
+    margin-right: -1.2rem
 }
 .nmr-xxs {
     margin-right: -.8rem
@@ -4580,7 +4589,7 @@ mark {
     margin-bottom: -2.4rem
 }
 .nmb-xs {
-    margin-bottom: -1.6rem
+    margin-bottom: -1.2rem
 }
 .nmb-xxs {
     margin-bottom: -.8rem
@@ -4607,7 +4616,7 @@ mark {
     margin-left: -2.4rem
 }
 .nml-xs {
-    margin-left: -1.6rem
+    margin-left: -1.2rem
 }
 .nml-xxs {
     margin-left: -.8rem
@@ -4635,7 +4644,7 @@ mark {
         margin-top: -2.4rem
     }
     .bps-nmt-xs {
-        margin-top: -1.6rem
+        margin-top: -1.2rem
     }
     .bps-nmt-xxs {
         margin-top: -.8rem
@@ -4662,7 +4671,7 @@ mark {
         margin-right: -2.4rem
     }
     .bps-nmr-xs {
-        margin-right: -1.6rem
+        margin-right: -1.2rem
     }
     .bps-nmr-xxs {
         margin-right: -.8rem
@@ -4689,7 +4698,7 @@ mark {
         margin-bottom: -2.4rem
     }
     .bps-nmb-xs {
-        margin-bottom: -1.6rem
+        margin-bottom: -1.2rem
     }
     .bps-nmb-xxs {
         margin-bottom: -.8rem
@@ -4716,7 +4725,7 @@ mark {
         margin-left: -2.4rem
     }
     .bps-nml-xs {
-        margin-left: -1.6rem
+        margin-left: -1.2rem
     }
     .bps-nml-xxs {
         margin-left: -.8rem
@@ -4745,7 +4754,7 @@ mark {
         margin-top: -2.4rem
     }
     .bpm-nmt-xs {
-        margin-top: -1.6rem
+        margin-top: -1.2rem
     }
     .bpm-nmt-xxs {
         margin-top: -.8rem
@@ -4772,7 +4781,7 @@ mark {
         margin-right: -2.4rem
     }
     .bpm-nmr-xs {
-        margin-right: -1.6rem
+        margin-right: -1.2rem
     }
     .bpm-nmr-xxs {
         margin-right: -.8rem
@@ -4799,7 +4808,7 @@ mark {
         margin-bottom: -2.4rem
     }
     .bpm-nmb-xs {
-        margin-bottom: -1.6rem
+        margin-bottom: -1.2rem
     }
     .bpm-nmb-xxs {
         margin-bottom: -.8rem
@@ -4826,7 +4835,7 @@ mark {
         margin-left: -2.4rem
     }
     .bpm-nml-xs {
-        margin-left: -1.6rem
+        margin-left: -1.2rem
     }
     .bpm-nml-xxs {
         margin-left: -.8rem
@@ -4855,7 +4864,7 @@ mark {
         margin-top: -2.4rem
     }
     .bpl-nmt-xs {
-        margin-top: -1.6rem
+        margin-top: -1.2rem
     }
     .bpl-nmt-xxs {
         margin-top: -.8rem
@@ -4882,7 +4891,7 @@ mark {
         margin-right: -2.4rem
     }
     .bpl-nmr-xs {
-        margin-right: -1.6rem
+        margin-right: -1.2rem
     }
     .bpl-nmr-xxs {
         margin-right: -.8rem
@@ -4909,7 +4918,7 @@ mark {
         margin-bottom: -2.4rem
     }
     .bpl-nmb-xs {
-        margin-bottom: -1.6rem
+        margin-bottom: -1.2rem
     }
     .bpl-nmb-xxs {
         margin-bottom: -.8rem
@@ -4936,7 +4945,7 @@ mark {
         margin-left: -2.4rem
     }
     .bpl-nml-xs {
-        margin-left: -1.6rem
+        margin-left: -1.2rem
     }
     .bpl-nml-xxs {
         margin-left: -.8rem
@@ -4965,7 +4974,7 @@ mark {
         margin-top: -2.4rem
     }
     .bpxl-nmt-xs {
-        margin-top: -1.6rem
+        margin-top: -1.2rem
     }
     .bpxl-nmt-xxs {
         margin-top: -.8rem
@@ -4992,7 +5001,7 @@ mark {
         margin-right: -2.4rem
     }
     .bpxl-nmr-xs {
-        margin-right: -1.6rem
+        margin-right: -1.2rem
     }
     .bpxl-nmr-xxs {
         margin-right: -.8rem
@@ -5019,7 +5028,7 @@ mark {
         margin-bottom: -2.4rem
     }
     .bpxl-nmb-xs {
-        margin-bottom: -1.6rem
+        margin-bottom: -1.2rem
     }
     .bpxl-nmb-xxs {
         margin-bottom: -.8rem
@@ -5046,7 +5055,7 @@ mark {
         margin-left: -2.4rem
     }
     .bpxl-nml-xs {
-        margin-left: -1.6rem
+        margin-left: -1.2rem
     }
     .bpxl-nml-xxs {
         margin-left: -.8rem
@@ -8696,6 +8705,9 @@ mark {
 .bc-smoke {
     background-color: hsl(208, 28%, 92%)
 }
+.bc-silver {
+    background-color: hsl(208, 20%, 85%)
+}
 .bc-steel {
     background-color: hsl(208, 20%, 50%)
 }
@@ -8833,6 +8845,9 @@ mark {
     .bc-smoke--hover:hover {
         background-color: hsl(208, 28%, 92%)
     }
+    .bc-silver--hover:hover {
+        background-color: hsl(208, 20%, 85%)
+    }
     .bc-steel--hover:hover {
         background-color: hsl(208, 20%, 50%)
     }
@@ -8969,6 +8984,9 @@ mark {
 }
 .bc-smoke--focus:focus {
     background-color: hsl(208, 28%, 92%)
+}
+.bc-silver--focus:focus {
+    background-color: hsl(208, 20%, 85%)
 }
 .bc-steel--focus:focus {
     background-color: hsl(208, 20%, 50%)
@@ -9693,6 +9711,9 @@ mark {
 .color-smoke {
     color: hsl(208, 28%, 92%)
 }
+.color-silver {
+    color: hsl(208, 20%, 85%)
+}
 .color-steel {
     color: hsl(208, 20%, 50%)
 }
@@ -9775,6 +9796,9 @@ mark {
     }
     .color-smoke--hover:hover {
         color: hsl(208, 28%, 92%)
+    }
+    .color-silver--hover:hover {
+        color: hsl(208, 20%, 85%)
     }
     .color-steel--hover:hover {
         color: hsl(208, 20%, 50%)
@@ -10387,7 +10411,7 @@ mark {
     margin: 2.4rem
 }
 .margin-xs {
-    margin: 1.6rem
+    margin: 1.2rem
 }
 .margin-xxs {
     margin: .8rem
@@ -10417,7 +10441,7 @@ mark {
     margin-top: 2.4rem
 }
 .mt-xs {
-    margin-top: 1.6rem
+    margin-top: 1.2rem
 }
 .mt-xxs {
     margin-top: .8rem
@@ -10447,7 +10471,7 @@ mark {
     margin-right: 2.4rem
 }
 .mr-xs {
-    margin-right: 1.6rem
+    margin-right: 1.2rem
 }
 .mr-xxs {
     margin-right: .8rem
@@ -10480,7 +10504,7 @@ mark {
     margin-bottom: 2.4rem
 }
 .mb-xs {
-    margin-bottom: 1.6rem
+    margin-bottom: 1.2rem
 }
 .mb-xxs {
     margin-bottom: .8rem
@@ -10510,7 +10534,7 @@ mark {
     margin-left: 2.4rem
 }
 .ml-xs {
-    margin-left: 1.6rem
+    margin-left: 1.2rem
 }
 .ml-xxs {
     margin-left: .8rem
@@ -10551,7 +10575,7 @@ mark {
         margin: 2.4rem
     }
     .bps-margin-xs {
-        margin: 1.6rem
+        margin: 1.2rem
     }
     .bps-margin-xxs {
         margin: .8rem
@@ -10581,7 +10605,7 @@ mark {
         margin-top: 2.4rem
     }
     .bps-mt-xs {
-        margin-top: 1.6rem
+        margin-top: 1.2rem
     }
     .bps-mt-xxs {
         margin-top: .8rem
@@ -10611,7 +10635,7 @@ mark {
         margin-right: 2.4rem
     }
     .bps-mr-xs {
-        margin-right: 1.6rem
+        margin-right: 1.2rem
     }
     .bps-mr-xxs {
         margin-right: .8rem
@@ -10641,7 +10665,7 @@ mark {
         margin-bottom: 2.4rem
     }
     .bps-mb-xs {
-        margin-bottom: 1.6rem
+        margin-bottom: 1.2rem
     }
     .bps-mb-xxs {
         margin-bottom: .8rem
@@ -10671,7 +10695,7 @@ mark {
         margin-left: 2.4rem
     }
     .bps-ml-xs {
-        margin-left: 1.6rem
+        margin-left: 1.2rem
     }
     .bps-ml-xxs {
         margin-left: .8rem
@@ -10703,7 +10727,7 @@ mark {
         margin: 2.4rem
     }
     .bpm-margin-xs {
-        margin: 1.6rem
+        margin: 1.2rem
     }
     .bpm-margin-xxs {
         margin: .8rem
@@ -10733,7 +10757,7 @@ mark {
         margin-top: 2.4rem
     }
     .bpm-mt-xs {
-        margin-top: 1.6rem
+        margin-top: 1.2rem
     }
     .bpm-mt-xxs {
         margin-top: .8rem
@@ -10763,7 +10787,7 @@ mark {
         margin-right: 2.4rem
     }
     .bpm-mr-xs {
-        margin-right: 1.6rem
+        margin-right: 1.2rem
     }
     .bpm-mr-xxs {
         margin-right: .8rem
@@ -10793,7 +10817,7 @@ mark {
         margin-bottom: 2.4rem
     }
     .bpm-mb-xs {
-        margin-bottom: 1.6rem
+        margin-bottom: 1.2rem
     }
     .bpm-mb-xxs {
         margin-bottom: .8rem
@@ -10823,7 +10847,7 @@ mark {
         margin-left: 2.4rem
     }
     .bpm-ml-xs {
-        margin-left: 1.6rem
+        margin-left: 1.2rem
     }
     .bpm-ml-xxs {
         margin-left: .8rem
@@ -10855,7 +10879,7 @@ mark {
         margin: 2.4rem
     }
     .bpl-margin-xs {
-        margin: 1.6rem
+        margin: 1.2rem
     }
     .bpl-margin-xxs {
         margin: .8rem
@@ -10885,7 +10909,7 @@ mark {
         margin-top: 2.4rem
     }
     .bpl-mt-xs {
-        margin-top: 1.6rem
+        margin-top: 1.2rem
     }
     .bpl-mt-xxs {
         margin-top: .8rem
@@ -10915,7 +10939,7 @@ mark {
         margin-right: 2.4rem
     }
     .bpl-mr-xs {
-        margin-right: 1.6rem
+        margin-right: 1.2rem
     }
     .bpl-mr-xxs {
         margin-right: .8rem
@@ -10945,7 +10969,7 @@ mark {
         margin-bottom: 2.4rem
     }
     .bpl-mb-xs {
-        margin-bottom: 1.6rem
+        margin-bottom: 1.2rem
     }
     .bpl-mb-xxs {
         margin-bottom: .8rem
@@ -10975,7 +10999,7 @@ mark {
         margin-left: 2.4rem
     }
     .bpl-ml-xs {
-        margin-left: 1.6rem
+        margin-left: 1.2rem
     }
     .bpl-ml-xxs {
         margin-left: .8rem
@@ -11007,7 +11031,7 @@ mark {
         margin: 2.4rem
     }
     .bpxl-margin-xs {
-        margin: 1.6rem
+        margin: 1.2rem
     }
     .bpxl-margin-xxs {
         margin: .8rem
@@ -11037,7 +11061,7 @@ mark {
         margin-top: 2.4rem
     }
     .bpxl-mt-xs {
-        margin-top: 1.6rem
+        margin-top: 1.2rem
     }
     .bpxl-mt-xxs {
         margin-top: .8rem
@@ -11067,7 +11091,7 @@ mark {
         margin-right: 2.4rem
     }
     .bpxl-mr-xs {
-        margin-right: 1.6rem
+        margin-right: 1.2rem
     }
     .bpxl-mr-xxs {
         margin-right: .8rem
@@ -11097,7 +11121,7 @@ mark {
         margin-bottom: 2.4rem
     }
     .bpxl-mb-xs {
-        margin-bottom: 1.6rem
+        margin-bottom: 1.2rem
     }
     .bpxl-mb-xxs {
         margin-bottom: .8rem
@@ -11127,7 +11151,7 @@ mark {
         margin-left: 2.4rem
     }
     .bpxl-ml-xs {
-        margin-left: 1.6rem
+        margin-left: 1.2rem
     }
     .bpxl-ml-xxs {
         margin-left: .8rem
@@ -11159,7 +11183,7 @@ mark {
     padding: 2.4rem
 }
 .padding-xs {
-    padding: 1.6rem
+    padding: 1.2rem
 }
 .padding-xxs {
     padding: .8rem
@@ -11189,7 +11213,7 @@ mark {
     padding-top: 2.4rem
 }
 .pt-xs {
-    padding-top: 1.6rem
+    padding-top: 1.2rem
 }
 .pt-xxs {
     padding-top: .8rem
@@ -11219,7 +11243,7 @@ mark {
     padding-right: 2.4rem
 }
 .pr-xs {
-    padding-right: 1.6rem
+    padding-right: 1.2rem
 }
 .pr-xxs {
     padding-right: .8rem
@@ -11249,7 +11273,7 @@ mark {
     padding-bottom: 2.4rem
 }
 .pb-xs {
-    padding-bottom: 1.6rem
+    padding-bottom: 1.2rem
 }
 .pb-xxs {
     padding-bottom: .8rem
@@ -11279,7 +11303,7 @@ mark {
     padding-left: 2.4rem
 }
 .pl-xs {
-    padding-left: 1.6rem
+    padding-left: 1.2rem
 }
 .pl-xxs {
     padding-left: .8rem
@@ -11317,7 +11341,7 @@ mark {
         padding: 2.4rem
     }
     .bps-padding-xs {
-        padding: 1.6rem
+        padding: 1.2rem
     }
     .bps-padding-xxs {
         padding: .8rem
@@ -11347,7 +11371,7 @@ mark {
         padding-top: 2.4rem
     }
     .bps-pt-xs {
-        padding-top: 1.6rem
+        padding-top: 1.2rem
     }
     .bps-pt-xxs {
         padding-top: .8rem
@@ -11377,7 +11401,7 @@ mark {
         padding-right: 2.4rem
     }
     .bps-pr-xs {
-        padding-right: 1.6rem
+        padding-right: 1.2rem
     }
     .bps-pr-xxs {
         padding-right: .8rem
@@ -11407,7 +11431,7 @@ mark {
         padding-bottom: 2.4rem
     }
     .bps-pb-xs {
-        padding-bottom: 1.6rem
+        padding-bottom: 1.2rem
     }
     .bps-pb-xxs {
         padding-bottom: .8rem
@@ -11437,7 +11461,7 @@ mark {
         padding-left: 2.4rem
     }
     .bps-pl-xs {
-        padding-left: 1.6rem
+        padding-left: 1.2rem
     }
     .bps-pl-xxs {
         padding-left: .8rem
@@ -11469,7 +11493,7 @@ mark {
         padding: 2.4rem
     }
     .bpm-padding-xs {
-        padding: 1.6rem
+        padding: 1.2rem
     }
     .bpm-padding-xxs {
         padding: .8rem
@@ -11499,7 +11523,7 @@ mark {
         padding-top: 2.4rem
     }
     .bpm-pt-xs {
-        padding-top: 1.6rem
+        padding-top: 1.2rem
     }
     .bpm-pt-xxs {
         padding-top: .8rem
@@ -11529,7 +11553,7 @@ mark {
         padding-right: 2.4rem
     }
     .bpm-pr-xs {
-        padding-right: 1.6rem
+        padding-right: 1.2rem
     }
     .bpm-pr-xxs {
         padding-right: .8rem
@@ -11559,7 +11583,7 @@ mark {
         padding-bottom: 2.4rem
     }
     .bpm-pb-xs {
-        padding-bottom: 1.6rem
+        padding-bottom: 1.2rem
     }
     .bpm-pb-xxs {
         padding-bottom: .8rem
@@ -11589,7 +11613,7 @@ mark {
         padding-left: 2.4rem
     }
     .bpm-pl-xs {
-        padding-left: 1.6rem
+        padding-left: 1.2rem
     }
     .bpm-pl-xxs {
         padding-left: .8rem
@@ -11621,7 +11645,7 @@ mark {
         padding: 2.4rem
     }
     .bpl-padding-xs {
-        padding: 1.6rem
+        padding: 1.2rem
     }
     .bpl-padding-xxs {
         padding: .8rem
@@ -11651,7 +11675,7 @@ mark {
         padding-top: 2.4rem
     }
     .bpl-pt-xs {
-        padding-top: 1.6rem
+        padding-top: 1.2rem
     }
     .bpl-pt-xxs {
         padding-top: .8rem
@@ -11681,7 +11705,7 @@ mark {
         padding-right: 2.4rem
     }
     .bpl-pr-xs {
-        padding-right: 1.6rem
+        padding-right: 1.2rem
     }
     .bpl-pr-xxs {
         padding-right: .8rem
@@ -11711,7 +11735,7 @@ mark {
         padding-bottom: 2.4rem
     }
     .bpl-pb-xs {
-        padding-bottom: 1.6rem
+        padding-bottom: 1.2rem
     }
     .bpl-pb-xxs {
         padding-bottom: .8rem
@@ -11741,7 +11765,7 @@ mark {
         padding-left: 2.4rem
     }
     .bpl-pl-xs {
-        padding-left: 1.6rem
+        padding-left: 1.2rem
     }
     .bpl-pl-xxs {
         padding-left: .8rem
@@ -11773,7 +11797,7 @@ mark {
         padding: 2.4rem
     }
     .bpxl-padding-xs {
-        padding: 1.6rem
+        padding: 1.2rem
     }
     .bpxl-padding-xxs {
         padding: .8rem
@@ -11803,7 +11827,7 @@ mark {
         padding-top: 2.4rem
     }
     .bpxl-pt-xs {
-        padding-top: 1.6rem
+        padding-top: 1.2rem
     }
     .bpxl-pt-xxs {
         padding-top: .8rem
@@ -11833,7 +11857,7 @@ mark {
         padding-right: 2.4rem
     }
     .bpxl-pr-xs {
-        padding-right: 1.6rem
+        padding-right: 1.2rem
     }
     .bpxl-pr-xxs {
         padding-right: .8rem
@@ -11863,7 +11887,7 @@ mark {
         padding-bottom: 2.4rem
     }
     .bpxl-pb-xs {
-        padding-bottom: 1.6rem
+        padding-bottom: 1.2rem
     }
     .bpxl-pb-xxs {
         padding-bottom: .8rem
@@ -11893,7 +11917,7 @@ mark {
         padding-left: 2.4rem
     }
     .bpxl-pl-xs {
-        padding-left: 1.6rem
+        padding-left: 1.2rem
     }
     .bpxl-pl-xxs {
         padding-left: .8rem

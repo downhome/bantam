@@ -48,6 +48,7 @@
 .borderColor-pearl                  { border-color: var(--pearl); }
 .borderColor-snow                   { border-color: var(--snow); }
 .borderColor-smoke                  { border-color: var(--smoke); }
+.borderColor-silver                 { border-color: var(--silver); }
 .borderColor-steel                  { border-color: var(--steel); }
 .borderColor-lead                   { border-color: var(--lead); }
 .borderColor-charcoal               { border-color: var(--charcoal); }
@@ -102,6 +103,7 @@
     .borderColor-pearl--hover:hover                 { border-color: var(--pearl); }
     .borderColor-snow--hover:hover                  { border-color: var(--snow); }
     .borderColor-smoke--hover:hover                 { border-color: var(--smoke); }
+    .borderColor-silver--hover:hover                { border-color: var(--silver); }
     .borderColor-steel--hover:hover                 { border-color: var(--steel); }
     .borderColor-lead--hover:hover                  { border-color: var(--lead); }
     .borderColor-charcoal--hover:hover              { border-color: var(--charcoal); }
@@ -156,6 +158,7 @@
 .borderColor-pearl--focus:focus                 { border-color: var(--pearl); }
 .borderColor-snow--focus:focus                  { border-color: var(--snow); }
 .borderColor-smoke--focus:focus                 { border-color: var(--smoke); }
+.borderColor-silver--focus:focus                { border-color: var(--silver); }
 .borderColor-steel--focus:focus                 { border-color: var(--steel); }
 .borderColor-lead--focus:focus                  { border-color: var(--lead); }
 .borderColor-charcoal--focus:focus              { border-color: var(--charcoal); }
