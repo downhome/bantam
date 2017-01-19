@@ -47,24 +47,6 @@
 .ml-0           { margin-left: var(--spacing-none); }
 .ml-auto        { margin-left: auto; }
 
-/* Negative margins */
-
-.mtn-xxl     { margin-top: -var(--spacing-xxl); }
-.mtn-xl      { margin-top: -var(--spacing-xl); }
-.mtn-l       { margin-top: -var(--spacing-l); }
-.mtn-m       { margin-top: -var(--spacing-m); }
-.mtn-s       { margin-top: -var(--spacing-s); }
-.mtn-xs      { margin-top: -var(--spacing-xs); }
-.mtn-xxs     { margin-top: -var(--spacing-xxs); }
-
-.mln-xxl     { margin-left: -var(--spacing-xxl); }
-.mln-xl      { margin-left: -var(--spacing-xl); }
-.mln-l       { margin-left: -var(--spacing-l); }
-.mln-m       { margin-left: -var(--spacing-m); }
-.mln-s       { margin-left: -var(--spacing-s); }
-.mln-xs      { margin-left: -var(--spacing-xs); }
-.mln-xxs     { margin-left: -var(--spacing-xxs); }
-
 /* Remove margin for from first-child hack */
 
 .mt-fc > div:first-child,
