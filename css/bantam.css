@@ -970,10 +970,10 @@ mark {
     border-color: hsl(165, 82%, 51%)
 }
 .borderColor-pearl {
-    border-color: hsl(208, 45%, 99%)
+    border-color: hsl(208, 32%, 99%)
 }
 .borderColor-snow {
-    border-color: hsl(208, 45%, 97%)
+    border-color: hsl(208, 32%, 96%)
 }
 .borderColor-smoke {
     border-color: hsl(208, 28%, 92%)
@@ -1107,10 +1107,10 @@ mark {
         border-color: hsl(165, 82%, 51%)
     }
     .borderColor-pearl--hover:hover {
-        border-color: hsl(208, 45%, 99%)
+        border-color: hsl(208, 32%, 99%)
     }
     .borderColor-snow--hover:hover {
-        border-color: hsl(208, 45%, 97%)
+        border-color: hsl(208, 32%, 96%)
     }
     .borderColor-smoke--hover:hover {
         border-color: hsl(208, 28%, 92%)
@@ -1244,10 +1244,10 @@ mark {
     border-color: hsl(165, 82%, 51%)
 }
 .borderColor-pearl--focus:focus {
-    border-color: hsl(208, 45%, 99%)
+    border-color: hsl(208, 32%, 99%)
 }
 .borderColor-snow--focus:focus {
-    border-color: hsl(208, 45%, 97%)
+    border-color: hsl(208, 32%, 96%)
 }
 .borderColor-smoke--focus:focus {
     border-color: hsl(208, 28%, 92%)
@@ -5351,7 +5351,7 @@ mark {
     outline-color: hsl(0, 0%, 62%)
 }
 .oc-snow {
-    outline-color: hsl(208, 45%, 97%)
+    outline-color: hsl(208, 32%, 96%)
 }
 .oc-smoke {
     outline-color: hsl(208, 28%, 92%)
@@ -8688,10 +8688,10 @@ mark {
     background-color: hsl(165, 82%, 51%)
 }
 .bc-pearl {
-    background-color: hsl(208, 45%, 99%)
+    background-color: hsl(208, 32%, 99%)
 }
 .bc-snow {
-    background-color: hsl(208, 45%, 97%)
+    background-color: hsl(208, 32%, 96%)
 }
 .bc-smoke {
     background-color: hsl(208, 28%, 92%)
@@ -8825,10 +8825,10 @@ mark {
         background-color: hsl(165, 82%, 51%)
     }
     .bc-pearl--hover:hover {
-        background-color: hsl(208, 45%, 99%)
+        background-color: hsl(208, 32%, 99%)
     }
     .bc-snow--hover:hover {
-        background-color: hsl(208, 45%, 97%)
+        background-color: hsl(208, 32%, 96%)
     }
     .bc-smoke--hover:hover {
         background-color: hsl(208, 28%, 92%)
@@ -8962,10 +8962,10 @@ mark {
     background-color: hsl(165, 82%, 51%)
 }
 .bc-pearl--focus:focus {
-    background-color: hsl(208, 45%, 99%)
+    background-color: hsl(208, 32%, 99%)
 }
 .bc-snow--focus:focus {
-    background-color: hsl(208, 45%, 97%)
+    background-color: hsl(208, 32%, 96%)
 }
 .bc-smoke--focus:focus {
     background-color: hsl(208, 28%, 92%)
@@ -9444,10 +9444,10 @@ mark {
     box-shadow: inset 0 0 0 1px hsl(165, 82%, 51%)
 }
 .bs-pearl {
-    box-shadow: inset 0 0 0 1px hsl(208, 45%, 99%)
+    box-shadow: inset 0 0 0 1px hsl(208, 32%, 99%)
 }
 .bs-snow {
-    box-shadow: inset 0 0 0 1px hsl(208, 45%, 97%)
+    box-shadow: inset 0 0 0 1px hsl(208, 32%, 96%)
 }
 .bs-smoke {
     box-shadow: inset 0 0 0 1px hsl(208, 28%, 92%)
@@ -9572,10 +9572,10 @@ mark {
         box-shadow: inset 0 0 0 1px hsl(165, 82%, 51%)
     }
     .bs-pearl--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(208, 45%, 99%)
+        box-shadow: inset 0 0 0 1px hsl(208, 32%, 99%)
     }
     .bs-snow--hover:hover {
-        box-shadow: inset 0 0 0 1px hsl(208, 45%, 97%)
+        box-shadow: inset 0 0 0 1px hsl(208, 32%, 96%)
     }
     .bs-smoke--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(208, 28%, 92%)
@@ -9685,10 +9685,10 @@ mark {
     color: hsl(0, 0%, 62%)
 }
 .color-pearl {
-    color: hsl(208, 45%, 99%)
+    color: hsl(208, 32%, 99%)
 }
 .color-snow {
-    color: hsl(208, 45%, 97%)
+    color: hsl(208, 32%, 96%)
 }
 .color-smoke {
     color: hsl(208, 28%, 92%)
@@ -9768,10 +9768,10 @@ mark {
         color: hsl(0, 0%, 62%)
     }
     .color-pearl--hover:hover {
-        color: hsl(208, 45%, 99%)
+        color: hsl(208, 32%, 99%)
     }
     .color-snow--hover:hover {
-        color: hsl(208, 45%, 97%)
+        color: hsl(208, 32%, 96%)
     }
     .color-smoke--hover:hover {
         color: hsl(208, 28%, 92%)
@@ -9863,10 +9863,10 @@ mark {
     fill: hsl(0, 0%, 62%)
 }
 .fill-pearl {
-    fill: hsl(208, 45%, 99%)
+    fill: hsl(208, 32%, 99%)
 }
 .fill-snow {
-    fill: hsl(208, 45%, 97%)
+    fill: hsl(208, 32%, 96%)
 }
 .fill-smoke {
     fill: hsl(208, 28%, 92%)
