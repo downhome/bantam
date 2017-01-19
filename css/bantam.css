@@ -853,10 +853,10 @@ mark {
 }
 /* Border color */
 .borderColor-white {
-    border-color: #fff
+    border-color: hsl(0, 0%, 100%)
 }
 .borderColor-black {
-    border-color: #000
+    border-color: hsl(0, 0%, 0%)
 }
 .borderColor-transparent {
     border-color: transparent
@@ -937,57 +937,57 @@ mark {
     border-color: #795548
 }
 .borderColor-gray {
-    border-color: #9E9E9E
+    border-color: hsl(0, 0%, 62%)
 }
 .borderColor-pinkTint {
-    border-color: #FCE4EC
+    border-color: hsl(340, 80%, 94%)
 }
 .borderColor-blueTint {
-    border-color: #E3F2FD
+    border-color: hsl(205, 87%, 94%)
 }
 .borderColor-tealTint {
-    border-color: #E0F2F1
+    border-color: hsl(177, 41%, 91%)
 }
 .borderColor-amberTint {
-    border-color: #FFF8E1
+    border-color: hsl(46, 100%, 94%)
 }
 .borderColor-redBright {
-    border-color: #FF1744
+    border-color: hsl(348, 100%, 55%)
 }
 .borderColor-purpleBright {
-    border-color: #D500F9
+    border-color: hsl(291, 100%, 49%)
 }
 .borderColor-blueBright {
-    border-color: #2979FF
+    border-color: hsl(218, 100%, 58%)
 }
 .borderColor-tealBright {
-    border-color: #1DE9B6
+    border-color: hsl(165, 82%, 51%)
 }
 .borderColor-pearl {
-    border-color: #fcfdfd
+    border-color: hsl(208, 45%, 99%)
 }
 .borderColor-snow {
-    border-color: #f4f8fb
+    border-color: hsl(208, 45%, 97%)
 }
 .borderColor-smoke {
-    border-color: #cfd8dc
+    border-color: hsl(198, 16%, 84%)
 }
 .borderColor-steel {
-    border-color: #607d8b
+    border-color: hsl(200, 18%, 46%)
 }
 .borderColor-lead {
-    border-color: #151b1e
+    border-color: hsl(200, 18%, 10%)
 }
 .borderColor-charcoal {
-    border-color: #192124
+    border-color: hsl(196, 18%, 12%)
 }
 /* Hover states */
 @media (hover) {
     .borderColor-white--hover:hover {
-        border-color: #fff
+        border-color: hsl(0, 0%, 100%)
     }
     .borderColor-black--hover:hover {
-        border-color: #000
+        border-color: hsl(0, 0%, 0%)
     }
     .borderColor-transparent--hover:hover {
         border-color: transparent
@@ -1068,57 +1068,57 @@ mark {
         border-color: #795548
     }
     .borderColor-gray--hover:hover {
-        border-color: #9E9E9E
+        border-color: hsl(0, 0%, 62%)
     }
     .borderColor-pinkTint--hover:hover {
-        border-color: #FCE4EC
+        border-color: hsl(340, 80%, 94%)
     }
     .borderColor-blueTint--hover:hover {
-        border-color: #E3F2FD
+        border-color: hsl(205, 87%, 94%)
     }
     .borderColor-tealTint--hover:hover {
-        border-color: #E0F2F1
+        border-color: hsl(177, 41%, 91%)
     }
     .borderColor-amberTint--hover:hover {
-        border-color: #FFF8E1
+        border-color: hsl(46, 100%, 94%)
     }
     .borderColor-redBright--hover:hover {
-        border-color: #FF1744
+        border-color: hsl(348, 100%, 55%)
     }
     .borderColor-purpleBright--hover:hover {
-        border-color: #D500F9
+        border-color: hsl(291, 100%, 49%)
     }
     .borderColor-blueBright--hover:hover {
-        border-color: #2979FF
+        border-color: hsl(218, 100%, 58%)
     }
     .borderColor-tealBright--hover:hover {
-        border-color: #1DE9B6
+        border-color: hsl(165, 82%, 51%)
     }
     .borderColor-pearl--hover:hover {
-        border-color: #fcfdfd
+        border-color: hsl(208, 45%, 99%)
     }
     .borderColor-snow--hover:hover {
-        border-color: #f4f8fb
+        border-color: hsl(208, 45%, 97%)
     }
     .borderColor-smoke--hover:hover {
-        border-color: #cfd8dc
+        border-color: hsl(198, 16%, 84%)
     }
     .borderColor-steel--hover:hover {
-        border-color: #607d8b
+        border-color: hsl(200, 18%, 46%)
     }
     .borderColor-lead--hover:hover {
-        border-color: #151b1e
+        border-color: hsl(200, 18%, 10%)
     }
     .borderColor-charcoal--hover:hover {
-        border-color: #192124
+        border-color: hsl(196, 18%, 12%)
     }
 }
 /* Focus states */
 .borderColor-white--focus:focus {
-    border-color: #fff
+    border-color: hsl(0, 0%, 100%)
 }
 .borderColor-black--focus:focus {
-    border-color: #000
+    border-color: hsl(0, 0%, 0%)
 }
 .borderColor-transparent--focus:focus {
     border-color: transparent
@@ -1199,49 +1199,49 @@ mark {
     border-color: #795548
 }
 .borderColor-gray--focus:focus {
-    border-color: #9E9E9E
+    border-color: hsl(0, 0%, 62%)
 }
 .borderColor-pinkTint--focus:focus {
-    border-color: #FCE4EC
+    border-color: hsl(340, 80%, 94%)
 }
 .borderColor-blueTint--focus:focus {
-    border-color: #E3F2FD
+    border-color: hsl(205, 87%, 94%)
 }
 .borderColor-tealTint--focus:focus {
-    border-color: #E0F2F1
+    border-color: hsl(177, 41%, 91%)
 }
 .borderColor-amberTint--focus:focus {
-    border-color: #FFF8E1
+    border-color: hsl(46, 100%, 94%)
 }
 .borderColor-redBright--focus:focus {
-    border-color: #FF1744
+    border-color: hsl(348, 100%, 55%)
 }
 .borderColor-purpleBright--focus:focus {
-    border-color: #D500F9
+    border-color: hsl(291, 100%, 49%)
 }
 .borderColor-blueBright--focus:focus {
-    border-color: #2979FF
+    border-color: hsl(218, 100%, 58%)
 }
 .borderColor-tealBright--focus:focus {
-    border-color: #1DE9B6
+    border-color: hsl(165, 82%, 51%)
 }
 .borderColor-pearl--focus:focus {
-    border-color: #fcfdfd
+    border-color: hsl(208, 45%, 99%)
 }
 .borderColor-snow--focus:focus {
-    border-color: #f4f8fb
+    border-color: hsl(208, 45%, 97%)
 }
 .borderColor-smoke--focus:focus {
-    border-color: #cfd8dc
+    border-color: hsl(198, 16%, 84%)
 }
 .borderColor-steel--focus:focus {
-    border-color: #607d8b
+    border-color: hsl(200, 18%, 46%)
 }
 .borderColor-lead--focus:focus {
-    border-color: #151b1e
+    border-color: hsl(200, 18%, 10%)
 }
 .borderColor-charcoal--focus:focus {
-    border-color: #192124
+    border-color: hsl(196, 18%, 12%)
 }
 /* Border style */
 .bs-none {
@@ -3846,15 +3846,15 @@ mark {
 }
 /* Input placeholder */
 .ip-smoke::-webkit-input-placeholder {
-    color: #cfd8dc;
+    color: hsl(198, 16%, 84%);
     opacity: 1
 }
 .ip-smoke:-moz-placeholder {
-    color: #cfd8dc;
+    color: hsl(198, 16%, 84%);
     opacity: 1
 }
 .ip-smoke:-ms-input-placeholder {
-    color: #cfd8dc;
+    color: hsl(198, 16%, 84%);
     opacity: 1
 }
 .ip-white::-webkit-input-placeholder {
@@ -3885,7 +3885,7 @@ mark {
 [contentEditable=true]:empty:before {
     content: attr(placeholder);
     opacity: 1;
-    color: #cfd8dc
+    color: hsl(198, 16%, 84%)
 }
 /* List Style */
 .lst-disc {
@@ -4895,10 +4895,10 @@ mark {
 }
 /* Outline color */
 .oc-white {
-    outline-color: #fff
+    outline-color: hsl(0, 0%, 100%)
 }
 .oc-black {
-    outline-color: #000
+    outline-color: hsl(0, 0%, 0%)
 }
 .oc-white--translucent {
     outline-color: rgba(255,255,255, .98)
@@ -4976,22 +4976,22 @@ mark {
     outline-color: #795548
 }
 .oc-gray {
-    outline-color: #9E9E9E
+    outline-color: hsl(0, 0%, 62%)
 }
 .oc-snow {
-    outline-color: #f4f8fb
+    outline-color: hsl(208, 45%, 97%)
 }
 .oc-smoke {
-    outline-color: #cfd8dc
+    outline-color: hsl(198, 16%, 84%)
 }
 .oc-steel {
-    outline-color: #607d8b
+    outline-color: hsl(200, 18%, 46%)
 }
 .oc-lead {
-    outline-color: #151b1e
+    outline-color: hsl(200, 18%, 10%)
 }
 .oc-charcoal {
-    outline-color: #192124
+    outline-color: hsl(196, 18%, 12%)
 }
 /* Outline Style */
 .os-none {
@@ -8202,10 +8202,10 @@ mark {
     background-color: transparent
 }
 .bc-white {
-    background-color: #fff
+    background-color: hsl(0, 0%, 100%)
 }
 .bc-black {
-    background-color: #000
+    background-color: hsl(0, 0%, 0%)
 }
 .bc-white--translucent {
     background-color: rgba(255,255,255, .98)
@@ -8283,49 +8283,49 @@ mark {
     background-color: #795548
 }
 .bc-gray {
-    background-color: #9E9E9E
+    background-color: hsl(0, 0%, 62%)
 }
 .bc-pinkTint {
-    background-color: #FCE4EC
+    background-color: hsl(340, 80%, 94%)
 }
 .bc-blueTint {
-    background-color: #E3F2FD
+    background-color: hsl(205, 87%, 94%)
 }
 .bc-tealTint {
-    background-color: #E0F2F1
+    background-color: hsl(177, 41%, 91%)
 }
 .bc-amberTint {
-    background-color: #FFF8E1
+    background-color: hsl(46, 100%, 94%)
 }
 .bc-redBright {
-    background-color: #FF1744
+    background-color: hsl(348, 100%, 55%)
 }
 .bc-purpleBright {
-    background-color: #D500F9
+    background-color: hsl(291, 100%, 49%)
 }
 .bc-blueBright {
-    background-color: #2979FF
+    background-color: hsl(218, 100%, 58%)
 }
 .bc-tealBright {
-    background-color: #1DE9B6
+    background-color: hsl(165, 82%, 51%)
 }
 .bc-pearl {
-    background-color: #fcfdfd
+    background-color: hsl(208, 45%, 99%)
 }
 .bc-snow {
-    background-color: #f4f8fb
+    background-color: hsl(208, 45%, 97%)
 }
 .bc-smoke {
-    background-color: #cfd8dc
+    background-color: hsl(198, 16%, 84%)
 }
 .bc-steel {
-    background-color: #607d8b
+    background-color: hsl(200, 18%, 46%)
 }
 .bc-lead {
-    background-color: #151b1e
+    background-color: hsl(200, 18%, 10%)
 }
 .bc-charcoal {
-    background-color: #192124
+    background-color: hsl(196, 18%, 12%)
 }
 /* Hover states */
 @media (hover) {
@@ -8333,10 +8333,10 @@ mark {
         background-color: .5
     }
     .bc-white--hover:hover {
-        background-color: #fff
+        background-color: hsl(0, 0%, 100%)
     }
     .bc-black--hover:hover {
-        background-color: #000
+        background-color: hsl(0, 0%, 0%)
     }
     .bc-white--translucent--hover:hover {
         background-color: rgba(255,255,255, .98)
@@ -8414,49 +8414,49 @@ mark {
         background-color: #795548
     }
     .bc-gray--hover:hover {
-        background-color: #9E9E9E
+        background-color: hsl(0, 0%, 62%)
     }
     .bc-pinkTint--hover:hover {
-        background-color: #FCE4EC
+        background-color: hsl(340, 80%, 94%)
     }
     .bc-blueTint--hover:hover {
-        background-color: #E3F2FD
+        background-color: hsl(205, 87%, 94%)
     }
     .bc-tealTint--hover:hover {
-        background-color: #E0F2F1
+        background-color: hsl(177, 41%, 91%)
     }
     .bc-amberTint--hover:hover {
-        background-color: #FFF8E1
+        background-color: hsl(46, 100%, 94%)
     }
     .bc-redBright--hover:hover {
-        background-color: #FF1744
+        background-color: hsl(348, 100%, 55%)
     }
     .bc-purpleBright--hover:hover {
-        background-color: #D500F9
+        background-color: hsl(291, 100%, 49%)
     }
     .bc-blueBright--hover:hover {
-        background-color: #2979FF
+        background-color: hsl(218, 100%, 58%)
     }
     .bc-tealBright--hover:hover {
-        background-color: #1DE9B6
+        background-color: hsl(165, 82%, 51%)
     }
     .bc-pearl--hover:hover {
-        background-color: #fcfdfd
+        background-color: hsl(208, 45%, 99%)
     }
     .bc-snow--hover:hover {
-        background-color: #f4f8fb
+        background-color: hsl(208, 45%, 97%)
     }
     .bc-smoke--hover:hover {
-        background-color: #cfd8dc
+        background-color: hsl(198, 16%, 84%)
     }
     .bc-steel--hover:hover {
-        background-color: #607d8b
+        background-color: hsl(200, 18%, 46%)
     }
     .bc-lead--hover:hover {
-        background-color: #151b1e
+        background-color: hsl(200, 18%, 10%)
     }
     .bc-charcoal--hover:hover {
-        background-color: #192124
+        background-color: hsl(196, 18%, 12%)
     }
 }
 /* Focus states */
@@ -8464,10 +8464,10 @@ mark {
     background-color: .5
 }
 .bc-white--focus:focus {
-    background-color: #fff
+    background-color: hsl(0, 0%, 100%)
 }
 .bc-black--focus:focus {
-    background-color: #000
+    background-color: hsl(0, 0%, 0%)
 }
 .bc-white--translucent--focus:focus {
     background-color: rgba(255,255,255, .98)
@@ -8545,49 +8545,49 @@ mark {
     background-color: #795548
 }
 .bc-gray--focus:focus {
-    background-color: #9E9E9E
+    background-color: hsl(0, 0%, 62%)
 }
 .bc-pinkTint--focus:focus {
-    background-color: #FCE4EC
+    background-color: hsl(340, 80%, 94%)
 }
 .bc-blueTint--focus:focus {
-    background-color: #E3F2FD
+    background-color: hsl(205, 87%, 94%)
 }
 .bc-tealTint--focus:focus {
-    background-color: #E0F2F1
+    background-color: hsl(177, 41%, 91%)
 }
 .bc-amberTint--focus:focus {
-    background-color: #FFF8E1
+    background-color: hsl(46, 100%, 94%)
 }
 .bc-redBright--focus:focus {
-    background-color: #FF1744
+    background-color: hsl(348, 100%, 55%)
 }
 .bc-purpleBright--focus:focus {
-    background-color: #D500F9
+    background-color: hsl(291, 100%, 49%)
 }
 .bc-blueBright--focus:focus {
-    background-color: #2979FF
+    background-color: hsl(218, 100%, 58%)
 }
 .bc-tealBright--focus:focus {
-    background-color: #1DE9B6
+    background-color: hsl(165, 82%, 51%)
 }
 .bc-pearl--focus:focus {
-    background-color: #fcfdfd
+    background-color: hsl(208, 45%, 99%)
 }
 .bc-snow--focus:focus {
-    background-color: #f4f8fb
+    background-color: hsl(208, 45%, 97%)
 }
 .bc-smoke--focus:focus {
-    background-color: #cfd8dc
+    background-color: hsl(198, 16%, 84%)
 }
 .bc-steel--focus:focus {
-    background-color: #607d8b
+    background-color: hsl(200, 18%, 46%)
 }
 .bc-lead--focus:focus {
-    background-color: #151b1e
+    background-color: hsl(200, 18%, 10%)
 }
 .bc-charcoal--focus:focus {
-    background-color: #192124
+    background-color: hsl(196, 18%, 12%)
 }
 /* Border radius */
 .br-0 {
@@ -8924,7 +8924,7 @@ mark {
     box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
 }
 .bs-bevel {
-    box-shadow: 0 -1px 0 #cfd8dc,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+    box-shadow: 0 -1px 0 hsl(198, 16%, 84%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
 }
 /* Hover states */
 @media (hover) {
@@ -8941,15 +8941,15 @@ mark {
         box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
     }
     .bs-bevel--hover:hover {
-        box-shadow: 0 -1px 0 #cfd8dc,0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+        box-shadow: 0 -1px 0 hsl(198, 16%, 84%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
     }
 }
 /* Inset border hack */
 .bs-white {
-    box-shadow: inset 0 0 0 1px #fff
+    box-shadow: inset 0 0 0 1px hsl(0, 0%, 100%)
 }
 .bs-black {
-    box-shadow: inset 0 0 0 1px #000
+    box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
 }
 .bs-white--translucent {
     box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
@@ -9027,57 +9027,57 @@ mark {
     box-shadow: inset 0 0 0 1px #795548
 }
 .bs-gray {
-    box-shadow: inset 0 0 0 1px #9E9E9E
+    box-shadow: inset 0 0 0 1px hsl(0, 0%, 62%)
 }
 .bs-pinkTint {
-    box-shadow: inset 0 0 0 1px #FCE4EC
+    box-shadow: inset 0 0 0 1px hsl(340, 80%, 94%)
 }
 .bs-blueTint {
-    box-shadow: inset 0 0 0 1px #E3F2FD
+    box-shadow: inset 0 0 0 1px hsl(205, 87%, 94%)
 }
 .bs-tealTint {
-    box-shadow: inset 0 0 0 1px #E0F2F1
+    box-shadow: inset 0 0 0 1px hsl(177, 41%, 91%)
 }
 .bs-amberTint {
-    box-shadow: inset 0 0 0 1px #FFF8E1
+    box-shadow: inset 0 0 0 1px hsl(46, 100%, 94%)
 }
 .bs-redBright {
-    box-shadow: inset 0 0 0 1px #FF1744
+    box-shadow: inset 0 0 0 1px hsl(348, 100%, 55%)
 }
 .bs-purpleBright {
-    box-shadow: inset 0 0 0 1px #D500F9
+    box-shadow: inset 0 0 0 1px hsl(291, 100%, 49%)
 }
 .bs-blueBright {
-    box-shadow: inset 0 0 0 1px #2979FF
+    box-shadow: inset 0 0 0 1px hsl(218, 100%, 58%)
 }
 .bs-tealBright {
-    box-shadow: inset 0 0 0 1px #1DE9B6
+    box-shadow: inset 0 0 0 1px hsl(165, 82%, 51%)
 }
 .bs-pearl {
-    box-shadow: inset 0 0 0 1px #fcfdfd
+    box-shadow: inset 0 0 0 1px hsl(208, 45%, 99%)
 }
 .bs-snow {
-    box-shadow: inset 0 0 0 1px #f4f8fb
+    box-shadow: inset 0 0 0 1px hsl(208, 45%, 97%)
 }
 .bs-smoke {
-    box-shadow: inset 0 0 0 1px #cfd8dc
+    box-shadow: inset 0 0 0 1px hsl(198, 16%, 84%)
 }
 .bs-steel {
-    box-shadow: inset 0 0 0 1px #607d8b
+    box-shadow: inset 0 0 0 1px hsl(200, 18%, 46%)
 }
 .bs-lead {
-    box-shadow: inset 0 0 0 1px #151b1e
+    box-shadow: inset 0 0 0 1px hsl(200, 18%, 10%)
 }
 .bs-charcoal {
-    box-shadow: inset 0 0 0 1px #192124
+    box-shadow: inset 0 0 0 1px hsl(196, 18%, 12%)
 }
 /* Inset border hack hover states */
 @media (hover) {
     .bs-white--hover:hover {
-        box-shadow: inset 0 0 0 1px #fff
+        box-shadow: inset 0 0 0 1px hsl(0, 0%, 100%)
     }
     .bs-black--hover:hover {
-        box-shadow: inset 0 0 0 1px #000
+        box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
     }
     .bs-white--translucent--hover:hover {
         box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
@@ -9155,57 +9155,57 @@ mark {
         box-shadow: inset 0 0 0 1px #795548
     }
     .bs-gray--hover:hover {
-        box-shadow: inset 0 0 0 1px #9E9E9E
+        box-shadow: inset 0 0 0 1px hsl(0, 0%, 62%)
     }
     .bs-pinkTint--hover:hover {
-        box-shadow: inset 0 0 0 1px #FCE4EC
+        box-shadow: inset 0 0 0 1px hsl(340, 80%, 94%)
     }
     .bs-blueTint--hover:hover {
-        box-shadow: inset 0 0 0 1px #E3F2FD
+        box-shadow: inset 0 0 0 1px hsl(205, 87%, 94%)
     }
     .bs-tealTint--hover:hover {
-        box-shadow: inset 0 0 0 1px #E0F2F1
+        box-shadow: inset 0 0 0 1px hsl(177, 41%, 91%)
     }
     .bs-amberTint--hover:hover {
-        box-shadow: inset 0 0 0 1px #FFF8E1
+        box-shadow: inset 0 0 0 1px hsl(46, 100%, 94%)
     }
     .bs-redBright--hover:hover {
-        box-shadow: inset 0 0 0 1px #FF1744
+        box-shadow: inset 0 0 0 1px hsl(348, 100%, 55%)
     }
     .bs-purpleBright--hover:hover {
-        box-shadow: inset 0 0 0 1px #D500F9
+        box-shadow: inset 0 0 0 1px hsl(291, 100%, 49%)
     }
     .bs-blueBright--hover:hover {
-        box-shadow: inset 0 0 0 1px #2979FF
+        box-shadow: inset 0 0 0 1px hsl(218, 100%, 58%)
     }
     .bs-tealBright--hover:hover {
-        box-shadow: inset 0 0 0 1px #1DE9B6
+        box-shadow: inset 0 0 0 1px hsl(165, 82%, 51%)
     }
     .bs-pearl--hover:hover {
-        box-shadow: inset 0 0 0 1px #fcfdfd
+        box-shadow: inset 0 0 0 1px hsl(208, 45%, 99%)
     }
     .bs-snow--hover:hover {
-        box-shadow: inset 0 0 0 1px #f4f8fb
+        box-shadow: inset 0 0 0 1px hsl(208, 45%, 97%)
     }
     .bs-smoke--hover:hover {
-        box-shadow: inset 0 0 0 1px #cfd8dc
+        box-shadow: inset 0 0 0 1px hsl(198, 16%, 84%)
     }
     .bs-steel--hover:hover {
-        box-shadow: inset 0 0 0 1px #607d8b
+        box-shadow: inset 0 0 0 1px hsl(200, 18%, 46%)
     }
     .bs-lead--hover:hover {
-        box-shadow: inset 0 0 0 1px #151b1e
+        box-shadow: inset 0 0 0 1px hsl(200, 18%, 10%)
     }
     .bs-charcoal--hover:hover {
-        box-shadow: inset 0 0 0 1px #192124
+        box-shadow: inset 0 0 0 1px hsl(196, 18%, 12%)
     }
 }
 /* Color */
 .color-white {
-    color: #fff
+    color: hsl(0, 0%, 100%)
 }
 .color-black {
-    color: #000
+    color: hsl(0, 0%, 0%)
 }
 .color-transparent {
     color: .5
@@ -9286,33 +9286,33 @@ mark {
     color: #795548
 }
 .color-gray {
-    color: #9E9E9E
+    color: hsl(0, 0%, 62%)
 }
 .color-pearl {
-    color: #fcfdfd
+    color: hsl(208, 45%, 99%)
 }
 .color-snow {
-    color: #f4f8fb
+    color: hsl(208, 45%, 97%)
 }
 .color-smoke {
-    color: #cfd8dc
+    color: hsl(198, 16%, 84%)
 }
 .color-steel {
-    color: #607d8b
+    color: hsl(200, 18%, 46%)
 }
 .color-lead {
-    color: #151b1e
+    color: hsl(200, 18%, 10%)
 }
 .color-charcoal {
-    color: #192124
+    color: hsl(196, 18%, 12%)
 }
 /* Hover states */
 @media (hover) {
     .color-white--hover:hover {
-        color: #fff
+        color: hsl(0, 0%, 100%)
     }
     .color-black--hover:hover {
-        color: #000
+        color: hsl(0, 0%, 0%)
     }
     .color-transparent--hover:hover {
         color: .5
@@ -9369,33 +9369,33 @@ mark {
         color: #795548
     }
     .color-gray--hover:hover {
-        color: #9E9E9E
+        color: hsl(0, 0%, 62%)
     }
     .color-pearl--hover:hover {
-        color: #fcfdfd
+        color: hsl(208, 45%, 99%)
     }
     .color-snow--hover:hover {
-        color: #f4f8fb
+        color: hsl(208, 45%, 97%)
     }
     .color-smoke--hover:hover {
-        color: #cfd8dc
+        color: hsl(198, 16%, 84%)
     }
     .color-steel--hover:hover {
-        color: #607d8b
+        color: hsl(200, 18%, 46%)
     }
     .color-lead--hover:hover {
-        color: #151b1e
+        color: hsl(200, 18%, 10%)
     }
     .color-charcoal--hover:hover {
-        color: #192124
+        color: hsl(196, 18%, 12%)
     }
 }
 /* Fill */
 .fill-white {
-    fill: #fff
+    fill: hsl(0, 0%, 100%)
 }
 .fill-black {
-    fill: #000
+    fill: hsl(0, 0%, 0%)
 }
 .fill-transparent {
     fill: .5
@@ -9464,25 +9464,25 @@ mark {
     fill: #795548
 }
 .fill-gray {
-    fill: #9E9E9E
+    fill: hsl(0, 0%, 62%)
 }
 .fill-pearl {
-    fill: #fcfdfd
+    fill: hsl(208, 45%, 99%)
 }
 .fill-snow {
-    fill: #f4f8fb
+    fill: hsl(208, 45%, 97%)
 }
 .fill-smoke {
-    fill: #cfd8dc
+    fill: hsl(198, 16%, 84%)
 }
 .fill-steel {
-    fill: #607d8b
+    fill: hsl(200, 18%, 46%)
 }
 .fill-lead {
-    fill: #151b1e
+    fill: hsl(200, 18%, 10%)
 }
 .fill-charcoal {
-    fill: #192124
+    fill: hsl(196, 18%, 12%)
 }
 /* Font family */
 .ff-sansSerif {

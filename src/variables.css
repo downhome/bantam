@@ -11,8 +11,8 @@
 
     /* Color scheme */
 
-    --black: #000;
-    --white: #fff;
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
     --transparent: transparent;
 
     --translucent: .98;
@@ -38,24 +38,24 @@
     --deepOrange: #FF5722;
     --brown: #795548;
 
-    --pinkTint: #FCE4EC;
-    --blueTint: #E3F2FD;
-    --tealTint: #E0F2F1;
-    --amberTint: #FFF8E1;
+    --pinkTint: hsl(340, 80%, 94%);
+    --blueTint: hsl(205, 87%, 94%);
+    --tealTint: hsl(177, 41%, 91%);
+    --amberTint: hsl(46, 100%, 94%);
 
-    --redBright: #FF1744;
-    --purpleBright: #D500F9;
-    --blueBright: #2979FF;
-    --tealBright: #1DE9B6;
+    --redBright: hsl(348, 100%, 55%);
+    --purpleBright: hsl(291, 100%, 49%);
+    --blueBright: hsl(218, 100%, 58%);
+    --tealBright: hsl(165, 82%, 51%);
 
-    --gray: #9E9E9E;
+    --gray: hsl(0, 0%, 62%);
 
-    --pearl: #fcfdfd;
-    --snow: #f4f8fb;
-    --smoke: #cfd8dc;
-    --steel: #607d8b;
-    --lead: #151b1e;
-    --charcoal: #192124;
+    --pearl: hsl(208, 45%, 99%);
+    --snow: hsl(208, 45%, 97%);
+    --smoke: hsl(198, 16%, 84%);
+    --steel: hsl(200, 18%, 46%);
+    --lead: hsl(200, 18%, 10%);
+    --charcoal: hsl(196, 18%, 12%);
 
     /* Font sizes  */
 
