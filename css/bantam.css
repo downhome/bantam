@@ -4260,17 +4260,32 @@ mark {
     }
 }
 /* Min Width */
+.mw-UIxxxs {
+    min-width: .4rem
+}
+.mw-UIxxs {
+    min-width: .8rem
+}
+.mw-UIxs {
+    min-width: 1.6rem
+}
 .mw-UIs {
-    min-width: 3.2rem
+    min-width: 2.4rem
 }
 .mw-UIm {
-    min-width: 4rem
+    min-width: 3.2rem
 }
 .mw-UIl {
-    min-width: 4.8rem
+    min-width: 4rem
 }
 .mw-UIxl {
+    min-width: 4.8rem
+}
+.mw-UIxxl {
     min-width: 6.4rem
+}
+.mw-UIxxxl {
+    min-width: 8rem
 }
 /* Negative margin */
 .nmt-xxxl {
