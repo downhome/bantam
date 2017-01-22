@@ -9322,6 +9322,9 @@ mark {
     }
 }
 /* Box shadow */
+.bs-none {
+    box-shadow: none
+}
 .bs-raise {
     box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.08)
 }
@@ -9329,7 +9332,7 @@ mark {
     box-shadow: 0 5px 10px rgba(0,0,0,.15),0 3px 6px rgba(0,0,0,.1)
 }
 .bs-distant {
-    box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
+    box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
 }
 .bs-bevel {
     box-shadow: inset 0 1px 0 0 hsl(208, 28%, 92%), inset 1px 0 0 0 hsl(208, 28%, 92%), inset -1px 0 0 0 hsl(208, 28%, 92%), inset 0 -1px 0 0 hsl(208, 20%, 80%)
@@ -9346,7 +9349,7 @@ mark {
         box-shadow: 0 5px 10px rgba(0,0,0,.15),0 3px 6px rgba(0,0,0,.1)
     }
     .bs-distant--hover:hover {
-        box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
+        box-shadow: 0 6px 20px 1px hsla(208, 20%, 10%, .15), 0 3px 10px 0px hsla(208, 20%, 10%, .08)
     }
     .bs-bevel--hover:hover {
         box-shadow: inset 0 1px 0 0 hsl(208, 28%, 92%), inset 1px 0 0 0 hsl(208, 28%, 92%), inset -1px 0 0 0 hsl(208, 28%, 92%), inset 0 -1px 0 0 hsl(208, 20%, 80%)
