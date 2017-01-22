@@ -6565,6 +6565,10 @@ mark {
     -webkit-transition-property: all;
     transition-property: all
 }
+.tp-boxShadow {
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow
+}
 .tp-color {
     -webkit-transition-property: color;
     transition-property: color
@@ -6619,6 +6623,10 @@ mark {
     .bps-tp-all {
         -webkit-transition-property: all;
         transition-property: all
+    }
+    .bps-tp-boxShadow {
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow
     }
     .bps-tp-color {
         -webkit-transition-property: color;
@@ -6676,6 +6684,10 @@ mark {
         -webkit-transition-property: all;
         transition-property: all
     }
+    .bpm-tp-boxShadow {
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow
+    }
     .bpm-tp-color {
         -webkit-transition-property: color;
         transition-property: color
@@ -6732,6 +6744,10 @@ mark {
         -webkit-transition-property: all;
         transition-property: all
     }
+    .bpl-tp-boxShadow {
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow
+    }
     .bpl-tp-color {
         -webkit-transition-property: color;
         transition-property: color
@@ -6787,6 +6803,10 @@ mark {
     .bpxl-tp-all {
         -webkit-transition-property: all;
         transition-property: all
+    }
+    .bpxl-tp-boxShadow {
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow
     }
     .bpxl-tp-color {
         -webkit-transition-property: color;
