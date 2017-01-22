@@ -979,7 +979,7 @@ mark {
     border-color: hsl(208, 28%, 92%)
 }
 .borderColor-silver {
-    border-color: hsl(208, 20%, 85%)
+    border-color: hsl(208, 20%, 80%)
 }
 .borderColor-steel {
     border-color: hsl(208, 20%, 50%)
@@ -1119,7 +1119,7 @@ mark {
         border-color: hsl(208, 28%, 92%)
     }
     .borderColor-silver--hover:hover {
-        border-color: hsl(208, 20%, 85%)
+        border-color: hsl(208, 20%, 80%)
     }
     .borderColor-steel--hover:hover {
         border-color: hsl(208, 20%, 50%)
@@ -1259,7 +1259,7 @@ mark {
     border-color: hsl(208, 28%, 92%)
 }
 .borderColor-silver--focus:focus {
-    border-color: hsl(208, 20%, 85%)
+    border-color: hsl(208, 20%, 80%)
 }
 .borderColor-steel--focus:focus {
     border-color: hsl(208, 20%, 50%)
@@ -8706,7 +8706,7 @@ mark {
     background-color: hsl(208, 28%, 92%)
 }
 .bc-silver {
-    background-color: hsl(208, 20%, 85%)
+    background-color: hsl(208, 20%, 80%)
 }
 .bc-steel {
     background-color: hsl(208, 20%, 50%)
@@ -8846,7 +8846,7 @@ mark {
         background-color: hsl(208, 28%, 92%)
     }
     .bc-silver--hover:hover {
-        background-color: hsl(208, 20%, 85%)
+        background-color: hsl(208, 20%, 80%)
     }
     .bc-steel--hover:hover {
         background-color: hsl(208, 20%, 50%)
@@ -8986,7 +8986,7 @@ mark {
     background-color: hsl(208, 28%, 92%)
 }
 .bc-silver--focus:focus {
-    background-color: hsl(208, 20%, 85%)
+    background-color: hsl(208, 20%, 80%)
 }
 .bc-steel--focus:focus {
     background-color: hsl(208, 20%, 50%)
@@ -9332,7 +9332,7 @@ mark {
     box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
 }
 .bs-bevel {
-    box-shadow: 0 -1px 0 hsl(208, 28%, 92%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+    box-shadow: inset 0 1px 0 0 hsl(208, 28%, 92%), inset 1px 0 0 0 hsl(208, 28%, 92%), inset -1px 0 0 0 hsl(208, 28%, 92%), inset 0 -1px 0 0 hsl(208, 20%, 80%)
 }
 /* Hover states */
 @media (hover) {
@@ -9349,7 +9349,7 @@ mark {
         box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.14)
     }
     .bs-bevel--hover:hover {
-        box-shadow: 0 -1px 0 hsl(208, 28%, 92%),0 0 2px rgba(0,0,0,.1),0 2px 4px rgba(0,0,0,.2)
+        box-shadow: inset 0 1px 0 0 hsl(208, 28%, 92%), inset 1px 0 0 0 hsl(208, 28%, 92%), inset -1px 0 0 0 hsl(208, 28%, 92%), inset 0 -1px 0 0 hsl(208, 20%, 80%)
     }
 }
 /* Inset border hack */
@@ -9358,6 +9358,9 @@ mark {
 }
 .bs-black {
     box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
+}
+.bs-white--opaque {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
 }
 .bs-white--translucent {
     box-shadow: inset 0 0 0 1px rgba(255,255,255, .8)
@@ -9370,6 +9373,9 @@ mark {
 }
 .bs-white--limpid {
     box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
+}
+.bs-black--opaque {
+    box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
 }
 .bs-black--translucent {
     box-shadow: inset 0 0 0 1px rgba(0,0,0, .8)
@@ -9470,6 +9476,9 @@ mark {
 .bs-smoke {
     box-shadow: inset 0 0 0 1px hsl(208, 28%, 92%)
 }
+.bs-silver {
+    box-shadow: inset 0 0 0 1px hsl(208, 20%, 80%)
+}
 .bs-steel {
     box-shadow: inset 0 0 0 1px hsl(208, 20%, 50%)
 }
@@ -9487,6 +9496,9 @@ mark {
     .bs-black--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(0, 0%, 0%)
     }
+    .bs-white--opaque--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(255,255,255, .98)
+    }
     .bs-white--translucent--hover:hover {
         box-shadow: inset 0 0 0 1px rgba(255,255,255, .8)
     }
@@ -9498,6 +9510,9 @@ mark {
     }
     .bs-white--limpid--hover:hover {
         box-shadow: inset 0 0 0 1px rgba(255,255,255, .05)
+    }
+    .bs-black--opaque--hover:hover {
+        box-shadow: inset 0 0 0 1px rgba(0,0,0, .98)
     }
     .bs-black--translucent--hover:hover {
         box-shadow: inset 0 0 0 1px rgba(0,0,0, .8)
@@ -9597,6 +9612,9 @@ mark {
     }
     .bs-smoke--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(208, 28%, 92%)
+    }
+    .bs-silver--hover:hover {
+        box-shadow: inset 0 0 0 1px hsl(208, 20%, 80%)
     }
     .bs-steel--hover:hover {
         box-shadow: inset 0 0 0 1px hsl(208, 20%, 50%)
@@ -9712,7 +9730,7 @@ mark {
     color: hsl(208, 28%, 92%)
 }
 .color-silver {
-    color: hsl(208, 20%, 85%)
+    color: hsl(208, 20%, 80%)
 }
 .color-steel {
     color: hsl(208, 20%, 50%)
@@ -9798,7 +9816,7 @@ mark {
         color: hsl(208, 28%, 92%)
     }
     .color-silver--hover:hover {
-        color: hsl(208, 20%, 85%)
+        color: hsl(208, 20%, 80%)
     }
     .color-steel--hover:hover {
         color: hsl(208, 20%, 50%)
