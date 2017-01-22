@@ -3635,17 +3635,32 @@ mark {
 .height-100 {
     height: 100%
 }
+.height-UIxxxs {
+    height: .4rem
+}
+.height-UIxxs {
+    height: .8rem
+}
+.height-UIxs {
+    height: 1.2rem
+}
 .height-UIs {
-    height: 3.2rem
+    height: 2.4rem
 }
 .height-UIm {
-    height: 4rem
+    height: 3.2rem
 }
 .height-UIl {
-    height: 4.8rem
+    height: 4rem
 }
 .height-UIxl {
+    height: 4.8rem
+}
+.height-UIxxl {
     height: 6.4rem
+}
+.height-UIxxxl {
+    height: 8rem
 }
 @media (min-width: 38em) {
     .bps-height-10 {
@@ -3690,17 +3705,32 @@ mark {
     .bps-height-100 {
         height: 100%
     }
+    .bps-height-UIxxxs {
+        height: .4rem
+    }
+    .bps-height-UIxxs {
+        height: .8rem
+    }
+    .bps-height-UIxs {
+        height: 1.2rem
+    }
     .bps-height-UIs {
-        height: 3.2rem
+        height: 2.4rem
     }
     .bps-height-UIm {
-        height: 4rem
+        height: 3.2rem
     }
     .bps-height-UIl {
-        height: 4.8rem
+        height: 4rem
     }
     .bps-height-UIxl {
+        height: 4.8rem
+    }
+    .bps-height-UIxxl {
         height: 6.4rem
+    }
+    .bps-height-UIxxxl {
+        height: 8rem
     }
 }
 @media (min-width: 68em) {
@@ -3746,17 +3776,32 @@ mark {
     .bpm-height-100 {
         height: 100%
     }
+    .bpm-height-UIxxxs {
+        height: .4rem
+    }
+    .bpm-height-UIxxs {
+        height: .8rem
+    }
+    .bpm-height-UIxs {
+        height: 1.2rem
+    }
     .bpm-height-UIs {
-        height: 3.2rem
+        height: 2.4rem
     }
     .bpm-height-UIm {
-        height: 4rem
+        height: 3.2rem
     }
     .bpm-height-UIl {
-        height: 4.8rem
+        height: 4rem
     }
     .bpm-height-UIxl {
+        height: 4.8rem
+    }
+    .bpm-height-UIxxl {
         height: 6.4rem
+    }
+    .bpm-height-UIxxxl {
+        height: 8rem
     }
 }
 @media (min-width: 96em) {
@@ -3802,17 +3847,32 @@ mark {
     .bpl-height-100 {
         height: 100%
     }
+    .bpl-height-UIxxxs {
+        height: .4rem
+    }
+    .bpl-height-UIxxs {
+        height: .8rem
+    }
+    .bpl-height-UIxs {
+        height: 1.2rem
+    }
     .bpl-height-UIs {
-        height: 3.2rem
+        height: 2.4rem
     }
     .bpl-height-UIm {
-        height: 4rem
+        height: 3.2rem
     }
     .bpl-height-UIl {
-        height: 4.8rem
+        height: 4rem
     }
     .bpl-height-UIxl {
+        height: 4.8rem
+    }
+    .bpl-height-UIxxl {
         height: 6.4rem
+    }
+    .bpl-height-UIxxxl {
+        height: 8rem
     }
 }
 @media (min-width: 120em) {
@@ -3858,17 +3918,32 @@ mark {
     .bpxl-height-100 {
         height: 100%
     }
+    .bpxl-height-UIxxxs {
+        height: .4rem
+    }
+    .bpxl-height-UIxxs {
+        height: .8rem
+    }
+    .bpxl-height-UIxs {
+        height: 1.2rem
+    }
     .bpxl-height-UIs {
-        height: 3.2rem
+        height: 2.4rem
     }
     .bpxl-height-UIm {
-        height: 4rem
+        height: 3.2rem
     }
     .bpxl-height-UIl {
-        height: 4.8rem
+        height: 4rem
     }
     .bpxl-height-UIxl {
+        height: 4.8rem
+    }
+    .bpxl-height-UIxxl {
         height: 6.4rem
+    }
+    .bpxl-height-UIxxxl {
+        height: 8rem
     }
 }
 /* Input placeholder */
@@ -7529,17 +7604,32 @@ mark {
 .width-100 {
     width: 100%
 }
+.width-UIxxxs {
+    width: .4rem
+}
+.width-UIxxs {
+    width: .8rem
+}
+.width-UIxs {
+    width: 1.2rem
+}
 .width-UIs {
-    width: 3.2rem
+    width: 2.4rem
 }
 .width-UIm {
-    width: 4rem
+    width: 3.2rem
 }
 .width-UIl {
-    width: 4.8rem
+    width: 4rem
 }
 .width-UIxl {
+    width: 4.8rem
+}
+.width-UIxxl {
     width: 6.4rem
+}
+.width-UIxxxl {
+    width: 8rem
 }
 @media (min-width: 38em) {
     .bps-width-10 {
@@ -7584,17 +7674,32 @@ mark {
     .bps-width-100 {
         width: 100%
     }
-    .bps-width-s {
+    .bps-width-UIxxxs {
+        width: .4rem
+    }
+    .bps-width-UIxxs {
+        width: .8rem
+    }
+    .bps-width-UIxs {
+        width: 1.2rem
+    }
+    .bps-width-UIs {
+        width: 2.4rem
+    }
+    .bps-width-UIm {
         width: 3.2rem
     }
-    .bps-width-m {
+    .bps-width-UIl {
         width: 4rem
     }
-    .bps-width-l {
+    .bps-width-UIxl {
         width: 4.8rem
     }
-    .bps-width-xl {
+    .bps-width-UIxxl {
         width: 6.4rem
+    }
+    .bps-width-UIxxxl {
+        width: 8rem
     }
 }
 @media (min-width: 68em) {
@@ -7640,17 +7745,32 @@ mark {
     .bpm-width-100 {
         width: 100%
     }
-    .bpm-width-s {
+    .bpm-width-UIxxxs {
+        width: .4rem
+    }
+    .bpm-width-UIxxs {
+        width: .8rem
+    }
+    .bpm-width-UIxs {
+        width: 1.2rem
+    }
+    .bpm-width-UIs {
+        width: 2.4rem
+    }
+    .bpm-width-UIm {
         width: 3.2rem
     }
-    .bpm-width-m {
+    .bpm-width-UIl {
         width: 4rem
     }
-    .bpm-width-l {
+    .bpm-width-UIxl {
         width: 4.8rem
     }
-    .bpm-width-xl {
+    .bpm-width-UIxxl {
         width: 6.4rem
+    }
+    .bpm-width-UIxxxl {
+        width: 8rem
     }
 }
 @media (min-width: 96em) {
@@ -7696,17 +7816,32 @@ mark {
     .bpl-width-100 {
         width: 100%
     }
-    .bpl-width-s {
+    .bpl-width-UIxxxs {
+        width: .4rem
+    }
+    .bpl-width-UIxxs {
+        width: .8rem
+    }
+    .bpl-width-UIxs {
+        width: 1.2rem
+    }
+    .bpl-width-UIs {
+        width: 2.4rem
+    }
+    .bpl-width-UIm {
         width: 3.2rem
     }
-    .bpl-width-m {
+    .bpl-width-UIl {
         width: 4rem
     }
-    .bpl-width-l {
+    .bpl-width-UIxl {
         width: 4.8rem
     }
-    .bpl-width-xl {
+    .bpl-width-UIxxl {
         width: 6.4rem
+    }
+    .bpl-width-UIxxxl {
+        width: 8rem
     }
 }
 @media (min-width: 120em) {
@@ -7752,17 +7887,32 @@ mark {
     .bpxl-width-100 {
         width: 100%
     }
-    .bpxl-width-s {
+    .bpxl-width-UIxxxs {
+        width: .4rem
+    }
+    .bpxl-width-UIxxs {
+        width: .8rem
+    }
+    .bpxl-width-UIxs {
+        width: 1.2rem
+    }
+    .bpxl-width-UIs {
+        width: 2.4rem
+    }
+    .bpxl-width-UIm {
         width: 3.2rem
     }
-    .bpxl-width-m {
+    .bpxl-width-UIl {
         width: 4rem
     }
-    .bpxl-width-l {
+    .bpxl-width-UIxl {
         width: 4.8rem
     }
-    .bpxl-width-xl {
+    .bpxl-width-UIxxl {
         width: 6.4rem
+    }
+    .bpxl-width-UIxxxl {
+        width: 8rem
     }
 }
 /* Will change */
